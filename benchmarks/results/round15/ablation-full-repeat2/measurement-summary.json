@@ -1,0 +1,55 @@
+{
+  "output_tokens_per_second": 3026.777777777778,
+  "streamed_output_tokens": 544820,
+  "measurement_seconds": 180,
+  "warmup_seconds": 60,
+  "concurrency": 128,
+  "worker_output_tokens": {
+    "dp1": 272616,
+    "dp0": 272204
+  },
+  "all_30s_output_tps": [
+    3199.1666666666665,
+    2974.7,
+    3072.5666666666666,
+    3131.3333333333335,
+    3111.266666666667,
+    2671.633333333333
+  ],
+  "median_30s_output_tps": 3091.916666666667,
+  "minimum_30s_output_tps": 2671.633333333333,
+  "mean_client_active": 128,
+  "mean_server_running": 127.4047619047619,
+  "mean_server_waiting": 0.0,
+  "server_counter_deltas": {
+    "generation_tokens_total": 544989.0,
+    "request_success_total": 509.0,
+    "num_preemptions_total": 0.0,
+    "prefix_cache_queries_total": 43081.0,
+    "prefix_cache_hits_total": 0.0,
+    "spec_decode_num_drafts_total": 198926.0,
+    "spec_decode_num_draft_tokens_total": 994630.0,
+    "spec_decode_num_accepted_tokens_total": 346163.0
+  },
+  "server_generation_tokens_per_second": 3027.6311126086325,
+  "mean_1_plus_accepted_per_draft": 2.7401596573600235,
+  "cache_hit_fraction": 0.0,
+  "window_start_snapshot_relative": 60.02861760184169,
+  "window_end_snapshot_relative": 240.0337039977312,
+  "scope": "Continuous synthetic short coding requests. Fixed output cap and ignore_eos as recorded in protocol; outputs are not complete agent tasks or quality scores. Each request has a unique cache salt; no prefix sharing. Fixed token window after declared warmup. In-flight requests cancelled only after measurement.",
+  "completed_in_window": 509,
+  "completed_finish_reasons": {
+    "length": 509
+  },
+  "completed_ttft_seconds": {
+    "0.5": 0.4051263015717268,
+    "0.95": 0.5971009805798531,
+    "0.99": 0.743469912558794
+  },
+  "completed_latency_seconds": {
+    "0.5": 43.06353851035237,
+    "0.95": 49.648631347343326,
+    "0.99": 51.05034782551229
+  },
+  "latency_scope": "Requests completing in the window; boundary censoring applies. Full request records are retained."
+}

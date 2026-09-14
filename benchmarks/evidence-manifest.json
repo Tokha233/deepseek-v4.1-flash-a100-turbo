@@ -860,5 +860,733 @@
     "export": "benchmarks/results/round14/gpu-samples.json",
     "export_sha256": "f82fdac84de168dc6d7ca995b3cbcd81804a1dabe40a51f0749285d80a299088",
     "redaction": "JSONL converted to JSON; all values retained. Sampling began during final minute of long replay."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round11-deepswe-fixes-20260914/deepswe/effort75/scorecard.json",
+    "source_sha256": "e808d62feb8ee305d3b19f4fe3bc0dde85730ef9208f5b25c7f418b0a9f98ee4",
+    "export": "benchmarks/results/deepswe-round11-effort75-final.json",
+    "export_sha256": "eda6714e7cb41540313356ebf4653cd8801b93bda80b20ec95764d303d11cc8f",
+    "redaction": "Per-task exception tracebacks omitted; task metrics and patch hashes retained. Adds score percentage and fixed effort/context metadata."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat1/protocol.json",
+    "source_sha256": "cc860f58935e0e3e3b62f26c3fb8b666a8829aea42ca3a94f775ba6d993896b2",
+    "export": "benchmarks/results/round15/ablation-base-repeat1/protocol.json",
+    "export_sha256": "288df0dbae0fd605b44162312e48aef85387f53536a7822b72b01b6fd020d512",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat1/measurement-summary.json",
+    "source_sha256": "36496dbc83c1b591790b7d3b20b2e01d7dd87b4b1cf47577e8bf61c539dca68c",
+    "export": "benchmarks/results/round15/ablation-base-repeat1/measurement-summary.json",
+    "export_sha256": "05219032ea85bdd1136fd91fcaba7d6aa923e601d977dbf0461add300d5e0519",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat1/completion.json",
+    "source_sha256": "59423684cb704092faff0e02f6afd3ecac6face8a366e3ffaf2b374e41e28cac",
+    "export": "benchmarks/results/round15/ablation-base-repeat1/completion.json",
+    "export_sha256": "c4e0e086c9a411f5c7ca855cb32e87c28b6eb150276a5f2a8b5f948d8e46c92c",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat1/tokens-per-second.json",
+    "source_sha256": "db93db4274af18ae3d05baaa20bce3ffabf067c5f9499750026800d76c8dd605",
+    "export": "benchmarks/results/round15/ablation-base-repeat1/tokens-per-second.json",
+    "export_sha256": "a482264153d7527c75fb3a9b703d5053a129b9fe19551a801aff07c90c4f2114",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat1/requests.jsonl",
+    "source_sha256": "51ca5ec94d99079f8e17a0d4fccdc098095552ae421999c76f343fc1f106a3aa",
+    "export": "benchmarks/results/round15/ablation-base-repeat1/requests.json.gz",
+    "export_sha256": "83d7bab9d05d7e583a9b629477d7e40fe03e5b82344cfd72a3e9dcf2e159f13f",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat1/loads.jsonl",
+    "source_sha256": "701748808edb4559c4d951ebc8b499d0d7044be68bc082ec63a9e854249ac6da",
+    "export": "benchmarks/results/round15/ablation-base-repeat1/loads.json.gz",
+    "export_sha256": "6ac6b96f1fc300386ff3554931ebdbc512cfc7e16b0f009d5e8a74d6841c1da0",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat2/protocol.json",
+    "source_sha256": "03aa33028dd4909373c957c468d812468a420ef919a334ec5e8d05f4485b1394",
+    "export": "benchmarks/results/round15/ablation-base-repeat2/protocol.json",
+    "export_sha256": "0e044daead7d2f481e4c52550a8212bab19f12be47befb7bb5dab578ecea20d6",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat2/measurement-summary.json",
+    "source_sha256": "3c42e9564d0904e1096275885f3959e1bc4a84132b3e37cf093d0e8274b2e90b",
+    "export": "benchmarks/results/round15/ablation-base-repeat2/measurement-summary.json",
+    "export_sha256": "ac06a607baddbf73cae20bcd4228b82740f8fb11c948949941deb0909385fab2",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat2/completion.json",
+    "source_sha256": "5f2fca938285f4caa61230a1e4c55808b5df67037ff8e7286cd80178074ac290",
+    "export": "benchmarks/results/round15/ablation-base-repeat2/completion.json",
+    "export_sha256": "27aa6c6d6e713727400f75f96b9388e990c976c3d6f5beeddc7c2ff6dac423bf",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat2/tokens-per-second.json",
+    "source_sha256": "e277f63600e542459c4210277d4a036524ccfaf777e7c97291f323c8103841e2",
+    "export": "benchmarks/results/round15/ablation-base-repeat2/tokens-per-second.json",
+    "export_sha256": "8630b86d4f81d3873aa5e112278f19a0024c62c1c27bc277852e8768c77bbbcf",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat2/requests.jsonl",
+    "source_sha256": "878fa62e126873ce0f3964b2b3ec579428d539bd6d817d7882afbb0facef623e",
+    "export": "benchmarks/results/round15/ablation-base-repeat2/requests.json.gz",
+    "export_sha256": "7810511f874511c88131ac8dacce59d6cb63f1e956f3c051f9b995ad91755dfc",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-repeat2/loads.jsonl",
+    "source_sha256": "c0b3828d1484d593bb3f2013b6ae8f6243dc7b7b6801b43d12aa950664afbf2d",
+    "export": "benchmarks/results/round15/ablation-base-repeat2/loads.json.gz",
+    "export_sha256": "be10a7cde3169d17bdc421789fb8da39cf58236b78a61c0b5369b09fd43a1f5a",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat1/protocol.json",
+    "source_sha256": "53f634876551d44931a4625e1002d1d2f05001a955390b13701bf672ae59654b",
+    "export": "benchmarks/results/round15/ablation-dense-repeat1/protocol.json",
+    "export_sha256": "60d2112b47c47d7d457921db4818a2f50627b7dfb0e989f00cc59d8717f6c30e",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat1/measurement-summary.json",
+    "source_sha256": "33bbcacfecf2e699923cc00d84d50194a1559987a73cfe294fc5759a00a288c3",
+    "export": "benchmarks/results/round15/ablation-dense-repeat1/measurement-summary.json",
+    "export_sha256": "0b16e610dfb73dc269b9895760a67280109d224fcabd8863f2bc091c97c85bfe",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat1/completion.json",
+    "source_sha256": "b97c0ea2dbf3df64de178a0a008e018625f851ed75d0459767ab19b89d41b26f",
+    "export": "benchmarks/results/round15/ablation-dense-repeat1/completion.json",
+    "export_sha256": "6cfc736cf176109805785386a05a3ec37c1251103a7666f6f7589ed484822499",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat1/tokens-per-second.json",
+    "source_sha256": "72ae7578e3f9c3ac194aa27b44ad559126271359b5115ab65e62b33352d6f5b2",
+    "export": "benchmarks/results/round15/ablation-dense-repeat1/tokens-per-second.json",
+    "export_sha256": "3ec94cc1cec859ed6c53686123778629207b09a9c8089dc9b276bdbc0a46bf6d",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat1/requests.jsonl",
+    "source_sha256": "19fbb1812acd33747b8474a67a74e134733134f3af691a07b164c7db13dce5ed",
+    "export": "benchmarks/results/round15/ablation-dense-repeat1/requests.json.gz",
+    "export_sha256": "bdeb5b4fc39a768a790d53a615dd4c2dac30bbe45a9a03b2dbfb8eeeedf09acf",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat1/loads.jsonl",
+    "source_sha256": "d7f7d18d063cbb6bb289bbef9ca49e9289572de2ff6ff9a540f7481de06223d7",
+    "export": "benchmarks/results/round15/ablation-dense-repeat1/loads.json.gz",
+    "export_sha256": "2e5dc70d9d5691c3f0ab48ac0abc740f56e007e24b87a0ba39ae7e9fa37473d5",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat2/protocol.json",
+    "source_sha256": "ea9edf5907fa4fdf65755c719fc429341106f642267d909100709e205285c379",
+    "export": "benchmarks/results/round15/ablation-dense-repeat2/protocol.json",
+    "export_sha256": "1c8a849eeb9ab66f70a82f20c3b9527c6713fce9702c3f2e13d4bebd9ca29be0",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat2/measurement-summary.json",
+    "source_sha256": "c482e9bb082373f57f09ea9ffa914db2ca735194f84b197f206993d45be2b33d",
+    "export": "benchmarks/results/round15/ablation-dense-repeat2/measurement-summary.json",
+    "export_sha256": "d9dbdbf36459bc13a6bce6546cabf8e1aebbe1305f382991511e88e91964b32f",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat2/completion.json",
+    "source_sha256": "cc1157c158af64f77ad777fc3e8fb22c23942e20db7a3aef02c5fe3806b3c168",
+    "export": "benchmarks/results/round15/ablation-dense-repeat2/completion.json",
+    "export_sha256": "adb4137b94912173d55dcf60efc6b5c11290959d74deb3e07d833d28fa86e2b1",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat2/tokens-per-second.json",
+    "source_sha256": "442d4cdf017d879c601db0fee8a413c1eb412fe09d8aacf2e80b2d53ecbd3e0c",
+    "export": "benchmarks/results/round15/ablation-dense-repeat2/tokens-per-second.json",
+    "export_sha256": "b956a6fe94f403a4250974337ebdfe1544438d984c25b4025f1b10184bdf8685",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat2/requests.jsonl",
+    "source_sha256": "87f13e687c381bfc61859d0bdd9618714fad39e38fbddf1380d5e27b2d2ca7d4",
+    "export": "benchmarks/results/round15/ablation-dense-repeat2/requests.json.gz",
+    "export_sha256": "5543aa05409ff838486357021119689099a7ffbb60b52e648d407e9b83fdc96a",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-repeat2/loads.jsonl",
+    "source_sha256": "26703f18c853cb64822f21de4e98349ad04f250b9fd3e6af606ea959a847cb83",
+    "export": "benchmarks/results/round15/ablation-dense-repeat2/loads.json.gz",
+    "export_sha256": "5f744a86459c159ab7e4de705531857636e07dbae662acf62e483204a5d18885",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat1/protocol.json",
+    "source_sha256": "d5f8b6db1a8ff531ce242b55e054ce6f76793465329b508a31a283164323b8b7",
+    "export": "benchmarks/results/round15/ablation-full-repeat1/protocol.json",
+    "export_sha256": "1e542915b4d2c126040dd68e350e91a1b6437e67d9f38c210f268cb31c754f27",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat1/measurement-summary.json",
+    "source_sha256": "f0f45cfaeaa0631daffcef9cef786a15fb73db81caf56d895a70f1158a127940",
+    "export": "benchmarks/results/round15/ablation-full-repeat1/measurement-summary.json",
+    "export_sha256": "4d30839288f31bbe60473b4f2d0ad77a0de82fbc593b041ff20bd6463e1f3449",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat1/completion.json",
+    "source_sha256": "d3ca906cf58b817fd84f2180c86e0ee5f5ff7cdd6765447ae010df47cd0f1694",
+    "export": "benchmarks/results/round15/ablation-full-repeat1/completion.json",
+    "export_sha256": "f0d5f2327fbbdf2c05c14e4a77b62472052a0cecc46e59dff17506b5b67fb42d",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat1/tokens-per-second.json",
+    "source_sha256": "971545cd8d87b6c442fad04b3429e1f2021f4644a5c60b220dd7e36f74fae84f",
+    "export": "benchmarks/results/round15/ablation-full-repeat1/tokens-per-second.json",
+    "export_sha256": "4e9982ccb6daac1b1d32f519cb1d721d713602c76001b5d712a0d75cab516de6",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat1/requests.jsonl",
+    "source_sha256": "999fedb78780ad3dce24bd8e07c4b1aee4f82f6ac4b374de4b67b41986ca3d7f",
+    "export": "benchmarks/results/round15/ablation-full-repeat1/requests.json.gz",
+    "export_sha256": "24168ca933528b156ea10c4c8507f1f40b7aa0f02a02ef702a997e45dc32be22",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat1/loads.jsonl",
+    "source_sha256": "f620068678e4d1015e0e1c45f1e6ee2e8b73c79cd2d873c04405e23b7b2ea554",
+    "export": "benchmarks/results/round15/ablation-full-repeat1/loads.json.gz",
+    "export_sha256": "d0b79c28e72f7be3d25cf485b958a822a0d106595e8077a6b0284047301282fc",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat2/protocol.json",
+    "source_sha256": "8cf806cf5286722efbf11fb8b832be66be5f86f5f303f5aff6bc7372c3fcb434",
+    "export": "benchmarks/results/round15/ablation-full-repeat2/protocol.json",
+    "export_sha256": "9d583b51e2c55e5fe965cebbf5952a479a599d6c44c0c0a46566fcadecbf14ae",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat2/measurement-summary.json",
+    "source_sha256": "1a9171a9b380d7b2a58225fcd8e89da98edd08d4bf5f6561839724ec2ffdebf4",
+    "export": "benchmarks/results/round15/ablation-full-repeat2/measurement-summary.json",
+    "export_sha256": "62536f3dd788ac933ae7fae9d1c7b6717ee9fecc2e19538ee45b0d03754a43e6",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat2/completion.json",
+    "source_sha256": "abc154e44735d0270dc3cd0af785f2db2cc64027d754028bfbcf79e9964690ae",
+    "export": "benchmarks/results/round15/ablation-full-repeat2/completion.json",
+    "export_sha256": "0008c8125dd330711f486636e939a748f17fcccbb9aea4b2ad703795a73cc0dc",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat2/tokens-per-second.json",
+    "source_sha256": "0f19465d182f0d15808e878059307ecdcca1f0a07dcb3d2d07f8098b9fd75c79",
+    "export": "benchmarks/results/round15/ablation-full-repeat2/tokens-per-second.json",
+    "export_sha256": "9ae103e85d55ce9e82b82f802a7318dd9c52450a8baaa59f15b9f8c6e7e6a11d",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat2/requests.jsonl",
+    "source_sha256": "7b7c9acffc934494f77082297fb2e80c1c79f4036a383c92909847551a071137",
+    "export": "benchmarks/results/round15/ablation-full-repeat2/requests.json.gz",
+    "export_sha256": "bebf86a0dfacc9cfc8329e17ea46a8744280d7f22bf1c463ba139b9393b05034",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-repeat2/loads.jsonl",
+    "source_sha256": "b7a6999ddcfcdde00b292042a4f34d73d2c920f730cf1076d6aeef973c0853e8",
+    "export": "benchmarks/results/round15/ablation-full-repeat2/loads.json.gz",
+    "export_sha256": "152962b4e3788fb001ad5a07269670f88e8b66150286915c0244f8360753e6fe",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c1/protocol.json",
+    "source_sha256": "6b9aef35d6a0d523fd3460575146b0a1011ce670171b61dc102796b3b8ec4d96",
+    "export": "benchmarks/results/round15/full-c1/protocol.json",
+    "export_sha256": "90c0d507016e65edf90523fa7b88456c73de456ad419d842ad09285efd3be4ce",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c1/measurement-summary.json",
+    "source_sha256": "ac7c987cb6097878271a0ef58f9e333ddf0a3dfa93a9106b8c95cd5cc8ff86a7",
+    "export": "benchmarks/results/round15/full-c1/measurement-summary.json",
+    "export_sha256": "0b0ebf520a723701403580c236a196e75fcd5e0d4f2ac9812a66c3a026ae5b68",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c1/completion.json",
+    "source_sha256": "28eaab09f0c4d3e4e6e3b6bc3d89de87b20a094893eefaf1c305b46832dccc30",
+    "export": "benchmarks/results/round15/full-c1/completion.json",
+    "export_sha256": "aacd18d14bf0038370a546e3c6d7f771bf2d12a3960410045a979f235d2d92b2",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c1/tokens-per-second.json",
+    "source_sha256": "945a6dc091b50fb2bf66211872761e1152985cd4767c95bb5492d3b2df55df7c",
+    "export": "benchmarks/results/round15/full-c1/tokens-per-second.json",
+    "export_sha256": "547544be966b0f3a7841cdc51b39d3a59200ed53afd5a79cbdee35426b0b5c1e",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c1/requests.jsonl",
+    "source_sha256": "e83d4a63ebf49b23234aeaaf97dce199d990484097d860e237d5ea77398e0229",
+    "export": "benchmarks/results/round15/full-c1/requests.json.gz",
+    "export_sha256": "a83d5a03ed729b241383b414fadb9568d5d22d89545f7b109490a37f58672530",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c1/loads.jsonl",
+    "source_sha256": "060d750ecb5cc95bc3d6e0910441cc0b190ee8e80b330569ac0d9eb05b1e6d39",
+    "export": "benchmarks/results/round15/full-c1/loads.json.gz",
+    "export_sha256": "4c40d770e509da8c386a51b6c37c68ea09ca88a1ba393b8a472202024d4ab29f",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c128/protocol.json",
+    "source_sha256": "a448065c984aa54b10a023724b03464999c6e4b7757f7bdcc8e87d51e1e14e5a",
+    "export": "benchmarks/results/round15/full-c128/protocol.json",
+    "export_sha256": "0d17c61dde316d78d64b7b75c63a82cae659f466a7eff06509871b0a0497d3db",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c128/measurement-summary.json",
+    "source_sha256": "42acb9c9339acb3f958db5e77c73d6d0cf2f99d7d1126290e55a917b4fd06ea6",
+    "export": "benchmarks/results/round15/full-c128/measurement-summary.json",
+    "export_sha256": "9796427b00f325cdccbfeb2f692b939cb896e24e3240dded67a219e5e2e44981",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c128/completion.json",
+    "source_sha256": "823d1032a1c790276a8811b546774483dd78db401794810e6e1444ae83e050ea",
+    "export": "benchmarks/results/round15/full-c128/completion.json",
+    "export_sha256": "e8143a33785f864dd0e78c24b771c4f4be6de3250e0410dc121cceb174029693",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c128/tokens-per-second.json",
+    "source_sha256": "3fdd9cfe0525c8329165d837b1e341f0cd99f27b5c8a79a8afdfdcbca0eb9ba8",
+    "export": "benchmarks/results/round15/full-c128/tokens-per-second.json",
+    "export_sha256": "cb2f308a9a6fbf2e9ef87b3c0c0590a4e13b249f794190e52062549ee151869d",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c128/requests.jsonl",
+    "source_sha256": "9cd5134d938143d4a2d66eb28086aeb4180d9e39a1ca2025bb183290096828fe",
+    "export": "benchmarks/results/round15/full-c128/requests.json.gz",
+    "export_sha256": "40c10cac724876ae2167f77dc83bc9486e97aa7abc7fb4551bcf9876561637b6",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c128/loads.jsonl",
+    "source_sha256": "4007d351229fc049be4011fade9cac6e6d08001f41be875a678c3141db0e74a5",
+    "export": "benchmarks/results/round15/full-c128/loads.json.gz",
+    "export_sha256": "dfa31bfc0878b51b78a0f6f4640ea5abb2570213d93e858a10f3b50a72b8e3ee",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c16/protocol.json",
+    "source_sha256": "117940c97efc61cbb6b380fb900988afee50a206612f993c6cbec1fdf07f131d",
+    "export": "benchmarks/results/round15/full-c16/protocol.json",
+    "export_sha256": "34f92af33b8b68107ec56b45a75f61c8ebca2e04ed0e10c53827510d3c6e2e64",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c16/measurement-summary.json",
+    "source_sha256": "c82e5fb6aae42e4841b921ab0ab44a8c69fcbf8a8f708f792ed041da4fed60d8",
+    "export": "benchmarks/results/round15/full-c16/measurement-summary.json",
+    "export_sha256": "62a50a49be0f1d8b937cc827fd13af7e098cd0b8dadea1ecbe4a1e9e479ae9dc",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c16/completion.json",
+    "source_sha256": "5fa282313cb29b305f66c09e1e0273b838d6d5c0e6c9a023f4806a332289a06c",
+    "export": "benchmarks/results/round15/full-c16/completion.json",
+    "export_sha256": "06c058249139aa89565cb9f4fed4a314a0cca022d87f033c9056baf56abd4853",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c16/tokens-per-second.json",
+    "source_sha256": "1a28f1f73679b983682b9c8154e121c5589cbde1451b4d681aeffb88cd5b5c9a",
+    "export": "benchmarks/results/round15/full-c16/tokens-per-second.json",
+    "export_sha256": "cc59652db86465563c6b630d11d83b45c2ef8690bbdc0ade54ec9b4c55b19561",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c16/requests.jsonl",
+    "source_sha256": "288d4183d5b7b8771ec69f6ae608492eb8b1e46f120123c10b079439d312bf27",
+    "export": "benchmarks/results/round15/full-c16/requests.json.gz",
+    "export_sha256": "7dbd2aed18a75b0938489791a793c95ce987d87c32c10ec6af1d137bfa5af37b",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c16/loads.jsonl",
+    "source_sha256": "bdec4c78895bbbadbb24721e810f7902ea59a26d0d08431f0cd59b9bb5b9183a",
+    "export": "benchmarks/results/round15/full-c16/loads.json.gz",
+    "export_sha256": "19c24b0e4a44c33ee146fbe16ef7e9d97b5c1fdd0f62ec7d992e152ce130471f",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c2/protocol.json",
+    "source_sha256": "2e281867b2f5ec464d720992ef990258480a592e18396f08c739d8b78af50a35",
+    "export": "benchmarks/results/round15/full-c2/protocol.json",
+    "export_sha256": "469cdf9b41911733e6ed1f454abcd68d3974a83ded02fa1a6f399bd33e13cca2",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c2/measurement-summary.json",
+    "source_sha256": "437e7d2379b9d54502301e52da0c45233c6f53cd1aae14754d301d9648786d39",
+    "export": "benchmarks/results/round15/full-c2/measurement-summary.json",
+    "export_sha256": "a278ddaa2d258128c6a2f005d299d282b4cd52e7ed2f649771bcdb5a8a53183b",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c2/completion.json",
+    "source_sha256": "27b4b951f4bca8cd162fb980f7d6012a686e0b6e82660321f37f8bea31c38e63",
+    "export": "benchmarks/results/round15/full-c2/completion.json",
+    "export_sha256": "43867208aa361eab603ec5bcd495cdf99b9c9c196dc2d3bb6e4f6a21a51002b5",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c2/tokens-per-second.json",
+    "source_sha256": "498cea6cfe4e95181d3d3a9181fc1fb97607f26e48068a8d661bac35e9bbb516",
+    "export": "benchmarks/results/round15/full-c2/tokens-per-second.json",
+    "export_sha256": "072bfe5f590c42e3d0988c45ac5628e00e53be0b281cc5215b69d38116a4736f",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c2/requests.jsonl",
+    "source_sha256": "c6e49920bd2d4ccde52c975f221efa7af5574b1f6bb51ab84abc5fb22a7a7631",
+    "export": "benchmarks/results/round15/full-c2/requests.json.gz",
+    "export_sha256": "1fe707955aa9b931f7284e172af93668c74c41e8bf112956283e137a0f1fc62a",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c2/loads.jsonl",
+    "source_sha256": "d002909435da8beb46739ec7f4bb7de4a8370524d5dc9c16614a031dc20deee1",
+    "export": "benchmarks/results/round15/full-c2/loads.json.gz",
+    "export_sha256": "cd461a7cac6b4bb371d2e396707cf3c30609c0eae15ff153c02ec52dd24ef307",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c256/protocol.json",
+    "source_sha256": "6c367fbd39ae4a89763da33e8e302e557c1b3aadb7139ce37fc906d7c6b9f7c7",
+    "export": "benchmarks/results/round15/full-c256/protocol.json",
+    "export_sha256": "28e51693c94e70d0e819360e3c5363970b6e97e33804effd37fe9712599fabc4",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c256/measurement-summary.json",
+    "source_sha256": "62440282c7b3fa90c8009aa84f6817500c47ac7fc887a91c42765669373ac7a4",
+    "export": "benchmarks/results/round15/full-c256/measurement-summary.json",
+    "export_sha256": "d7cd83dc8659602b1f155ff8e9b1af67c69f4c59a1d9c2dcb083de2c07cf5c2b",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c256/completion.json",
+    "source_sha256": "c47f43deb55d15bcd9aa65c7027f32a1e10fe86b3a00b1f8fc77e7db25b55f43",
+    "export": "benchmarks/results/round15/full-c256/completion.json",
+    "export_sha256": "a0dedc4fcf446094e2e6875a69e9ecfd8e4a0ac6919ae59ef6b08eafdf13160e",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c256/tokens-per-second.json",
+    "source_sha256": "3036aa8ea62a9a0b6bcf5c1bfdba377221a517426caac2fed6be93408f26d4cb",
+    "export": "benchmarks/results/round15/full-c256/tokens-per-second.json",
+    "export_sha256": "18d9ddbe187cc629cd838878a3e0e4e2ccd821e710b8acba14541cab755d0969",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c256/requests.jsonl",
+    "source_sha256": "a54f3d0cca4509cdb6423462ac2ba4b3cb1f8cd157b94b04e98d2dc5ccff0ff2",
+    "export": "benchmarks/results/round15/full-c256/requests.json.gz",
+    "export_sha256": "02235c4bd5cff39ea5e22decb00b3da269b7d7dda3e67b8832976767fe5e96f4",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c256/loads.jsonl",
+    "source_sha256": "fa4777e7ccdd7cd5b0b02a5795f1f32693256d55ad9c5422186ecf910c030c69",
+    "export": "benchmarks/results/round15/full-c256/loads.json.gz",
+    "export_sha256": "f4f93efed8126cd76dff4a946f17a1c2537f18601015d65aa7a345a42b0de2f8",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c32/protocol.json",
+    "source_sha256": "3e5dc1fb79ec7a03adf35cd71ca39fb9340dcbcffffd3a626932fa65155a61f1",
+    "export": "benchmarks/results/round15/full-c32/protocol.json",
+    "export_sha256": "3be3f967e3b2e2aec6c1c0ff939b5ed472910e8a9f9e8f3add6f8a27f2271b80",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c32/measurement-summary.json",
+    "source_sha256": "0b8266fc71255ac3c05a1217474cf80ec30454db0727adf8700342bcbe0d047a",
+    "export": "benchmarks/results/round15/full-c32/measurement-summary.json",
+    "export_sha256": "2daca4017ffb09813bc2134a4d2961b7e3ba0b2a146277e1133b9625c9669e4b",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c32/completion.json",
+    "source_sha256": "75ba81769b09195de836252b2700e9fb5ea162e133367effd6da6de54ea6e6f9",
+    "export": "benchmarks/results/round15/full-c32/completion.json",
+    "export_sha256": "27329df41c8086e6e502aa1f40724f3c61743892cfbff6f8293c35bf4fc09b51",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c32/tokens-per-second.json",
+    "source_sha256": "5c93feefc08bbb93c710cbcffce2df6f238de2cd1ac8073518864b9279285780",
+    "export": "benchmarks/results/round15/full-c32/tokens-per-second.json",
+    "export_sha256": "6b1bcec4c624a2ca3f6ad9aefafcce8accb0a7f2cfdba1b135292741367c086f",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c32/requests.jsonl",
+    "source_sha256": "19359d9daa71cd1294008fc0352f93da5e6d2d9dd7d859be084a33847fe0e958",
+    "export": "benchmarks/results/round15/full-c32/requests.json.gz",
+    "export_sha256": "3a10839d24a78ed0afb230ddbd8f5ec6d70bd5d9b4d42a5b5547ee40ec5c9a0d",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c32/loads.jsonl",
+    "source_sha256": "f2268e9c92106aadfe1c43e8889b20c4a5456d2518fe5e4cd0de349984d340bf",
+    "export": "benchmarks/results/round15/full-c32/loads.json.gz",
+    "export_sha256": "0abf8a4a5bf62b78913f1425fb0f0e041e3f6ca70d481d436e56ebacfb82ef88",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c4/protocol.json",
+    "source_sha256": "2e467f2e38a34acedc04770ac76379ec7f014aa105b17392adffc44cdbf31ecd",
+    "export": "benchmarks/results/round15/full-c4/protocol.json",
+    "export_sha256": "331e77c7d16b457a3d9d5236b1f85e0546c83247bfcdc891f806a1e84053bf05",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c4/measurement-summary.json",
+    "source_sha256": "ba42097eb5b5761f88a53777b3810d85f9b5abdc4cad38b9afdaa08526e0652c",
+    "export": "benchmarks/results/round15/full-c4/measurement-summary.json",
+    "export_sha256": "b3ebfbdbca9b0b1e992564fc6c865917f0f7ea8536cd48f06ae756c6c6cd5e27",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c4/completion.json",
+    "source_sha256": "600e0e06e54aab4e8b79c951a24d3e583cb8af22306ef243dea86a3589783086",
+    "export": "benchmarks/results/round15/full-c4/completion.json",
+    "export_sha256": "ee1b26b0af7a384a710332817965d805f62d31fc9cb3cf26c9d731271b6eb232",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c4/tokens-per-second.json",
+    "source_sha256": "60bdcc02294a37b64c2263ad8ce00393facda0e077af19c24e036796128596d5",
+    "export": "benchmarks/results/round15/full-c4/tokens-per-second.json",
+    "export_sha256": "78c6513a9604a5833ffc5615126c217a17c5324f0a1ecf0d93c92b77ac07f959",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c4/requests.jsonl",
+    "source_sha256": "6d80ef8192c12afaaf95717ffe5ec8f4d202cddd007a966912eebfe1cbe718f8",
+    "export": "benchmarks/results/round15/full-c4/requests.json.gz",
+    "export_sha256": "c7a4945b4b4ed9952539517eed0bae1748e8248dd588a718759ba60323838af3",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c4/loads.jsonl",
+    "source_sha256": "fb5244f72a43a08e423ce28d668b25906545a1c5ad16aa0d03ad7379f932c2b0",
+    "export": "benchmarks/results/round15/full-c4/loads.json.gz",
+    "export_sha256": "f4616748d3f29215ca85603cd5e352f87b4fd6472e8555b0e13745b7f59e9569",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c64/protocol.json",
+    "source_sha256": "81450e868e978cb113ab1a8619c0ba702866ef946d8cc5f2372e44381d8c9ceb",
+    "export": "benchmarks/results/round15/full-c64/protocol.json",
+    "export_sha256": "09f9e5427d6ec6bb5427044a83890e348fa50fd4566fc0d4e4c3789a07c5665f",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c64/measurement-summary.json",
+    "source_sha256": "52dba355316ae7f660b6c997b70e41b6ac63a162014988a24803c906236a55ab",
+    "export": "benchmarks/results/round15/full-c64/measurement-summary.json",
+    "export_sha256": "e71e799ca30f3dca81a4a1a6af4fb725184d52b23f34ffa05ea38698f995963b",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c64/completion.json",
+    "source_sha256": "3267afe63dbd1ff0be86378df7a67e9da6d3bcd4521a816b9d97d33167b1758f",
+    "export": "benchmarks/results/round15/full-c64/completion.json",
+    "export_sha256": "1fdb4ffade045f1e66c5419fc99ba12fbe4fa65634ae7d42437cbd255f31c49a",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c64/tokens-per-second.json",
+    "source_sha256": "2129578dd1c9807ed959c0f834647fed4028b042c8b1c45a27b8054e9f322ebc",
+    "export": "benchmarks/results/round15/full-c64/tokens-per-second.json",
+    "export_sha256": "f785668ae8d2d1e04a7090297abd6405dd010e6900633edcf21fad127d3b422b",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c64/requests.jsonl",
+    "source_sha256": "5957a373fa3c9725a956953092c5faeb267d32f3930a23e79f9bb040a015232e",
+    "export": "benchmarks/results/round15/full-c64/requests.json.gz",
+    "export_sha256": "2a9b640a7c5e3e5381768dd3a10ec36bd7cf9f83b5fea1426f1fd7fc927b5232",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c64/loads.jsonl",
+    "source_sha256": "a4db9b3b54200397822dbbd6e615822634e5200bb566ffff80e74244c41cab44",
+    "export": "benchmarks/results/round15/full-c64/loads.json.gz",
+    "export_sha256": "7025dd1c77a950770a5b2e2ab7af1b2d0af988e5cc11ecc02bdd38d12b29b428",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c8/protocol.json",
+    "source_sha256": "222c9b5b2c7e1e37513e42576ef939bd2a31ba135b00b5f44ad2810bdb8c7183",
+    "export": "benchmarks/results/round15/full-c8/protocol.json",
+    "export_sha256": "1f426b0ce5c6d158cc0302c5f15eaa58790781218aeb0c3f99cea65463920e3b",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c8/measurement-summary.json",
+    "source_sha256": "a3be84c25ae5dbb8dacd019a1fbe222f813f687f372c416c045a9b8dc12a0d73",
+    "export": "benchmarks/results/round15/full-c8/measurement-summary.json",
+    "export_sha256": "42642cff50eb9364e45ff7b346db71dd7b494067c8f80159631b9daec418a2a3",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c8/completion.json",
+    "source_sha256": "99101fd3e2f9efcde49453ba1c0396aff9440514973850bd4a914d0fa789a3ba",
+    "export": "benchmarks/results/round15/full-c8/completion.json",
+    "export_sha256": "c7301e4fc1f29a4807bcc3ad53ac8458092d0350a08c9f7a967a6b26cb978204",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c8/tokens-per-second.json",
+    "source_sha256": "3f0b7601970e7a0005bc9a19aacd9a438a9a670b02bfaf3c6fc79ae042656bda",
+    "export": "benchmarks/results/round15/full-c8/tokens-per-second.json",
+    "export_sha256": "59ec2aff14a1d250265f67a182f14f4731a0a6c626ba3f7b0dad1ab0bba515b1",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c8/requests.jsonl",
+    "source_sha256": "4ad40164b4bce0ed1b2bb346305426c3d9f9c861dc0c1e2fc7f2859a0fff3fb6",
+    "export": "benchmarks/results/round15/full-c8/requests.json.gz",
+    "export_sha256": "d27d584aa0e25d75a661eb620310132c4ad6db3d32f157385903b6fca35b6f80",
+    "redaction": "JSONL to gzipped JSON; request and instance IDs omitted; timing, usage and completion fields retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-c8/loads.jsonl",
+    "source_sha256": "70dbdb4281537f478583e8396847588c482d1c0dc3f375934f6ab189c7753d3f",
+    "export": "benchmarks/results/round15/full-c8/loads.json.gz",
+    "export_sha256": "296595f8cf5b6b66a12c904ecadd3d614fc4043ceb1efb13c0ccdf444ff07a74",
+    "redaction": "JSONL to gzipped JSON; values unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/plan.json",
+    "source_sha256": "532a17cd9c7bf74fed8583067e98407218779d791f396132c016c334fe459f22",
+    "export": "benchmarks/results/round15/plan.json",
+    "export_sha256": "3d720dcfc9ecb91e5922d2f193b1f1fcb01731b74a3ed01a29ac74197c6ebf29",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/matrix-complete.json",
+    "source_sha256": "e561f9f239575a78f7168fdae4688643acf4efa9b93d14afe41c91b57e90628d",
+    "export": "benchmarks/results/round15/matrix-complete.json",
+    "export_sha256": "1290a8e8e4d00f2d80ca476abf2a2f936fdf0ddcc51c2941271e18c4f7857c86",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/experiments-complete.json",
+    "source_sha256": "b5814ff9b55f93c8c158f18613b70356bbe678a466228ac0274f6d4839160297",
+    "export": "benchmarks/results/round15/experiments-complete.json",
+    "export_sha256": "1205d0b787c757c1d1e890319fe386e35f859591564d36eecb87f8cb0879cfcc",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/verification.json",
+    "source_sha256": "c34fcad2005e24650d80a41fd89ed6b1498f3380e2a6437284de6ce4a21bfbad",
+    "export": "benchmarks/results/round15/verification.json",
+    "export_sha256": "f6923e8ca8bf90101141367689655c95ac682f9a9e9d22bab8eddd232fd3c11c",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/report-values.json",
+    "source_sha256": "3ef5bd2327f55e2ad538e5aabfd38bfec9ac870c219ee1770a1f07e55be54534",
+    "export": "benchmarks/results/round15/report-values.json",
+    "export_sha256": "2630f4714fa0910ffea9b99b1a7c3d21d289292a86a17074b90972942698da0f",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/context-1m/results.json",
+    "source_sha256": "f5aad2b09d016088740604f08189287036aa5234e214169a2988a7afd9117966",
+    "export": "benchmarks/results/round15/context-1m/results.json",
+    "export_sha256": "8f2eedc1584df0d41045779f3f3508fa999f6fdbc652445e3ff5a5ef5831b69b",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/context-1m/validation.json",
+    "source_sha256": "0f91920fc60212a7e1cddfa736b03967b277b1fe789f7fe295bcc1f5daf30632",
+    "export": "benchmarks/results/round15/context-1m/validation.json",
+    "export_sha256": "fd68bf527377f79e8427911c8bf0fce95d39bdb1d7de504e9dad8779426f92a5",
+    "redaction": "Private paths and endpoints replaced; numbers unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/runtime-patch-audit.json",
+    "source_sha256": "7cee390422000f281cb49f7fc610768e148fe2ef7277d915166d7aa018e29e94",
+    "export": "benchmarks/results/round15/runtime-patch-audit.json",
+    "export_sha256": "c1eae0cac50c918c3d5dd318da13228848b2c137a678dc3a9d962ca7a717a561",
+    "redaction": "Host file paths omitted; target names and all hashes retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/full-spec.json",
+    "source_sha256": "b05e812a66f50f42baf1f3608bafe56245a63392ec1a97f1638d4c69c0d47f3b",
+    "export": "benchmarks/results/round15/full-spec.json",
+    "export_sha256": "ee02b5fc810f16524fe9b3a24725a70b7e620dae51352a843d3738d8de0197a9",
+    "redaction": "Docker host mounts and private source paths omitted; serving arguments and environment retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-base-spec.json",
+    "source_sha256": "4f63da1ebff597528d98275edc0df89f4ae522508e075899b4e34fa4ab8a8968",
+    "export": "benchmarks/results/round15/ablation-base-spec.json",
+    "export_sha256": "0f8e728d4a59f7d4baeed840270897bcee12cd20944e4305be8a427ce0245cfc",
+    "redaction": "Docker host mounts and private source paths omitted; serving arguments and environment retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-dense-spec.json",
+    "source_sha256": "e466a38fc04946049f2bccb6ec8001e618750a4cfa8d311ba27abfe8aa3aaf2b",
+    "export": "benchmarks/results/round15/ablation-dense-spec.json",
+    "export_sha256": "431625f090254c64b56627d8bec43e8998c47659fffba3048321497f15bf8659",
+    "redaction": "Docker host mounts and private source paths omitted; serving arguments and environment retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/ablation-full-spec.json",
+    "source_sha256": "2c2aead45e5180ecba709947760511a466a11ec691086dd1dad295ccf1ebea96",
+    "export": "benchmarks/results/round15/ablation-full-spec.json",
+    "export_sha256": "a2903328e6cf25258a4492fbdc85cc76411ccd8f581ecf9a372ca2bc0d4b950c",
+    "redaction": "Docker host mounts and private source paths omitted; serving arguments and environment retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round15-single-node-1m-20260915/gpu-samples.jsonl",
+    "source_sha256": "90c16abc23c51a2e883ebdbc8e2074c5e627bc08545ddef8ca08259d4cb63d61",
+    "export": "benchmarks/results/round15/gpu-samples.json.gz",
+    "export_sha256": "885570c09d748959e20d14a1dac040a44ff689122fc0c4acf322039f74c8ceb5",
+    "redaction": "JSONL to gzipped JSON; all measurements retained."
   }
 ]

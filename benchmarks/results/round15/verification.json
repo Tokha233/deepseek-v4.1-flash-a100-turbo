@@ -1,0 +1,122 @@
+[
+  {
+    "run": "ablation-base-repeat1",
+    "output_tps": 2794.1055555555554,
+    "counted_window_tokens": 502939,
+    "server_minus_client_window_tokens": -95.0,
+    "completed_requests": 541,
+    "passed": true
+  },
+  {
+    "run": "ablation-base-repeat2",
+    "output_tps": 2890.8555555555554,
+    "counted_window_tokens": 520354,
+    "server_minus_client_window_tokens": -612.0,
+    "completed_requests": 624,
+    "passed": true
+  },
+  {
+    "run": "ablation-dense-repeat1",
+    "output_tps": 2846.4055555555556,
+    "counted_window_tokens": 512353,
+    "server_minus_client_window_tokens": 0.0,
+    "completed_requests": 531,
+    "passed": true
+  },
+  {
+    "run": "ablation-dense-repeat2",
+    "output_tps": 3005.75,
+    "counted_window_tokens": 541035,
+    "server_minus_client_window_tokens": -716.0,
+    "completed_requests": 635,
+    "passed": true
+  },
+  {
+    "run": "ablation-full-repeat1",
+    "output_tps": 2914.2166666666667,
+    "counted_window_tokens": 524559,
+    "server_minus_client_window_tokens": 192.0,
+    "completed_requests": 602,
+    "passed": true
+  },
+  {
+    "run": "ablation-full-repeat2",
+    "output_tps": 3026.777777777778,
+    "counted_window_tokens": 544820,
+    "server_minus_client_window_tokens": 169.0,
+    "completed_requests": 637,
+    "passed": true
+  },
+  {
+    "run": "full-c1",
+    "output_tps": 115.0111111111111,
+    "counted_window_tokens": 20702,
+    "server_minus_client_window_tokens": 25.0,
+    "completed_requests": 26,
+    "passed": true
+  },
+  {
+    "run": "full-c128",
+    "output_tps": 3039.883333333333,
+    "counted_window_tokens": 547179,
+    "server_minus_client_window_tokens": -657.0,
+    "completed_requests": 644,
+    "passed": true
+  },
+  {
+    "run": "full-c16",
+    "output_tps": 995.4444444444445,
+    "counted_window_tokens": 179180,
+    "server_minus_client_window_tokens": -37.0,
+    "completed_requests": 208,
+    "passed": true
+  },
+  {
+    "run": "full-c2",
+    "output_tps": 217.93333333333334,
+    "counted_window_tokens": 39228,
+    "server_minus_client_window_tokens": -6.0,
+    "completed_requests": 49,
+    "passed": true
+  },
+  {
+    "run": "full-c256",
+    "output_tps": 3040.7055555555557,
+    "counted_window_tokens": 547327,
+    "server_minus_client_window_tokens": 44.0,
+    "completed_requests": 644,
+    "passed": true
+  },
+  {
+    "run": "full-c32",
+    "output_tps": 1459.1666666666667,
+    "counted_window_tokens": 262650,
+    "server_minus_client_window_tokens": 0.0,
+    "completed_requests": 309,
+    "passed": true
+  },
+  {
+    "run": "full-c4",
+    "output_tps": 389.3222222222222,
+    "counted_window_tokens": 70078,
+    "server_minus_client_window_tokens": 0.0,
+    "completed_requests": 89,
+    "passed": true
+  },
+  {
+    "run": "full-c64",
+    "output_tps": 2102.1388888888887,
+    "counted_window_tokens": 378385,
+    "server_minus_client_window_tokens": 727.0,
+    "completed_requests": 450,
+    "passed": true
+  },
+  {
+    "run": "full-c8",
+    "output_tps": 635.4166666666666,
+    "counted_window_tokens": 114375,
+    "server_minus_client_window_tokens": -10.0,
+    "completed_requests": 139,
+    "passed": true
+  }
+]

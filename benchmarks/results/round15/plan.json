@@ -1,0 +1,50 @@
+{
+  "declared_at": 1789405617.0033112,
+  "context": 1048576,
+  "hardware": "One node,8xA800-SXM4-80GB",
+  "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-coding-effort100.json.gz",
+  "source_sha256": "9e9c8dc650b70b1485b4defc1a4caff901cf6a7d9609f40ebf21ed1dbdf4223a",
+  "matrix": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "warmup_seconds": 60,
+  "measurement_seconds": 180,
+  "temperature": 1,
+  "effort": 100,
+  "max_tokens": 1024,
+  "ignore_eos": true,
+  "ablation": {
+    "concurrency": 128,
+    "repeats": 2,
+    "warmup_seconds": 60,
+    "measurement_seconds": 180,
+    "stages": [
+      {
+        "name": "base",
+        "dense_threshold": 0,
+        "custom_ep8": 0
+      },
+      {
+        "name": "dense",
+        "dense_threshold": 32,
+        "custom_ep8": 0
+      },
+      {
+        "name": "full",
+        "dense_threshold": 32,
+        "custom_ep8": 1
+      }
+    ],
+    "held_fixed": "1M context,TP4DP2,EP8,DSpark5,CUDA Graph,FP8 KV,prefix cache,EPLB,sparse tile and all correctness patches",
+    "scope": "Sequential incremental ablation of dense dispatch and custom EP8 transport; not an attribution of all optimizations."
+  },
+  "native_context_validation_tokens": 1040000
+}

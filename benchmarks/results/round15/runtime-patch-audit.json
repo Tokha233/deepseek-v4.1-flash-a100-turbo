@@ -1,0 +1,140 @@
+[
+  {
+    "target": "vllm/model_executor/kernels/linear/mxfp8/marlin.py",
+    "expected": "eae4def7c330fe383420e4bb18b66192908c372b5ae46da1cade4606d77513ae",
+    "actual": "eae4def7c330fe383420e4bb18b66192908c372b5ae46da1cade4606d77513ae",
+    "match": true
+  },
+  {
+    "target": "vllm/v1/attention/ops/candidate_mqa_sm80.py",
+    "expected": "3cd9b70a41253a5808beb4a09dfe98f88bb103fa9b7f9863df44e449259c456f",
+    "actual": "3cd9b70a41253a5808beb4a09dfe98f88bb103fa9b7f9863df44e449259c456f",
+    "match": true
+  },
+  {
+    "target": "vllm/v1/attention/ops/rocm_aiter_mla_sparse.py",
+    "expected": "a88af06e8c03fdec821d93101301b344f8f2bd6252ece6a51717b9ac0173e6ab",
+    "actual": "a88af06e8c03fdec821d93101301b344f8f2bd6252ece6a51717b9ac0173e6ab",
+    "match": true
+  },
+  {
+    "target": "vllm/v1/worker/gpu/spec_decode/multi_module_mtp/speculator.py",
+    "expected": "d9d4735b9b33829332b0e845b6d3073b2f0436045ed693b25c6434f351644127",
+    "actual": "d9d4735b9b33829332b0e845b6d3073b2f0436045ed693b25c6434f351644127",
+    "match": true
+  },
+  {
+    "target": "vllm/parser/engine/parser_engine_config.py",
+    "expected": "51cd63d6ff9ca334e1b16f7a97512a8a5db005969b4b29d83c1811d92667a0bb",
+    "actual": "51cd63d6ff9ca334e1b16f7a97512a8a5db005969b4b29d83c1811d92667a0bb",
+    "match": true
+  },
+  {
+    "target": "vllm/v1/worker/gpu/spec_decode/dflash/speculator.py",
+    "expected": "8c1ea71674edaac4a650ccf312ee09da896f84a659c339aed6af1698188212a7",
+    "actual": "8c1ea71674edaac4a650ccf312ee09da896f84a659c339aed6af1698188212a7",
+    "match": true
+  },
+  {
+    "target": "vllm/tokenizers/deepseek_v41_encoding.py",
+    "expected": "b731d429eb34c170faf12f24cde45e107f7d5c9bc78d6ffa69ac0dde8aed29b4",
+    "actual": "b731d429eb34c170faf12f24cde45e107f7d5c9bc78d6ffa69ac0dde8aed29b4",
+    "match": true
+  },
+  {
+    "target": "vllm/v1/worker/gpu/spec_decode/autoregressive/speculator.py",
+    "expected": "d751cd3745e063861f636d7004b1a53ca614d137107b2ec92eb1a8fe0f696b37",
+    "actual": "d751cd3745e063861f636d7004b1a53ca614d137107b2ec92eb1a8fe0f696b37",
+    "match": true
+  },
+  {
+    "target": "vllm/v1/worker/gpu/spec_decode/speculator.py",
+    "expected": "ade3d30e4be30450b6bfc1caa070857bc4d4703c96391f5fd96cd44093747174",
+    "actual": "ade3d30e4be30450b6bfc1caa070857bc4d4703c96391f5fd96cd44093747174",
+    "match": true
+  },
+  {
+    "target": "vllm/model_executor/models/interfaces.py",
+    "expected": "6eb1927f1231e487271063a1afc52dd3b22a8ddb390ac7604d82b02e70097de9",
+    "actual": "6eb1927f1231e487271063a1afc52dd3b22a8ddb390ac7604d82b02e70097de9",
+    "match": true
+  },
+  {
+    "target": "vllm/v1/worker/gpu/spec_decode/dspark/utils.py",
+    "expected": "f4b11438b1e37003b91aa22a674a2ed0d133f766754442ed00f8629c1cde4cec",
+    "actual": "f4b11438b1e37003b91aa22a674a2ed0d133f766754442ed00f8629c1cde4cec",
+    "match": true
+  },
+  {
+    "target": "vllm/entrypoints/openai/chat_completion/protocol.py",
+    "expected": "a81c8e4c7c1208f3094bd54555975f65d6ec231ed3ab87a74e8f058fc1864a51",
+    "actual": "a81c8e4c7c1208f3094bd54555975f65d6ec231ed3ab87a74e8f058fc1864a51",
+    "match": true
+  },
+  {
+    "target": "vllm/models/deepseek_v4_1/nvidia/model.py",
+    "expected": "47ff28d3279b61d2c5c6a2edc80ac74751f4c41d7a5b3afcf52819a0941d3423",
+    "actual": "47ff28d3279b61d2c5c6a2edc80ac74751f4c41d7a5b3afcf52819a0941d3423",
+    "match": true
+  },
+  {
+    "target": "vllm/parser/engine/streaming_parser_engine.py",
+    "expected": "88ef50debb11e224e5d6c4cb6ff1cf99e7aec086391f35bae69baa82f4e23561",
+    "actual": "88ef50debb11e224e5d6c4cb6ff1cf99e7aec086391f35bae69baa82f4e23561",
+    "match": true
+  },
+  {
+    "target": "vllm/model_executor/layers/fused_moe/stable_moe_align.py",
+    "expected": "bbfb4d1145a8c41649e9ca8754f39e42f9fdfb3bf8b5d3479a5fd07ed6691c06",
+    "actual": "bbfb4d1145a8c41649e9ca8754f39e42f9fdfb3bf8b5d3479a5fd07ed6691c06",
+    "match": true
+  },
+  {
+    "target": "vllm/model_executor/layers/sparse_attn_indexer.py",
+    "expected": "a5ff80ba21cedef5cbbf4572ad40db24d2b47e331fb08846751b0882587a91d8",
+    "actual": "a5ff80ba21cedef5cbbf4572ad40db24d2b47e331fb08846751b0882587a91d8",
+    "match": true
+  },
+  {
+    "target": "vllm/parser/deepseek_v4.py",
+    "expected": "bbd1b55bdf8a5b76be784450861f5a082b02f234570479b963d1364c41e0b1de",
+    "actual": "bbd1b55bdf8a5b76be784450861f5a082b02f234570479b963d1364c41e0b1de",
+    "match": true
+  },
+  {
+    "target": "vllm/tokenizers/deepseek_v41.py",
+    "expected": "897b350f5426b54505abaea2429dc5f3263c6c1d241dd8358d5375100d9164a2",
+    "actual": "897b350f5426b54505abaea2429dc5f3263c6c1d241dd8358d5375100d9164a2",
+    "match": true
+  },
+  {
+    "target": "vllm/distributed/device_communicators/cuda_communicator.py",
+    "expected": "78828b9e7c53eca21700d595c865cf01cc4b6729d8f18344504affb3ee8cfba5",
+    "actual": "78828b9e7c53eca21700d595c865cf01cc4b6729d8f18344504affb3ee8cfba5",
+    "match": true
+  },
+  {
+    "target": "vllm/entrypoints/generate/base/protocol.py",
+    "expected": "f2018c1cfcea80a909ef6ee379da4f64f2467b846c2febfc1c06a6fca2efca34",
+    "actual": "f2018c1cfcea80a909ef6ee379da4f64f2467b846c2febfc1c06a6fca2efca34",
+    "match": true
+  },
+  {
+    "target": "vllm/model_executor/layers/fused_moe/moe_align_block_size.py",
+    "expected": "c310b1a576141fecff217bcc6e9fcf6ecbc868f5a9570533c5872c868ade180f",
+    "actual": "c310b1a576141fecff217bcc6e9fcf6ecbc868f5a9570533c5872c868ade180f",
+    "match": true
+  },
+  {
+    "target": "vllm/model_executor/models/qwen3_dspark.py",
+    "expected": "a9211984e2aca9e473cef0abbee57a587827758cbd56ac643943ba0e8cd3fb19",
+    "actual": "a9211984e2aca9e473cef0abbee57a587827758cbd56ac643943ba0e8cd3fb19",
+    "match": true
+  },
+  {
+    "target": "vllm/models/deepseek_v4_1/amd/rocm.py",
+    "expected": "b2eaa3553e6b553fb9569212f2f5337361373c8c9ce93af4fb32d08158aa2745",
+    "actual": "b2eaa3553e6b553fb9569212f2f5337361373c8c9ce93af4fb32d08158aa2745",
+    "match": true
+  }
+]

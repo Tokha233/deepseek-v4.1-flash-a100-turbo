@@ -13,7 +13,7 @@
   "--enable-expert-parallel",
   "--language-model-only",
   "--max-model-len",
-  "524288",
+  "1048576",
   "--max-num-seqs",
   "64",
   "--max-num-batched-tokens",

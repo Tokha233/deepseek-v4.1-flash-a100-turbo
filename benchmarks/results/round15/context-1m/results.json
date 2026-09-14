@@ -1,0 +1,102 @@
+[
+  {
+    "rank": 0,
+    "warm": false,
+    "seconds": 236.90936992317438,
+    "ttft": 236.38225304335356,
+    "usage": {
+      "prompt_tokens": 1040310,
+      "total_tokens": 1040482,
+      "completion_tokens": 172,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "created_cache_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 126
+      }
+    },
+    "finish_reason": "tool_calls",
+    "tool_calls": {
+      "0": {
+        "name": "report",
+        "arguments": "{\"code\": \"ORCHID-66000-7391\"}"
+      }
+    }
+  },
+  {
+    "rank": 0,
+    "warm": true,
+    "seconds": 5.3150278721004725,
+    "ttft": 4.6589350532740355,
+    "usage": {
+      "prompt_tokens": 1040310,
+      "total_tokens": 1040485,
+      "completion_tokens": 175,
+      "prompt_tokens_details": {
+        "cached_tokens": 1040128,
+        "created_cache_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 129
+      }
+    },
+    "finish_reason": "tool_calls",
+    "tool_calls": {
+      "0": {
+        "name": "report",
+        "arguments": "{\"code\": \"ORCHID-66000-7391\"}"
+      }
+    }
+  },
+  {
+    "rank": 1,
+    "warm": false,
+    "seconds": 235.5946679636836,
+    "ttft": 234.91459559090436,
+    "usage": {
+      "prompt_tokens": 1040310,
+      "total_tokens": 1040496,
+      "completion_tokens": 186,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "created_cache_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 140
+      }
+    },
+    "finish_reason": "tool_calls",
+    "tool_calls": {
+      "0": {
+        "name": "report",
+        "arguments": "{\"code\": \"ORCHID-66000-7391\"}"
+      }
+    }
+  },
+  {
+    "rank": 1,
+    "warm": true,
+    "seconds": 5.210465017706156,
+    "ttft": 4.463937932625413,
+    "usage": {
+      "prompt_tokens": 1040310,
+      "total_tokens": 1040494,
+      "completion_tokens": 184,
+      "prompt_tokens_details": {
+        "cached_tokens": 1040128,
+        "created_cache_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 107
+      }
+    },
+    "finish_reason": "tool_calls",
+    "tool_calls": {
+      "0": {
+        "name": "report",
+        "arguments": "{\"code\": \"ORCHID-66000-7391\"}"
+      }
+    }
+  }
+]

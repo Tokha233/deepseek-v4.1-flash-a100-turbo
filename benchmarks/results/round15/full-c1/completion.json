@@ -1,0 +1,14 @@
+{
+  "measurement_complete": true,
+  "drained": true,
+  "requests_started": 27,
+  "completed_requests": 26,
+  "completed_finish_reasons": {
+    "length": 26
+  },
+  "naturally_completed": 26,
+  "cancelled_or_failed": 1,
+  "client_streamed_tokens_total": 27288,
+  "server_generated_tokens_total": 27290.0,
+  "scope": "Fixed-window requests may cross boundaries. The legacy naturally_completed field counts received DONE events, including length stops; it does not imply natural EOS. Cancellation can leave a small amount of generated output unobserved by the client; this is recorded rather than equated with received tokens."
+}

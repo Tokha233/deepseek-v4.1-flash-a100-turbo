@@ -2,12 +2,15 @@
   "patch_payloads": 23,
   "python_ast": "passed",
   "json": "passed",
-  "evidence_hashes": "passed",
+  "evidence_hashes": "passed; 213 exported artifacts",
   "installer_idempotence_and_wrong_revision_guard": "passed",
   "launcher_dryrun": "passed",
   "broken_links": [],
   "docker_build": "not run; source preview",
-  "hardware_smoke": "round13 remote native66K four requests passed",
-  "isolated_benchmark": "round13 C128 complete; client/server window token counts equal",
-  "routing_identity_tests": "2 passed"
+  "hardware_smoke": "round15: four near-1M native tool requests passed across both DP ranks, cold and warm",
+  "isolated_benchmark": "round15: nine concurrency groups and six ablation runs passed; fixed-window token counts verified; zero KV preemptions",
+  "routing_identity_tests": "2 passed",
+  "context_limit": 1048576,
+  "gpu_isolation": "eight model GPU processes throughout every measurement, sampled at most 50 seconds apart",
+  "ablation_controls": "identical serving arguments and environment except the two declared optimization flags"
 }

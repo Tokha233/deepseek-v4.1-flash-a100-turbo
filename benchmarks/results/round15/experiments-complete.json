@@ -1,0 +1,6 @@
+{
+  "time": 1789412095.4072995,
+  "final_service": "http://node-a:8083",
+  "container": "deepseek-v41-r15-ablation-full",
+  "context": 1048576
+}

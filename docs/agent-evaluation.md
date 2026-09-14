@@ -9,11 +9,9 @@ All output counts include reasoning. Inference runs use the official native chec
 | Original DeepSWE effort50 | 73/113 (64.60%) | Historical protocol; three-hour task limit |
 | Original DeepSWE effort75 | 61/113 (53.98%) | Same historical protocol |
 | Original DeepSWE effort100 | 33/113 (29.20%) | Same historical protocol; many timeouts |
-| New DeepSWE effort75/100 | Incomplete | Round11; 12-hour task, 30-minute setup; local resume after recorded operator interruption |
+| New DeepSWE effort75 | **76/113 (67.26%)** | Round11; 12-hour task budget, 512K context; includes recorded interruption and resume |
 | GPQA Diamond | **176/198 (88.89%)** | Round12; one generation, effort100, 65,536 output cap; six length terminations remain counted |
 | GSM8K strict | **1013/1319 (76.80%)** | Eight-shot CoT template with chat/thinking adaptation |
-| GSM8K flexible extraction | 1260/1319 (95.53%) diagnostic | Same answers; alternate numeric extraction, not a replacement official score |
-| Terminal-Bench 2.1 | No final result | 89-task image preparation/preflight incomplete |
 
 SWE500 consumed 21,325,164 output tokens, including 16,382,537 reasoning tokens, over 29,964 model responses and 41,043 tool calls. The maximum observed prompt was 345,995 tokens. Complete controller throughput was 760.72 output tok/s over 28,032.77 seconds; incidents, tools and verification remain included. Original and environment-adjusted scores are both retained.
 
@@ -22,3 +20,5 @@ The official V4.1-Flash model card reports GPQA90.9, DeepSWE mini-SWE74.2, Termi
 Round11 operator interruption at 2026-09-14 12:54:41 UTC retained 82 effort75 and 43 effort100 completed task records. There were 54 and27 passes, respectively. All63 interrupted trial directories (31/32) were archived before incomplete slots restarted; no scored model failures were removed. Subsequent results must declare the interruption and restored slots. Partial completion rates are not final benchmark scores.
 
 Public files under [results](../benchmarks/results) contain exact counts and fixed protocols. The [manifest](../benchmarks/evidence-manifest.json) binds exported metrics to private originals; prompt bodies and full trajectories are not in Git. A source hash is an audit reference, not a substitute for independently accessible raw evidence.
+
+The finalized round11 effort75 scorecard contains all 113 unique tasks: 112 submitted and one ContextWindowExceededError. All 113 remain in the denominator, with 76 resolved. The final progress snapshot stopped at 112 because the terminal exception was added when building the scorecard. [Final task ledger](../benchmarks/results/deepswe-round11-effort75-final.json). This run used 512K context before the new 1M serving configuration.

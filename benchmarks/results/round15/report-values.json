@@ -1,0 +1,66 @@
+{
+  "curve": [
+    {
+      "concurrency": 1,
+      "throughput": 115.0111111111111
+    },
+    {
+      "concurrency": 2,
+      "throughput": 217.93333333333334
+    },
+    {
+      "concurrency": 4,
+      "throughput": 389.3222222222222
+    },
+    {
+      "concurrency": 8,
+      "throughput": 635.4166666666666
+    },
+    {
+      "concurrency": 16,
+      "throughput": 995.4444444444445
+    },
+    {
+      "concurrency": 32,
+      "throughput": 1459.1666666666667
+    },
+    {
+      "concurrency": 64,
+      "throughput": 2102.1388888888887
+    },
+    {
+      "concurrency": 128,
+      "throughput": 3039.883333333333
+    },
+    {
+      "concurrency": 256,
+      "throughput": 3040.7055555555557
+    }
+  ],
+  "ablation": [
+    {
+      "stage": "base",
+      "values": [
+        2794.1055555555554,
+        2890.8555555555554
+      ],
+      "mean": 2842.4805555555554
+    },
+    {
+      "stage": "dense",
+      "values": [
+        2846.4055555555556,
+        3005.75
+      ],
+      "mean": 2926.0777777777776
+    },
+    {
+      "stage": "full",
+      "values": [
+        2914.2166666666667,
+        3026.777777777778
+      ],
+      "mean": 2970.4972222222223
+    }
+  ]
+}

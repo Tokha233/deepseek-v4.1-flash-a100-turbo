@@ -1,0 +1,4762 @@
+{
+  "total": 113,
+  "finished": 113,
+  "resolved": 76,
+  "errors": 1,
+  "attempts_per_task": 1,
+  "usage": {
+    "tool_results": 16680,
+    "model_responses": 16458,
+    "completion_tokens": 14903616,
+    "prompt_tokens": 2112066950,
+    "cached_tokens": 2084813312,
+    "responses_with_reasoning_usage": 16458,
+    "reasoning_tokens": 11301155,
+    "tool_calls": 16792,
+    "model_wall_seconds": 443012.61443829536,
+    "model_transport_attempts": 16459,
+    "incomplete_transport_attempts": 1
+  },
+  "reasoning_usage_complete": true,
+  "mean_model_responses_per_finished_task": 145.64601769911505,
+  "exit_statuses": {
+    "Submitted": 112,
+    "ContextWindowExceededError": 1
+  },
+  "instances": [
+    {
+      "task": "abs-module-cache-flags",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 20,
+        "f2p_passed": 20,
+        "p2p_total": 3,
+        "p2p_passed": 3,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 151,
+        "model_responses": 152,
+        "completion_tokens": 132947,
+        "prompt_tokens": 16074036,
+        "cached_tokens": 15849856,
+        "responses_with_reasoning_usage": 152,
+        "reasoning_tokens": 105249,
+        "tool_calls": 152,
+        "length_responses": 0,
+        "model_wall_seconds": 3344.341029882431,
+        "model_transport_attempts": 152,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 24651,
+          "sha256": "6be0d33da0e48486fa7271b38f16662effe50d8765d42244a305fb553c079361"
+        },
+        "model-working-tree.patch": {
+          "bytes": 24651,
+          "sha256": "6be0d33da0e48486fa7271b38f16662effe50d8765d42244a305fb553c079361"
+        }
+      },
+      "started_at": "2026-09-14T08:43:06.487530Z",
+      "finished_at": "2026-09-14T09:48:03.549612Z"
+    },
+    {
+      "task": "abs-stepped-slices",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 6,
+        "f2p_passed": 6,
+        "p2p_total": 6,
+        "p2p_passed": 6,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 92,
+        "model_responses": 93,
+        "completion_tokens": 83317,
+        "prompt_tokens": 5942218,
+        "cached_tokens": 5800704,
+        "responses_with_reasoning_usage": 93,
+        "reasoning_tokens": 65935,
+        "tool_calls": 93,
+        "length_responses": 0,
+        "model_wall_seconds": 1879.1450817584991,
+        "model_transport_attempts": 93,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 19008,
+          "sha256": "2e9edd978a58e95ddfb452a2826401cb73d2c4d84d0acb9e84f5de9dddaf965a"
+        },
+        "model-working-tree.patch": {
+          "bytes": 19008,
+          "sha256": "2e9edd978a58e95ddfb452a2826401cb73d2c4d84d0acb9e84f5de9dddaf965a"
+        }
+      },
+      "started_at": "2026-09-14T08:43:04.219312Z",
+      "finished_at": "2026-09-14T09:36:04.923591Z"
+    },
+    {
+      "task": "actionlint-action-pinning-lint",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 55,
+        "f2p_passed": 55,
+        "p2p_total": 145,
+        "p2p_passed": 145,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 148,
+        "model_responses": 114,
+        "completion_tokens": 131171,
+        "prompt_tokens": 12558265,
+        "cached_tokens": 12326272,
+        "responses_with_reasoning_usage": 114,
+        "reasoning_tokens": 103110,
+        "tool_calls": 149,
+        "length_responses": 0,
+        "model_wall_seconds": 3291.500854730606,
+        "model_transport_attempts": 114,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 27576,
+          "sha256": "4c05e7e6f837bb7c7dab976edde3af743b98a5f16461ab549fd104197e4693bb"
+        },
+        "model-working-tree.patch": {
+          "bytes": 27576,
+          "sha256": "4c05e7e6f837bb7c7dab976edde3af743b98a5f16461ab549fd104197e4693bb"
+        }
+      },
+      "started_at": "2026-09-14T10:14:27.333927Z",
+      "finished_at": "2026-09-14T11:32:25.903195Z"
+    },
+    {
+      "task": "adaptix-name-mapping-aliases",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 44,
+        "f2p_passed": 44,
+        "p2p_total": 2738,
+        "p2p_passed": 2738,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 159,
+        "model_responses": 160,
+        "completion_tokens": 126966,
+        "prompt_tokens": 22120493,
+        "cached_tokens": 21848960,
+        "responses_with_reasoning_usage": 160,
+        "reasoning_tokens": 96594,
+        "tool_calls": 160,
+        "length_responses": 0,
+        "model_wall_seconds": 5105.729295730591,
+        "model_transport_attempts": 160,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 24177,
+          "sha256": "b1efec419c908d27e711d98c36af1ddc4dbe8fcfe87e62fdda8c455c1ae7d150"
+        },
+        "model-working-tree.patch": {
+          "bytes": 24177,
+          "sha256": "b1efec419c908d27e711d98c36af1ddc4dbe8fcfe87e62fdda8c455c1ae7d150"
+        }
+      },
+      "started_at": "2026-09-14T13:08:00.195257Z",
+      "finished_at": "2026-09-14T14:54:57.664545Z"
+    },
+    {
+      "task": "aiomonitor-task-snapshots-diff",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 53,
+        "f2p_passed": 53,
+        "p2p_total": 8,
+        "p2p_passed": 8,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 137,
+        "model_responses": 138,
+        "completion_tokens": 126796,
+        "prompt_tokens": 14974501,
+        "cached_tokens": 14754432,
+        "responses_with_reasoning_usage": 138,
+        "reasoning_tokens": 95443,
+        "tool_calls": 138,
+        "length_responses": 0,
+        "model_wall_seconds": 3299.5081272125244,
+        "model_transport_attempts": 138,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 36396,
+          "sha256": "347138336b41c366f6f02e0bfe10a46586075a2416284450d4b8d0af447b7d2a"
+        },
+        "model-working-tree.patch": {
+          "bytes": 36396,
+          "sha256": "347138336b41c366f6f02e0bfe10a46586075a2416284450d4b8d0af447b7d2a"
+        }
+      },
+      "started_at": "2026-09-14T10:02:13.640915Z",
+      "finished_at": "2026-09-14T11:19:00.708047Z"
+    },
+    {
+      "task": "anko-default-function-arguments",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 2,
+        "f2p_passed": 2,
+        "p2p_total": 119,
+        "p2p_passed": 119,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 139,
+        "model_responses": 140,
+        "completion_tokens": 118864,
+        "prompt_tokens": 15450366,
+        "cached_tokens": 15221376,
+        "responses_with_reasoning_usage": 140,
+        "reasoning_tokens": 92552,
+        "tool_calls": 140,
+        "length_responses": 0,
+        "model_wall_seconds": 4009.1270895004272,
+        "model_transport_attempts": 140,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 20773,
+          "sha256": "69c1ef12491eb10492bbbfb0a72e108d5551667842d3a8804af4c428a58e610c"
+        },
+        "model-working-tree.patch": {
+          "bytes": 20773,
+          "sha256": "69c1ef12491eb10492bbbfb0a72e108d5551667842d3a8804af4c428a58e610c"
+        }
+      },
+      "started_at": "2026-09-14T11:19:01.151136Z",
+      "finished_at": "2026-09-14T12:32:16.847741Z"
+    },
+    {
+      "task": "anko-typed-variable-bindings",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 9,
+        "f2p_passed": 5,
+        "p2p_total": 94,
+        "p2p_passed": 94,
+        "f2p": 0.5555555555555556,
+        "p2p": 1.0,
+        "partial": 0.9611650485436893
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 101,
+        "model_responses": 87,
+        "completion_tokens": 68848,
+        "prompt_tokens": 6545973,
+        "cached_tokens": 6402176,
+        "responses_with_reasoning_usage": 87,
+        "reasoning_tokens": 48358,
+        "tool_calls": 102,
+        "length_responses": 0,
+        "model_wall_seconds": 1581.69114112854,
+        "model_transport_attempts": 87,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 103701,
+          "sha256": "f79ae372f410085d4fdf22afe73a36ba34813680d6038d032757274a4c44c7e1"
+        },
+        "model-working-tree.patch": {
+          "bytes": 103701,
+          "sha256": "f79ae372f410085d4fdf22afe73a36ba34813680d6038d032757274a4c44c7e1"
+        }
+      },
+      "started_at": "2026-09-14T10:27:10.639895Z",
+      "finished_at": "2026-09-14T10:59:03.764893Z"
+    },
+    {
+      "task": "arcane-drift-detection-baselines",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 82,
+        "f2p_passed": 82,
+        "p2p_total": 2,
+        "p2p_passed": 2,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 137,
+        "model_responses": 138,
+        "completion_tokens": 90945,
+        "prompt_tokens": 12433037,
+        "cached_tokens": 12235904,
+        "responses_with_reasoning_usage": 138,
+        "reasoning_tokens": 58940,
+        "tool_calls": 138,
+        "length_responses": 0,
+        "model_wall_seconds": 3031.4139971733093,
+        "model_transport_attempts": 138,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 57387,
+          "sha256": "e4980bd0585f6acb7947f15d010d59a672ac5077205a294b55e6509e5a27a247"
+        },
+        "model-working-tree.patch": {
+          "bytes": 57387,
+          "sha256": "e4980bd0585f6acb7947f15d010d59a672ac5077205a294b55e6509e5a27a247"
+        }
+      },
+      "started_at": "2026-09-14T13:08:01.143097Z",
+      "finished_at": "2026-09-14T14:16:58.737156Z"
+    },
+    {
+      "task": "arktype-json-schema-refs-dependencies",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 25,
+        "f2p_passed": 23,
+        "p2p_total": 1679,
+        "p2p_passed": 1679,
+        "f2p": 0.92,
+        "p2p": 1.0,
+        "partial": 0.9988262910798122
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 165,
+        "model_responses": 166,
+        "completion_tokens": 136458,
+        "prompt_tokens": 17034280,
+        "cached_tokens": 16792832,
+        "responses_with_reasoning_usage": 166,
+        "reasoning_tokens": 89617,
+        "tool_calls": 166,
+        "length_responses": 0,
+        "model_wall_seconds": 4695.653098583221,
+        "model_transport_attempts": 166,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 28776,
+          "sha256": "73eca623924350e7ee5a1b5665413022fa14f0e1829f1afcafc275ee76209576"
+        },
+        "model-working-tree.patch": {
+          "bytes": 28776,
+          "sha256": "73eca623924350e7ee5a1b5665413022fa14f0e1829f1afcafc275ee76209576"
+        }
+      },
+      "started_at": "2026-09-14T13:07:56.061759Z",
+      "finished_at": "2026-09-14T14:44:17.429092Z"
+    },
+    {
+      "task": "awilix-async-container-initialization",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 24,
+        "f2p_passed": 24,
+        "p2p_total": 162,
+        "p2p_passed": 162,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 119,
+        "model_responses": 116,
+        "completion_tokens": 178513,
+        "prompt_tokens": 14791780,
+        "cached_tokens": 14513664,
+        "responses_with_reasoning_usage": 116,
+        "reasoning_tokens": 146096,
+        "tool_calls": 120,
+        "length_responses": 0,
+        "model_wall_seconds": 4989.499291419983,
+        "model_transport_attempts": 116,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 31943,
+          "sha256": "1f8ec772c366d040d3c26d98b6423d5ddefde8cb426c9a8f2b590c66ca329a68"
+        },
+        "model-working-tree.patch": {
+          "bytes": 31943,
+          "sha256": "1f8ec772c366d040d3c26d98b6423d5ddefde8cb426c9a8f2b590c66ca329a68"
+        }
+      },
+      "started_at": "2026-09-14T10:01:38.897560Z",
+      "finished_at": "2026-09-14T11:50:55.281801Z"
+    },
+    {
+      "task": "bandit-incremental-cache-control",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 88,
+        "f2p_passed": 88,
+        "p2p_total": 275,
+        "p2p_passed": 275,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 116,
+        "model_responses": 117,
+        "completion_tokens": 84981,
+        "prompt_tokens": 9405714,
+        "cached_tokens": 9246848,
+        "responses_with_reasoning_usage": 117,
+        "reasoning_tokens": 55316,
+        "tool_calls": 117,
+        "length_responses": 0,
+        "model_wall_seconds": 2952.520618200302,
+        "model_transport_attempts": 117,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 54286,
+          "sha256": "d9a08ad0db07ef84268ac9fbd74c6efdb6f863f653a79e4e99713652657d2bf4"
+        },
+        "model-working-tree.patch": {
+          "bytes": 54286,
+          "sha256": "d9a08ad0db07ef84268ac9fbd74c6efdb6f863f653a79e4e99713652657d2bf4"
+        }
+      },
+      "started_at": "2026-09-14T13:07:58.921885Z",
+      "finished_at": "2026-09-14T14:04:49.747997Z"
+    },
+    {
+      "task": "bandit-interprocedural-taint-checks",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 66,
+        "f2p_passed": 66,
+        "p2p_total": 293,
+        "p2p_passed": 293,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 118,
+        "model_responses": 119,
+        "completion_tokens": 107561,
+        "prompt_tokens": 10774474,
+        "cached_tokens": 10587392,
+        "responses_with_reasoning_usage": 119,
+        "reasoning_tokens": 85328,
+        "tool_calls": 119,
+        "length_responses": 0,
+        "model_wall_seconds": 2783.5551471710205,
+        "model_transport_attempts": 119,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 27722,
+          "sha256": "c65590a5bc1f8b968998ddab1a5acce1c04857ed3b3df71681dabe958651fe04"
+        },
+        "model-working-tree.patch": {
+          "bytes": 27722,
+          "sha256": "c65590a5bc1f8b968998ddab1a5acce1c04857ed3b3df71681dabe958651fe04"
+        }
+      },
+      "started_at": "2026-09-14T08:43:09.692937Z",
+      "finished_at": "2026-09-14T09:36:15.368896Z"
+    },
+    {
+      "task": "bandit-structured-nosec-directives",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 69,
+        "f2p_passed": 69,
+        "p2p_total": 282,
+        "p2p_passed": 281,
+        "f2p": 1.0,
+        "p2p": 0.9964539007092199,
+        "partial": 0.9971509971509972
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 173,
+        "model_responses": 174,
+        "completion_tokens": 181540,
+        "prompt_tokens": 25676454,
+        "cached_tokens": 25379712,
+        "responses_with_reasoning_usage": 174,
+        "reasoning_tokens": 147990,
+        "tool_calls": 174,
+        "length_responses": 0,
+        "model_wall_seconds": 4798.797957897186,
+        "model_transport_attempts": 174,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 33764,
+          "sha256": "0b75bc082b03da2317821a39cde25207913ed3f3022f6cd73962ca47e156a867"
+        },
+        "model-working-tree.patch": {
+          "bytes": 33764,
+          "sha256": "0b75bc082b03da2317821a39cde25207913ed3f3022f6cd73962ca47e156a867"
+        }
+      },
+      "started_at": "2026-09-14T09:36:15.525102Z",
+      "finished_at": "2026-09-14T11:06:21.948747Z"
+    },
+    {
+      "task": "boa-hierarchical-evaluation-cancellation",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 17,
+        "f2p_passed": 17,
+        "p2p_total": 7,
+        "p2p_passed": 7,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 145,
+        "model_responses": 146,
+        "completion_tokens": 127862,
+        "prompt_tokens": 19883617,
+        "cached_tokens": 19594368,
+        "responses_with_reasoning_usage": 146,
+        "reasoning_tokens": 92064,
+        "tool_calls": 146,
+        "length_responses": 0,
+        "model_wall_seconds": 4000.5218572616577,
+        "model_transport_attempts": 146,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 40116,
+          "sha256": "1af1a971b154c73292a7709f0cedf29996070f6917983866f30e921cfb082fcc"
+        },
+        "model-working-tree.patch": {
+          "bytes": 40116,
+          "sha256": "1af1a971b154c73292a7709f0cedf29996070f6917983866f30e921cfb082fcc"
+        }
+      },
+      "started_at": "2026-09-14T11:09:31.759810Z",
+      "finished_at": "2026-09-14T12:31:40.579695Z"
+    },
+    {
+      "task": "cattrs-partial-structuring-recovery",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 69,
+        "f2p_passed": 68,
+        "p2p_total": 7,
+        "p2p_passed": 7,
+        "f2p": 0.9855072463768116,
+        "p2p": 1.0,
+        "partial": 0.9868421052631579
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 172,
+        "model_responses": 173,
+        "completion_tokens": 148836,
+        "prompt_tokens": 21505013,
+        "cached_tokens": 21245184,
+        "responses_with_reasoning_usage": 173,
+        "reasoning_tokens": 120769,
+        "tool_calls": 173,
+        "length_responses": 0,
+        "model_wall_seconds": 4448.511995315552,
+        "model_transport_attempts": 173,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 21910,
+          "sha256": "d4278a24cf79893746ebe3a692c4512537c861fb8a31672015b99d3207f806c7"
+        },
+        "model-working-tree.patch": {
+          "bytes": 21910,
+          "sha256": "d4278a24cf79893746ebe3a692c4512537c861fb8a31672015b99d3207f806c7"
+        }
+      },
+      "started_at": "2026-09-14T10:09:49.425033Z",
+      "finished_at": "2026-09-14T11:53:15.924126Z"
+    },
+    {
+      "task": "clack-async-autocomplete-options",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 82,
+        "f2p_passed": 77,
+        "p2p_total": 643,
+        "p2p_passed": 643,
+        "f2p": 0.9390243902439024,
+        "p2p": 1.0,
+        "partial": 0.993103448275862
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 120,
+        "model_responses": 121,
+        "completion_tokens": 165744,
+        "prompt_tokens": 14959083,
+        "cached_tokens": 14702848,
+        "responses_with_reasoning_usage": 121,
+        "reasoning_tokens": 132065,
+        "tool_calls": 121,
+        "length_responses": 0,
+        "model_wall_seconds": 6453.91229557991,
+        "model_transport_attempts": 121,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 27894,
+          "sha256": "9fce8d53410cdb0529333a2e7e8330c6bb8540208db5dcd5741f5daaf0df791c"
+        },
+        "model-working-tree.patch": {
+          "bytes": 27894,
+          "sha256": "9fce8d53410cdb0529333a2e7e8330c6bb8540208db5dcd5741f5daaf0df791c"
+        }
+      },
+      "started_at": "2026-09-14T13:08:00.558442Z",
+      "finished_at": "2026-09-14T15:15:02.121945Z"
+    },
+    {
+      "task": "claude-code-by-agents-recursive-delegation",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 7,
+        "f2p_passed": 7,
+        "p2p_total": 31,
+        "p2p_passed": 31,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 83,
+        "model_responses": 84,
+        "completion_tokens": 67022,
+        "prompt_tokens": 5570494,
+        "cached_tokens": 5435264,
+        "responses_with_reasoning_usage": 84,
+        "reasoning_tokens": 48633,
+        "tool_calls": 84,
+        "length_responses": 0,
+        "model_wall_seconds": 1779.9895946979523,
+        "model_transport_attempts": 84,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 14956,
+          "sha256": "6b1f9a0dd95d57bfb96d45422704e79a98eb60ed75510c907707ccfaaf164ffd"
+        },
+        "model-working-tree.patch": {
+          "bytes": 14956,
+          "sha256": "6b1f9a0dd95d57bfb96d45422704e79a98eb60ed75510c907707ccfaaf164ffd"
+        }
+      },
+      "started_at": "2026-09-14T11:00:34.446835Z",
+      "finished_at": "2026-09-14T11:53:20.580315Z"
+    },
+    {
+      "task": "cliffy-config-file-parsing",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 37,
+        "f2p_passed": 37,
+        "p2p_total": 451,
+        "p2p_passed": 451,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 182,
+        "model_responses": 183,
+        "completion_tokens": 146810,
+        "prompt_tokens": 25637876,
+        "cached_tokens": 25364480,
+        "responses_with_reasoning_usage": 183,
+        "reasoning_tokens": 112470,
+        "tool_calls": 183,
+        "length_responses": 0,
+        "model_wall_seconds": 4642.662411689758,
+        "model_transport_attempts": 183,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 25454,
+          "sha256": "49de0328d08362b78e4963036f53157739f875c610f6a357d30c966bb3e3df5b"
+        },
+        "model-working-tree.patch": {
+          "bytes": 25454,
+          "sha256": "49de0328d08362b78e4963036f53157739f875c610f6a357d30c966bb3e3df5b"
+        }
+      },
+      "started_at": "2026-09-14T10:36:51.409148Z",
+      "finished_at": "2026-09-14T12:17:54.732870Z"
+    },
+    {
+      "task": "csstree-shorthand-expansion-compression",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 79,
+        "f2p_passed": 79,
+        "p2p_total": 16715,
+        "p2p_passed": 16715,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 145,
+        "model_responses": 146,
+        "completion_tokens": 193458,
+        "prompt_tokens": 20106054,
+        "cached_tokens": 19813504,
+        "responses_with_reasoning_usage": 146,
+        "reasoning_tokens": 162754,
+        "tool_calls": 146,
+        "length_responses": 0,
+        "model_wall_seconds": 4896.995071172714,
+        "model_transport_attempts": 146,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 33246,
+          "sha256": "a22470d87182c3ea451b381125c642f395ec273056db34a99858897c375d19a3"
+        },
+        "model-working-tree.patch": {
+          "bytes": 33246,
+          "sha256": "a22470d87182c3ea451b381125c642f395ec273056db34a99858897c375d19a3"
+        }
+      },
+      "started_at": "2026-09-14T08:43:13.784483Z",
+      "finished_at": "2026-09-14T10:31:00.609333Z"
+    },
+    {
+      "task": "dasel-html-document-format",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 146,
+        "f2p_passed": 146,
+        "p2p_total": 1012,
+        "p2p_passed": 1012,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 81,
+        "model_responses": 82,
+        "completion_tokens": 95195,
+        "prompt_tokens": 5516448,
+        "cached_tokens": 5366528,
+        "responses_with_reasoning_usage": 82,
+        "reasoning_tokens": 76861,
+        "tool_calls": 82,
+        "length_responses": 0,
+        "model_wall_seconds": 3467.893650531769,
+        "model_transport_attempts": 82,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 21608,
+          "sha256": "45eac7e17f1836dd28e962c6884b64a9d88a4c476bea3893215b04aba24bf4a3"
+        },
+        "model-working-tree.patch": {
+          "bytes": 21608,
+          "sha256": "45eac7e17f1836dd28e962c6884b64a9d88a4c476bea3893215b04aba24bf4a3"
+        }
+      },
+      "started_at": "2026-09-14T13:07:54.678224Z",
+      "finished_at": "2026-09-14T14:10:34.246993Z"
+    },
+    {
+      "task": "dateutil-rfc5545-timezone-interop",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 67,
+        "f2p_passed": 65,
+        "p2p_total": 2035,
+        "p2p_passed": 2035,
+        "f2p": 0.9701492537313433,
+        "p2p": 1.0,
+        "partial": 0.9990485252140818
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 186,
+        "model_responses": 187,
+        "completion_tokens": 216175,
+        "prompt_tokens": 27162234,
+        "cached_tokens": 26822912,
+        "responses_with_reasoning_usage": 187,
+        "reasoning_tokens": 177116,
+        "tool_calls": 187,
+        "length_responses": 0,
+        "model_wall_seconds": 6462.966458559036,
+        "model_transport_attempts": 187,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 24256,
+          "sha256": "bc4306e035445bd6942013fa1b49b4ca4dc9eefdc6d0705ded95ce6a78ac9b03"
+        },
+        "model-working-tree.patch": {
+          "bytes": 24256,
+          "sha256": "bc4306e035445bd6942013fa1b49b4ca4dc9eefdc6d0705ded95ce6a78ac9b03"
+        }
+      },
+      "started_at": "2026-09-14T10:44:05.410904Z",
+      "finished_at": "2026-09-14T12:53:41.330973Z"
+    },
+    {
+      "task": "drizzle-orm-window-function-builders",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 130,
+        "f2p_passed": 130,
+        "p2p_total": 566,
+        "p2p_passed": 566,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 141,
+        "model_responses": 142,
+        "completion_tokens": 83280,
+        "prompt_tokens": 10054770,
+        "cached_tokens": 9891584,
+        "responses_with_reasoning_usage": 142,
+        "reasoning_tokens": 56414,
+        "tool_calls": 142,
+        "length_responses": 0,
+        "model_wall_seconds": 1973.6763718128204,
+        "model_transport_attempts": 142,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 37504,
+          "sha256": "0d5c8e19a4fd025dbe02a82d796ae770567847c2edb1844502bf347f377dc44e"
+        },
+        "model-working-tree.patch": {
+          "bytes": 37504,
+          "sha256": "0d5c8e19a4fd025dbe02a82d796ae770567847c2edb1844502bf347f377dc44e"
+        }
+      },
+      "started_at": "2026-09-14T10:32:15.307645Z",
+      "finished_at": "2026-09-14T11:17:30.634784Z"
+    },
+    {
+      "task": "dynamodb-toolbox-conditional-attribute-requirements",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 31,
+        "f2p_passed": 31,
+        "p2p_total": 1267,
+        "p2p_passed": 0,
+        "f2p": 1.0,
+        "p2p": 0.0,
+        "partial": 0.023882896764252697
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 265,
+        "model_responses": 266,
+        "completion_tokens": 188306,
+        "prompt_tokens": 57458260,
+        "cached_tokens": 57006336,
+        "responses_with_reasoning_usage": 266,
+        "reasoning_tokens": 126476,
+        "tool_calls": 266,
+        "length_responses": 0,
+        "model_wall_seconds": 5171.526250839233,
+        "model_transport_attempts": 266,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 110644,
+          "sha256": "3ebebbd53bca1eea3dc1cbc49e2e532703d052370b04d4026de1228c9987e072"
+        },
+        "model-working-tree.patch": {
+          "bytes": 110644,
+          "sha256": "3ebebbd53bca1eea3dc1cbc49e2e532703d052370b04d4026de1228c9987e072"
+        }
+      },
+      "started_at": "2026-09-14T08:43:07.693027Z",
+      "finished_at": "2026-09-14T11:06:35.989215Z"
+    },
+    {
+      "task": "dynamodb-toolbox-lazy-recursive-schemas",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 37,
+        "f2p_passed": 37,
+        "p2p_total": 1267,
+        "p2p_passed": 0,
+        "f2p": 1.0,
+        "p2p": 0.0,
+        "partial": 0.028374233128834355
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 279,
+        "model_responses": 280,
+        "completion_tokens": 184659,
+        "prompt_tokens": 48827949,
+        "cached_tokens": 48465024,
+        "responses_with_reasoning_usage": 280,
+        "reasoning_tokens": 132319,
+        "tool_calls": 280,
+        "length_responses": 0,
+        "model_wall_seconds": 5056.520673036575,
+        "model_transport_attempts": 280,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 69484,
+          "sha256": "db0cc12c0417abd65826bc5b1812210074c11eef69c871f98e68b3cc22e80525"
+        },
+        "model-working-tree.patch": {
+          "bytes": 69484,
+          "sha256": "db0cc12c0417abd65826bc5b1812210074c11eef69c871f98e68b3cc22e80525"
+        }
+      },
+      "started_at": "2026-09-14T09:33:23.676803Z",
+      "finished_at": "2026-09-14T12:34:12.312873Z"
+    },
+    {
+      "task": "effect-sse-httpapi-streaming",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 47,
+        "f2p_passed": 47,
+        "p2p_total": 70,
+        "p2p_passed": 70,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 273,
+        "model_responses": 274,
+        "completion_tokens": 154358,
+        "prompt_tokens": 52052481,
+        "cached_tokens": 51686144,
+        "responses_with_reasoning_usage": 274,
+        "reasoning_tokens": 104460,
+        "tool_calls": 274,
+        "length_responses": 0,
+        "model_wall_seconds": 3895.920085668564,
+        "model_transport_attempts": 274,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 41431,
+          "sha256": "502004583c0aebd62d232632fc3d34494c443d154960e055de09f3191d4f51ee"
+        },
+        "model-working-tree.patch": {
+          "bytes": 41431,
+          "sha256": "502004583c0aebd62d232632fc3d34494c443d154960e055de09f3191d4f51ee"
+        }
+      },
+      "started_at": "2026-09-14T08:43:13.616502Z",
+      "finished_at": "2026-09-14T10:14:27.190345Z"
+    },
+    {
+      "task": "eicrud-keyset-pagination-cursor",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 14,
+        "f2p_passed": 14,
+        "p2p_total": 168,
+        "p2p_passed": 168,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 114,
+        "model_responses": 103,
+        "completion_tokens": 68037,
+        "prompt_tokens": 6655448,
+        "cached_tokens": 6511872,
+        "responses_with_reasoning_usage": 103,
+        "reasoning_tokens": 51155,
+        "tool_calls": 115,
+        "length_responses": 0,
+        "model_wall_seconds": 2479.2919738292694,
+        "model_transport_attempts": 103,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 10829,
+          "sha256": "3edef63ec389e111505375fe1cc83bbafb2a9de008df304e203f95ca9e4fe664"
+        },
+        "model-working-tree.patch": {
+          "bytes": 10829,
+          "sha256": "3edef63ec389e111505375fe1cc83bbafb2a9de008df304e203f95ca9e4fe664"
+        }
+      },
+      "started_at": "2026-09-14T13:07:58.821850Z",
+      "finished_at": "2026-09-14T13:59:53.801482Z"
+    },
+    {
+      "task": "etree-xml-diff-patch",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 52,
+        "f2p_passed": 52,
+        "p2p_total": 15,
+        "p2p_passed": 15,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 59,
+        "model_responses": 60,
+        "completion_tokens": 101715,
+        "prompt_tokens": 4228205,
+        "cached_tokens": 4087680,
+        "responses_with_reasoning_usage": 60,
+        "reasoning_tokens": 79815,
+        "tool_calls": 60,
+        "length_responses": 0,
+        "model_wall_seconds": 2485.600748538971,
+        "model_transport_attempts": 60,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 37971,
+          "sha256": "969038356c1b8fff3e04518eccc2fd9e009e639387dd68e3d5ce1b1d1a893bfa"
+        },
+        "model-working-tree.patch": {
+          "bytes": 37971,
+          "sha256": "969038356c1b8fff3e04518eccc2fd9e009e639387dd68e3d5ce1b1d1a893bfa"
+        }
+      },
+      "started_at": "2026-09-14T09:46:53.708573Z",
+      "finished_at": "2026-09-14T10:32:14.698891Z"
+    },
+    {
+      "task": "expr-try-catch-errors",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 79,
+        "f2p_passed": 79,
+        "p2p_total": 66265,
+        "p2p_passed": 66265,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 154,
+        "model_responses": 155,
+        "completion_tokens": 157641,
+        "prompt_tokens": 22406230,
+        "cached_tokens": 22115968,
+        "responses_with_reasoning_usage": 155,
+        "reasoning_tokens": 121169,
+        "tool_calls": 155,
+        "length_responses": 0,
+        "model_wall_seconds": 5748.647537946701,
+        "model_transport_attempts": 155,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 45339,
+          "sha256": "6b2fa5dfeb8ef2a631790251251324e65bfbf571d4a6582a744ab2338995ac79"
+        },
+        "model-working-tree.patch": {
+          "bytes": 45339,
+          "sha256": "6b2fa5dfeb8ef2a631790251251324e65bfbf571d4a6582a744ab2338995ac79"
+        }
+      },
+      "started_at": "2026-09-14T13:08:00.602686Z",
+      "finished_at": "2026-09-14T14:53:54.362129Z"
+    },
+    {
+      "task": "fastapi-deprecation-response-headers",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 137,
+        "f2p_passed": 137,
+        "p2p_total": 3134,
+        "p2p_passed": 3134,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 115,
+        "model_responses": 116,
+        "completion_tokens": 69989,
+        "prompt_tokens": 8131305,
+        "cached_tokens": 7982592,
+        "responses_with_reasoning_usage": 116,
+        "reasoning_tokens": 50707,
+        "tool_calls": 116,
+        "length_responses": 0,
+        "model_wall_seconds": 1837.8017008304596,
+        "model_transport_attempts": 116,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 51186,
+          "sha256": "348e87b14b9a84ce8bacebdccdc8a22a789711ebbd185e602812176dd8599255"
+        },
+        "model-working-tree.patch": {
+          "bytes": 51186,
+          "sha256": "348e87b14b9a84ce8bacebdccdc8a22a789711ebbd185e602812176dd8599255"
+        }
+      },
+      "started_at": "2026-09-14T10:31:00.715133Z",
+      "finished_at": "2026-09-14T11:09:31.600574Z"
+    },
+    {
+      "task": "fastapi-implicit-head-options",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 43,
+        "f2p_passed": 43,
+        "p2p_total": 3134,
+        "p2p_passed": 3134,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 174,
+        "model_responses": 175,
+        "completion_tokens": 135055,
+        "prompt_tokens": 21074939,
+        "cached_tokens": 20819968,
+        "responses_with_reasoning_usage": 175,
+        "reasoning_tokens": 99456,
+        "tool_calls": 175,
+        "length_responses": 0,
+        "model_wall_seconds": 4585.3569667339325,
+        "model_transport_attempts": 175,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 44533,
+          "sha256": "9ea6ccb59fd66db645b9422f1befac49ea5b1551348c5af7852ede295094097d"
+        },
+        "model-working-tree.patch": {
+          "bytes": 44533,
+          "sha256": "9ea6ccb59fd66db645b9422f1befac49ea5b1551348c5af7852ede295094097d"
+        }
+      },
+      "started_at": "2026-09-14T11:05:28.199353Z",
+      "finished_at": "2026-09-14T12:39:09.142147Z"
+    },
+    {
+      "task": "fd-deterministic-multi-key-sorting",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 43,
+        "f2p_passed": 43,
+        "p2p_total": 109,
+        "p2p_passed": 109,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 87,
+        "model_responses": 88,
+        "completion_tokens": 77414,
+        "prompt_tokens": 6218067,
+        "cached_tokens": 6072960,
+        "responses_with_reasoning_usage": 88,
+        "reasoning_tokens": 62123,
+        "tool_calls": 88,
+        "length_responses": 0,
+        "model_wall_seconds": 2010.068252325058,
+        "model_transport_attempts": 88,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 19755,
+          "sha256": "ddaa52e39f62505a9c0c6d07b43116c0d32ff1ac573718e0fe74817935887e0b"
+        },
+        "model-working-tree.patch": {
+          "bytes": 19755,
+          "sha256": "ddaa52e39f62505a9c0c6d07b43116c0d32ff1ac573718e0fe74817935887e0b"
+        }
+      },
+      "started_at": "2026-09-14T08:43:10.324862Z",
+      "finished_at": "2026-09-14T09:20:14.069263Z"
+    },
+    {
+      "task": "geo-shapeindex-serialization",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 24,
+        "f2p_passed": 14,
+        "p2p_total": 599,
+        "p2p_passed": 599,
+        "f2p": 0.5833333333333334,
+        "p2p": 1.0,
+        "partial": 0.9839486356340289
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 129,
+        "model_responses": 130,
+        "completion_tokens": 139717,
+        "prompt_tokens": 15571072,
+        "cached_tokens": 15328512,
+        "responses_with_reasoning_usage": 130,
+        "reasoning_tokens": 103884,
+        "tool_calls": 130,
+        "length_responses": 0,
+        "model_wall_seconds": 3773.660406589508,
+        "model_transport_attempts": 130,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 22865,
+          "sha256": "c546bc0df284bff9997d87b706c0c7fda28c75ec7f324b5af2b8e939f37f69d6"
+        },
+        "model-working-tree.patch": {
+          "bytes": 22865,
+          "sha256": "c546bc0df284bff9997d87b706c0c7fda28c75ec7f324b5af2b8e939f37f69d6"
+        }
+      },
+      "started_at": "2026-09-14T10:47:33.296889Z",
+      "finished_at": "2026-09-14T12:12:20.156608Z"
+    },
+    {
+      "task": "go-critic-doc-link-checker",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 3,
+        "f2p_passed": 2,
+        "p2p_total": 16,
+        "p2p_passed": 15,
+        "f2p": 0.6666666666666666,
+        "p2p": 0.9375,
+        "partial": 0.8947368421052632
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 105,
+        "model_responses": 106,
+        "completion_tokens": 133054,
+        "prompt_tokens": 8753241,
+        "cached_tokens": 8555136,
+        "responses_with_reasoning_usage": 106,
+        "reasoning_tokens": 114617,
+        "tool_calls": 106,
+        "length_responses": 0,
+        "model_wall_seconds": 3180.531898021698,
+        "model_transport_attempts": 106,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 10999,
+          "sha256": "1e5e06d9ca8711da53a0e7c594047a2c4ab61b8303c15beb72b6c318d1052839"
+        },
+        "model-working-tree.patch": {
+          "bytes": 10999,
+          "sha256": "1e5e06d9ca8711da53a0e7c594047a2c4ab61b8303c15beb72b6c318d1052839"
+        }
+      },
+      "started_at": "2026-09-14T08:43:07.396864Z",
+      "finished_at": "2026-09-14T09:46:53.416147Z"
+    },
+    {
+      "task": "go-genai-streamed-function-args",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 6,
+        "f2p_passed": 6,
+        "p2p_total": 62,
+        "p2p_passed": 62,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 121,
+        "model_responses": 122,
+        "completion_tokens": 156733,
+        "prompt_tokens": 14713786,
+        "cached_tokens": 14451968,
+        "responses_with_reasoning_usage": 122,
+        "reasoning_tokens": 120052,
+        "tool_calls": 122,
+        "length_responses": 0,
+        "model_wall_seconds": 4001.865217924118,
+        "model_transport_attempts": 122,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 28923,
+          "sha256": "3aa4c7a4ea5d977f3b55376dc5571a97bc0a9fd5d6ac9d90402c515fb91e7abd"
+        },
+        "model-working-tree.patch": {
+          "bytes": 28923,
+          "sha256": "3aa4c7a4ea5d977f3b55376dc5571a97bc0a9fd5d6ac9d90402c515fb91e7abd"
+        }
+      },
+      "started_at": "2026-09-14T08:43:12.301951Z",
+      "finished_at": "2026-09-14T10:01:38.811140Z"
+    },
+    {
+      "task": "go-git-worktree-merge-conflicts",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 17,
+        "f2p_passed": 17,
+        "p2p_total": 2,
+        "p2p_passed": 2,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 125,
+        "model_responses": 126,
+        "completion_tokens": 121075,
+        "prompt_tokens": 12215052,
+        "cached_tokens": 12009216,
+        "responses_with_reasoning_usage": 126,
+        "reasoning_tokens": 85861,
+        "tool_calls": 126,
+        "length_responses": 0,
+        "model_wall_seconds": 2999.6590859889984,
+        "model_transport_attempts": 126,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 31087,
+          "sha256": "3224d9ca25c9e87be8a5f991c35d13dac277017026a7ec456fec7b8003031d56"
+        },
+        "model-working-tree.patch": {
+          "bytes": 31087,
+          "sha256": "3224d9ca25c9e87be8a5f991c35d13dac277017026a7ec456fec7b8003031d56"
+        }
+      },
+      "started_at": "2026-09-14T08:43:08.343275Z",
+      "finished_at": "2026-09-14T09:43:34.690570Z"
+    },
+    {
+      "task": "goreleaser-retry-publish-auditing",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 29,
+        "f2p_passed": 29,
+        "p2p_total": 29,
+        "p2p_passed": 29,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 155,
+        "model_responses": 156,
+        "completion_tokens": 107680,
+        "prompt_tokens": 18758509,
+        "cached_tokens": 18521088,
+        "responses_with_reasoning_usage": 156,
+        "reasoning_tokens": 79496,
+        "tool_calls": 156,
+        "length_responses": 0,
+        "model_wall_seconds": 2788.0234751701355,
+        "model_transport_attempts": 156,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 24134,
+          "sha256": "971034a736113bc1ad5de9722839fed25979bb6af45d990f7f6d766680969890"
+        },
+        "model-working-tree.patch": {
+          "bytes": 24134,
+          "sha256": "971034a736113bc1ad5de9722839fed25979bb6af45d990f7f6d766680969890"
+        }
+      },
+      "started_at": "2026-09-14T08:43:09.244320Z",
+      "finished_at": "2026-09-14T10:02:13.317208Z"
+    },
+    {
+      "task": "gql-incremental-graphql-delivery",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 17,
+        "f2p_passed": 17,
+        "p2p_total": 811,
+        "p2p_passed": 810,
+        "f2p": 1.0,
+        "p2p": 0.998766954377312,
+        "partial": 0.998792270531401
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 216,
+        "model_responses": 217,
+        "completion_tokens": 139790,
+        "prompt_tokens": 33526828,
+        "cached_tokens": 33215360,
+        "responses_with_reasoning_usage": 217,
+        "reasoning_tokens": 100107,
+        "tool_calls": 217,
+        "length_responses": 0,
+        "model_wall_seconds": 3713.729820728302,
+        "model_transport_attempts": 217,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 46469,
+          "sha256": "dedb55442d86b08c5e38e9a9860371d764fc7a33a3cb690cb8001a6b4c45dc0b"
+        },
+        "model-working-tree.patch": {
+          "bytes": 46469,
+          "sha256": "dedb55442d86b08c5e38e9a9860371d764fc7a33a3cb690cb8001a6b4c45dc0b"
+        }
+      },
+      "started_at": "2026-09-14T09:55:51.746454Z",
+      "finished_at": "2026-09-14T11:08:24.492732Z"
+    },
+    {
+      "task": "happy-dom-abort-pending-body-reads",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 14,
+        "f2p_passed": 14,
+        "p2p_total": 165,
+        "p2p_passed": 165,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 139,
+        "model_responses": 140,
+        "completion_tokens": 86265,
+        "prompt_tokens": 13150592,
+        "cached_tokens": 12942720,
+        "responses_with_reasoning_usage": 140,
+        "reasoning_tokens": 61727,
+        "tool_calls": 140,
+        "length_responses": 0,
+        "model_wall_seconds": 1979.1543900966644,
+        "model_transport_attempts": 140,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 16781,
+          "sha256": "929d30004b2cb829fd76aaa208f5491eaab0e1becefdca558b259e19dc27e177"
+        },
+        "model-working-tree.patch": {
+          "bytes": 16781,
+          "sha256": "929d30004b2cb829fd76aaa208f5491eaab0e1becefdca558b259e19dc27e177"
+        }
+      },
+      "started_at": "2026-09-14T08:43:04.070946Z",
+      "finished_at": "2026-09-14T09:30:12.046177Z"
+    },
+    {
+      "task": "happy-dom-deterministic-intersectionobserver",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 14,
+        "f2p_passed": 13,
+        "p2p_total": 9,
+        "p2p_passed": 9,
+        "f2p": 0.9285714285714286,
+        "p2p": 1.0,
+        "partial": 0.9565217391304348
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 171,
+        "model_responses": 172,
+        "completion_tokens": 110787,
+        "prompt_tokens": 15901394,
+        "cached_tokens": 15687424,
+        "responses_with_reasoning_usage": 172,
+        "reasoning_tokens": 79631,
+        "tool_calls": 172,
+        "length_responses": 0,
+        "model_wall_seconds": 2781.809757232666,
+        "model_transport_attempts": 172,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 22080,
+          "sha256": "ba8b3dd6579354a8b221074b225887088c7aa629257bc3b6b46d1ec58bb5c28a"
+        },
+        "model-working-tree.patch": {
+          "bytes": 22080,
+          "sha256": "ba8b3dd6579354a8b221074b225887088c7aa629257bc3b6b46d1ec58bb5c28a"
+        }
+      },
+      "started_at": "2026-09-14T08:43:05.049459Z",
+      "finished_at": "2026-09-14T09:46:53.410994Z"
+    },
+    {
+      "task": "helm-array-merge-strategies",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 47,
+        "f2p_passed": 47,
+        "p2p_total": 12,
+        "p2p_passed": 10,
+        "f2p": 1.0,
+        "p2p": 0.8333333333333334,
+        "partial": 0.9661016949152542
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 183,
+        "model_responses": 184,
+        "completion_tokens": 160734,
+        "prompt_tokens": 28013963,
+        "cached_tokens": 27720192,
+        "responses_with_reasoning_usage": 184,
+        "reasoning_tokens": 112599,
+        "tool_calls": 184,
+        "length_responses": 0,
+        "model_wall_seconds": 4313.760303020477,
+        "model_transport_attempts": 184,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 58451,
+          "sha256": "d00e7affc11627efc8e510765f98eb2e5ef1dd16ea3b68e9ceb0b3cfd29cc189"
+        },
+        "model-working-tree.patch": {
+          "bytes": 58451,
+          "sha256": "d00e7affc11627efc8e510765f98eb2e5ef1dd16ea3b68e9ceb0b3cfd29cc189"
+        }
+      },
+      "started_at": "2026-09-14T09:36:04.960623Z",
+      "finished_at": "2026-09-14T11:19:29.178477Z"
+    },
+    {
+      "task": "helm-unified-manifest-stream",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 5,
+        "f2p_passed": 5,
+        "p2p_total": 2,
+        "p2p_passed": 2,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 139,
+        "model_responses": 140,
+        "completion_tokens": 101226,
+        "prompt_tokens": 16487720,
+        "cached_tokens": 16246528,
+        "responses_with_reasoning_usage": 140,
+        "reasoning_tokens": 79893,
+        "tool_calls": 140,
+        "length_responses": 0,
+        "model_wall_seconds": 3146.545717716217,
+        "model_transport_attempts": 140,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 53889,
+          "sha256": "3532d0e44486384df48352b210d5346187156385462a6105d89ab417038860fe"
+        },
+        "model-working-tree.patch": {
+          "bytes": 53889,
+          "sha256": "3532d0e44486384df48352b210d5346187156385462a6105d89ab417038860fe"
+        }
+      },
+      "started_at": "2026-09-14T10:42:05.739971Z",
+      "finished_at": "2026-09-14T11:58:10.624769Z"
+    },
+    {
+      "task": "httpx-deterministic-cookie-store",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 115,
+        "f2p_passed": 115,
+        "p2p_total": 1281,
+        "p2p_passed": 1281,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 81,
+        "model_responses": 65,
+        "completion_tokens": 88369,
+        "prompt_tokens": 4614210,
+        "cached_tokens": 4476544,
+        "responses_with_reasoning_usage": 65,
+        "reasoning_tokens": 68207,
+        "tool_calls": 82,
+        "length_responses": 0,
+        "model_wall_seconds": 1945.0223939418793,
+        "model_transport_attempts": 65,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 27111,
+          "sha256": "f1cfff69bdcef0140864bbcd882a389605091e3a926f8e022501567019386529"
+        },
+        "model-working-tree.patch": {
+          "bytes": 27111,
+          "sha256": "f1cfff69bdcef0140864bbcd882a389605091e3a926f8e022501567019386529"
+        }
+      },
+      "started_at": "2026-09-14T08:43:14.357746Z",
+      "finished_at": "2026-09-14T09:19:56.654966Z"
+    },
+    {
+      "task": "httpx-multipart-response-parsing",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 122,
+        "f2p_passed": 122,
+        "p2p_total": 1272,
+        "p2p_passed": 1272,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 110,
+        "model_responses": 111,
+        "completion_tokens": 163758,
+        "prompt_tokens": 10833936,
+        "cached_tokens": 10603776,
+        "responses_with_reasoning_usage": 111,
+        "reasoning_tokens": 145036,
+        "tool_calls": 111,
+        "length_responses": 0,
+        "model_wall_seconds": 6175.206976652145,
+        "model_transport_attempts": 111,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 11328,
+          "sha256": "83e5d467552313aa882f0a534ebccfa3030459b9123719eecf6899c226d3b204"
+        },
+        "model-working-tree.patch": {
+          "bytes": 11328,
+          "sha256": "83e5d467552313aa882f0a534ebccfa3030459b9123719eecf6899c226d3b204"
+        }
+      },
+      "started_at": "2026-09-14T13:07:55.948621Z",
+      "finished_at": "2026-09-14T14:55:43.266991Z"
+    },
+    {
+      "task": "httpx-streaming-json-iteration",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 108,
+        "f2p_passed": 107,
+        "p2p_total": 1404,
+        "p2p_passed": 1404,
+        "f2p": 0.9907407407407407,
+        "p2p": 1.0,
+        "partial": 0.9993386243386243
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 107,
+        "model_responses": 108,
+        "completion_tokens": 115118,
+        "prompt_tokens": 9715591,
+        "cached_tokens": 9547392,
+        "responses_with_reasoning_usage": 108,
+        "reasoning_tokens": 89313,
+        "tool_calls": 108,
+        "length_responses": 0,
+        "model_wall_seconds": 2615.8172886371613,
+        "model_transport_attempts": 108,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 22747,
+          "sha256": "3c554f79d242de4f49d3189d8b132e718bfc7bdd15ae30ad44162b18343263c4"
+        },
+        "model-working-tree.patch": {
+          "bytes": 22747,
+          "sha256": "3c554f79d242de4f49d3189d8b132e718bfc7bdd15ae30ad44162b18343263c4"
+        }
+      },
+      "started_at": "2026-09-14T09:47:07.811783Z",
+      "finished_at": "2026-09-14T10:36:51.334188Z"
+    },
+    {
+      "task": "igel-persist-feature-schema",
+      "resolved": false,
+      "rewards": {},
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 117,
+        "model_responses": 118,
+        "completion_tokens": 97423,
+        "prompt_tokens": 9151064,
+        "cached_tokens": 8984960,
+        "responses_with_reasoning_usage": 118,
+        "reasoning_tokens": 70593,
+        "tool_calls": 118,
+        "length_responses": 0,
+        "model_wall_seconds": 2460.74746966362,
+        "model_transport_attempts": 118,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 25583,
+          "sha256": "b40f8a2b64e724f94bd58bc323685228590c94689e44c1e688b010aca2cc0876"
+        },
+        "model-working-tree.patch": {
+          "bytes": 25583,
+          "sha256": "b40f8a2b64e724f94bd58bc323685228590c94689e44c1e688b010aca2cc0876"
+        }
+      },
+      "started_at": "2026-09-14T10:11:38.629799Z",
+      "finished_at": "2026-09-14T11:00:34.309814Z"
+    },
+    {
+      "task": "ink-grid-box-layout",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 25,
+        "f2p_passed": 22,
+        "p2p_total": 49,
+        "p2p_passed": 49,
+        "f2p": 0.88,
+        "p2p": 1.0,
+        "partial": 0.9594594594594594
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 116,
+        "model_responses": 117,
+        "completion_tokens": 96802,
+        "prompt_tokens": 9680542,
+        "cached_tokens": 9509120,
+        "responses_with_reasoning_usage": 117,
+        "reasoning_tokens": 66832,
+        "tool_calls": 117,
+        "length_responses": 0,
+        "model_wall_seconds": 2390.939743757248,
+        "model_transport_attempts": 117,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 30015,
+          "sha256": "4eb6da5ff94dddc56a83d32b334b821bd8e09ceb80488f46cc4e69247f2400c3"
+        },
+        "model-working-tree.patch": {
+          "bytes": 30015,
+          "sha256": "4eb6da5ff94dddc56a83d32b334b821bd8e09ceb80488f46cc4e69247f2400c3"
+        }
+      },
+      "started_at": "2026-09-14T09:20:14.215984Z",
+      "finished_at": "2026-09-14T10:25:40.961433Z"
+    },
+    {
+      "task": "ipython-session-bundle-replay",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 17,
+        "f2p_passed": 17,
+        "p2p_total": 29,
+        "p2p_passed": 29,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 86,
+        "model_responses": 87,
+        "completion_tokens": 72764,
+        "prompt_tokens": 5094042,
+        "cached_tokens": 4965376,
+        "responses_with_reasoning_usage": 87,
+        "reasoning_tokens": 44700,
+        "tool_calls": 87,
+        "length_responses": 0,
+        "model_wall_seconds": 1672.198882341385,
+        "model_transport_attempts": 87,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 35462,
+          "sha256": "7b6841b0be53083e204b2e87dc04c209bd0aaa249ea4106f199c16cb727b71e9"
+        },
+        "model-working-tree.patch": {
+          "bytes": 35462,
+          "sha256": "7b6841b0be53083e204b2e87dc04c209bd0aaa249ea4106f199c16cb727b71e9"
+        }
+      },
+      "started_at": "2026-09-14T10:10:32.472886Z",
+      "finished_at": "2026-09-14T10:42:05.702567Z"
+    },
+    {
+      "task": "katex-multicolumn-array-spans",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 94,
+        "f2p_passed": 94,
+        "p2p_total": 599,
+        "p2p_passed": 599,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 169,
+        "model_responses": 170,
+        "completion_tokens": 156266,
+        "prompt_tokens": 22923203,
+        "cached_tokens": 22629888,
+        "responses_with_reasoning_usage": 170,
+        "reasoning_tokens": 132645,
+        "tool_calls": 170,
+        "length_responses": 0,
+        "model_wall_seconds": 4304.493679046631,
+        "model_transport_attempts": 170,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 26182,
+          "sha256": "038ad5aa7327422a017626e79430b857e976b191b468eec7b8e24e297effd096"
+        },
+        "model-working-tree.patch": {
+          "bytes": 26182,
+          "sha256": "038ad5aa7327422a017626e79430b857e976b191b468eec7b8e24e297effd096"
+        }
+      },
+      "started_at": "2026-09-14T08:43:09.886503Z",
+      "finished_at": "2026-09-14T10:05:09.235229Z"
+    },
+    {
+      "task": "kcp-go-multiplexed-kcp-streams",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 30,
+        "f2p_passed": 2,
+        "p2p_total": 12,
+        "p2p_passed": 12,
+        "f2p": 0.06666666666666667,
+        "p2p": 1.0,
+        "partial": 0.3333333333333333
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 82,
+        "model_responses": 83,
+        "completion_tokens": 147045,
+        "prompt_tokens": 8542696,
+        "cached_tokens": 8341248,
+        "responses_with_reasoning_usage": 83,
+        "reasoning_tokens": 114796,
+        "tool_calls": 83,
+        "length_responses": 0,
+        "model_wall_seconds": 3515.4035477638245,
+        "model_transport_attempts": 83,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 23457,
+          "sha256": "a9000ea71515ab5ec4f03bb009d69ab582fd6bbeb925235553ad990dac595b7c"
+        },
+        "model-working-tree.patch": {
+          "bytes": 23457,
+          "sha256": "a9000ea71515ab5ec4f03bb009d69ab582fd6bbeb925235553ad990dac595b7c"
+        }
+      },
+      "started_at": "2026-09-14T09:30:12.088246Z",
+      "finished_at": "2026-09-14T10:58:28.103786Z"
+    },
+    {
+      "task": "kea-atomic-signal-selectors",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 12,
+        "f2p_passed": 11,
+        "p2p_total": 139,
+        "p2p_passed": 139,
+        "f2p": 0.9166666666666666,
+        "p2p": 1.0,
+        "partial": 0.9933774834437086
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 121,
+        "model_responses": 122,
+        "completion_tokens": 129516,
+        "prompt_tokens": 15735213,
+        "cached_tokens": 15500928,
+        "responses_with_reasoning_usage": 122,
+        "reasoning_tokens": 94047,
+        "tool_calls": 122,
+        "length_responses": 0,
+        "model_wall_seconds": 3319.633317708969,
+        "model_transport_attempts": 122,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 37653,
+          "sha256": "192a0e37137373581b2777f4e9150c71b9124f8791b27ad084161a2d783be10d"
+        },
+        "model-working-tree.patch": {
+          "bytes": 37653,
+          "sha256": "192a0e37137373581b2777f4e9150c71b9124f8791b27ad084161a2d783be10d"
+        }
+      },
+      "started_at": "2026-09-14T08:43:06.140246Z",
+      "finished_at": "2026-09-14T09:47:07.373309Z"
+    },
+    {
+      "task": "kgateway-consistent-hash-policy",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 2,
+        "f2p_passed": 2,
+        "p2p_total": 214,
+        "p2p_passed": 214,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 200,
+        "model_responses": 187,
+        "completion_tokens": 118541,
+        "prompt_tokens": 21877779,
+        "cached_tokens": 21622400,
+        "responses_with_reasoning_usage": 187,
+        "reasoning_tokens": 87041,
+        "tool_calls": 201,
+        "length_responses": 0,
+        "model_wall_seconds": 2874.183495283127,
+        "model_transport_attempts": 187,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 38283,
+          "sha256": "74c5913d17ebbbda2ca1a23ac3b13ca26b88a91c93359f72534ffa504586580c"
+        },
+        "model-working-tree.patch": {
+          "bytes": 38283,
+          "sha256": "74c5913d17ebbbda2ca1a23ac3b13ca26b88a91c93359f72534ffa504586580c"
+        }
+      },
+      "started_at": "2026-09-14T10:00:33.673780Z",
+      "finished_at": "2026-09-14T11:23:15.759153Z"
+    },
+    {
+      "task": "kombu-single-active-consumer-priority",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 85,
+        "f2p_passed": 85,
+        "p2p_total": 1421,
+        "p2p_passed": 1421,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 197,
+        "model_responses": 198,
+        "completion_tokens": 235769,
+        "prompt_tokens": 32724601,
+        "cached_tokens": 32373248,
+        "responses_with_reasoning_usage": 198,
+        "reasoning_tokens": 193845,
+        "tool_calls": 198,
+        "length_responses": 0,
+        "model_wall_seconds": 5738.378264665604,
+        "model_transport_attempts": 198,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 38004,
+          "sha256": "f03a00769483100a20ec49f72ce3bef9f9a92a11fd3e368a323d7b06380264f4"
+        },
+        "model-working-tree.patch": {
+          "bytes": 38004,
+          "sha256": "f03a00769483100a20ec49f72ce3bef9f9a92a11fd3e368a323d7b06380264f4"
+        }
+      },
+      "started_at": "2026-09-14T09:54:24.937991Z",
+      "finished_at": "2026-09-14T11:58:31.558007Z"
+    },
+    {
+      "task": "kombu-virtual-queue-dead-lettering",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 76,
+        "f2p_passed": 68,
+        "p2p_total": 1412,
+        "p2p_passed": 1412,
+        "f2p": 0.8947368421052632,
+        "p2p": 1.0,
+        "partial": 0.9946236559139785
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 133,
+        "model_responses": 134,
+        "completion_tokens": 157334,
+        "prompt_tokens": 15542871,
+        "cached_tokens": 15301632,
+        "responses_with_reasoning_usage": 134,
+        "reasoning_tokens": 125890,
+        "tool_calls": 134,
+        "length_responses": 0,
+        "model_wall_seconds": 3600.9811742305756,
+        "model_transport_attempts": 134,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 24938,
+          "sha256": "1570b1395261758657f4f4b204c0c8955a4884d62553a346ec9107072b471762"
+        },
+        "model-working-tree.patch": {
+          "bytes": 24938,
+          "sha256": "1570b1395261758657f4f4b204c0c8955a4884d62553a346ec9107072b471762"
+        }
+      },
+      "started_at": "2026-09-14T08:43:11.589552Z",
+      "finished_at": "2026-09-14T09:55:51.464254Z"
+    },
+    {
+      "task": "koota-composite-trait-aspects",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 51,
+        "f2p_passed": 49,
+        "p2p_total": 172,
+        "p2p_passed": 172,
+        "f2p": 0.9607843137254902,
+        "p2p": 1.0,
+        "partial": 0.9910313901345291
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 137,
+        "model_responses": 138,
+        "completion_tokens": 134513,
+        "prompt_tokens": 17728224,
+        "cached_tokens": 17479808,
+        "responses_with_reasoning_usage": 138,
+        "reasoning_tokens": 97009,
+        "tool_calls": 138,
+        "length_responses": 0,
+        "model_wall_seconds": 3184.4799354076385,
+        "model_transport_attempts": 138,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 50828,
+          "sha256": "f8be0ce00a812fd704750e8d9dd8f627bd4c8d93b6b019ee82812e0d4108814e"
+        },
+        "model-working-tree.patch": {
+          "bytes": 50828,
+          "sha256": "f8be0ce00a812fd704750e8d9dd8f627bd4c8d93b6b019ee82812e0d4108814e"
+        }
+      },
+      "started_at": "2026-09-14T09:46:53.776317Z",
+      "finished_at": "2026-09-14T10:47:33.255597Z"
+    },
+    {
+      "task": "koota-deferred-mutation-buffer",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 71,
+        "f2p_passed": 71,
+        "p2p_total": 128,
+        "p2p_passed": 128,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 178,
+        "model_responses": 179,
+        "completion_tokens": 167542,
+        "prompt_tokens": 28327451,
+        "cached_tokens": 28017536,
+        "responses_with_reasoning_usage": 179,
+        "reasoning_tokens": 129977,
+        "tool_calls": 179,
+        "length_responses": 0,
+        "model_wall_seconds": 4533.742995023727,
+        "model_transport_attempts": 179,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 51583,
+          "sha256": "598cc36d40e1a460d173244d58f54a6b9cc400dae801a503e67312c0f10e64e2"
+        },
+        "model-working-tree.patch": {
+          "bytes": 51583,
+          "sha256": "598cc36d40e1a460d173244d58f54a6b9cc400dae801a503e67312c0f10e64e2"
+        }
+      },
+      "started_at": "2026-09-14T08:43:05.849545Z",
+      "finished_at": "2026-09-14T10:26:42.355931Z"
+    },
+    {
+      "task": "koota-entity-snapshot-rollback",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 84,
+        "f2p_passed": 84,
+        "p2p_total": 47,
+        "p2p_passed": 47,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 90,
+        "model_responses": 91,
+        "completion_tokens": 95831,
+        "prompt_tokens": 8162327,
+        "cached_tokens": 7979136,
+        "responses_with_reasoning_usage": 91,
+        "reasoning_tokens": 71986,
+        "tool_calls": 91,
+        "length_responses": 0,
+        "model_wall_seconds": 3432.0977857112885,
+        "model_transport_attempts": 91,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 25230,
+          "sha256": "618a4c9abcece849c6238d8fa95cc965d58a5231f2508885d01521a8432552ad"
+        },
+        "model-working-tree.patch": {
+          "bytes": 25230,
+          "sha256": "618a4c9abcece849c6238d8fa95cc965d58a5231f2508885d01521a8432552ad"
+        }
+      },
+      "started_at": "2026-09-14T13:08:00.651469Z",
+      "finished_at": "2026-09-14T14:09:39.476537Z"
+    },
+    {
+      "task": "koota-pair-relation-tracking",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 38,
+        "f2p_passed": 38,
+        "p2p_total": 172,
+        "p2p_passed": 172,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 169,
+        "model_responses": 170,
+        "completion_tokens": 145516,
+        "prompt_tokens": 24142974,
+        "cached_tokens": 23856128,
+        "responses_with_reasoning_usage": 170,
+        "reasoning_tokens": 102711,
+        "tool_calls": 170,
+        "length_responses": 0,
+        "model_wall_seconds": 5206.612869262695,
+        "model_transport_attempts": 170,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 102518,
+          "sha256": "92b35f65fa4c25600679388f473687c8fa377b5d53ea118a43db3bdd6e117675"
+        },
+        "model-working-tree.patch": {
+          "bytes": 102518,
+          "sha256": "92b35f65fa4c25600679388f473687c8fa377b5d53ea118a43db3bdd6e117675"
+        }
+      },
+      "started_at": "2026-09-14T13:07:54.970288Z",
+      "finished_at": "2026-09-14T14:42:46.451193Z"
+    },
+    {
+      "task": "koota-query-predicates",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 43,
+        "f2p_passed": 41,
+        "p2p_total": 172,
+        "p2p_passed": 172,
+        "f2p": 0.9534883720930233,
+        "p2p": 1.0,
+        "partial": 0.9906976744186047
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 143,
+        "model_responses": 144,
+        "completion_tokens": 162738,
+        "prompt_tokens": 21734740,
+        "cached_tokens": 21414144,
+        "responses_with_reasoning_usage": 144,
+        "reasoning_tokens": 127611,
+        "tool_calls": 144,
+        "length_responses": 0,
+        "model_wall_seconds": 6667.299544095993,
+        "model_transport_attempts": 144,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 43116,
+          "sha256": "aab01b6dd6cba45af6737c66c9c1153db8751f0c9b578c716022f628e6d866be"
+        },
+        "model-working-tree.patch": {
+          "bytes": 43116,
+          "sha256": "aab01b6dd6cba45af6737c66c9c1153db8751f0c9b578c716022f628e6d866be"
+        }
+      },
+      "started_at": "2026-09-14T13:07:56.988201Z",
+      "finished_at": "2026-09-14T15:06:28.440783Z"
+    },
+    {
+      "task": "kysely-window-grouping-helpers",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 254,
+        "f2p_passed": 254,
+        "p2p_total": 22,
+        "p2p_passed": 22,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 176,
+        "model_responses": 177,
+        "completion_tokens": 130215,
+        "prompt_tokens": 22147915,
+        "cached_tokens": 21873152,
+        "responses_with_reasoning_usage": 177,
+        "reasoning_tokens": 96398,
+        "tool_calls": 177,
+        "length_responses": 0,
+        "model_wall_seconds": 3260.9600541591644,
+        "model_transport_attempts": 177,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 41406,
+          "sha256": "0b7e524da75efeadd35ce3da2f7c324597c08f6bfdb9a7c8608e125722245f90"
+        },
+        "model-working-tree.patch": {
+          "bytes": 41406,
+          "sha256": "0b7e524da75efeadd35ce3da2f7c324597c08f6bfdb9a7c8608e125722245f90"
+        }
+      },
+      "started_at": "2026-09-14T09:19:07.096080Z",
+      "finished_at": "2026-09-14T10:30:37.267141Z"
+    },
+    {
+      "task": "langchain-request-coalescing",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 50,
+        "f2p_passed": 50,
+        "p2p_total": 232,
+        "p2p_passed": 232,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 197,
+        "model_responses": 198,
+        "completion_tokens": 171393,
+        "prompt_tokens": 27646144,
+        "cached_tokens": 27362048,
+        "responses_with_reasoning_usage": 198,
+        "reasoning_tokens": 122897,
+        "tool_calls": 198,
+        "length_responses": 0,
+        "model_wall_seconds": 4483.723021745682,
+        "model_transport_attempts": 198,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 40188,
+          "sha256": "1b1728c76c5116a1346ff5088121636bb2c07aef8843e5bc1559524c43399915"
+        },
+        "model-working-tree.patch": {
+          "bytes": 40188,
+          "sha256": "1b1728c76c5116a1346ff5088121636bb2c07aef8843e5bc1559524c43399915"
+        }
+      },
+      "started_at": "2026-09-14T08:43:10.584383Z",
+      "finished_at": "2026-09-14T10:27:10.417300Z"
+    },
+    {
+      "task": "mashumaro-flattened-dataclass-fields",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 66,
+        "f2p_passed": 66,
+        "p2p_total": 30014,
+        "p2p_passed": 30014,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 177,
+        "model_responses": 178,
+        "completion_tokens": 161504,
+        "prompt_tokens": 26234630,
+        "cached_tokens": 25760000,
+        "responses_with_reasoning_usage": 178,
+        "reasoning_tokens": 125519,
+        "tool_calls": 178,
+        "length_responses": 0,
+        "model_wall_seconds": 6263.649363040924,
+        "model_transport_attempts": 178,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 31237,
+          "sha256": "773f20f2197cbb2d25505cfce8f8c0e91ae05c3fa5c206565363413726e6a37a"
+        },
+        "model-working-tree.patch": {
+          "bytes": 31237,
+          "sha256": "773f20f2197cbb2d25505cfce8f8c0e91ae05c3fa5c206565363413726e6a37a"
+        }
+      },
+      "started_at": "2026-09-14T13:07:59.232076Z",
+      "finished_at": "2026-09-14T15:21:53.213347Z"
+    },
+    {
+      "task": "meriyah-explicit-resource-declarations",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 49,
+        "f2p_passed": 44,
+        "p2p_total": 51469,
+        "p2p_passed": 51469,
+        "f2p": 0.8979591836734694,
+        "p2p": 1.0,
+        "partial": 0.9999029465429559
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 223,
+        "model_responses": 224,
+        "completion_tokens": 126331,
+        "prompt_tokens": 26921493,
+        "cached_tokens": 26642944,
+        "responses_with_reasoning_usage": 224,
+        "reasoning_tokens": 87559,
+        "tool_calls": 224,
+        "length_responses": 0,
+        "model_wall_seconds": 3151.7937297821045,
+        "model_transport_attempts": 224,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 22326,
+          "sha256": "92cf2067717f552d1b2e76d944da9fab764e0b9a61ac5990bb1b90f2634ba80e"
+        },
+        "model-working-tree.patch": {
+          "bytes": 22326,
+          "sha256": "92cf2067717f552d1b2e76d944da9fab764e0b9a61ac5990bb1b90f2634ba80e"
+        }
+      },
+      "started_at": "2026-09-14T08:43:08.729518Z",
+      "finished_at": "2026-09-14T10:00:33.428334Z"
+    },
+    {
+      "task": "mnamer-daemon-watch-lifecycle",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 51,
+        "f2p_passed": 51,
+        "p2p_total": 319,
+        "p2p_passed": 319,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 120,
+        "model_responses": 121,
+        "completion_tokens": 153967,
+        "prompt_tokens": 11936160,
+        "cached_tokens": 11717248,
+        "responses_with_reasoning_usage": 121,
+        "reasoning_tokens": 125838,
+        "tool_calls": 121,
+        "length_responses": 0,
+        "model_wall_seconds": 5426.671639919281,
+        "model_transport_attempts": 121,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 26612,
+          "sha256": "0550e631c0e65921784c265c618c6337c0d4ad2a6c8e47a9e9a9c6c8296e64e7"
+        },
+        "model-working-tree.patch": {
+          "bytes": 26612,
+          "sha256": "0550e631c0e65921784c265c618c6337c0d4ad2a6c8e47a9e9a9c6c8296e64e7"
+        }
+      },
+      "started_at": "2026-09-14T13:07:57.545207Z",
+      "finished_at": "2026-09-14T14:45:32.889298Z"
+    },
+    {
+      "task": "mobly-grouped-test-barriers",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 79,
+        "f2p_passed": 77,
+        "p2p_total": 808,
+        "p2p_passed": 808,
+        "f2p": 0.9746835443037974,
+        "p2p": 1.0,
+        "partial": 0.9977452085682075
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 134,
+        "model_responses": 135,
+        "completion_tokens": 171012,
+        "prompt_tokens": 15935187,
+        "cached_tokens": 15669376,
+        "responses_with_reasoning_usage": 135,
+        "reasoning_tokens": 137286,
+        "tool_calls": 135,
+        "length_responses": 0,
+        "model_wall_seconds": 6273.446592092514,
+        "model_transport_attempts": 135,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 34811,
+          "sha256": "89c3ba0e6aee4106ae173225df8e164d5e7e9a76012eb6ca702a6bde1cf226da"
+        },
+        "model-working-tree.patch": {
+          "bytes": 34811,
+          "sha256": "89c3ba0e6aee4106ae173225df8e164d5e7e9a76012eb6ca702a6bde1cf226da"
+        }
+      },
+      "started_at": "2026-09-14T13:07:55.210361Z",
+      "finished_at": "2026-09-14T15:12:52.143668Z"
+    },
+    {
+      "task": "narwhals-rolling-window-suite",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 103,
+        "f2p_passed": 103,
+        "p2p_total": 10093,
+        "p2p_passed": 10093,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 192,
+        "model_responses": 193,
+        "completion_tokens": 86135,
+        "prompt_tokens": 26292551,
+        "cached_tokens": 26022912,
+        "responses_with_reasoning_usage": 193,
+        "reasoning_tokens": 46899,
+        "tool_calls": 193,
+        "length_responses": 0,
+        "model_wall_seconds": 2204.8084347248077,
+        "model_transport_attempts": 193,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 36191,
+          "sha256": "0aa8d8142c81b7f266aae20b9f8a85444bc63654b0d0f5bb8980ecabd2c16262"
+        },
+        "model-working-tree.patch": {
+          "bytes": 36191,
+          "sha256": "0aa8d8142c81b7f266aae20b9f8a85444bc63654b0d0f5bb8980ecabd2c16262"
+        }
+      },
+      "started_at": "2026-09-14T08:43:14.195609Z",
+      "finished_at": "2026-09-14T09:33:23.588928Z"
+    },
+    {
+      "task": "numba-stencil-boundary-modes",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 29,
+        "f2p_passed": 29,
+        "p2p_total": 827,
+        "p2p_passed": 827,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 208,
+        "model_responses": 199,
+        "completion_tokens": 153877,
+        "prompt_tokens": 27375948,
+        "cached_tokens": 27097856,
+        "responses_with_reasoning_usage": 199,
+        "reasoning_tokens": 113973,
+        "tool_calls": 209,
+        "length_responses": 0,
+        "model_wall_seconds": 5476.952831983566,
+        "model_transport_attempts": 199,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 34865,
+          "sha256": "8d3c294ab4fe4ea916334db136e321f9cfa363242ccc8748827de549d7c2b40f"
+        },
+        "model-working-tree.patch": {
+          "bytes": 34865,
+          "sha256": "8d3c294ab4fe4ea916334db136e321f9cfa363242ccc8748827de549d7c2b40f"
+        }
+      },
+      "started_at": "2026-09-14T13:07:55.039185Z",
+      "finished_at": "2026-09-14T15:23:33.996815Z"
+    },
+    {
+      "task": "obsidian-linter-auto-table-of-contents",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 41,
+        "f2p_passed": 0,
+        "p2p_total": 1131,
+        "p2p_passed": 1131,
+        "f2p": 0.0,
+        "p2p": 1.0,
+        "partial": 0.9650170648464164
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 127,
+        "model_responses": 93,
+        "completion_tokens": 121201,
+        "prompt_tokens": 8801317,
+        "cached_tokens": 8598144,
+        "responses_with_reasoning_usage": 93,
+        "reasoning_tokens": 100614,
+        "tool_calls": 128,
+        "length_responses": 0,
+        "model_wall_seconds": 2910.0287396907806,
+        "model_transport_attempts": 93,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 20237,
+          "sha256": "7e509b0dd28af09134fa44c9b36f96ed14daa668d068a9892fa0a8a1a04b23b6"
+        },
+        "model-working-tree.patch": {
+          "bytes": 20237,
+          "sha256": "7e509b0dd28af09134fa44c9b36f96ed14daa668d068a9892fa0a8a1a04b23b6"
+        }
+      },
+      "started_at": "2026-09-14T09:48:04.295365Z",
+      "finished_at": "2026-09-14T10:47:04.576440Z"
+    },
+    {
+      "task": "obsidian-linter-link-format-conversion",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 60,
+        "f2p_passed": 59,
+        "p2p_total": 1131,
+        "p2p_passed": 1131,
+        "f2p": 0.9833333333333333,
+        "p2p": 1.0,
+        "partial": 0.9991603694374476
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 88,
+        "model_responses": 89,
+        "completion_tokens": 85356,
+        "prompt_tokens": 6619150,
+        "cached_tokens": 6466432,
+        "responses_with_reasoning_usage": 89,
+        "reasoning_tokens": 69738,
+        "tool_calls": 89,
+        "length_responses": 0,
+        "model_wall_seconds": 2088.1364471912384,
+        "model_transport_attempts": 89,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 15983,
+          "sha256": "6975adff0fdda13acf7e050cf4fb74686db066581100f8ff86507c3aaa495bd7"
+        },
+        "model-working-tree.patch": {
+          "bytes": 15983,
+          "sha256": "6975adff0fdda13acf7e050cf4fb74686db066581100f8ff86507c3aaa495bd7"
+        }
+      },
+      "started_at": "2026-09-14T10:26:42.701622Z",
+      "finished_at": "2026-09-14T11:08:49.777577Z"
+    },
+    {
+      "task": "obsidian-linter-scoped-ignore-markers",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 33,
+        "f2p_passed": 33,
+        "p2p_total": 1133,
+        "p2p_passed": 1133,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 145,
+        "model_responses": 146,
+        "completion_tokens": 144030,
+        "prompt_tokens": 18344877,
+        "cached_tokens": 18097920,
+        "responses_with_reasoning_usage": 146,
+        "reasoning_tokens": 114209,
+        "tool_calls": 146,
+        "length_responses": 0,
+        "model_wall_seconds": 5337.075199127197,
+        "model_transport_attempts": 146,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 25547,
+          "sha256": "ce27d52e8503103a982b04499d83c071cc1363240e81ec9c93384125504427b6"
+        },
+        "model-working-tree.patch": {
+          "bytes": 25547,
+          "sha256": "ce27d52e8503103a982b04499d83c071cc1363240e81ec9c93384125504427b6"
+        }
+      },
+      "started_at": "2026-09-14T13:07:55.679772Z",
+      "finished_at": "2026-09-14T14:49:25.649455Z"
+    },
+    {
+      "task": "ofetch-per-origin-circuit-breaker",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 47,
+        "f2p_passed": 47,
+        "p2p_total": 13,
+        "p2p_passed": 13,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 57,
+        "model_responses": 58,
+        "completion_tokens": 87855,
+        "prompt_tokens": 3965264,
+        "cached_tokens": 3831552,
+        "responses_with_reasoning_usage": 58,
+        "reasoning_tokens": 69682,
+        "tool_calls": 58,
+        "length_responses": 0,
+        "model_wall_seconds": 2154.754497051239,
+        "model_transport_attempts": 58,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 46068,
+          "sha256": "58bffe5f4529919329dc4b32587996661142074c1aacf32e2576420c91970128"
+        },
+        "model-working-tree.patch": {
+          "bytes": 46068,
+          "sha256": "58bffe5f4529919329dc4b32587996661142074c1aacf32e2576420c91970128"
+        }
+      },
+      "started_at": "2026-09-14T10:25:41.006034Z",
+      "finished_at": "2026-09-14T11:05:28.144740Z"
+    },
+    {
+      "task": "onedump-dump-encryption-pipeline",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 82,
+        "f2p_passed": 82,
+        "p2p_total": 6,
+        "p2p_passed": 6,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 73,
+        "model_responses": 60,
+        "completion_tokens": 83950,
+        "prompt_tokens": 4600852,
+        "cached_tokens": 4464128,
+        "responses_with_reasoning_usage": 60,
+        "reasoning_tokens": 60555,
+        "tool_calls": 74,
+        "length_responses": 0,
+        "model_wall_seconds": 1842.8531467914581,
+        "model_transport_attempts": 60,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 23892,
+          "sha256": "a60673ebd80941247980489588a9f74474c27f9fb6f0834bd77e266cba319c64"
+        },
+        "model-working-tree.patch": {
+          "bytes": 23892,
+          "sha256": "a60673ebd80941247980489588a9f74474c27f9fb6f0834bd77e266cba319c64"
+        }
+      },
+      "started_at": "2026-09-14T09:19:56.688264Z",
+      "finished_at": "2026-09-14T10:11:38.382978Z"
+    },
+    {
+      "task": "opa-rego-rule-profiling",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 25,
+        "f2p_passed": 25,
+        "p2p_total": 6,
+        "p2p_passed": 6,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 116,
+        "model_responses": 107,
+        "completion_tokens": 105401,
+        "prompt_tokens": 8960220,
+        "cached_tokens": 8776704,
+        "responses_with_reasoning_usage": 107,
+        "reasoning_tokens": 81134,
+        "tool_calls": 117,
+        "length_responses": 0,
+        "model_wall_seconds": 3847.045765399933,
+        "model_transport_attempts": 107,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 19050,
+          "sha256": "97f37c5678b7c4941ab165069f210a7a9e0a1ba6bfbac6949db295a83593ce15"
+        },
+        "model-working-tree.patch": {
+          "bytes": 19050,
+          "sha256": "97f37c5678b7c4941ab165069f210a7a9e0a1ba6bfbac6949db295a83593ce15"
+        }
+      },
+      "started_at": "2026-09-14T13:07:56.675071Z",
+      "finished_at": "2026-09-14T14:24:40.738438Z"
+    },
+    {
+      "task": "opa-template-string-reconstruction",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 5,
+        "f2p_passed": 5,
+        "p2p_total": 4,
+        "p2p_passed": 4,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 262,
+        "model_responses": 263,
+        "completion_tokens": 161350,
+        "prompt_tokens": 43790299,
+        "cached_tokens": 43458816,
+        "responses_with_reasoning_usage": 263,
+        "reasoning_tokens": 115116,
+        "tool_calls": 263,
+        "length_responses": 0,
+        "model_wall_seconds": 6987.993118524551,
+        "model_transport_attempts": 263,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 23334,
+          "sha256": "8e7ed873482b2a71ad17a4b971f276be8531ee112904e36262a162886c4743d9"
+        },
+        "model-working-tree.patch": {
+          "bytes": 23334,
+          "sha256": "8e7ed873482b2a71ad17a4b971f276be8531ee112904e36262a162886c4743d9"
+        }
+      },
+      "started_at": "2026-09-14T13:07:56.629396Z",
+      "finished_at": "2026-09-14T15:47:34.346488Z"
+    },
+    {
+      "task": "optique-conditional-option-dependencies",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 36,
+        "f2p_passed": 35,
+        "p2p_total": 2034,
+        "p2p_passed": 2034,
+        "f2p": 0.9722222222222222,
+        "p2p": 1.0,
+        "partial": 0.9995169082125603
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 186,
+        "model_responses": 187,
+        "completion_tokens": 143329,
+        "prompt_tokens": 25033932,
+        "cached_tokens": 24764160,
+        "responses_with_reasoning_usage": 187,
+        "reasoning_tokens": 105346,
+        "tool_calls": 187,
+        "length_responses": 0,
+        "model_wall_seconds": 5320.041666507721,
+        "model_transport_attempts": 187,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 38758,
+          "sha256": "7f4cabfc3007eac51b912f28d7ef42c8573bfc916163323da13ff9e2e9405bee"
+        },
+        "model-working-tree.patch": {
+          "bytes": 38758,
+          "sha256": "7f4cabfc3007eac51b912f28d7ef42c8573bfc916163323da13ff9e2e9405bee"
+        }
+      },
+      "started_at": "2026-09-14T13:07:59.692020Z",
+      "finished_at": "2026-09-14T14:44:10.853483Z"
+    },
+    {
+      "task": "oxvg-structural-selector-preservation",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 6,
+        "f2p_passed": 6,
+        "p2p_total": 62,
+        "p2p_passed": 62,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 161,
+        "model_responses": 162,
+        "completion_tokens": 128448,
+        "prompt_tokens": 24345540,
+        "cached_tokens": 24039296,
+        "responses_with_reasoning_usage": 162,
+        "reasoning_tokens": 94808,
+        "tool_calls": 162,
+        "length_responses": 0,
+        "model_wall_seconds": 3819.5090143680573,
+        "model_transport_attempts": 162,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 24996,
+          "sha256": "3fbc077942d8931a187b46ae263dc5d8a9f7f615205e166a9dfc427b05ec3eac"
+        },
+        "model-working-tree.patch": {
+          "bytes": 24996,
+          "sha256": "3fbc077942d8931a187b46ae263dc5d8a9f7f615205e166a9dfc427b05ec3eac"
+        }
+      },
+      "started_at": "2026-09-14T10:03:14.842456Z",
+      "finished_at": "2026-09-14T11:32:23.445311Z"
+    },
+    {
+      "task": "participle-grammar-conflict-analysis",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 91,
+        "f2p_passed": 89,
+        "p2p_total": 153,
+        "p2p_passed": 153,
+        "f2p": 0.978021978021978,
+        "p2p": 1.0,
+        "partial": 0.9918032786885246
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 45,
+        "model_responses": 46,
+        "completion_tokens": 91978,
+        "prompt_tokens": 3282272,
+        "cached_tokens": 3146112,
+        "responses_with_reasoning_usage": 46,
+        "reasoning_tokens": 75219,
+        "tool_calls": 46,
+        "length_responses": 0,
+        "model_wall_seconds": 3368.1206529140472,
+        "model_transport_attempts": 46,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 21791,
+          "sha256": "3c50ab5d87a65081f7ecdb7bbd9292b161f9d7fa5ab45ebf010dbe4f1c53a84c"
+        },
+        "model-working-tree.patch": {
+          "bytes": 21791,
+          "sha256": "3c50ab5d87a65081f7ecdb7bbd9292b161f9d7fa5ab45ebf010dbe4f1c53a84c"
+        }
+      },
+      "started_at": "2026-09-14T13:07:56.229374Z",
+      "finished_at": "2026-09-14T14:07:52.429715Z"
+    },
+    {
+      "task": "pebble-durability-wait-apis",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 59,
+        "f2p_passed": 59,
+        "p2p_total": 44,
+        "p2p_passed": 44,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 149,
+        "model_responses": 150,
+        "completion_tokens": 138743,
+        "prompt_tokens": 18385048,
+        "cached_tokens": 18114944,
+        "responses_with_reasoning_usage": 150,
+        "reasoning_tokens": 110497,
+        "tool_calls": 150,
+        "length_responses": 0,
+        "model_wall_seconds": 5716.455889463425,
+        "model_transport_attempts": 150,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 31303,
+          "sha256": "0d314e3ade9bf486f8551d57a9f6d88266e6edafa070817c2c33ce770c346da1"
+        },
+        "model-working-tree.patch": {
+          "bytes": 31303,
+          "sha256": "0d314e3ade9bf486f8551d57a9f6d88266e6edafa070817c2c33ce770c346da1"
+        }
+      },
+      "started_at": "2026-09-14T13:07:59.522371Z",
+      "finished_at": "2026-09-14T15:52:56.595624Z"
+    },
+    {
+      "task": "pest-character-class-coalescing",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 104,
+        "f2p_passed": 101,
+        "p2p_total": 250,
+        "p2p_passed": 249,
+        "f2p": 0.9711538461538461,
+        "p2p": 0.996,
+        "partial": 0.9887005649717514
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 183,
+        "model_responses": 184,
+        "completion_tokens": 181157,
+        "prompt_tokens": 28487735,
+        "cached_tokens": 28160896,
+        "responses_with_reasoning_usage": 184,
+        "reasoning_tokens": 150970,
+        "tool_calls": 184,
+        "length_responses": 0,
+        "model_wall_seconds": 4616.900509119034,
+        "model_transport_attempts": 184,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 20706,
+          "sha256": "daac9bcac1dc9329b561ac96b4c784c8b96ce64a83d0c7e73e2d1c61f5fc235a"
+        },
+        "model-working-tree.patch": {
+          "bytes": 20706,
+          "sha256": "daac9bcac1dc9329b561ac96b4c784c8b96ce64a83d0c7e73e2d1c61f5fc235a"
+        }
+      },
+      "started_at": "2026-09-14T08:43:12.815845Z",
+      "finished_at": "2026-09-14T10:10:32.395786Z"
+    },
+    {
+      "task": "prometheus-transactional-reload-status",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 15,
+        "f2p_passed": 10,
+        "p2p_total": 82,
+        "p2p_passed": 64,
+        "f2p": 0.6666666666666666,
+        "p2p": 0.7804878048780488,
+        "partial": 0.7628865979381443
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 164,
+        "model_responses": 150,
+        "completion_tokens": 66799,
+        "prompt_tokens": 12739122,
+        "cached_tokens": 12572928,
+        "responses_with_reasoning_usage": 150,
+        "reasoning_tokens": 41373,
+        "tool_calls": 165,
+        "length_responses": 0,
+        "model_wall_seconds": 1645.6218502521515,
+        "model_transport_attempts": 150,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 52004,
+          "sha256": "3e8f72000bee65d3ea2852c6c32dc7351573891eb8261aa1cbb6ba27868d697c"
+        },
+        "model-working-tree.patch": {
+          "bytes": 52004,
+          "sha256": "3e8f72000bee65d3ea2852c6c32dc7351573891eb8261aa1cbb6ba27868d697c"
+        }
+      },
+      "started_at": "2026-09-14T08:43:10.949069Z",
+      "finished_at": "2026-09-14T09:27:18.859680Z"
+    },
+    {
+      "task": "prometheus-typed-label-sorting",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 17,
+        "f2p_passed": 17,
+        "p2p_total": 28,
+        "p2p_passed": 28,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 212,
+        "model_responses": 157,
+        "completion_tokens": 144116,
+        "prompt_tokens": 16159100,
+        "cached_tokens": 15908608,
+        "responses_with_reasoning_usage": 157,
+        "reasoning_tokens": 112049,
+        "tool_calls": 213,
+        "length_responses": 0,
+        "model_wall_seconds": 5239.428374290466,
+        "model_transport_attempts": 157,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 22904,
+          "sha256": "fdab26926f76d81c92b3d4cda039ca2f418e85069beee4b4776396b46edf7b97"
+        },
+        "model-working-tree.patch": {
+          "bytes": 22904,
+          "sha256": "fdab26926f76d81c92b3d4cda039ca2f418e85069beee4b4776396b46edf7b97"
+        }
+      },
+      "started_at": "2026-09-14T13:08:00.156310Z",
+      "finished_at": "2026-09-14T14:57:16.330334Z"
+    },
+    {
+      "task": "psd-tools-blend-range-api",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 45,
+        "f2p_passed": 45,
+        "p2p_total": 979,
+        "p2p_passed": 979,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 172,
+        "model_responses": 173,
+        "completion_tokens": 162666,
+        "prompt_tokens": 21903877,
+        "cached_tokens": 21632640,
+        "responses_with_reasoning_usage": 173,
+        "reasoning_tokens": 126159,
+        "tool_calls": 173,
+        "length_responses": 0,
+        "model_wall_seconds": 4355.05469083786,
+        "model_transport_attempts": 173,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 32077,
+          "sha256": "f98f38598c728384c6f203ddff7f33200f4315d0b34fe90b10143125c14a63fd"
+        },
+        "model-working-tree.patch": {
+          "bytes": 32077,
+          "sha256": "f98f38598c728384c6f203ddff7f33200f4315d0b34fe90b10143125c14a63fd"
+        }
+      },
+      "started_at": "2026-09-14T10:13:15.565299Z",
+      "finished_at": "2026-09-14T11:36:41.342264Z"
+    },
+    {
+      "task": "pwntools-tube-multiplexing",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 73,
+        "f2p_passed": 72,
+        "p2p_total": 1,
+        "p2p_passed": 1,
+        "f2p": 0.9863013698630136,
+        "p2p": 1.0,
+        "partial": 0.9864864864864865
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 107,
+        "model_responses": 108,
+        "completion_tokens": 144364,
+        "prompt_tokens": 10502120,
+        "cached_tokens": 10300672,
+        "responses_with_reasoning_usage": 108,
+        "reasoning_tokens": 110441,
+        "tool_calls": 108,
+        "length_responses": 0,
+        "model_wall_seconds": 3984.0547523498535,
+        "model_transport_attempts": 108,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 33855,
+          "sha256": "99f4c3ea38998ae9be7dee95d8005b1ebd0384c6e0102d114c27411c891cc101"
+        },
+        "model-working-tree.patch": {
+          "bytes": 33855,
+          "sha256": "99f4c3ea38998ae9be7dee95d8005b1ebd0384c6e0102d114c27411c891cc101"
+        }
+      },
+      "started_at": "2026-09-14T10:58:28.479068Z",
+      "finished_at": "2026-09-14T12:44:42.676364Z"
+    },
+    {
+      "task": "python-statemachine-state-data-scoping",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 72,
+        "f2p_passed": 72,
+        "p2p_total": 1286,
+        "p2p_passed": 1286,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 275,
+        "model_responses": 276,
+        "completion_tokens": 186051,
+        "prompt_tokens": 57757969,
+        "cached_tokens": 57366528,
+        "responses_with_reasoning_usage": 276,
+        "reasoning_tokens": 133182,
+        "tool_calls": 276,
+        "length_responses": 0,
+        "model_wall_seconds": 4869.414860248566,
+        "model_transport_attempts": 276,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 42194,
+          "sha256": "37ad77fa17937552a0b137faab852c0f39143aebfea554803c6ff2774d5af885"
+        },
+        "model-working-tree.patch": {
+          "bytes": 42194,
+          "sha256": "37ad77fa17937552a0b137faab852c0f39143aebfea554803c6ff2774d5af885"
+        }
+      },
+      "started_at": "2026-09-14T08:43:05.800348Z",
+      "finished_at": "2026-09-14T10:35:41.644703Z"
+    },
+    {
+      "task": "query-persist-restored-query-state",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 8,
+        "f2p_passed": 8,
+        "p2p_total": 42,
+        "p2p_passed": 42,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 146,
+        "model_responses": 147,
+        "completion_tokens": 134916,
+        "prompt_tokens": 18863251,
+        "cached_tokens": 18579584,
+        "responses_with_reasoning_usage": 147,
+        "reasoning_tokens": 109450,
+        "tool_calls": 147,
+        "length_responses": 0,
+        "model_wall_seconds": 4171.377645015717,
+        "model_transport_attempts": 147,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 14379,
+          "sha256": "e2c21ac7fa2d6bd240803718e93bbd4a3ebd28badb8c75c27205639cae9fa427"
+        },
+        "model-working-tree.patch": {
+          "bytes": 14379,
+          "sha256": "e2c21ac7fa2d6bd240803718e93bbd4a3ebd28badb8c75c27205639cae9fa427"
+        }
+      },
+      "started_at": "2026-09-14T10:30:37.457159Z",
+      "finished_at": "2026-09-14T12:08:54.136762Z"
+    },
+    {
+      "task": "quill-shared-toolbar-focus",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 13,
+        "f2p_passed": 13,
+        "p2p_total": 22,
+        "p2p_passed": 22,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 136,
+        "model_responses": 137,
+        "completion_tokens": 145219,
+        "prompt_tokens": 16109243,
+        "cached_tokens": 15850496,
+        "responses_with_reasoning_usage": 137,
+        "reasoning_tokens": 109058,
+        "tool_calls": 137,
+        "length_responses": 0,
+        "model_wall_seconds": 6029.141299962997,
+        "model_transport_attempts": 137,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 26441,
+          "sha256": "c1640cc7ea35e0569302f16f3c67e411f39d086df11fa47249c469537ce65133"
+        },
+        "model-working-tree.patch": {
+          "bytes": 26441,
+          "sha256": "c1640cc7ea35e0569302f16f3c67e411f39d086df11fa47249c469537ce65133"
+        }
+      },
+      "started_at": "2026-09-14T13:07:56.538941Z",
+      "finished_at": "2026-09-14T14:59:30.696821Z"
+    },
+    {
+      "task": "returns-validated-error-accumulation",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 159,
+        "f2p_passed": 159,
+        "p2p_total": 61,
+        "p2p_passed": 61,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 100,
+        "model_responses": 83,
+        "completion_tokens": 81158,
+        "prompt_tokens": 6776110,
+        "cached_tokens": 6622336,
+        "responses_with_reasoning_usage": 83,
+        "reasoning_tokens": 58612,
+        "tool_calls": 101,
+        "length_responses": 0,
+        "model_wall_seconds": 1728.6802003383636,
+        "model_transport_attempts": 83,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 36943,
+          "sha256": "60c595f943f59b4bc063619ee32f516713a40c8bb70327836227ee4703f83139"
+        },
+        "model-working-tree.patch": {
+          "bytes": 36943,
+          "sha256": "60c595f943f59b4bc063619ee32f516713a40c8bb70327836227ee4703f83139"
+        }
+      },
+      "started_at": "2026-09-14T08:43:08.407945Z",
+      "finished_at": "2026-09-14T09:19:06.871926Z"
+    },
+    {
+      "task": "scc-bounded-memory-spilling",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 31,
+        "f2p_passed": 31,
+        "p2p_total": 286,
+        "p2p_passed": 286,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 133,
+        "model_responses": 134,
+        "completion_tokens": 97495,
+        "prompt_tokens": 11780610,
+        "cached_tokens": 11601792,
+        "responses_with_reasoning_usage": 134,
+        "reasoning_tokens": 70066,
+        "tool_calls": 134,
+        "length_responses": 0,
+        "model_wall_seconds": 3438.186244726181,
+        "model_transport_attempts": 134,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 29768,
+          "sha256": "94ae56d51858330913dbd43e4f3f524d99e65bf9b73409906a37c6a64eba58b4"
+        },
+        "model-working-tree.patch": {
+          "bytes": 29768,
+          "sha256": "94ae56d51858330913dbd43e4f3f524d99e65bf9b73409906a37c6a64eba58b4"
+        }
+      },
+      "started_at": "2026-09-14T13:07:59.620393Z",
+      "finished_at": "2026-09-14T14:14:34.198210Z"
+    },
+    {
+      "task": "scriggo-method-declarations",
+      "resolved": false,
+      "rewards": {},
+      "exit_status": "ContextWindowExceededError",
+      "usage": {
+        "tool_results": 349,
+        "model_responses": 340,
+        "completion_tokens": 277164,
+        "prompt_tokens": 89722104,
+        "cached_tokens": 89173248,
+        "responses_with_reasoning_usage": 340,
+        "reasoning_tokens": 196228,
+        "tool_calls": 349,
+        "length_responses": 0,
+        "model_wall_seconds": 11769.609412908554,
+        "model_transport_attempts": 341,
+        "incomplete_transport_attempts": 1
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 59580,
+          "sha256": "fa1867b01fe2b39a14c435d95a1e1e968b08c019b401c3052559ed6b592bcf0a"
+        },
+        "model-working-tree.patch": {
+          "bytes": 60418,
+          "sha256": "278af7f35e030aca3c7fcd199b18362a75b4b3cd91f607967c55b33f6a4294bc"
+        }
+      },
+      "started_at": "2026-09-14T13:08:00.735129Z",
+      "finished_at": "2026-09-14T16:41:02.158294Z"
+    },
+    {
+      "task": "skrub-duration-encoding",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 130,
+        "f2p_passed": 130,
+        "p2p_total": 2784,
+        "p2p_passed": 2784,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 186,
+        "model_responses": 186,
+        "completion_tokens": 152975,
+        "prompt_tokens": 26870012,
+        "cached_tokens": 26560384,
+        "responses_with_reasoning_usage": 186,
+        "reasoning_tokens": 121044,
+        "tool_calls": 187,
+        "length_responses": 0,
+        "model_wall_seconds": 6152.712980508804,
+        "model_transport_attempts": 186,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 27502,
+          "sha256": "d3f5f1e8910fec6fd81c8110de1f10370f82c6693c8c4f6d74b5edd8d61c7505"
+        },
+        "model-working-tree.patch": {
+          "bytes": 27502,
+          "sha256": "d3f5f1e8910fec6fd81c8110de1f10370f82c6693c8c4f6d74b5edd8d61c7505"
+        }
+      },
+      "started_at": "2026-09-14T13:07:58.760303Z",
+      "finished_at": "2026-09-14T15:26:37.652313Z"
+    },
+    {
+      "task": "sql-formatter-bigquery-pipe-formatting",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 26,
+        "f2p_passed": 0,
+        "p2p_total": 5709,
+        "p2p_passed": 0,
+        "f2p": 0.0,
+        "p2p": 0.0,
+        "partial": 0.0,
+        "apply_failed": 1
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 141,
+        "model_responses": 142,
+        "completion_tokens": 104166,
+        "prompt_tokens": 15892787,
+        "cached_tokens": 15666176,
+        "responses_with_reasoning_usage": 142,
+        "reasoning_tokens": 79855,
+        "tool_calls": 142,
+        "length_responses": 0,
+        "model_wall_seconds": 4052.634395122528,
+        "model_transport_attempts": 142,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 54423,
+          "sha256": "89c9528d846b6f8bccf0347558b84cb8dd92bf488d9c7d83db49e2c50b68123b"
+        },
+        "model-working-tree.patch": {
+          "bytes": 54423,
+          "sha256": "89c9528d846b6f8bccf0347558b84cb8dd92bf488d9c7d83db49e2c50b68123b"
+        }
+      },
+      "started_at": "2026-09-14T13:07:59.951515Z",
+      "finished_at": "2026-09-14T14:28:11.725647Z"
+    },
+    {
+      "task": "sqlfmt-create-table-ddl-formatting",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 32,
+        "f2p_passed": 32,
+        "p2p_total": 1273,
+        "p2p_passed": 1273,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 183,
+        "model_responses": 184,
+        "completion_tokens": 233471,
+        "prompt_tokens": 31040030,
+        "cached_tokens": 30687616,
+        "responses_with_reasoning_usage": 184,
+        "reasoning_tokens": 190971,
+        "tool_calls": 184,
+        "length_responses": 0,
+        "model_wall_seconds": 5769.712477445602,
+        "model_transport_attempts": 184,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 31054,
+          "sha256": "34f31e69d00d93cb3fe1a76267ea25defefe6b3b1ed3b116b3ea1ae78ae82e41"
+        },
+        "model-working-tree.patch": {
+          "bytes": 31054,
+          "sha256": "34f31e69d00d93cb3fe1a76267ea25defefe6b3b1ed3b116b3ea1ae78ae82e41"
+        }
+      },
+      "started_at": "2026-09-14T09:37:18.919087Z",
+      "finished_at": "2026-09-14T11:38:37.566936Z"
+    },
+    {
+      "task": "sqlite-utils-safe-import-checkpoints",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 60,
+        "f2p_passed": 60,
+        "p2p_total": 1038,
+        "p2p_passed": 1038,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 149,
+        "model_responses": 127,
+        "completion_tokens": 118961,
+        "prompt_tokens": 12911367,
+        "cached_tokens": 12710144,
+        "responses_with_reasoning_usage": 127,
+        "reasoning_tokens": 81311,
+        "tool_calls": 150,
+        "length_responses": 0,
+        "model_wall_seconds": 2861.5552427768707,
+        "model_transport_attempts": 127,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 38738,
+          "sha256": "57ce7da26de2889e8d7ee32289a802af41d00880b848b8ae1f3f26ffff415ce2"
+        },
+        "model-working-tree.patch": {
+          "bytes": 38738,
+          "sha256": "57ce7da26de2889e8d7ee32289a802af41d00880b848b8ae1f3f26ffff415ce2"
+        }
+      },
+      "started_at": "2026-09-14T08:43:07.082808Z",
+      "finished_at": "2026-09-14T09:54:24.878926Z"
+    },
+    {
+      "task": "superjson-error-stack-serialization",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 80,
+        "f2p_passed": 78,
+        "p2p_total": 116,
+        "p2p_passed": 116,
+        "f2p": 0.975,
+        "p2p": 1.0,
+        "partial": 0.9897959183673469
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 71,
+        "model_responses": 72,
+        "completion_tokens": 110989,
+        "prompt_tokens": 5878795,
+        "cached_tokens": 5719808,
+        "responses_with_reasoning_usage": 72,
+        "reasoning_tokens": 88943,
+        "tool_calls": 72,
+        "length_responses": 0,
+        "model_wall_seconds": 3010.367369413376,
+        "model_transport_attempts": 72,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 24372,
+          "sha256": "9f7dc9a8ff1761376554d17ebfafa86ab02ffb0f71279b40bfcbaf7f0b6f04c9"
+        },
+        "model-working-tree.patch": {
+          "bytes": 24372,
+          "sha256": "9f7dc9a8ff1761376554d17ebfafa86ab02ffb0f71279b40bfcbaf7f0b6f04c9"
+        }
+      },
+      "started_at": "2026-09-14T10:59:03.824831Z",
+      "finished_at": "2026-09-14T12:08:32.106890Z"
+    },
+    {
+      "task": "task-task-graph-export",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 20,
+        "f2p_passed": 20,
+        "p2p_total": 17,
+        "p2p_passed": 17,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 154,
+        "model_responses": 141,
+        "completion_tokens": 134547,
+        "prompt_tokens": 16569993,
+        "cached_tokens": 16333184,
+        "responses_with_reasoning_usage": 141,
+        "reasoning_tokens": 113710,
+        "tool_calls": 155,
+        "length_responses": 0,
+        "model_wall_seconds": 4406.550179719925,
+        "model_transport_attempts": 141,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 19116,
+          "sha256": "0f11fec112ea8645d99921e7c5f76df8f1f82d5ed0f36d4e35aee4f88937ffbf"
+        },
+        "model-working-tree.patch": {
+          "bytes": 19116,
+          "sha256": "0f11fec112ea8645d99921e7c5f76df8f1f82d5ed0f36d4e35aee4f88937ffbf"
+        }
+      },
+      "started_at": "2026-09-14T11:06:36.046540Z",
+      "finished_at": "2026-09-14T12:35:43.726051Z"
+    },
+    {
+      "task": "tengo-callable-instance-isolation",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 23,
+        "f2p_passed": 23,
+        "p2p_total": 122,
+        "p2p_passed": 122,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 154,
+        "model_responses": 155,
+        "completion_tokens": 153088,
+        "prompt_tokens": 20376077,
+        "cached_tokens": 20100480,
+        "responses_with_reasoning_usage": 155,
+        "reasoning_tokens": 117206,
+        "tool_calls": 155,
+        "length_responses": 0,
+        "model_wall_seconds": 4251.384900808334,
+        "model_transport_attempts": 155,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 20740,
+          "sha256": "93f72669cebc781f47db5a371a35b07aaac4e01fed281349d0b7156a5b3c4650"
+        },
+        "model-working-tree.patch": {
+          "bytes": 20740,
+          "sha256": "93f72669cebc781f47db5a371a35b07aaac4e01fed281349d0b7156a5b3c4650"
+        }
+      },
+      "started_at": "2026-09-14T08:43:05.300609Z",
+      "finished_at": "2026-09-14T10:03:14.541618Z"
+    },
+    {
+      "task": "tengo-destructuring-bindings",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 91,
+        "f2p_passed": 91,
+        "p2p_total": 132,
+        "p2p_passed": 132,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 147,
+        "model_responses": 148,
+        "completion_tokens": 108381,
+        "prompt_tokens": 14704382,
+        "cached_tokens": 14503424,
+        "responses_with_reasoning_usage": 148,
+        "reasoning_tokens": 80622,
+        "tool_calls": 148,
+        "length_responses": 0,
+        "model_wall_seconds": 3162.994358778,
+        "model_transport_attempts": 148,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 20388,
+          "sha256": "a77477015c841c727d9ee2dfbd9ec2dd3563c62ded712c7ba0e524718b589c2a"
+        },
+        "model-working-tree.patch": {
+          "bytes": 20388,
+          "sha256": "a77477015c841c727d9ee2dfbd9ec2dd3563c62ded712c7ba0e524718b589c2a"
+        }
+      },
+      "started_at": "2026-09-14T11:17:30.678732Z",
+      "finished_at": "2026-09-14T12:16:58.010604Z"
+    },
+    {
+      "task": "termenv-preserve-ansi-resets",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 35,
+        "f2p_passed": 35,
+        "p2p_total": 87,
+        "p2p_passed": 87,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 37,
+        "model_responses": 32,
+        "completion_tokens": 98839,
+        "prompt_tokens": 1976109,
+        "cached_tokens": 1850112,
+        "responses_with_reasoning_usage": 32,
+        "reasoning_tokens": 86656,
+        "tool_calls": 38,
+        "length_responses": 0,
+        "model_wall_seconds": 2174.9716353416443,
+        "model_transport_attempts": 32,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 19344,
+          "sha256": "2c7e724a6d2766f161dcf6d45e4afc28f763abce2be6a113446ae32919fb39ee"
+        },
+        "model-working-tree.patch": {
+          "bytes": 19344,
+          "sha256": "2c7e724a6d2766f161dcf6d45e4afc28f763abce2be6a113446ae32919fb39ee"
+        }
+      },
+      "started_at": "2026-09-14T08:43:12.016863Z",
+      "finished_at": "2026-09-14T09:37:18.881696Z"
+    },
+    {
+      "task": "testem-bail-on-test-failure",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 90,
+        "f2p_passed": 90,
+        "p2p_total": 489,
+        "p2p_passed": 489,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 193,
+        "model_responses": 194,
+        "completion_tokens": 162492,
+        "prompt_tokens": 29399312,
+        "cached_tokens": 29086720,
+        "responses_with_reasoning_usage": 194,
+        "reasoning_tokens": 124485,
+        "tool_calls": 194,
+        "length_responses": 0,
+        "model_wall_seconds": 4447.470663309097,
+        "model_transport_attempts": 194,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 44135,
+          "sha256": "faf6cf180f0363f0f08f9d8cb6b739b392f12449c05e22127e857283a4da3295"
+        },
+        "model-working-tree.patch": {
+          "bytes": 44135,
+          "sha256": "faf6cf180f0363f0f08f9d8cb6b739b392f12449c05e22127e857283a4da3295"
+        }
+      },
+      "started_at": "2026-09-14T09:56:31.809822Z",
+      "finished_at": "2026-09-14T11:45:39.221085Z"
+    },
+    {
+      "task": "testem-per-launcher-reports",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 65,
+        "f2p_passed": 65,
+        "p2p_total": 469,
+        "p2p_passed": 469,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 77,
+        "model_responses": 78,
+        "completion_tokens": 74125,
+        "prompt_tokens": 4900545,
+        "cached_tokens": 4762496,
+        "responses_with_reasoning_usage": 78,
+        "reasoning_tokens": 59803,
+        "tool_calls": 78,
+        "length_responses": 0,
+        "model_wall_seconds": 2610.184896469116,
+        "model_transport_attempts": 78,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 20564,
+          "sha256": "19ffc4f053aa2639f1b4fab4fd8293ab69d6989bedeff4587b07d8bf83e65f38"
+        },
+        "model-working-tree.patch": {
+          "bytes": 20564,
+          "sha256": "19ffc4f053aa2639f1b4fab4fd8293ab69d6989bedeff4587b07d8bf83e65f38"
+        }
+      },
+      "started_at": "2026-09-14T11:45:39.316753Z",
+      "finished_at": "2026-09-14T12:36:22.308121Z"
+    },
+    {
+      "task": "textual-kitty-key-phases",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 23,
+        "f2p_passed": 22,
+        "p2p_total": 57,
+        "p2p_passed": 57,
+        "f2p": 0.9565217391304348,
+        "p2p": 1.0,
+        "partial": 0.9875
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 115,
+        "model_responses": 116,
+        "completion_tokens": 124493,
+        "prompt_tokens": 10894460,
+        "cached_tokens": 10688384,
+        "responses_with_reasoning_usage": 116,
+        "reasoning_tokens": 102655,
+        "tool_calls": 116,
+        "length_responses": 0,
+        "model_wall_seconds": 3481.120463848114,
+        "model_transport_attempts": 116,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 19299,
+          "sha256": "ce4072f16ab84c8d47be252ba83dbcbf58c5757b7e7d8423bcc0bacd9b01b70b"
+        },
+        "model-working-tree.patch": {
+          "bytes": 19299,
+          "sha256": "ce4072f16ab84c8d47be252ba83dbcbf58c5757b7e7d8423bcc0bacd9b01b70b"
+        }
+      },
+      "started_at": "2026-09-14T08:43:13.195704Z",
+      "finished_at": "2026-09-14T10:09:49.322839Z"
+    },
+    {
+      "task": "textual-richlog-follow-state",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 20,
+        "f2p_passed": 15,
+        "p2p_total": 6,
+        "p2p_passed": 6,
+        "f2p": 0.75,
+        "p2p": 1.0,
+        "partial": 0.8076923076923077
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 236,
+        "model_responses": 237,
+        "completion_tokens": 171814,
+        "prompt_tokens": 34357000,
+        "cached_tokens": 34030720,
+        "responses_with_reasoning_usage": 237,
+        "reasoning_tokens": 128366,
+        "tool_calls": 237,
+        "length_responses": 0,
+        "model_wall_seconds": 6233.00304889679,
+        "model_transport_attempts": 237,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 27619,
+          "sha256": "1f20b29a1001303b782dd3533a0b779ff01226cd1b2c7037896a9ee4a92cece6"
+        },
+        "model-working-tree.patch": {
+          "bytes": 27619,
+          "sha256": "1f20b29a1001303b782dd3533a0b779ff01226cd1b2c7037896a9ee4a92cece6"
+        }
+      },
+      "started_at": "2026-09-14T13:07:58.392249Z",
+      "finished_at": "2026-09-14T15:14:31.222954Z"
+    },
+    {
+      "task": "tomlkit-toml-table-converters",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 60,
+        "f2p_passed": 60,
+        "p2p_total": 964,
+        "p2p_passed": 964,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 227,
+        "model_responses": 228,
+        "completion_tokens": 224966,
+        "prompt_tokens": 37245065,
+        "cached_tokens": 36895104,
+        "responses_with_reasoning_usage": 228,
+        "reasoning_tokens": 160760,
+        "tool_calls": 228,
+        "length_responses": 0,
+        "model_wall_seconds": 8934.413166761398,
+        "model_transport_attempts": 228,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 24459,
+          "sha256": "3666c082d5047c3488bdc5c93a49dfa351e87031db282bcf179fa2a171d2dc2a"
+        },
+        "model-working-tree.patch": {
+          "bytes": 24459,
+          "sha256": "3666c082d5047c3488bdc5c93a49dfa351e87031db282bcf179fa2a171d2dc2a"
+        }
+      },
+      "started_at": "2026-09-14T13:07:55.005322Z",
+      "finished_at": "2026-09-14T15:43:33.871251Z"
+    },
+    {
+      "task": "true-myth-iterable-collection-combinators",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 96,
+        "f2p_passed": 96,
+        "p2p_total": 561,
+        "p2p_passed": 561,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 111,
+        "model_responses": 112,
+        "completion_tokens": 137990,
+        "prompt_tokens": 11712643,
+        "cached_tokens": 11480064,
+        "responses_with_reasoning_usage": 112,
+        "reasoning_tokens": 103857,
+        "tool_calls": 112,
+        "length_responses": 0,
+        "model_wall_seconds": 3539.8622851371765,
+        "model_transport_attempts": 112,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 35049,
+          "sha256": "54570f9e4010be58ea9e4d34e90304becd7422ca999b141289e0a97c29349198"
+        },
+        "model-working-tree.patch": {
+          "bytes": 35049,
+          "sha256": "54570f9e4010be58ea9e4d34e90304becd7422ca999b141289e0a97c29349198"
+        }
+      },
+      "started_at": "2026-09-14T10:53:04.423813Z",
+      "finished_at": "2026-09-14T12:09:40.709501Z"
+    },
+    {
+      "task": "ts-pattern-match-each",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 85,
+        "f2p_passed": 85,
+        "p2p_total": 6,
+        "p2p_passed": 6,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 71,
+        "model_responses": 72,
+        "completion_tokens": 82791,
+        "prompt_tokens": 4469247,
+        "cached_tokens": 4344192,
+        "responses_with_reasoning_usage": 72,
+        "reasoning_tokens": 62347,
+        "tool_calls": 72,
+        "length_responses": 0,
+        "model_wall_seconds": 2042.9211666584015,
+        "model_transport_attempts": 72,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 16336,
+          "sha256": "f1cdf274a76b2b770e58b093551b05fddc79390da5eb185a187448845f132ac1"
+        },
+        "model-working-tree.patch": {
+          "bytes": 16336,
+          "sha256": "f1cdf274a76b2b770e58b093551b05fddc79390da5eb185a187448845f132ac1"
+        }
+      },
+      "started_at": "2026-09-14T09:27:19.054503Z",
+      "finished_at": "2026-09-14T10:13:15.443558Z"
+    },
+    {
+      "task": "updo-policy-alerting",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 17,
+        "f2p_passed": 16,
+        "p2p_total": 123,
+        "p2p_passed": 123,
+        "f2p": 0.9411764705882353,
+        "p2p": 1.0,
+        "partial": 0.9928571428571429
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 61,
+        "model_responses": 52,
+        "completion_tokens": 85665,
+        "prompt_tokens": 4162445,
+        "cached_tokens": 4020224,
+        "responses_with_reasoning_usage": 52,
+        "reasoning_tokens": 66156,
+        "tool_calls": 62,
+        "length_responses": 0,
+        "model_wall_seconds": 2165.2011992931366,
+        "model_transport_attempts": 52,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 25562,
+          "sha256": "a2c22b14bee55c766131dc557ff29f2eb31de13310d113f86c788565e6a9e6da"
+        },
+        "model-working-tree.patch": {
+          "bytes": 25562,
+          "sha256": "a2c22b14bee55c766131dc557ff29f2eb31de13310d113f86c788565e6a9e6da"
+        }
+      },
+      "started_at": "2026-09-14T10:35:41.799047Z",
+      "finished_at": "2026-09-14T11:19:19.386744Z"
+    },
+    {
+      "task": "valibot-recursive-schema-composition",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 10,
+        "f2p_passed": 10,
+        "p2p_total": 209,
+        "p2p_passed": 209,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 225,
+        "model_responses": 226,
+        "completion_tokens": 187334,
+        "prompt_tokens": 32389574,
+        "cached_tokens": 32079232,
+        "responses_with_reasoning_usage": 226,
+        "reasoning_tokens": 134236,
+        "tool_calls": 226,
+        "length_responses": 0,
+        "model_wall_seconds": 4359.908259153366,
+        "model_transport_attempts": 226,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 17119,
+          "sha256": "d2899644877a21f090b61168cf8be154460f53c1a41795ec7b1bfe03b3c32edf"
+        },
+        "model-working-tree.patch": {
+          "bytes": 17119,
+          "sha256": "d2899644877a21f090b61168cf8be154460f53c1a41795ec7b1bfe03b3c32edf"
+        }
+      },
+      "started_at": "2026-09-14T08:43:11.448443Z",
+      "finished_at": "2026-09-14T10:44:05.361935Z"
+    },
+    {
+      "task": "vitest-duration-sharding",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 56,
+        "f2p_passed": 56,
+        "p2p_total": 24,
+        "p2p_passed": 24,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 173,
+        "model_responses": 174,
+        "completion_tokens": 103919,
+        "prompt_tokens": 15329961,
+        "cached_tokens": 15113088,
+        "responses_with_reasoning_usage": 174,
+        "reasoning_tokens": 60297,
+        "tool_calls": 174,
+        "length_responses": 0,
+        "model_wall_seconds": 2487.81431889534,
+        "model_transport_attempts": 174,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 42979,
+          "sha256": "b19e1e6696291b3eb01db34cc3c2a2070c293f06f388689e846f2221d548aa43"
+        },
+        "model-working-tree.patch": {
+          "bytes": 42979,
+          "sha256": "b19e1e6696291b3eb01db34cc3c2a2070c293f06f388689e846f2221d548aa43"
+        }
+      },
+      "started_at": "2026-09-14T08:43:13.740172Z",
+      "finished_at": "2026-09-14T09:56:31.773498Z"
+    },
+    {
+      "task": "vulture-persistent-analysis-cache",
+      "resolved": false,
+      "rewards": {
+        "reward": 0,
+        "f2p_total": 24,
+        "f2p_passed": 24,
+        "p2p_total": 295,
+        "p2p_passed": 290,
+        "f2p": 1.0,
+        "p2p": 0.9830508474576272,
+        "partial": 0.9843260188087775
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 98,
+        "model_responses": 99,
+        "completion_tokens": 119510,
+        "prompt_tokens": 9234444,
+        "cached_tokens": 9056896,
+        "responses_with_reasoning_usage": 99,
+        "reasoning_tokens": 93140,
+        "tool_calls": 99,
+        "length_responses": 0,
+        "model_wall_seconds": 2955.787310361862,
+        "model_transport_attempts": 99,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 28477,
+          "sha256": "6a134e0efe263f458866fbe81b8f7686daa996f07eef4e2008252d81413cfb7f"
+        },
+        "model-working-tree.patch": {
+          "bytes": 28477,
+          "sha256": "6a134e0efe263f458866fbe81b8f7686daa996f07eef4e2008252d81413cfb7f"
+        }
+      },
+      "started_at": "2026-09-14T10:20:34.129070Z",
+      "finished_at": "2026-09-14T11:14:45.082254Z"
+    },
+    {
+      "task": "wasmi-trap-coredumps",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 22,
+        "f2p_passed": 22,
+        "p2p_total": 58,
+        "p2p_passed": 58,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 296,
+        "model_responses": 297,
+        "completion_tokens": 181526,
+        "prompt_tokens": 68514133,
+        "cached_tokens": 68034688,
+        "responses_with_reasoning_usage": 297,
+        "reasoning_tokens": 123412,
+        "tool_calls": 297,
+        "length_responses": 0,
+        "model_wall_seconds": 5025.947842359543,
+        "model_transport_attempts": 297,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 76389,
+          "sha256": "e8589ae2d2b7575b73b2f6bd00d877a6f895de91d6fd12e8af311a01e4dd91a2"
+        },
+        "model-working-tree.patch": {
+          "bytes": 76389,
+          "sha256": "e8589ae2d2b7575b73b2f6bd00d877a6f895de91d6fd12e8af311a01e4dd91a2"
+        }
+      },
+      "started_at": "2026-09-14T08:43:07.448893Z",
+      "finished_at": "2026-09-14T10:20:33.904172Z"
+    },
+    {
+      "task": "wazero-multi-module-snapshots",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 78,
+        "f2p_passed": 78,
+        "p2p_total": 2,
+        "p2p_passed": 2,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 81,
+        "model_responses": 66,
+        "completion_tokens": 101314,
+        "prompt_tokens": 4817427,
+        "cached_tokens": 4673792,
+        "responses_with_reasoning_usage": 66,
+        "reasoning_tokens": 76865,
+        "tool_calls": 82,
+        "length_responses": 0,
+        "model_wall_seconds": 2396.9182422161102,
+        "model_transport_attempts": 66,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 23101,
+          "sha256": "5dd13e7e83652d285ad812e30e2553dcd886220c8a7c228ed6c871ab09ac90bf"
+        },
+        "model-working-tree.patch": {
+          "bytes": 23101,
+          "sha256": "5dd13e7e83652d285ad812e30e2553dcd886220c8a7c228ed6c871ab09ac90bf"
+        }
+      },
+      "started_at": "2026-09-14T10:05:09.452909Z",
+      "finished_at": "2026-09-14T10:53:04.377017Z"
+    },
+    {
+      "task": "yaegi-go-embed-directives",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 38,
+        "f2p_passed": 38,
+        "p2p_total": 58,
+        "p2p_passed": 58,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 218,
+        "model_responses": 219,
+        "completion_tokens": 145453,
+        "prompt_tokens": 28221334,
+        "cached_tokens": 27953792,
+        "responses_with_reasoning_usage": 219,
+        "reasoning_tokens": 104030,
+        "tool_calls": 219,
+        "length_responses": 0,
+        "model_wall_seconds": 4018.444009065628,
+        "model_transport_attempts": 219,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 23661,
+          "sha256": "84619b3374abe2cc562666d52b86c766f35348c3482c09a7f558e91130249d27"
+        },
+        "model-working-tree.patch": {
+          "bytes": 23661,
+          "sha256": "84619b3374abe2cc562666d52b86c766f35348c3482c09a7f558e91130249d27"
+        }
+      },
+      "started_at": "2026-09-14T09:43:34.811997Z",
+      "finished_at": "2026-09-14T11:32:10.591725Z"
+    },
+    {
+      "task": "yjs-map-conflict-detection",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 9,
+        "f2p_passed": 9,
+        "p2p_total": 231,
+        "p2p_passed": 231,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 164,
+        "model_responses": 165,
+        "completion_tokens": 154768,
+        "prompt_tokens": 21363535,
+        "cached_tokens": 21099136,
+        "responses_with_reasoning_usage": 165,
+        "reasoning_tokens": 120425,
+        "tool_calls": 165,
+        "length_responses": 0,
+        "model_wall_seconds": 4793.52040719986,
+        "model_transport_attempts": 165,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 35335,
+          "sha256": "6a3e7e67b5b6e3ac67e343cd74764352885af2b3fdd3b6b00f937dd7cd267c3b"
+        },
+        "model-working-tree.patch": {
+          "bytes": 35335,
+          "sha256": "6a3e7e67b5b6e3ac67e343cd74764352885af2b3fdd3b6b00f937dd7cd267c3b"
+        }
+      },
+      "started_at": "2026-09-14T10:47:05.046226Z",
+      "finished_at": "2026-09-14T12:15:17.033137Z"
+    },
+    {
+      "task": "ytt-jsonpath-query-api",
+      "resolved": true,
+      "rewards": {
+        "reward": 1,
+        "f2p_total": 103,
+        "f2p_passed": 103,
+        "p2p_total": 1,
+        "p2p_passed": 1,
+        "f2p": 1.0,
+        "p2p": 1.0,
+        "partial": 1.0
+      },
+      "exit_status": "Submitted",
+      "usage": {
+        "tool_results": 50,
+        "model_responses": 51,
+        "completion_tokens": 70490,
+        "prompt_tokens": 2562548,
+        "cached_tokens": 2463232,
+        "responses_with_reasoning_usage": 51,
+        "reasoning_tokens": 51668,
+        "tool_calls": 51,
+        "length_responses": 0,
+        "model_wall_seconds": 2419.397911787033,
+        "model_transport_attempts": 51,
+        "incomplete_transport_attempts": 0
+      },
+      "trajectory_present": true,
+      "artifacts": {
+        "model.patch": {
+          "bytes": 28824,
+          "sha256": "95e85cc2130f900f3f913c9f47572d4f111952161730fd68f086a80af2faeedb"
+        },
+        "model-working-tree.patch": {
+          "bytes": 28824,
+          "sha256": "95e85cc2130f900f3f913c9f47572d4f111952161730fd68f086a80af2faeedb"
+        }
+      },
+      "started_at": "2026-09-14T13:07:56.583321Z",
+      "finished_at": "2026-09-14T13:51:51.608967Z"
+    }
+  ],
+  "note": "Official score uses base-to-HEAD patches. Working-tree artifacts are extra audit only. All errors remain in the113-task denominator.",
+  "operator_interruption": "interruption-20260914-125441Z/ledger.json; interrupted slots rerun; completed attempts unchanged",
+  "score_percent": 67.2566371681416,
+  "reasoning_effort": 75,
+  "context_limit": 524288
+}

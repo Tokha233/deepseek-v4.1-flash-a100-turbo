@@ -1,0 +1,55 @@
+{
+  "output_tokens_per_second": 3040.7055555555557,
+  "streamed_output_tokens": 547327,
+  "measurement_seconds": 180,
+  "warmup_seconds": 60,
+  "concurrency": 256,
+  "worker_output_tokens": {
+    "dp0": 273908,
+    "dp1": 273419
+  },
+  "all_30s_output_tps": [
+    2929.233333333333,
+    3213.366666666667,
+    2898.8,
+    3038.0333333333333,
+    3146.0333333333333,
+    3018.766666666667
+  ],
+  "median_30s_output_tps": 3028.4,
+  "minimum_30s_output_tps": 2898.8,
+  "mean_client_active": 256,
+  "mean_server_running": 127.54761904761905,
+  "mean_server_waiting": 127.14285714285714,
+  "server_counter_deltas": {
+    "generation_tokens_total": 547371.0,
+    "request_success_total": 516.0,
+    "num_preemptions_total": 0.0,
+    "prefix_cache_queries_total": 43672.0,
+    "prefix_cache_hits_total": 0.0,
+    "spec_decode_num_drafts_total": 199672.0,
+    "spec_decode_num_draft_tokens_total": 998360.0,
+    "spec_decode_num_accepted_tokens_total": 347943.0
+  },
+  "server_generation_tokens_per_second": 3043.8654923982403,
+  "mean_1_plus_accepted_per_draft": 2.742572819423855,
+  "cache_hit_fraction": 0.0,
+  "window_start_snapshot_relative": 60.21675393357873,
+  "window_end_snapshot_relative": 240.0443453192711,
+  "scope": "Continuous synthetic short coding requests. Fixed output cap and ignore_eos as recorded in protocol; outputs are not complete agent tasks or quality scores. Each request has a unique cache salt; no prefix sharing. Fixed token window after declared warmup. In-flight requests cancelled only after measurement.",
+  "completed_in_window": 516,
+  "completed_finish_reasons": {
+    "length": 516
+  },
+  "completed_ttft_seconds": {
+    "0.5": 43.56731477752328,
+    "0.95": 46.50648654997349,
+    "0.99": 48.66327590122819
+  },
+  "completed_latency_seconds": {
+    "0.5": 86.27005217596889,
+    "0.95": 93.1843699067831,
+    "0.99": 95.09540414996445
+  },
+  "latency_scope": "Requests completing in the window; boundary censoring applies. Full request records are retained."
+}

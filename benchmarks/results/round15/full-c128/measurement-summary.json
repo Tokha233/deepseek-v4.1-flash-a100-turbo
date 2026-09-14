@@ -1,0 +1,55 @@
+{
+  "output_tokens_per_second": 3039.883333333333,
+  "streamed_output_tokens": 547179,
+  "measurement_seconds": 180,
+  "warmup_seconds": 60,
+  "concurrency": 128,
+  "worker_output_tokens": {
+    "dp0": 276719,
+    "dp1": 270460
+  },
+  "all_30s_output_tps": [
+    3042.9,
+    3239.2,
+    3088.633333333333,
+    2724.133333333333,
+    3119.5666666666666,
+    3024.866666666667
+  ],
+  "median_30s_output_tps": 3065.7666666666664,
+  "minimum_30s_output_tps": 2724.133333333333,
+  "mean_client_active": 128,
+  "mean_server_running": 127.0,
+  "mean_server_waiting": 0.0,
+  "server_counter_deltas": {
+    "generation_tokens_total": 546522.0,
+    "request_success_total": 516.0,
+    "num_preemptions_total": 0.0,
+    "prefix_cache_queries_total": 43672.0,
+    "prefix_cache_hits_total": 0.0,
+    "spec_decode_num_drafts_total": 197314.0,
+    "spec_decode_num_draft_tokens_total": 986570.0,
+    "spec_decode_num_accepted_tokens_total": 349503.0
+  },
+  "server_generation_tokens_per_second": 3036.8540396944377,
+  "mean_1_plus_accepted_per_draft": 2.771303607448027,
+  "cache_hit_fraction": 0.0,
+  "window_start_snapshot_relative": 60.14942921884358,
+  "window_end_snapshot_relative": 240.11263879574835,
+  "scope": "Continuous synthetic short coding requests. Fixed output cap and ignore_eos as recorded in protocol; outputs are not complete agent tasks or quality scores. Each request has a unique cache salt; no prefix sharing. Fixed token window after declared warmup. In-flight requests cancelled only after measurement.",
+  "completed_in_window": 516,
+  "completed_finish_reasons": {
+    "length": 516
+  },
+  "completed_ttft_seconds": {
+    "0.5": 0.41594101302325726,
+    "0.95": 0.7697163354605436,
+    "0.99": 1.2551027163863182
+  },
+  "completed_latency_seconds": {
+    "0.5": 43.16002740338445,
+    "0.95": 49.910543724894524,
+    "0.99": 52.23467349074781
+  },
+  "latency_scope": "Requests completing in the window; boundary censoring applies. Full request records are retained."
+}

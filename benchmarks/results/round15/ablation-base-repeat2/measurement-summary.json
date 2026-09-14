@@ -1,0 +1,55 @@
+{
+  "output_tokens_per_second": 2890.8555555555554,
+  "streamed_output_tokens": 520354,
+  "measurement_seconds": 180,
+  "warmup_seconds": 60,
+  "concurrency": 128,
+  "worker_output_tokens": {
+    "dp1": 259144,
+    "dp0": 261210
+  },
+  "all_30s_output_tps": [
+    3053.2,
+    2845.2,
+    2847.866666666667,
+    3039.2,
+    2869.233333333333,
+    2690.4333333333334
+  ],
+  "median_30s_output_tps": 2858.55,
+  "minimum_30s_output_tps": 2690.4333333333334,
+  "mean_client_active": 128,
+  "mean_server_running": 126.98795180722891,
+  "mean_server_waiting": 0.0,
+  "server_counter_deltas": {
+    "generation_tokens_total": 519742.0,
+    "request_success_total": 496.0,
+    "num_preemptions_total": 0.0,
+    "prefix_cache_queries_total": 41901.0,
+    "prefix_cache_hits_total": 0.0,
+    "spec_decode_num_drafts_total": 188772.0,
+    "spec_decode_num_draft_tokens_total": 943860.0,
+    "spec_decode_num_accepted_tokens_total": 331216.0
+  },
+  "server_generation_tokens_per_second": 2888.3377372665673,
+  "mean_1_plus_accepted_per_draft": 2.7545822473671944,
+  "cache_hit_fraction": 0.0,
+  "window_start_snapshot_relative": 60.090116491541266,
+  "window_end_snapshot_relative": 240.03513929620385,
+  "scope": "Continuous synthetic short coding requests. Fixed output cap and ignore_eos as recorded in protocol; outputs are not complete agent tasks or quality scores. Each request has a unique cache salt; no prefix sharing. Fixed token window after declared warmup. In-flight requests cancelled only after measurement.",
+  "completed_in_window": 496,
+  "completed_finish_reasons": {
+    "length": 496
+  },
+  "completed_ttft_seconds": {
+    "0.5": 0.4366671685129404,
+    "0.95": 0.6006520837545395,
+    "0.99": 0.6746862605214119
+  },
+  "completed_latency_seconds": {
+    "0.5": 44.808427665382624,
+    "0.95": 50.87681296095252,
+    "0.99": 52.991846051067114
+  },
+  "latency_scope": "Requests completing in the window; boundary censoring applies. Full request records are retained."
+}
