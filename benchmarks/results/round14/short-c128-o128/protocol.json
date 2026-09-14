@@ -1,0 +1,34 @@
+{
+  "endpoint": "http://node-a:8083",
+  "nodes": [
+    "http://node-a:8083"
+  ],
+  "concurrency": 128,
+  "dp_ranks": 2,
+  "warmup_seconds": 60,
+  "measurement_seconds": 180,
+  "last_turns": 1,
+  "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-coding-effort100.json.gz",
+  "source_sha256": "9e9c8dc650b70b1485b4defc1a4caff901cf6a7d9609f40ebf21ed1dbdf4223a",
+  "distinct_source_trajectories": 256,
+  "effort": 100,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 20,
+  "max_tokens": 128,
+  "ignore_eos": true,
+  "session_prefix": "sustained-5dee8f6e4c876c94e2c9",
+  "source_profile": {
+    "kind": "synthetic-short-coding",
+    "reasoning_effort": 100,
+    "minimum_prompt_tokens": 78,
+    "maximum_prompt_tokens": 90,
+    "distinct_prompts": 256,
+    "distinct_task_templates": 16,
+    "scope": "Continuous synthetic short coding requests. Fixed output cap and ignore_eos as recorded in protocol; outputs are not complete agent tasks or quality scores. Each request has a unique cache salt; no prefix sharing. Fixed token window after declared warmup. In-flight requests cancelled only after measurement.",
+    "tokenizer_sha256": "c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b",
+    "encoder_sha256": "b4bd8a06f94a06a61564156c7a543d649ed86ecdd72a4dfb94b064e16d9c572f"
+  },
+  "scope": "Continuous synthetic short coding requests. Fixed output cap and ignore_eos as recorded in protocol; outputs are not complete agent tasks or quality scores. Each request has a unique cache salt; no prefix sharing. Fixed token window after declared warmup. In-flight requests cancelled only after measurement.",
+  "started_at": 1789395364.8468745
+}

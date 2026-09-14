@@ -1,4 +1,4 @@
-"""Keep real-history agent slots occupied and count streaming tokens in a fixed window."""
+"""Continuously replay tokenized requests and count tokens in a fixed window."""
 
 import asyncio
 import gzip
@@ -34,21 +34,29 @@ def parse_metrics(raw: str) -> dict[str, float]:
 
 def main(output: Path, endpoint: str, nodes: list[str], concurrency: int = 128,
          warmup: int = 360, duration: int = 600, dp_ranks: int = 2, last_turns: int = 12,
-         source: Path = Path('workloads/agent-histories.json.gz')) -> None:
+         source: Path = Path('workloads/agent-histories.json.gz'),
+         max_tokens: int = 32768, ignore_eos: bool = False,
+         temperature: float = 1, top_p: float = .95, top_k: int = 20) -> None:
     assert concurrency > 0 and warmup >= 0 and duration > 0 and duration % 30 == 0
+    assert max_tokens > 0 and temperature >= 0 and 0 < top_p <= 1
     assert dp_ranks == 0 or len(nodes) == 1
     output.mkdir(parents=True, exist_ok=False)
     raw = source.read_bytes()
-    rows = json.loads(gzip.decompress(raw))['trajectories']
+    workload = json.loads(gzip.decompress(raw))
+    rows = workload['trajectories']
+    profile = workload.get('profile', {})
     assert len(rows) >= concurrency and len({row['instance_id'] for row in rows}) == len(rows)
     assert all(len(row['turns']) >= last_turns for row in rows)
     prefix = 'sustained-' + hashlib.sha256(str(output.resolve()).encode()).hexdigest()[:20]
     protocol = {'endpoint': endpoint, 'nodes': nodes, 'concurrency': concurrency, 'dp_ranks': dp_ranks,
         'warmup_seconds': warmup, 'measurement_seconds': duration, 'last_turns': last_turns,
         'source': str(source.resolve()), 'source_sha256': hashlib.sha256(raw).hexdigest(),
-        'distinct_source_trajectories': len(rows), 'effort': 100, 'temperature': 1, 'top_p': .95,
-        'top_k': 20, 'max_tokens': 32768, 'ignore_eos': False, 'session_prefix': prefix,
+        'distinct_source_trajectories': len(rows), 'effort': profile.get('reasoning_effort', 100),
+        'temperature': temperature, 'top_p': top_p, 'top_k': top_k, 'max_tokens': max_tokens,
+        'ignore_eos': ignore_eos, 'session_prefix': prefix, 'source_profile': profile,
         'scope': 'Continuous replacement of real-history agent sessions, including new-session prefill and natural output. Fixed streaming-token window after fixed warmup; no cherry-picked window. Stored reference tool results are replayed; tools are not executed. In-flight diagnostic requests are cancelled only after measurement.'}
+    if profile.get('scope'):
+        protocol['scope'] = profile['scope']
     (output / 'protocol.json').write_text(json.dumps(protocol, indent=2))
     del raw
 
@@ -101,8 +109,8 @@ def main(output: Path, endpoint: str, nodes: list[str], concurrency: int = 128,
                         if dp_ranks:
                             headers['X-data-parallel-rank'] = str(slot % dp_ranks)
                         payload = {'model': 'deepseek-ai/DeepSeek-V4.1-Flash', 'prompt': turn['input_ids'],
-                            'temperature': 1, 'top_p': .95, 'top_k': 20, 'seed': 20260911 + 100 * (session % len(rows)) + turn_index,
-                            'max_tokens': 32768, 'cache_salt': salt, 'return_token_ids': True,
+                            'temperature': temperature, 'top_p': top_p, 'top_k': top_k, 'seed': 20260911 + 100 * (session % len(rows)) + turn_index,
+                            'max_tokens': max_tokens, 'ignore_eos': ignore_eos, 'cache_salt': salt, 'return_token_ids': True,
                             'skip_special_tokens': False, 'stream': True,
                             'stream_options': {'include_usage': True, 'continuous_usage_stats': True}}
                         begin = time.perf_counter()
@@ -132,6 +140,7 @@ def main(output: Path, endpoint: str, nodes: list[str], concurrency: int = 128,
                                             finish = choice.get('finish_reason') or finish
                             assert done and usage and first is not None
                             assert usage['prompt_tokens'] == len(turn['input_ids'])
+                            assert not ignore_eos or token_count == max_tokens, (request_id, token_count)
                             assert usage['completion_tokens'] == token_count, (request_id, usage, token_count)
                         finally:
                             active -= 1
@@ -182,6 +191,15 @@ def main(output: Path, endpoint: str, nodes: list[str], concurrency: int = 128,
                     'cache_hit_fraction': deltas['prefix_cache_hits_total'] / deltas['prefix_cache_queries_total'] if deltas['prefix_cache_queries_total'] else None,
                     'window_start_snapshot_relative': start['relative_seconds'], 'window_end_snapshot_relative': end['relative_seconds'],
                     'scope': protocol['scope']}
+                finished_in_window = [r for r in records if r['done'] and warmup <= r['finished_relative'] < warmup + duration]
+                def quantiles(values: list[float]) -> dict:
+                    values = sorted(values)
+                    return {str(q): values[round((len(values) - 1) * q)] for q in [.5, .95, .99]} if values else {}
+                result['completed_in_window'] = len(finished_in_window)
+                result['completed_finish_reasons'] = dict(Counter(r['finish_reason'] for r in finished_in_window))
+                result['completed_ttft_seconds'] = quantiles([r['ttft'] for r in finished_in_window])
+                result['completed_latency_seconds'] = quantiles([r['finished_relative'] - r['started_relative'] for r in finished_in_window])
+                result['latency_scope'] = 'Requests completing in the window; boundary censoring applies. Full request records are retained.'
                 (output / 'measurement-summary.json').write_text(json.dumps(result, indent=2))
                 print(json.dumps(result), flush=True)
                 completed = True
@@ -200,10 +218,12 @@ def main(output: Path, endpoint: str, nodes: list[str], concurrency: int = 128,
                 after = await snapshot('after-drain')
                 (output / 'tokens-per-second.json').write_text(json.dumps({str(k): dict(v) for k, v in buckets.items()}))
                 receipt = {'measurement_complete': completed, 'drained': True, 'requests_started': len(records),
+                    'completed_requests': sum(r['done'] for r in records),
+                    'completed_finish_reasons': dict(Counter(r['finish_reason'] for r in records if r['done'])),
                     'naturally_completed': sum(r['done'] for r in records), 'cancelled_or_failed': sum(not r['done'] for r in records),
                     'client_streamed_tokens_total': sum(r['output_token_ids'] for r in records),
                     'server_generated_tokens_total': sum(b['generation_tokens_total'] - a['generation_tokens_total'] for a, b in zip(before['nodes'], after['nodes'])),
-                    'scope': 'Fixed-window requests may cross boundaries. Cancellation can leave a small amount of generated output unobserved by the client; this is recorded rather than equated with received tokens.'}
+                    'scope': 'Fixed-window requests may cross boundaries. The legacy naturally_completed field counts received DONE events, including length stops; it does not imply natural EOS. Cancellation can leave a small amount of generated output unobserved by the client; this is recorded rather than equated with received tokens.'}
                 (output / 'completion.json').write_text(json.dumps(receipt, indent=2))
                 print(json.dumps(receipt), flush=True)
 

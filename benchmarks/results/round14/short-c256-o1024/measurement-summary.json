@@ -1,0 +1,55 @@
+{
+  "output_tokens_per_second": 2948.238888888889,
+  "streamed_output_tokens": 530683,
+  "measurement_seconds": 180,
+  "warmup_seconds": 60,
+  "concurrency": 256,
+  "worker_output_tokens": {
+    "dp1": 266207,
+    "dp0": 264476
+  },
+  "all_30s_output_tps": [
+    2897.5666666666666,
+    2967.266666666667,
+    2614.6,
+    3103.5333333333333,
+    3155.266666666667,
+    2951.2
+  ],
+  "median_30s_output_tps": 2959.2333333333336,
+  "minimum_30s_output_tps": 2614.6,
+  "mean_client_active": 256,
+  "mean_server_running": 127.65853658536585,
+  "mean_server_waiting": 127.07317073170732,
+  "server_counter_deltas": {
+    "generation_tokens_total": 530726.0,
+    "request_success_total": 512.0,
+    "num_preemptions_total": 0.0,
+    "prefix_cache_queries_total": 43336.0,
+    "prefix_cache_hits_total": 0.0,
+    "spec_decode_num_drafts_total": 193281.0,
+    "spec_decode_num_draft_tokens_total": 966405.0,
+    "spec_decode_num_accepted_tokens_total": 337701.0
+  },
+  "server_generation_tokens_per_second": 2943.5597313180147,
+  "mean_1_plus_accepted_per_draft": 2.7472022599220827,
+  "cache_hit_fraction": 0.0,
+  "window_start_snapshot_relative": 60.05679799988866,
+  "window_end_snapshot_relative": 240.35753875039518,
+  "scope": "Continuous synthetic short coding requests. Fixed output cap and ignore_eos as recorded in protocol; outputs are not complete agent tasks or quality scores. Each request has a unique cache salt; no prefix sharing. Fixed token window after declared warmup. In-flight requests cancelled only after measurement.",
+  "completed_in_window": 512,
+  "completed_finish_reasons": {
+    "length": 512
+  },
+  "completed_ttft_seconds": {
+    "0.5": 45.270195964723825,
+    "0.95": 49.04773770831525,
+    "0.99": 50.57324373535812
+  },
+  "completed_latency_seconds": {
+    "0.5": 89.96550608053803,
+    "0.95": 97.36558755859733,
+    "0.99": 99.48895612172782
+  },
+  "latency_scope": "Requests completing in the window; boundary censoring applies. Full request records are retained."
+}

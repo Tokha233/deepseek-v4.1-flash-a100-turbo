@@ -1,0 +1,7 @@
+{
+  "captured_at": 1789394379.919675,
+  "image_id": "sha256:3e48f959b064c550bcbe67c40006603a19bb6c05c74c9a4cdbc5378755e0dead",
+  "image": "deepseek-v41-public-runtime-base:ubuntu2404",
+  "started_at": "2026-09-13T20:35:56.113700002Z",
+  "state": "running"
+}

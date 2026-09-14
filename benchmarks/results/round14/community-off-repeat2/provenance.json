@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "file": "acceptance.py",
+      "url": "https://raw.githubusercontent.com/keplerzip/deepseek-v4.1-flash-a100/bd4fd63d1e01ee25c3ba89eb0f17dfe937461eb7/deploy/tests/acceptance.py",
+      "upstream_sha256": "17e346c36a2a4689ab82f5424a3accb2e0882e66a705348297089f936e4f5650",
+      "adapted_sha256": "56e4e284666921be445951e6106a61921edadccc1823b04236ac3ef2d52c71c2",
+      "replacement": [
+        "MODEL = 'DeepSeek-V4.1-Flash'",
+        "MODEL = 'deepseek-ai/DeepSeek-V4.1-Flash'"
+      ]
+    },
+    {
+      "file": "dspark_benchmark.py",
+      "url": "https://raw.githubusercontent.com/keplerzip/deepseek-v4.1-flash-a100/bd4fd63d1e01ee25c3ba89eb0f17dfe937461eb7/deploy/tests/dspark_benchmark.py",
+      "upstream_sha256": "19f04b29b0a35034fe38bb93717009768091433c398f7bd7091f73fbd5730be8",
+      "adapted_sha256": "2a8da805c1bb10b5d4274e82a6a0a69d7d1ea6cb4449b9156d4049e9618b9f18",
+      "replacement": [
+        "'context': 262144",
+        "'context': 524288"
+      ]
+    }
+  ],
+  "mode": "off",
+  "numeric_effort": null,
+  "seed": "ampere-community-20260914",
+  "server_context_limit": 524288,
+  "upstream_server_context_limit": 262144,
+  "scope": "Original request generator, 2 warmups, 5 single samples, 200 requests at C32, T0, sampling seed42, fixed1024 output, ignore_eos; original full-load wall-clock timing. Model alias and reported context are the only source changes. The upstream report did not publish its nonce seed; identical request hashes are not claimed."
+}

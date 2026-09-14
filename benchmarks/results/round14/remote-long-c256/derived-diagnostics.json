@@ -1,0 +1,16 @@
+{
+  "first_sample_running_at_least_120": 542.17232051678,
+  "completed_in_window": 1206,
+  "ttft": {
+    "0.5": 48.63595476746559,
+    "0.95": 445.2604345586151,
+    "0.99": 514.0016020312905
+  },
+  "latency": {
+    "0.5": 71.71752423979342,
+    "0.95": 552.149754634127,
+    "0.99": 726.8472671806812
+  },
+  "completed_outputs_median": 285.0,
+  "latency_scope": "Only requests completing in declared window; boundary censoring applies."
+}

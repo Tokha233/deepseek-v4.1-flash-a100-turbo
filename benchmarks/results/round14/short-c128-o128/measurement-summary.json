@@ -1,0 +1,55 @@
+{
+  "output_tokens_per_second": 2452.7055555555557,
+  "streamed_output_tokens": 441487,
+  "measurement_seconds": 180,
+  "warmup_seconds": 60,
+  "concurrency": 128,
+  "worker_output_tokens": {
+    "dp1": 218319,
+    "dp0": 223168
+  },
+  "all_30s_output_tps": [
+    2715.0,
+    2383.8333333333335,
+    2527.866666666667,
+    2118.2,
+    2431.0,
+    2540.3333333333335
+  ],
+  "median_30s_output_tps": 2479.4333333333334,
+  "minimum_30s_output_tps": 2118.2,
+  "mean_client_active": 128,
+  "mean_server_running": 92.72727272727273,
+  "mean_server_waiting": 0.0,
+  "server_counter_deltas": {
+    "generation_tokens_total": 441516.0,
+    "request_success_total": 3436.0,
+    "num_preemptions_total": 0.0,
+    "prefix_cache_queries_total": 289976.0,
+    "prefix_cache_hits_total": 0.0,
+    "spec_decode_num_drafts_total": 111488.0,
+    "spec_decode_num_draft_tokens_total": 557440.0,
+    "spec_decode_num_accepted_tokens_total": 332684.0
+  },
+  "server_generation_tokens_per_second": 2452.759678422833,
+  "mean_1_plus_accepted_per_draft": 3.984034156142365,
+  "cache_hit_fraction": 0.0,
+  "window_start_snapshot_relative": 60.07956517674029,
+  "window_end_snapshot_relative": 240.08741669356823,
+  "scope": "Continuous synthetic short coding requests. Fixed output cap and ignore_eos as recorded in protocol; outputs are not complete agent tasks or quality scores. Each request has a unique cache salt; no prefix sharing. Fixed token window after declared warmup. In-flight requests cancelled only after measurement.",
+  "completed_in_window": 3431,
+  "completed_finish_reasons": {
+    "length": 3431
+  },
+  "completed_ttft_seconds": {
+    "0.5": 2.2487843614071608,
+    "0.95": 4.807675439864397,
+    "0.99": 5.338282834738493
+  },
+  "completed_latency_seconds": {
+    "0.5": 6.609902897849679,
+    "0.95": 9.687398876994848,
+    "0.99": 10.597206957638264
+  },
+  "latency_scope": "Requests completing in the window; boundary censoring applies. Full request records are retained."
+}

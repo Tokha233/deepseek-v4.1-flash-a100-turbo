@@ -1,0 +1,26 @@
+{
+  "declared_at": 1789394615.055555,
+  "runs": [
+    {
+      "name": "community-off-repeat1",
+      "mode": "off",
+      "seed": "ampere-community-20260914"
+    },
+    {
+      "name": "community-high-repeat1",
+      "mode": "high",
+      "seed": "ampere-community-20260914"
+    },
+    {
+      "name": "community-off-repeat2",
+      "mode": "off",
+      "seed": "ampere-community-20260914"
+    },
+    {
+      "name": "community-high-repeat2",
+      "mode": "high",
+      "seed": "ampere-community-20260914"
+    }
+  ],
+  "notes": "Original keplerzip benchmark with only model alias and context metadata changed. Two repeats; fixed off/high order. Includes startup and tail in each 200-request C32 load phase."
+}

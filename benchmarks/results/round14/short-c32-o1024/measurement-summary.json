@@ -1,0 +1,55 @@
+{
+  "output_tokens_per_second": 1453.4777777777779,
+  "streamed_output_tokens": 261626,
+  "measurement_seconds": 180,
+  "warmup_seconds": 60,
+  "concurrency": 32,
+  "worker_output_tokens": {
+    "dp0": 130969,
+    "dp1": 130657
+  },
+  "all_30s_output_tps": [
+    1434.1333333333334,
+    1464.0666666666666,
+    1495.1,
+    1365.8333333333333,
+    1478.5666666666666,
+    1483.1666666666667
+  ],
+  "median_30s_output_tps": 1471.3166666666666,
+  "minimum_30s_output_tps": 1365.8333333333333,
+  "mean_client_active": 32,
+  "mean_server_running": 31.726190476190474,
+  "mean_server_waiting": 0.0,
+  "server_counter_deltas": {
+    "generation_tokens_total": 261626.0,
+    "request_success_total": 262.0,
+    "num_preemptions_total": 0.0,
+    "prefix_cache_queries_total": 22177.0,
+    "prefix_cache_hits_total": 0.0,
+    "spec_decode_num_drafts_total": 94887.0,
+    "spec_decode_num_draft_tokens_total": 474435.0,
+    "spec_decode_num_accepted_tokens_total": 166901.0
+  },
+  "server_generation_tokens_per_second": 1452.409692633608,
+  "mean_1_plus_accepted_per_draft": 2.7589448501902263,
+  "cache_hit_fraction": 0.0,
+  "window_start_snapshot_relative": 60.026344534009695,
+  "window_end_snapshot_relative": 240.15871443413198,
+  "scope": "Continuous synthetic short coding requests. Fixed output cap and ignore_eos as recorded in protocol; outputs are not complete agent tasks or quality scores. Each request has a unique cache salt; no prefix sharing. Fixed token window after declared warmup. In-flight requests cancelled only after measurement.",
+  "completed_in_window": 262,
+  "completed_finish_reasons": {
+    "length": 262
+  },
+  "completed_ttft_seconds": {
+    "0.5": 0.24487730115652084,
+    "0.95": 0.4197651520371437,
+    "0.99": 0.523507084697485
+  },
+  "completed_latency_seconds": {
+    "0.5": 22.55468885973096,
+    "0.95": 25.57411565259099,
+    "0.99": 26.662223633378744
+  },
+  "latency_scope": "Requests completing in the window; boundary censoring applies. Full request records are retained."
+}

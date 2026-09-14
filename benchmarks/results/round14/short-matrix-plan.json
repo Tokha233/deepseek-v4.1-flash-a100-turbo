@@ -1,0 +1,41 @@
+{
+  "declared_at": 1789394014.4499025,
+  "matrix": [
+    {
+      "name": "short-pilot",
+      "concurrency": 4,
+      "max_tokens": 128,
+      "warmup": 0,
+      "duration": 30
+    },
+    {
+      "name": "short-c128-o1024",
+      "concurrency": 128,
+      "max_tokens": 1024,
+      "warmup": 60,
+      "duration": 180
+    },
+    {
+      "name": "short-c256-o1024",
+      "concurrency": 256,
+      "max_tokens": 1024,
+      "warmup": 60,
+      "duration": 180
+    },
+    {
+      "name": "short-c128-o128",
+      "concurrency": 128,
+      "max_tokens": 128,
+      "warmup": 60,
+      "duration": 180
+    }
+  ],
+  "thinking": true,
+  "effort": 100,
+  "temperature": 1,
+  "top_p": 0.95,
+  "top_k": 20,
+  "ignore_eos": true,
+  "scope": "Synthetic short coding capacity, separate from natural long-history throughput and quality benchmarks.",
+  "server_limit": "64 running sequences per DP; two DP ranks, total128. Client C256 tests queue saturation, not256 executing sequences."
+}

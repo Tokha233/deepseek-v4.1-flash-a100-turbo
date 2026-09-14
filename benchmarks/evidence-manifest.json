@@ -468,5 +468,397 @@
       "last_exit",
       "counts"
     ]
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-coding-effort100.json.gz",
+    "source_sha256": "9e9c8dc650b70b1485b4defc1a4caff901cf6a7d9609f40ebf21ed1dbdf4223a",
+    "export": "benchmarks/data/short-coding-effort100.json.gz",
+    "export_sha256": "9e9c8dc650b70b1485b4defc1a4caff901cf6a7d9609f40ebf21ed1dbdf4223a",
+    "redaction": "None. Public synthetic prompts and token IDs; no real agent histories."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-high-repeat1/report.json",
+    "source_sha256": "5d2168edc29dfff25b4b35b0084d02dd4e119da5729913201c0f754eede362aa",
+    "export": "benchmarks/results/round14/community-high-repeat1/report.json",
+    "export_sha256": "5d2168edc29dfff25b4b35b0084d02dd4e119da5729913201c0f754eede362aa",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-high-repeat1/provenance.json",
+    "source_sha256": "7656a9d84a88b7aef55b7152871aeb6ee6ff972a7dc41e421d7f54ff3ca9e416",
+    "export": "benchmarks/results/round14/community-high-repeat1/provenance.json",
+    "export_sha256": "6a2db919694865b8e61331ab5326185ad764b5ec1d1d85fddc9713448f9860bc",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-high-repeat1/report.jsonl",
+    "source_sha256": "ddb3162e3e811b4736ec21b56f881a8d77fe9848fe24fc7edf2f1c7187c0dfab",
+    "export": "benchmarks/results/round14/community-high-repeat1/requests.json",
+    "export_sha256": "68b7ad41f694456eaea7801f0c4e8cfd8af42d6eebb6891388905d38e89e5c92",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-high-repeat2/report.json",
+    "source_sha256": "832ecb28b14b94f6ebd2d1c6c21828fc98826da1276a94d83e32ede964cee6af",
+    "export": "benchmarks/results/round14/community-high-repeat2/report.json",
+    "export_sha256": "832ecb28b14b94f6ebd2d1c6c21828fc98826da1276a94d83e32ede964cee6af",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-high-repeat2/provenance.json",
+    "source_sha256": "7656a9d84a88b7aef55b7152871aeb6ee6ff972a7dc41e421d7f54ff3ca9e416",
+    "export": "benchmarks/results/round14/community-high-repeat2/provenance.json",
+    "export_sha256": "6a2db919694865b8e61331ab5326185ad764b5ec1d1d85fddc9713448f9860bc",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-high-repeat2/report.jsonl",
+    "source_sha256": "e8f4ab515353f8f30f49d7222c0ccb19ca73e01d6672cc8517cbff4027018260",
+    "export": "benchmarks/results/round14/community-high-repeat2/requests.json",
+    "export_sha256": "67e105c39e46ea610b70a1329d7290ae64042e3b7f84a8e4b17d9a425121a132",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-off-repeat1/report.json",
+    "source_sha256": "9c50744596f658347f013e9ac18db278f63730003c2c239f51befc74fa7bed3c",
+    "export": "benchmarks/results/round14/community-off-repeat1/report.json",
+    "export_sha256": "9c50744596f658347f013e9ac18db278f63730003c2c239f51befc74fa7bed3c",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-off-repeat1/provenance.json",
+    "source_sha256": "78d62ea73db075c6dfbd28cf5ffae02e8ff5dde91c3ba431b5f9695affb685fb",
+    "export": "benchmarks/results/round14/community-off-repeat1/provenance.json",
+    "export_sha256": "b4f7f78893103defc683256da1ea7288e9e40f8debcc26211856b68ca44b7e63",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-off-repeat1/report.jsonl",
+    "source_sha256": "462009a8ea69e72b8b4ef5e636b7061ce3e56c0895741f7afba6355bebe2d372",
+    "export": "benchmarks/results/round14/community-off-repeat1/requests.json",
+    "export_sha256": "78f8bcc2cd9ed4434fcbd4c4a710024a9c78c8f2da25fc903710eafa07529116",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-off-repeat2/report.json",
+    "source_sha256": "ed5d488cf2def0b900d140a3f069f234f357374d72c4fec35849fdbfffe134bb",
+    "export": "benchmarks/results/round14/community-off-repeat2/report.json",
+    "export_sha256": "ed5d488cf2def0b900d140a3f069f234f357374d72c4fec35849fdbfffe134bb",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-off-repeat2/provenance.json",
+    "source_sha256": "78d62ea73db075c6dfbd28cf5ffae02e8ff5dde91c3ba431b5f9695affb685fb",
+    "export": "benchmarks/results/round14/community-off-repeat2/provenance.json",
+    "export_sha256": "b4f7f78893103defc683256da1ea7288e9e40f8debcc26211856b68ca44b7e63",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-off-repeat2/report.jsonl",
+    "source_sha256": "becb60b2482eccc05f4a924803650930aac045768bad3b44550c48712740f9cf",
+    "export": "benchmarks/results/round14/community-off-repeat2/requests.json",
+    "export_sha256": "50bead6c13a908509d82e39e538f92b4ca0f84bb094f26c792ac255c63f33af4",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/remote-long-c256/protocol.json",
+    "source_sha256": "4c043cba27642e785e91d0178ec094fd12ec176f0cf875b2db26a94c99a7aa66",
+    "export": "benchmarks/results/round14/remote-long-c256/protocol.json",
+    "export_sha256": "f1006e578bcbebe656dc692139dc36043db44ac8a5859a546849941f63d68792",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/remote-long-c256/measurement-summary.json",
+    "source_sha256": "b9faa768fa485a2853e6e793879e02eec1659aa6467b6055d8faacaa44c84273",
+    "export": "benchmarks/results/round14/remote-long-c256/measurement-summary.json",
+    "export_sha256": "8a870d92183922ecb2080498a82b44e01f3cfe1b67e014dccec7e04a214a920d",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/remote-long-c256/completion.json",
+    "source_sha256": "280be0153bffcca8175c84c9af9c97bc047f25618bbc0eee07d6bd4e37fc8a10",
+    "export": "benchmarks/results/round14/remote-long-c256/completion.json",
+    "export_sha256": "435cb4e8b3cc4684252a12e16a24d886217806e744e6015d2ebf85bb86f419ce",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/remote-long-c256/tokens-per-second.json",
+    "source_sha256": "707ce26de5788d48c2510a5febecec37e52678b5cc497ce2d862140636ab9341",
+    "export": "benchmarks/results/round14/remote-long-c256/tokens-per-second.json",
+    "export_sha256": "ea90ee174cc27efcd9f36435d92ef9309e0bbca688ec5d1272ba53981d78c8c4",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/remote-long-c256/derived-diagnostics.json",
+    "source_sha256": "07a37aadcd2789d11fd8381490d4e8cf44457cd6d33d7cee8be500029e5d081d",
+    "export": "benchmarks/results/round14/remote-long-c256/derived-diagnostics.json",
+    "export_sha256": "89297dc46550252033298f6ad99b07f528698d429886edceb4ab950dd60a33e5",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/remote-long-c256/requests.jsonl",
+    "source_sha256": "cb7b43ed0b27c7dca598239df7cb3d2adc9a4036489e5b089f499280f4c3cf75",
+    "export": "benchmarks/results/round14/remote-long-c256/requests.json",
+    "export_sha256": "5865ef0a927337ac76d62f0305cff7ee9a93474d4bd199371adcee1050bb9fc5",
+    "redaction": "JSONL converted to JSON; request and instance identifiers omitted; timing, usage, completion fields preserved."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/remote-long-c256/loads.jsonl",
+    "source_sha256": "96e4d394d3bfea2f7c0fd48e0a940b8c975fe6ec4eafddd31d188df8ba13c8a1",
+    "export": "benchmarks/results/round14/remote-long-c256/loads.json",
+    "export_sha256": "52cdd0af3406a74072560861faadb24a6f7654d75dd6d1f36234a27d4d16a02f",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o1024/protocol.json",
+    "source_sha256": "204b77913663b18fbb593ec73a95cf657073ad2f79dd58a304d574156643fb4b",
+    "export": "benchmarks/results/round14/short-c128-o1024/protocol.json",
+    "export_sha256": "d5b5a0107f2f106c9eb3bb158632e9b22ef45d63a56b1af043c3fecb598671ca",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o1024/measurement-summary.json",
+    "source_sha256": "b2fb28fb0193d269a376b3d38ebac63ee11462e200ae6453609622a02410d27f",
+    "export": "benchmarks/results/round14/short-c128-o1024/measurement-summary.json",
+    "export_sha256": "3b904720187dfe297643703d4c6e03e2430567bd5d759cbb988c52f9bd8785df",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o1024/completion.json",
+    "source_sha256": "e047f573b53ddc1c62d849de98a2d0e34bed848473bf0dd33047beade9717921",
+    "export": "benchmarks/results/round14/short-c128-o1024/completion.json",
+    "export_sha256": "443b37558962f4b502981191749f50dd9fd6d980533ad6204fbca6c2c9372987",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o1024/tokens-per-second.json",
+    "source_sha256": "b555577068c08a7faf52dc1125bca10ed30313fb85ea5b002cfc0b27ebae5a53",
+    "export": "benchmarks/results/round14/short-c128-o1024/tokens-per-second.json",
+    "export_sha256": "57eb2c4bd754cbd4a23449702d837745d1d8a7e47c5b6d19d8fd52d4cd561380",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o1024/requests.jsonl",
+    "source_sha256": "ef0e7280da62ff064b8c224c83fbeaa674a0cade6570f2af18df0bdd495e6811",
+    "export": "benchmarks/results/round14/short-c128-o1024/requests.json",
+    "export_sha256": "b0f071ce80ec3311d7525924ab0e1b089507bb43d7facfa117ffb57d53668a68",
+    "redaction": "JSONL converted to JSON; request and instance identifiers omitted; timing, usage, completion fields preserved."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o1024/loads.jsonl",
+    "source_sha256": "38bfd6bb354f45abf42d2e5700003a3c86492c59ebaefd4af8119fbc288f5abe",
+    "export": "benchmarks/results/round14/short-c128-o1024/loads.json",
+    "export_sha256": "9303227090630bc4987dde14b9dbf51a5e29f6c7dbec4bd82a7aa34b5652b5d3",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o128/protocol.json",
+    "source_sha256": "fa119c8d03386f224d99d70dd929c58967579f6351fe02722283bf828fb1f832",
+    "export": "benchmarks/results/round14/short-c128-o128/protocol.json",
+    "export_sha256": "a671b8c5b045a82e05053bea4dafda796f09c70c59602fb648cbffa09546293b",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o128/measurement-summary.json",
+    "source_sha256": "a22deec05149a9bf93d411b9757ee164be70ac3899fe6876443bd880b5d43f0d",
+    "export": "benchmarks/results/round14/short-c128-o128/measurement-summary.json",
+    "export_sha256": "0d54afd1d9d2a9de050e5be2e54ba98e8d0fd961ed471607a4bf6ea8ed822e0d",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o128/completion.json",
+    "source_sha256": "44bcff46b563a69c84e14e5cdd68d8ebd92c7485d0984617b8a57b5851ebcfad",
+    "export": "benchmarks/results/round14/short-c128-o128/completion.json",
+    "export_sha256": "263f89bdff563ab761703d32c0202abf0016c525408a78f6604f4e4c5d924195",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o128/tokens-per-second.json",
+    "source_sha256": "1a88c4210a4b90b8aa401db8f7bc81ce28b1d5de8a15fb8368d6d5672c312870",
+    "export": "benchmarks/results/round14/short-c128-o128/tokens-per-second.json",
+    "export_sha256": "d38491d1e360e559312d68b7028786f05af0237dbaf2e08783a0f3484bdee927",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o128/requests.jsonl",
+    "source_sha256": "ff6f2f36dc7a4ff98d6abab99932717f8d070e3eb7a790556c169c81e549b65d",
+    "export": "benchmarks/results/round14/short-c128-o128/requests.json",
+    "export_sha256": "cb984aee124f70f57331e24c6a5756f63821b4e001834375e103e7380bd37336",
+    "redaction": "JSONL converted to JSON; request and instance identifiers omitted; timing, usage, completion fields preserved."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c128-o128/loads.jsonl",
+    "source_sha256": "99f9c4ad192f0e7a78aa6956c5c81405c5a8b3fbd9b7aab5777558e67d97223f",
+    "export": "benchmarks/results/round14/short-c128-o128/loads.json",
+    "export_sha256": "8d5e34a400a705f1bf5ced57b2f1c7f30d876b70ffced61f662bf5434b3a6927",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c256-o1024/protocol.json",
+    "source_sha256": "865e9db75515bccd1da454e5dba201edf9e088b66b1e9ff0967f2f0d195521ef",
+    "export": "benchmarks/results/round14/short-c256-o1024/protocol.json",
+    "export_sha256": "1a4b72eef2e3c1d89811feee375b3d13b2d93f6e235448e8915109409f6eb850",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c256-o1024/measurement-summary.json",
+    "source_sha256": "c2a10abdfa08ae076b7dba913865532c67ec456aca9d9f59b806e9a6d0e879fd",
+    "export": "benchmarks/results/round14/short-c256-o1024/measurement-summary.json",
+    "export_sha256": "27cb20e2bc06fd681ac2560a26443523c2d5a9272e068e1b69798db303dcd342",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c256-o1024/completion.json",
+    "source_sha256": "222e7171bd153f0b74d9d099b686f7913c981c35fe5aed97a129ace0ffe00cd6",
+    "export": "benchmarks/results/round14/short-c256-o1024/completion.json",
+    "export_sha256": "44507ab885b9721f82dca13fd22f0de86ca8041a1ae9fc5bc720ef1dc2e01452",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c256-o1024/tokens-per-second.json",
+    "source_sha256": "7545179dfc1dd6662b87760edca6ee53dc172cf8e94ded2530ee8829c7b49d39",
+    "export": "benchmarks/results/round14/short-c256-o1024/tokens-per-second.json",
+    "export_sha256": "a2bc6bf54ad42bacd4341a2a0cfec3fbf5ff142b1cb6b91bcff3e5821b75d1b6",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c256-o1024/requests.jsonl",
+    "source_sha256": "4570e0f2884fab790953e02c24f11a33c373d38b427cf35a68a00b9203d597de",
+    "export": "benchmarks/results/round14/short-c256-o1024/requests.json",
+    "export_sha256": "82bfb276cf82a233959b2df872c34f73f8a52dde827e629bd4f3553465d67bb8",
+    "redaction": "JSONL converted to JSON; request and instance identifiers omitted; timing, usage, completion fields preserved."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c256-o1024/loads.jsonl",
+    "source_sha256": "836e78d92bffc1508282252dcbef9a43c87fc123b3a634d25657db8f5dd32795",
+    "export": "benchmarks/results/round14/short-c256-o1024/loads.json",
+    "export_sha256": "aa745c159e60fc37f3df78c0f9fe525485f83a8d6746bce11b77033bd9093c9c",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c32-o1024/protocol.json",
+    "source_sha256": "ce18a3d520e27a737882ca4f4525dfef3141ba641802aab1274999371d04edb5",
+    "export": "benchmarks/results/round14/short-c32-o1024/protocol.json",
+    "export_sha256": "172aafb89c85576b9e2d4dfd53c4d62cb70dfd1f5a75f2f40c783e9a6d32bafc",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c32-o1024/measurement-summary.json",
+    "source_sha256": "405a32bfcb2f272f4c3a81c3614e11a630214ce9dbf3e510e9eb38df83689429",
+    "export": "benchmarks/results/round14/short-c32-o1024/measurement-summary.json",
+    "export_sha256": "d2376a3053120c3ab148221570038ead2cfe7e664b6a344216b2c9a1f827ce5b",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c32-o1024/completion.json",
+    "source_sha256": "c63fbd6953b6c05e127a1515bb103824738c25500a5d8447d85dd54af1936e39",
+    "export": "benchmarks/results/round14/short-c32-o1024/completion.json",
+    "export_sha256": "68a04cfa5fd05b57b29a5f2541554a1de41de2010eb7f4e6b8ba7e9ed934ea35",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c32-o1024/tokens-per-second.json",
+    "source_sha256": "a648340bea1ed5cb91c5313bb435fb76200cad8ac8d9a1f8e3e2f42a7ca75fc8",
+    "export": "benchmarks/results/round14/short-c32-o1024/tokens-per-second.json",
+    "export_sha256": "9981f9ee914d22cf31378fa5263ab69552e8c79140a3ab4ef72d3dcdb3b3e364",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c32-o1024/requests.jsonl",
+    "source_sha256": "e2e3257bdc904f75ec8c6f5a197e9e5044d5d5804e1b1ed386f80b1f3bd42c65",
+    "export": "benchmarks/results/round14/short-c32-o1024/requests.json",
+    "export_sha256": "0646119a83c1ba05f45a9b2b71ec2ad0cc7cc9afe02b97120239817dbd5484ec",
+    "redaction": "JSONL converted to JSON; request and instance identifiers omitted; timing, usage, completion fields preserved."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c32-o1024/loads.jsonl",
+    "source_sha256": "dd3dc4c1eb54a3d7ed0ed8ff90820dcdc5a3e95b06b012abe41a014f3e5e215a",
+    "export": "benchmarks/results/round14/short-c32-o1024/loads.json",
+    "export_sha256": "2568e3e454e898fd329af03cd8e99b6c91db0a0c372ae55a39051497166bd003",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-pilot/protocol.json",
+    "source_sha256": "4946efb2b065342ae1020f08e0e9e31dd5023ae381aeacdff84c03bc23f10d00",
+    "export": "benchmarks/results/round14/short-pilot/protocol.json",
+    "export_sha256": "0b1bcb85cd2b8a4c5d3df07463c2c8f515582265fa02ce413d6f122ca03435b6",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-pilot/measurement-summary.json",
+    "source_sha256": "a9942a1a1c95d290a2d4d7cba06c6a0bbd71ec49bfd36b99091500e3d69e0956",
+    "export": "benchmarks/results/round14/short-pilot/measurement-summary.json",
+    "export_sha256": "330742ce965469d355e3ec997b26571a2218db05ab4c096299051268ae8038ef",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-pilot/completion.json",
+    "source_sha256": "af6c5a0811a6ef6188c670dc88d11b83996131876be113688ce7307fc8074f1b",
+    "export": "benchmarks/results/round14/short-pilot/completion.json",
+    "export_sha256": "14425f6b18708a78574fc81bc05223b4167a49a510b9cadb3020f0f664a7fbc4",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-pilot/tokens-per-second.json",
+    "source_sha256": "b99501d049826544788d779eae53e0a123b5a4a92c5ed34e6b2a32cb262d7698",
+    "export": "benchmarks/results/round14/short-pilot/tokens-per-second.json",
+    "export_sha256": "17808d0d8b175d0179a441dc0a37208f253179298b15f86f90e27360d202dd3d",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-pilot/requests.jsonl",
+    "source_sha256": "949204899de278c12e18bf663f307e48ab567bdb2876971aeec606c2f699a2a6",
+    "export": "benchmarks/results/round14/short-pilot/requests.json",
+    "export_sha256": "177974ccb634ab943cd319a42b944adea867324d1f6e4c1b36bfb435b58dfdcf",
+    "redaction": "JSONL converted to JSON; request and instance identifiers omitted; timing, usage, completion fields preserved."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-pilot/loads.jsonl",
+    "source_sha256": "85b454ff2ea3a2d03d6d06a3c75c2138253510ff89bb870dfa0e934a06b05e13",
+    "export": "benchmarks/results/round14/short-pilot/loads.json",
+    "export_sha256": "21f102eaacfc1b536b9a692ff60198eead0068db992becad6cbdda5ec6eeb06c",
+    "redaction": "JSONL converted to JSON; all values retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-matrix-plan.json",
+    "source_sha256": "f2d41f6f69d11ec313b319b6c42e669ee37eb3ed7804cd4e7d6f6c64f3687b0e",
+    "export": "benchmarks/results/round14/short-matrix-plan.json",
+    "export_sha256": "d5030386d7eacacb179702d77610e5ebad2ca0623ff3d04d74eec87f3c790065",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/short-c32-plan.json",
+    "source_sha256": "d95cf39f28bdce234293715b491f77fb6e2386a7867dbadc4afab4454488c136",
+    "export": "benchmarks/results/round14/short-c32-plan.json",
+    "export_sha256": "69c47bf0cdb2eed5e45e2b033abeff198a07bf18087fd72fb4f80f662139f8af",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-plan.json",
+    "source_sha256": "42e1b5cf0ccc0f7df7a303d43acaf8aba68e90405543ab292ac4977ae45b85ae",
+    "export": "benchmarks/results/round14/community-plan.json",
+    "export_sha256": "37bd643b7a39ab38f9c0ab3a457db87120e6bbacfe67065b3a165bbdf3c24c31",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/community-tokenization-private.json",
+    "source_sha256": "a5ac0602a4debd396ca4a12532dcda59a62737e136c1bee87e6c66af38b5aba9",
+    "export": "benchmarks/results/round14/community-tokenization.json",
+    "export_sha256": "282e284f5fd84f8be426a3d7c466c8c1e54d666a89c5c8ae4c120245c59338cf",
+    "redaction": "Private endpoint and path labels; all numeric fields unchanged."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/runtime-private.json",
+    "source_sha256": "3682677445f975a1b8eebd54ace7ab7bdf513087b0484a242e91b6339bfa73e7",
+    "export": "benchmarks/results/round14/runtime.json",
+    "export_sha256": "d6fdc60193db92a391a96313dc69b05d24ac2f238ad19c3cb4e55fa0f42dfb97",
+    "redaction": "Wrapper command omitted; image identity and start time retained."
+  },
+  {
+    "source": "EXPERIMENT_NAS/round14-concurrency-short-20260914/gpu-samples.jsonl",
+    "source_sha256": "dd130ac66d0a99d626afc8279e087dba807c5eda351bd3a6fa30b7b9d9aaa3c9",
+    "export": "benchmarks/results/round14/gpu-samples.json",
+    "export_sha256": "f82fdac84de168dc6d7ca995b3cbcd81804a1dabe40a51f0749285d80a299088",
+    "redaction": "JSONL converted to JSON; all values retained. Sampling began during final minute of long replay."
   }
 ]
