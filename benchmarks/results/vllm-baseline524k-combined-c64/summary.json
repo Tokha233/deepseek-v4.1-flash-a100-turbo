@@ -1,0 +1,28 @@
+{
+  "requests": 192,
+  "seconds": 573.1997004896402,
+  "output_tokens": 351191,
+  "output_tokens_per_second": 612.6852468694674,
+  "prompt_tokens": 9009213,
+  "cached_tokens": 5940352,
+  "mean_inflight_requests": 32.53636814621358,
+  "median_ttft_by_turn": {
+    "0": 112.74049452878535,
+    "1": 0.7834224766120315,
+    "2": 0.5424252627417445
+  },
+  "finish_reasons": {
+    "stop": 189,
+    "length": 3
+  },
+  "worker_requests": {
+    "http://BACKEND": 192
+  },
+  "framework": "vllm",
+  "prompt_usage_matches_input_ids": true,
+  "priming_seconds": 0,
+  "seconds_including_priming": 573.1997038628906,
+  "natural_output_tokens_per_second_including_priming": 612.6852432638467,
+  "warm_prefix": false,
+  "scope": "Full natural-output history replay; numerator includes only benchmark requests. Check server accounting for shared traffic."
+}

@@ -1,0 +1,54 @@
+{
+  "hardware": "8x A800-SXM4-80GB",
+  "runtime": "pinned vLLM backport, DSpark5, TP4 DP2 EP8, FULL_DECODE_ONLY",
+  "lmcache_version": "0.5.5.dev135",
+  "candidate": "upstream LMCache PR5053 Python adapter only",
+  "retention_interval": 256,
+  "tests": [
+    {
+      "test": "cold",
+      "prompt_tokens": 66310,
+      "completion_tokens": 130,
+      "seconds": 9.27749285288155,
+      "ttft_seconds": 8.644022209569812,
+      "gpu_cached_tokens": 0.0,
+      "cpu_cached_tokens": 0.0,
+      "tool_answer_correct": true
+    },
+    {
+      "test": "cpu-same-dp",
+      "prompt_tokens": 66310,
+      "completion_tokens": 130,
+      "seconds": 2.62476441077888,
+      "ttft_seconds": 1.9910795781761408,
+      "gpu_cached_tokens": 0.0,
+      "cpu_cached_tokens": 66304.0,
+      "tool_answer_correct": true
+    },
+    {
+      "test": "gpu-warm",
+      "prompt_tokens": 66310,
+      "completion_tokens": 130,
+      "seconds": 1.6323482785373926,
+      "ttft_seconds": 0.9989182986319065,
+      "gpu_cached_tokens": 0.0,
+      "cpu_cached_tokens": 66304.0,
+      "tool_answer_correct": true
+    },
+    {
+      "test": "cpu-other-dp",
+      "prompt_tokens": 66310,
+      "completion_tokens": 130,
+      "seconds": 2.342642666772008,
+      "ttft_seconds": 1.7093345765024424,
+      "gpu_cached_tokens": 0.0,
+      "cpu_cached_tokens": 66304.0,
+      "tool_answer_correct": true
+    }
+  ],
+  "cancelled_streams": 24,
+  "successful_recoveries": 3,
+  "scope": "Retrieval and cancellation diagnostics, not coding-agent throughput.",
+  "repeated_request_gpu_hit": false,
+  "selected_by_default": false
+}

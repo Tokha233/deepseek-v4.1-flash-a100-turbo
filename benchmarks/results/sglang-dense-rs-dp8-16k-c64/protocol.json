@@ -1,0 +1,21 @@
+{
+  "source": "EXPERIMENT/round3/workload-long128-effort100.json.gz",
+  "source_sha256": "74b7f71c96b8468d855b3f4ee34d8a51ff3b97d8db96d7903b44468951b99680",
+  "concurrency": 64,
+  "trajectories": 64,
+  "last_turns": 3,
+  "effort": 100,
+  "temperature": 1,
+  "top_p": 0.95,
+  "top_k": 20,
+  "max_tokens": 32768,
+  "session_prefix": "replay-r8-b76bbbca1a5e9020cf5f44ed",
+  "endpoint": "http://BACKEND",
+  "occupiers": "stopped",
+  "warm_prefix": false,
+  "framework": "sglang",
+  "dp_ranks": 8,
+  "return_spec_tokens_details": true,
+  "priming": null,
+  "scope": "Complete natural-output replay; reference tools are not executed. Backends may also serve unrelated clients."
+}

@@ -1,0 +1,25 @@
+{
+  "trajectories": 500,
+  "counts": {
+    "system": 500,
+    "user": 502,
+    "assistant": 29962,
+    "multiple_tool_calls": 9984,
+    "tool_calls": 41043,
+    "reasoning_characters": 66159352,
+    "empty_reasoning": 285,
+    "finish_tool_calls": 29962,
+    "max_prompt_tokens": 345995,
+    "max_completion_tokens": 26710,
+    "tool": 40543,
+    "exit": 500,
+    "exit_Submitted": 500,
+    "truncated_observations": 650,
+    "tool_exceptions": 1202,
+    "tool_timeouts": 1167,
+    "format_errors": 2,
+    "reasoning_in_format_errors": 84042
+  },
+  "cases_with_failures": 0,
+  "note": "Protocol audit includes unsuccessful agent attempts; benchmark score keeps the full selection."
+}

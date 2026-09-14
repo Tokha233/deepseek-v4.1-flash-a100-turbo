@@ -1,0 +1,62 @@
+{
+  "query": "deepseek v4 flash ampere",
+  "total_count": 8,
+  "items": [
+    {
+      "full_name": "Lasimeri/vllm-dsv4-ampere",
+      "description": "DeepSeek-V4-Flash on Ampere SM 8.6 via vLLM (pyref kernel replacements)",
+      "html_url": "https://github.com/Lasimeri/vllm-dsv4-ampere",
+      "stargazers_count": 35,
+      "pushed_at": "2026-07-02T15:13:03Z"
+    },
+    {
+      "full_name": "AppMana/forks-flash-mla-int",
+      "description": "Ampere DeepSeek V4 FlashMLA fork",
+      "html_url": "https://github.com/AppMana/forks-flash-mla-int",
+      "stargazers_count": 2,
+      "pushed_at": "2026-09-01T04:26:16Z"
+    },
+    {
+      "full_name": "kaka86mm/dsv4-vision-170hx",
+      "description": "DeepSeek-V4-Flash-Vision-Exp multimodal serving on 4\u00d7 CMP 170HX (unlocked GA100, sm_80, PP4, 512k ctx, DSpark)",
+      "html_url": "https://github.com/kaka86mm/dsv4-vision-170hx",
+      "stargazers_count": 4,
+      "pushed_at": "2026-09-08T08:12:48Z"
+    },
+    {
+      "full_name": "Hakureirm/dsv4-on-ampere",
+      "description": "Serving DeepSeek-V4-Flash on Ampere (A100/A800, SM80) with SGLang \u2014 stock checkpoint, one four-line gate",
+      "html_url": "https://github.com/Hakureirm/dsv4-on-ampere",
+      "stargazers_count": 10,
+      "pushed_at": "2026-08-07T06:56:57Z"
+    },
+    {
+      "full_name": "wxwxwwxxx/deepseek-v4-sm80",
+      "description": "Optimized DeepSeek V4 Flash inference and serving on NVIDIA Ampere GPUs (SM80), based on Mini-SGLang, with TP8, CUDA Graph, prefix caching, chunked prefill, and long-context support.",
+      "html_url": "https://github.com/wxwxwwxxx/deepseek-v4-sm80",
+      "stargazers_count": 5,
+      "pushed_at": "2026-08-18T03:19:52Z"
+    },
+    {
+      "full_name": "nolaurence/lvllm-dsv4-ampere",
+      "description": "run deepseek v4 flash on sm86 consumer gpu with mixed inferrence (cpu + gpu mixed)",
+      "html_url": "https://github.com/nolaurence/lvllm-dsv4-ampere",
+      "stargazers_count": 0,
+      "pushed_at": "2026-06-10T16:08:14Z"
+    },
+    {
+      "full_name": "tomylin890/vllm-sm86-dsv4",
+      "description": "DeepSeek-V4-Flash-0731 on 8x RTX 3090: decode context parallelism for Ampere (SM86), 262144 context with prefix caching, ~4650 tok/s prefill and context-flat 50 tok/s decode. A vLLM fork.",
+      "html_url": "https://github.com/tomylin890/vllm-sm86-dsv4",
+      "stargazers_count": 5,
+      "pushed_at": "2026-08-13T13:37:22Z"
+    },
+    {
+      "full_name": "wwwadx/deepseek-v4-flash-a100-deploy",
+      "description": "Reproducible deployment of DeepSeek-V4-Flash-0731 (284B MoE, 1M context) on 8x A100 80GB PCIe \u2014 Ampere with no native FP8/FP4 and no NVLink. Includes a required patch closing a vLLM auth bypass.",
+      "html_url": "https://github.com/wwwadx/deepseek-v4-flash-a100-deploy",
+      "stargazers_count": 1,
+      "pushed_at": "2026-08-24T07:34:47Z"
+    }
+  ]
+}

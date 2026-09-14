@@ -1,0 +1,76 @@
+{
+  "query": "deepseek v4 agent benchmark",
+  "total_count": 10,
+  "items": [
+    {
+      "full_name": "neo1027144-creator/deepseek-v4-agent-benchmark",
+      "description": null,
+      "html_url": "https://github.com/neo1027144-creator/deepseek-v4-agent-benchmark",
+      "stargazers_count": 0,
+      "pushed_at": "2026-04-24T03:18:20Z"
+    },
+    {
+      "full_name": "Buljic/deepseek-v4-customMiniVer",
+      "description": "A local code-agent lab: structural repo ingestion, verifier-guided context retention, and benchmark tooling.",
+      "html_url": "https://github.com/Buljic/deepseek-v4-customMiniVer",
+      "stargazers_count": 1,
+      "pushed_at": "2026-08-05T07:22:56Z"
+    },
+    {
+      "full_name": "zheng1/deepseek-v4-w7900d",
+      "description": "Running DeepSeek V4 Flash on 8 x AMD W7900D with ROCm, GGUF, bati.cpp, benchmarks, and agent-assisted engineering notes.",
+      "html_url": "https://github.com/zheng1/deepseek-v4-w7900d",
+      "stargazers_count": 0,
+      "pushed_at": "2026-05-11T11:36:30Z"
+    },
+    {
+      "full_name": "zerodegress/dsh-anchored-benchmark",
+      "description": "2x2 benchmark: DeepSeek V4 Pro/Flash \u00d7 anchored-standard two-stage agent preset \u2014 broken-seed engineering fix + hidden tests + trajectory stats",
+      "html_url": "https://github.com/zerodegress/dsh-anchored-benchmark",
+      "stargazers_count": 0,
+      "pushed_at": "2026-08-15T09:10:18Z"
+    },
+    {
+      "full_name": "orangeofcarl0-sys/dsv4-behavior-bench",
+      "description": "DSV4 behavior-discrimination benchmark: 81 lightweight zero-dependency pytest grading tests (d10/d11/d12/t2/t3/t4/v4) for datapipe \u2014 discriminates harness/agent/persona effects that public tests saturate on",
+      "html_url": "https://github.com/orangeofcarl0-sys/dsv4-behavior-bench",
+      "stargazers_count": 2,
+      "pushed_at": "2026-09-09T07:39:11Z"
+    },
+    {
+      "full_name": "47thtechcorner/RayCodes_Deepseek_Flash_0731",
+      "description": "DeepSeek V4 Flash 0731 Update Destroys Pro For FREE (Benchmarks + Tests) - Enterprise-grade Python multi-agent suite for security auditing, HTML dashboards, and stock analysis.",
+      "html_url": "https://github.com/47thtechcorner/RayCodes_Deepseek_Flash_0731",
+      "stargazers_count": 0,
+      "pushed_at": "2026-07-31T16:13:59Z"
+    },
+    {
+      "full_name": "dakshjain-1616/-Long-Horizon-Agent-Benchmark-Claude-Opus-4.7-vs-Kimi-K2.6-vs-DeepSeek-V4-Pro-judged-by-GPT-5.5-",
+      "description": "Long-horizon agent benchmark comparing Opus 4.7, Kimi K2.6, and DeepSeek V4 Pro on 20 tasks across refactoring, research, data analysis, and debugging. GPT-5.5 judges each trace independently and quality-vs-tool-call curves are exported as a HuggingFace dataset.",
+      "html_url": "https://github.com/dakshjain-1616/-Long-Horizon-Agent-Benchmark-Claude-Opus-4.7-vs-Kimi-K2.6-vs-DeepSeek-V4-Pro-judged-by-GPT-5.5-",
+      "stargazers_count": 0,
+      "pushed_at": "2026-04-28T16:56:11Z"
+    },
+    {
+      "full_name": "morsycodes/aso-agent",
+      "description": "An end-to-end App Store Optimization (ASO) health audit application. Paste an Apple App Store listing URL to scrape the listing content, query store competitors, benchmark performance statistics, and generate highly prioritized copywriting recommendations using a Mastra DeepSeek V4 AI Agent.",
+      "html_url": "https://github.com/morsycodes/aso-agent",
+      "stargazers_count": 0,
+      "pushed_at": "2026-06-20T12:42:06Z"
+    },
+    {
+      "full_name": "Patsantre/the-very-deterministic-clerk",
+      "description": "Hybrid deterministic-solver + LLM-fallback agent for the BitGN ECOM1 benchmark, running on DeepSeek V4 Flash. Latest dev sweep: 99.49%. Author: https://www.linkedin.com/in/alexy-rybolovlev/",
+      "html_url": "https://github.com/Patsantre/the-very-deterministic-clerk",
+      "stargazers_count": 0,
+      "pushed_at": "2026-05-30T06:40:53Z"
+    },
+    {
+      "full_name": "apkovacs/autoresearch-dgx-local",
+      "description": "Autonomous ML research on a single DGX Spark: three agent modes spanning model capability (hypothesis generator to Karpathy's original design), custom GGUF support for frontier-scale quants like DeepSeek V4 Flash, a 4-level model/harness benchmark suite, and game-theoretic multi-branch orchestration",
+      "html_url": "https://github.com/apkovacs/autoresearch-dgx-local",
+      "stargazers_count": 0,
+      "pushed_at": "2026-07-07T05:01:49Z"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "patch_payloads": 23,
+  "python_ast": "passed",
+  "json": "passed",
+  "evidence_hashes": "passed",
+  "installer_idempotence_and_wrong_revision_guard": "passed",
+  "launcher_dryrun": "passed",
+  "broken_links": [],
+  "docker_build": "not run; source preview",
+  "hardware_smoke": "round13 remote native66K four requests passed",
+  "isolated_benchmark": "round13 C128 complete; client/server window token counts equal",
+  "routing_identity_tests": "2 passed"
+}

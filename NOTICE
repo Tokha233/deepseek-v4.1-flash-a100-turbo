@@ -1,0 +1,15 @@
+DeepSeek V4.1 Flash SM80 deployment
+
+This repository contains modified source files from the Apache-2.0-licensed
+vLLM project and the wtdcode/vllm-backport fork. Original SPDX and copyright
+notices are retained in those files.
+
+Runtime image: lazymio/vllm-backport:v0.13.0-sm80, pinned by digest.
+Upstream project: https://github.com/vllm-project/vllm
+SM80 backport: https://github.com/wtdcode/vllm-backport/tree/master-v013
+DP speculative metadata fix: https://github.com/vllm-project/vllm/pull/56181
+Candidate-only indexer algorithm reference: https://github.com/sgl-project/sglang/pull/38944
+Community deployment reference: https://github.com/keplerzip/deepseek-v4-flash-a100
+
+Model weights are not included. DeepSeek model licensing and the original
+runtime's third-party dependency licenses apply separately.

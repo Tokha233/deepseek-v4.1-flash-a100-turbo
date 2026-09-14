@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "endpoint": "http://BACKEND",
+  "dp_ranks": 2,
+  "minimum_prompt_tokens": 66000,
+  "requests": 4,
+  "framework": "vllm",
+  "scope": "vllm native tool correctness and warm GPU prefix reuse; allow 512 tokens of uncached tail; synthetic retrieval, not agent throughput."
+}

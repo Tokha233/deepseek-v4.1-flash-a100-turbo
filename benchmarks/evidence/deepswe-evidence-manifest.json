@@ -1,0 +1,16 @@
+{
+  "source_sha256": {
+    "final-summary.json": "e52bddcf5e5e869429ac50fb8024140de3b1213585dd24e1555165acfb008d75",
+    "accounting-final.json": "ea8f54c805c6bc4851b5cd84911167f7ffe5161bf6f92b88a036895953716d78",
+    "comparison.json": "f57faee9533c499b9379bbe2776202c6ef81bea5a0afc424c40d160306140169",
+    "frozen-hashes.json": "e5117cf78dab3f865250157b16116ff723e8c8773e45416174a1e8bf5e313117",
+    "final-timeline.json": "f5f523d0ddbed70b37ceac91ba0fce41566cd94fa6e4e152ee0646d0267ab0be"
+  },
+  "export_sha256": {
+    "deepswe-final.json": "da322b783e0813c01cfa6277ee3ef2b3ce765a417bca3d185c690eba9023752c",
+    "deepswe-tasks.json": "229b6fc00582c357992c572e05bd796ebe6d9c70f9471ef0402a5dcaabdd0a5c",
+    "deepswe-timeline.json": "63fc969030d89c5396c996d829f0feb1412e9af7cc8cf75b4a300c3df06570f2",
+    "deepswe-timeline.png": "921b8948e3da5eae21839a996c483734fc17ef3b9380fd6b669ead61620a5bd1"
+  },
+  "scope": "Selected numeric results, public dataset task names and content hashes; no prompts, commands, host paths, addresses or credentials."
+}

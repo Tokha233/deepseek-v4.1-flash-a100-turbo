@@ -1,0 +1,251 @@
+{
+  "query": "deepseek v4 sglang",
+  "total_count": 35,
+  "items": [
+    {
+      "full_name": "yaleyoou/deepseek-v4-a100-sglang-v0516",
+      "description": "\u5728\u56db\u5361A100\u4e0a\u9002\u914dSglang\u90e8\u7f72deepseek-v4-flash\u6b63\u5f0f\u7248\u6a21\u578b",
+      "html_url": "https://github.com/yaleyoou/deepseek-v4-a100-sglang-v0516",
+      "stargazers_count": 12,
+      "pushed_at": "2026-08-02T03:39:50Z"
+    },
+    {
+      "full_name": "ormandj/sglang-deepseek-v4-flash-sm120",
+      "description": "Reproducible SGLang image for DeepSeek-V4-Flash-0731 on SM120",
+      "html_url": "https://github.com/ormandj/sglang-deepseek-v4-flash-sm120",
+      "stargazers_count": 37,
+      "pushed_at": "2026-08-25T05:50:00Z"
+    },
+    {
+      "full_name": "skJack/deepseek-v4-flash-fp8-repack",
+      "description": "Fine-tune DeepSeek-V4-Flash on H100s, then serve it \u2014 repack BF16 merges into the official blockwise-FP8 layout for vLLM/SGLang. CPU-only, no calibration.",
+      "html_url": "https://github.com/skJack/deepseek-v4-flash-fp8-repack",
+      "stargazers_count": 7,
+      "pushed_at": "2026-08-06T12:36:24Z"
+    },
+    {
+      "full_name": "ppdoncology/deepseek-v4-local-deploy",
+      "description": "DeepSeek V4 Pro/Flash \u672c\u5730\u90e8\u7f72\u6307\u5357\u6c47\u603b\uff1avLLM\u3001SGLang\u3001DwarfStar4\uff08Metal\uff09\u3001\u53ccDGX Spark\u6df7\u5408\u540e\u7aef",
+      "html_url": "https://github.com/ppdoncology/deepseek-v4-local-deploy",
+      "stargazers_count": 21,
+      "pushed_at": "2026-05-16T22:04:53Z"
+    },
+    {
+      "full_name": "ombori/deepseek-v4-flash-0731-sglang-4x-rtx-pro-6000",
+      "description": "Reproducible SGLang recipe + public prebuilt image (ghcr.io) for DeepSeek-V4-Flash-0731 on 4x RTX PRO 6000 Blackwell (SM120): TP4/DP4/EP4, 1M ctx, benchmarks, and the DSPARK draft-depth corruption boundary",
+      "html_url": "https://github.com/ombori/deepseek-v4-flash-0731-sglang-4x-rtx-pro-6000",
+      "stargazers_count": 19,
+      "pushed_at": "2026-08-09T04:48:13Z"
+    },
+    {
+      "full_name": "xltzsoft/deepseek-v4-sm89",
+      "description": "\u9762\u5411 8\u00d7RTX 4090\uff08SM89\uff09\u7684 DeepSeek-V4-Flash-0731 MXFP4 SGLang \u5b9e\u9a8c\u5206\u652f",
+      "html_url": "https://github.com/xltzsoft/deepseek-v4-sm89",
+      "stargazers_count": 7,
+      "pushed_at": "2026-09-14T03:47:11Z"
+    },
+    {
+      "full_name": "yobo2u/DeepSeek-V4-Flash-0731-A100",
+      "description": "DeepSeek V4 Flash on A800/A100 (SM80) deployment with SGLang 0.5.16 + monkeypatch",
+      "html_url": "https://github.com/yobo2u/DeepSeek-V4-Flash-0731-A100",
+      "stargazers_count": 6,
+      "pushed_at": "2026-08-19T23:59:52Z"
+    },
+    {
+      "full_name": "Qeeweew/deepseek-v4-a100-sglang",
+      "description": null,
+      "html_url": "https://github.com/Qeeweew/deepseek-v4-a100-sglang",
+      "stargazers_count": 3,
+      "pushed_at": "2026-06-22T15:04:45Z"
+    },
+    {
+      "full_name": "wxwxwwxxx/deepseek-v4-sm80",
+      "description": "Optimized DeepSeek V4 Flash inference and serving on NVIDIA Ampere GPUs (SM80), based on Mini-SGLang, with TP8, CUDA Graph, prefix caching, chunked prefill, and long-context support.",
+      "html_url": "https://github.com/wxwxwwxxx/deepseek-v4-sm80",
+      "stargazers_count": 5,
+      "pushed_at": "2026-08-18T03:19:52Z"
+    },
+    {
+      "full_name": "Hakureirm/dsv4-on-ampere",
+      "description": "Serving DeepSeek-V4-Flash on Ampere (A100/A800, SM80) with SGLang \u2014 stock checkpoint, one four-line gate",
+      "html_url": "https://github.com/Hakureirm/dsv4-on-ampere",
+      "stargazers_count": 10,
+      "pushed_at": "2026-08-07T06:56:57Z"
+    },
+    {
+      "full_name": "tonyd2wild/DeepSeek-V4-Flash-Vision-SGLang-DGX-Spark",
+      "description": "DeepSeek-V4-Flash-Vision-Exp on NVIDIA DGX Spark with SGLang: TP2 (2 Sparks) live with real-prompt benchmarks vs vLLM DSpark, TP4 lane next, one repo",
+      "html_url": "https://github.com/tonyd2wild/DeepSeek-V4-Flash-Vision-SGLang-DGX-Spark",
+      "stargazers_count": 3,
+      "pushed_at": "2026-09-04T00:46:49Z"
+    },
+    {
+      "full_name": "lna-lab/LnaLang4U",
+      "description": "1M-context DeepSeek-V4-Flash inference on NVIDIA Blackwell using sglang and SSD KV cache offload.",
+      "html_url": "https://github.com/lna-lab/LnaLang4U",
+      "stargazers_count": 7,
+      "pushed_at": "2026-05-15T06:19:43Z"
+    },
+    {
+      "full_name": "whn09/deepseek-v4-sglang",
+      "description": "DeepSeek-V4-Flash on SGLang with DeepEP v2 (ElasticBuffer) MoE all-to-all over AWS EFA, on 2x p6-b300",
+      "html_url": "https://github.com/whn09/deepseek-v4-sglang",
+      "stargazers_count": 0,
+      "pushed_at": "2026-08-19T08:47:44Z"
+    },
+    {
+      "full_name": "SitaoXie/sglang-runtime-images",
+      "description": "Reproducible SGLang runtime images for DeepSeek V4 DSPARK.",
+      "html_url": "https://github.com/SitaoXie/sglang-runtime-images",
+      "stargazers_count": 0,
+      "pushed_at": "2026-08-24T08:15:12Z"
+    },
+    {
+      "full_name": "santanusinha/deepseek-v4-flash-2x-dgx-sglang",
+      "description": "A recipe to deploy deepseek 4 flash on 2x dgx using sglang",
+      "html_url": "https://github.com/santanusinha/deepseek-v4-flash-2x-dgx-sglang",
+      "stargazers_count": 0,
+      "pushed_at": "2026-08-18T06:01:47Z"
+    },
+    {
+      "full_name": "Pluenet-Killian/deepseek-v4-serving",
+      "description": "Serve DeepSeek-V4 without silently breaking accuracy: pinned versions, the SGLANG_OPT_USE_COMPRESSOR_V2 flag, launch templates, and a GSM8K CI gate. From lecompute.fr.",
+      "html_url": "https://github.com/Pluenet-Killian/deepseek-v4-serving",
+      "stargazers_count": 0,
+      "pushed_at": "2026-06-20T19:28:53Z"
+    },
+    {
+      "full_name": "magicbear/DeepSeek-V4.1-Flash-SGLang-DGX-Spark",
+      "description": "Measured DeepSeek-V4.1-Flash SGLang recipe for 4/8 DGX Spark nodes",
+      "html_url": "https://github.com/magicbear/DeepSeek-V4.1-Flash-SGLang-DGX-Spark",
+      "stargazers_count": 1,
+      "pushed_at": "2026-09-11T08:10:43Z"
+    },
+    {
+      "full_name": "U4AR/deepseek-v41-flash-quantization",
+      "description": "Standard GGML IQ2/IQ3 conversion and custom SGLang packed runtime for DeepSeek V4.1 Flash, with complete Engram tables and measured validation.",
+      "html_url": "https://github.com/U4AR/deepseek-v41-flash-quantization",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-11T10:22:23Z"
+    },
+    {
+      "full_name": "BlivionIaG/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark-SGLang",
+      "description": "SGLang-based TP=2 recipe for DeepSeek-V4-Flash-Vision-Exp on 2x DGX Spark (ConnectX). MIT-licensed sibling to MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark which targets vLLM.",
+      "html_url": "https://github.com/BlivionIaG/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark-SGLang",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-07T19:29:10Z"
+    },
+    {
+      "full_name": "penetrationbudgetdeficit204/deepseek-v4-flash-0731-sglang-4x-rtx-pro-6000",
+      "description": "Run DeepSeek-V4-Flash-0731 on 4\u00d7 RTX PRO 6000 with patched SGLang, fixing DSPARK crashes and draft-depth corruption for production serving.",
+      "html_url": "https://github.com/penetrationbudgetdeficit204/deepseek-v4-flash-0731-sglang-4x-rtx-pro-6000",
+      "stargazers_count": 1,
+      "pushed_at": "2026-09-13T06:09:40Z"
+    },
+    {
+      "full_name": "rhys101/DeepSeek-V4.1-Flash-SGLang-DGX-Spark-4-NVMe",
+      "description": "Original-precision DeepSeek V4.1 Flash on four DGX Sparks: SGLang TP4, exact NVMe Engram and RoCEnante experiments",
+      "html_url": "https://github.com/rhys101/DeepSeek-V4.1-Flash-SGLang-DGX-Spark-4-NVMe",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-12T19:13:24Z"
+    },
+    {
+      "full_name": "killy-netsphere/dsv41-flash-rtx-pro-6000",
+      "description": "DeepSeek-V4.1-Flash on four RTX PRO 6000 Blackwell (sm_120): the SGLang recipe, two patches, 11 tuned block-FP8 GEMM tables, receipts",
+      "html_url": "https://github.com/killy-netsphere/dsv41-flash-rtx-pro-6000",
+      "stargazers_count": 3,
+      "pushed_at": "2026-09-11T16:10:45Z"
+    },
+    {
+      "full_name": "ykk648/deepseek-v4-flash-8x4090",
+      "description": "DeepSeek-V4-Flash-0731 deployment and benchmarks on 8\u00d7RTX 4090 24GB, covering ds4, vLLM, SGLang, GGUF, DSpark and OpenAI-compatible APIs.",
+      "html_url": "https://github.com/ykk648/deepseek-v4-flash-8x4090",
+      "stargazers_count": 1,
+      "pushed_at": "2026-08-17T03:06:46Z"
+    },
+    {
+      "full_name": "r0b0tlab/dsv41-flash-tp4-sglang-sm121",
+      "description": "DeepSeek-V4.1-Flash TP=4 SGLang on 4x GB10 (SM121) CRS812 \u2014 publication package",
+      "html_url": "https://github.com/r0b0tlab/dsv41-flash-tp4-sglang-sm121",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-14T12:21:04Z"
+    },
+    {
+      "full_name": "songkuan-zheng/sglang-proxy",
+      "description": "OpenAI-compatible proxy for SGLang: request/response rewriting that keeps long agent sessions alive. Reasoning backfill, effort sanitization, queue-full 429s, multimodal downscaling, body limits. Runs in front of DeepSeek-V4, GLM-5.3 and Qwen3.8.",
+      "html_url": "https://github.com/songkuan-zheng/sglang-proxy",
+      "stargazers_count": 1,
+      "pushed_at": "2026-09-03T10:10:25Z"
+    },
+    {
+      "full_name": "ypd666/CSAHCA",
+      "description": "H100 CUDA profiling project for compressed sparse attention and DeepSeek-V4 SGLang DSV4 kernels",
+      "html_url": "https://github.com/ypd666/CSAHCA",
+      "stargazers_count": 0,
+      "pushed_at": "2026-06-13T13:48:02Z"
+    },
+    {
+      "full_name": "bertholomus/deepseek-v4.1-flash-dspark-tp4-4xgb10",
+      "description": "BertholomusAI in-house recipe: DeepSeek-V4.1-Flash on 4x NVIDIA DGX Spark (GB10), TP4 DSpark under SGLang - config, patches, systemd lane, and measured evidence",
+      "html_url": "https://github.com/bertholomus/deepseek-v4.1-flash-dspark-tp4-4xgb10",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-13T09:11:38Z"
+    },
+    {
+      "full_name": "Qeeweew/inference-atlas",
+      "description": "Interactive source-based analysis of SGLang and vLLM, with Kimi K3 and DeepSeek V4 deep dives",
+      "html_url": "https://github.com/Qeeweew/inference-atlas",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-07T00:32:18Z"
+    },
+    {
+      "full_name": "ppickle1989/sm120-sglang-recipes",
+      "description": "Exact SGLang serving recipes for Inkling-Small-NVFP4 and DeepSeek-V4-Flash-0731 on 2x RTX PRO 6000 Blackwell (sm_120), TP-2, ctx 131k \u2014 Dockerfile, kernel patch provenance, flags, measured tok/s",
+      "html_url": "https://github.com/ppickle1989/sm120-sglang-recipes",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-02T07:21:58Z"
+    },
+    {
+      "full_name": "penetrationbudgetdeficit204/penetrationbudgetdeficit204.github.io",
+      "description": "Serve DeepSeek-V4-Flash-0731 on 4\u00d7 RTX PRO 6000 with patched SGLang, DSPARK fixes, and production configs.",
+      "html_url": "https://github.com/penetrationbudgetdeficit204/penetrationbudgetdeficit204.github.io",
+      "stargazers_count": 0,
+      "pushed_at": "2026-08-09T18:47:35Z"
+    },
+    {
+      "full_name": "mmastrac/deepseek-4.1-flash-4x-gx10",
+      "description": "DeepSeek-V4.1-Flash at TP=4 across 4x ASUS GX10 / GB10 - SGLang, 400k context, DSpark spec-decode. Includes the sparse-MLA page-split fix that makes prompts over 64 tokens work.",
+      "html_url": "https://github.com/mmastrac/deepseek-4.1-flash-4x-gx10",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-13T23:19:14Z"
+    },
+    {
+      "full_name": "jmeadlock/dsf-vision-exp-gb300",
+      "description": "DeepSeek-V4-Flash-Vision-Exp on a single NVIDIA GB300 DGX Station: SGLang TP1 + DSpark + 1M context recipe, correctness harness, measured results",
+      "html_url": "https://github.com/jmeadlock/dsf-vision-exp-gb300",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-05T02:31:46Z"
+    },
+    {
+      "full_name": "bertusmt/dsv4-vision-sm120",
+      "description": "DeepSeek V4 Flash Vision on 2\u00d7 RTX PRO 6000: vision at zero cost over 0731. Patches for FlashInfer SM120 sparse-MLA + SGLang PR #37253.",
+      "html_url": "https://github.com/bertusmt/dsv4-vision-sm120",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-14T12:42:26Z"
+    },
+    {
+      "full_name": "Wendy-Hamlet/Echelon",
+      "description": "Layer-graded prefill top-K reuse for the DeepSeek-V4 lightning indexer. A sglang fork: 1.48x prefill speedup at 1M tokens, with the dose and quality checks shipped alongside.",
+      "html_url": "https://github.com/Wendy-Hamlet/Echelon",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-14T03:30:46Z"
+    },
+    {
+      "full_name": "huzjie/quantserve",
+      "description": "\u5f00\u6e90\u5927\u6a21\u578b\u672c\u5730\u5316\u90e8\u7f72\u4e0e\u91cf\u5316\u63a8\u7406\u5e73\u53f0 \u2014 Qwen3.8-2.4T-A95B / DeepSeek V4 Pro \u7b49\u5f00\u653e\u6743\u91cd\u65d7\u8230\u6a21\u578b\u7684\u4e0b\u8f7d\u3001\u91cf\u5316\u3001MoE\u5e76\u884c\u89c4\u5212\u4e0e\u591a\u5f15\u64ce\u63a8\u7406\u4e00\u7ad9\u5f0f\u5de5\u5177\uff08\u96f6\u4f9d\u8d56\u6838\u5fc3\uff09",
+      "html_url": "https://github.com/huzjie/quantserve",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-10T19:34:55Z"
+    }
+  ]
+}

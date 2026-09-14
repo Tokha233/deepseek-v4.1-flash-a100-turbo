@@ -1,0 +1,46 @@
+{
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "api_base": "http://BACKEND/v1",
+  "reasoning_effort": 100,
+  "thinking": true,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 20,
+  "max_tokens": 65536,
+  "model_timeout_seconds": 10800,
+  "concurrency_combined": 16,
+  "attempts_per_question": 1,
+  "seed_for_choice_permutations": 0,
+  "context_limit": 524288,
+  "scope": "Full test sets, no tools, no browsing, one generation per question. Errors and truncated outputs remain in denominator. Evaluate final content only, retain reasoning separately. No task retries or answer repair calls.",
+  "gsm8k": {
+    "n": 1319,
+    "fewshot": 8,
+    "template": "EleutherAI lm-evaluation-harness gsm8k_cot v3.0",
+    "primary": "strict-match exact_match",
+    "secondary": "flexible-extract exact_match",
+    "adaptations": [
+      "OpenAI chat wrapper",
+      "thinking effort100 with sampling temperature1/top_p0.95 rather than greedy base-model generation",
+      "65536 token budget; no Q: stop sequence to avoid truncating reasoning"
+    ],
+    "reference": "GSM8K93.0 in model card is BASE model8-shot, not an instruct max-effort target"
+  },
+  "gpqa_diamond": {
+    "n": 198,
+    "fewshot": 0,
+    "template": "openai/simple-evals GPQAEval n_repeats=1",
+    "primary": "Pass@1 strict Answer:LETTER extraction",
+    "reference_score_percent": 90.9,
+    "reference_details_not_published": [
+      "exact prompt",
+      "n_repeats for reasoning benchmark",
+      "generation cap"
+    ]
+  },
+  "git_commits": {
+    "simple": "652c89d0ca9df547706735883097e9537d40dc47",
+    "lm": "d6de81643928d653435c431bae19945d41d32520",
+    "gsm": "3101c7d5072418e28b9008a6636bde82a006892c"
+  }
+}

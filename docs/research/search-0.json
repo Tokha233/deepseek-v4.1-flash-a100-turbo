@@ -1,0 +1,13 @@
+{
+  "query": "deepseek v4.1 A100",
+  "total_count": 1,
+  "items": [
+    {
+      "full_name": "keplerzip/deepseek-v4.1-flash-a100",
+      "description": "Offline DeepSeek-V4.1-Flash deployment for 8x A100: DSpark k5, 256K context, local APIs and measured benchmarks.",
+      "html_url": "https://github.com/keplerzip/deepseek-v4.1-flash-a100",
+      "stargazers_count": 1,
+      "pushed_at": "2026-09-14T03:06:34Z"
+    }
+  ]
+}

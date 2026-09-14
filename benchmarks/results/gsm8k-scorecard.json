@@ -1,0 +1,26 @@
+{
+  "benchmark": "gsm8k",
+  "total": 1319,
+  "finished": 1319,
+  "correct": 1013,
+  "flexible_correct": 1260,
+  "errors": 0,
+  "truncated": 0,
+  "unparsed": 279,
+  "missing_usage": 0,
+  "prompt_tokens": 987521,
+  "completion_tokens": 466096,
+  "reasoning_tokens": 361239,
+  "cached_tokens": 0,
+  "complete": true,
+  "started_at": 1789384265.5615551,
+  "updated_at": 1789389751.9335518,
+  "partial_accuracy_percent": 76.80060652009098,
+  "metric": "8-shot CoT strict exact match",
+  "attempts_per_question": 1,
+  "score_percent": 76.80060652009098,
+  "wilson_95_percent": [
+    74.44679666771344,
+    78.99876139865428
+  ]
+}

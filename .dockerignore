@@ -1,0 +1,12 @@
+.git
+.gitignore
+__pycache__
+**/__pycache__
+.pytest_cache
+.venv
+.router-venv
+results
+workloads
+benchmarks
+docs
+tests

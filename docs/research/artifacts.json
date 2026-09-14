@@ -1,0 +1,128 @@
+[
+  {
+    "repo": "shi3z/deepseekv4.1-A100-custom",
+    "path": "dsv41/mtp_run.py",
+    "url": "https://raw.githubusercontent.com/shi3z/deepseekv4.1-A100-custom/00f9e878f26746bfc2f0248352f18452aa16e9d8/dsv41/mtp_run.py",
+    "sha256": "4122a1b486f1e9f21738b83fecbcad6d563947790f522b9da82e1a4e364b7a36",
+    "bytes": 9431
+  },
+  {
+    "repo": "shi3z/deepseekv4.1-A100-custom",
+    "path": "dsv41/engine.py",
+    "url": "https://raw.githubusercontent.com/shi3z/deepseekv4.1-A100-custom/00f9e878f26746bfc2f0248352f18452aa16e9d8/dsv41/engine.py",
+    "sha256": "c5cf65b90482b8e52322a7e329e772b718a5399b207404a995aabc7e1ecb1042",
+    "bytes": 11785
+  },
+  {
+    "repo": "shi3z/deepseekv4.1-A100-custom",
+    "path": "dsv41/batch_prompts64.txt",
+    "url": "https://raw.githubusercontent.com/shi3z/deepseekv4.1-A100-custom/00f9e878f26746bfc2f0248352f18452aa16e9d8/dsv41/batch_prompts64.txt",
+    "sha256": "4d187396f0a87b1ffa339993785feca9f7eb349be7ac5158d7b904319ffe94d4",
+    "bytes": 6674
+  },
+  {
+    "repo": "keplerzip/deepseek-v4.1-flash-a100",
+    "path": "docs/performance.md",
+    "url": "https://raw.githubusercontent.com/keplerzip/deepseek-v4.1-flash-a100/bd4fd63d1e01ee25c3ba89eb0f17dfe937461eb7/docs/performance.md",
+    "sha256": "9f381c32cd510a1e030e083c48bdc2775d8aee5b3584a847bca82c2861c841af",
+    "bytes": 2657
+  },
+  {
+    "repo": "keplerzip/deepseek-v4.1-flash-a100",
+    "path": "reports/dspark-k5-k7.user-reported.json",
+    "url": "https://raw.githubusercontent.com/keplerzip/deepseek-v4.1-flash-a100/bd4fd63d1e01ee25c3ba89eb0f17dfe937461eb7/reports/dspark-k5-k7.user-reported.json",
+    "sha256": "f08f7c47ca87abef06ef87289759367983cadeb2add70e21446d3e60b816e5e3",
+    "bytes": 2048
+  },
+  {
+    "repo": "keplerzip/deepseek-v4.1-flash-a100",
+    "path": "deploy/tests/dspark_benchmark.py",
+    "url": "https://raw.githubusercontent.com/keplerzip/deepseek-v4.1-flash-a100/bd4fd63d1e01ee25c3ba89eb0f17dfe937461eb7/deploy/tests/dspark_benchmark.py",
+    "sha256": "19f04b29b0a35034fe38bb93717009768091433c398f7bd7091f73fbd5730be8",
+    "bytes": 10647
+  },
+  {
+    "repo": "yobo2u/DeepSeek-V4-Flash-0731-A100",
+    "path": "benchmark_dspark_full.py",
+    "url": "https://raw.githubusercontent.com/yobo2u/DeepSeek-V4-Flash-0731-A100/d4e670184b246a9e40f8aa6b166aa2f7a8dac0c7/benchmark_dspark_full.py",
+    "sha256": "0336e200f652f552f6e926a12893d8b7b2a37f787e707281e6016de9c3480857",
+    "bytes": 22797
+  },
+  {
+    "repo": "yobo2u/DeepSeek-V4-Flash-0731-A100",
+    "path": "benchmarks/dspark-085-32k.json",
+    "url": "https://raw.githubusercontent.com/yobo2u/DeepSeek-V4-Flash-0731-A100/d4e670184b246a9e40f8aa6b166aa2f7a8dac0c7/benchmarks/dspark-085-32k.json",
+    "sha256": "6b1750f4c646ce549a7f512891cb570e21cfd388414de843af794435d092ad26",
+    "bytes": 473871
+  },
+  {
+    "repo": "yaleyoou/deepseek-v4-a100-sglang-v0516",
+    "path": "docs/e2e_benchmark.md",
+    "url": "https://raw.githubusercontent.com/yaleyoou/deepseek-v4-a100-sglang-v0516/dd8cdb87ace3b053fcf4f20d898e048a4b33dc8a/docs/e2e_benchmark.md",
+    "sha256": "38d477a3512a70da3d423057a63180dddd2e1a75d8539ff30bfb330815a42411",
+    "bytes": 2793
+  },
+  {
+    "repo": "yaleyoou/deepseek-v4-a100-sglang-v0516",
+    "path": "docs/micro_benchmark.md",
+    "url": "https://raw.githubusercontent.com/yaleyoou/deepseek-v4-a100-sglang-v0516/dd8cdb87ace3b053fcf4f20d898e048a4b33dc8a/docs/micro_benchmark.md",
+    "sha256": "92af87d09bb91e1e7d9388d05ba53e4ae5c0bfc056d464657a45b549fec68a82",
+    "bytes": 9172
+  },
+  {
+    "repo": "yaleyoou/deepseek-v4-a100-sglang-v0516",
+    "path": "docs/mtp.md",
+    "url": "https://raw.githubusercontent.com/yaleyoou/deepseek-v4-a100-sglang-v0516/dd8cdb87ace3b053fcf4f20d898e048a4b33dc8a/docs/mtp.md",
+    "sha256": "68382cf694fef8420c90dd28acaff632a0bb7c87dbd2775d36fa494f24e973ec",
+    "bytes": 3968
+  },
+  {
+    "repo": "Hakureirm/dsv4-on-ampere",
+    "path": "bench/gsm8k.py",
+    "url": "https://raw.githubusercontent.com/Hakureirm/dsv4-on-ampere/abfd51e8b961cb5e89b73e2933d0703e8a43cfd5/bench/gsm8k.py",
+    "sha256": "a3c0299bc733a4c9721b637de49168ddd54dec5620b03d1d10eafbccbfe1640f",
+    "bytes": 3739
+  },
+  {
+    "repo": "Hakureirm/dsv4-on-ampere",
+    "path": "bench/needle.py",
+    "url": "https://raw.githubusercontent.com/Hakureirm/dsv4-on-ampere/abfd51e8b961cb5e89b73e2933d0703e8a43cfd5/bench/needle.py",
+    "sha256": "19746db3d4dbbe673605bf15f8b47258b68a5f2faf10d6bce9b56713edb2633b",
+    "bytes": 3540
+  },
+  {
+    "repo": "devteapot/deepseek-v4-flash-tb21-bounty327",
+    "path": "REPORT.md",
+    "url": "https://raw.githubusercontent.com/devteapot/deepseek-v4-flash-tb21-bounty327/5229e75cc34b00bf67a8ae75ac7242ee8fb1d435/REPORT.md",
+    "sha256": "bc9acb6735fb15059fde1bbe84bb2dacb58203b2942a09de4f73ef878402c010",
+    "bytes": 8280
+  },
+  {
+    "repo": "devteapot/deepseek-v4-flash-tb21-bounty327",
+    "path": "summary.json",
+    "url": "https://raw.githubusercontent.com/devteapot/deepseek-v4-flash-tb21-bounty327/5229e75cc34b00bf67a8ae75ac7242ee8fb1d435/summary.json",
+    "sha256": "af16ed3b16fd20cf3e1e100335adc9dd67659020646860173a18543e70c192c2",
+    "bytes": 984
+  },
+  {
+    "repo": "devteapot/deepseek-v4-flash-tb21-bounty327",
+    "path": "attempt-ledger.csv",
+    "url": "https://raw.githubusercontent.com/devteapot/deepseek-v4-flash-tb21-bounty327/5229e75cc34b00bf67a8ae75ac7242ee8fb1d435/attempt-ledger.csv",
+    "sha256": "3321c18b5acdd4620b65639fcc9f839c04e7e50380542e55d69a22deb3b341ee",
+    "bytes": 583137
+  },
+  {
+    "repo": "tpurtell/ds41rt",
+    "path": "docs/phase2-release-performance.json",
+    "url": "https://raw.githubusercontent.com/tpurtell/ds41rt/65f2ac21744ba3539f5ace9a8ab9707eff7a235b/docs/phase2-release-performance.json",
+    "sha256": "7323ee28fd2204b0f0db00bb7391537169b4c58fc6c6a842f3027f316ae5e853",
+    "bytes": 49425
+  },
+  {
+    "repo": "wwwadx/deepseek-v4-flash-a100-deploy",
+    "path": "VERSIONS.md",
+    "url": "https://raw.githubusercontent.com/wwwadx/deepseek-v4-flash-a100-deploy/9ce8e194141aac7d24ff487e425e7aa5a0ad356f/VERSIONS.md",
+    "sha256": "b877540176f82e57fff5d4f466afdd11e833b0aa5316bb938d7113f82a163cdf",
+    "bytes": 2619
+  }
+]

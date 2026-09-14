@@ -1,0 +1,23 @@
+{
+  "endpoint": "http://BACKEND",
+  "nodes": [
+    "http://BACKEND"
+  ],
+  "concurrency": 128,
+  "dp_ranks": 2,
+  "warmup_seconds": 360,
+  "measurement_seconds": 600,
+  "last_turns": 12,
+  "source": "EXPERIMENT/round9/workload-long256-effort100.json.gz",
+  "source_sha256": "6188dce72d90083d584e9a38ba376d35ff75dc17cfdbeb691604c7618adbea73",
+  "distinct_source_trajectories": 256,
+  "effort": 100,
+  "temperature": 1,
+  "top_p": 0.95,
+  "top_k": 20,
+  "max_tokens": 32768,
+  "ignore_eos": false,
+  "session_prefix": "sustained-d9a5fddad432a8933080",
+  "scope": "Continuous replacement of real-history agent sessions, including new-session prefill and natural output. Fixed streaming-token window after fixed warmup; no cherry-picked window. Stored reference tool results are replayed; tools are not executed. In-flight diagnostic requests are cancelled only after measurement.",
+  "started_at": 1789329085.7146564
+}

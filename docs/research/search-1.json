@@ -1,0 +1,69 @@
+{
+  "query": "deepseek v4.1 benchmark",
+  "total_count": 9,
+  "items": [
+    {
+      "full_name": "atbender/deepseek-v41-flash-mac-mini",
+      "description": "Run original DeepSeek V4.1 Flash FP4/FP8 weights on a 16 GB M1 Mac mini with bounded SSD streaming in MLX. Recipe, benchmarks, and demo.",
+      "html_url": "https://github.com/atbender/deepseek-v41-flash-mac-mini",
+      "stargazers_count": 79,
+      "pushed_at": "2026-09-11T20:33:23Z"
+    },
+    {
+      "full_name": "47thtechcorner/RayCodes_DeepSeek_V41_Flash",
+      "description": "DeepSeek V4.1 Flash Is INSANE! Smaller, Faster, Smarter? - Technical guide and benchmark analysis for DeepSeek-V4.1-Flash featuring CED architecture, FP4 KV cache compression, and 1M context.",
+      "html_url": "https://github.com/47thtechcorner/RayCodes_DeepSeek_V41_Flash",
+      "stargazers_count": 1,
+      "pushed_at": "2026-09-10T15:08:30Z"
+    },
+    {
+      "full_name": "LocalAiCherry/deepseek-v41-mac-bench",
+      "description": "    DeepSeek V4.1 Flash on M3 Ultra 512GB \u2014 working setup, dependency fix and local MLX benchmark",
+      "html_url": "https://github.com/LocalAiCherry/deepseek-v41-mac-bench",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-10T19:25:25Z"
+    },
+    {
+      "full_name": "keplerzip/deepseek-v4.1-flash-a100",
+      "description": "Offline DeepSeek-V4.1-Flash deployment for 8x A100: DSpark k5, 256K context, local APIs and measured benchmarks.",
+      "html_url": "https://github.com/keplerzip/deepseek-v4.1-flash-a100",
+      "stargazers_count": 1,
+      "pushed_at": "2026-09-14T03:06:34Z"
+    },
+    {
+      "full_name": "yangqinhuan/deepseek-v41-flash-sm120",
+      "description": "Deploying DeepSeek-V4.1-Flash on 8x RTX PRO 6000 (SM120): DSpark/FlashInfer patch, compose, benchmarks, and raw evidence",
+      "html_url": "https://github.com/yangqinhuan/deepseek-v41-flash-sm120",
+      "stargazers_count": 1,
+      "pushed_at": "2026-09-13T10:37:09Z"
+    },
+    {
+      "full_name": "EugeneFinch/mechapad-cli",
+      "description": "Open Multi-Model AI Control Surface & Native MCP Server \u2014 Run Claude Fable 5.1, GPT-6 Astra, DeepSeek V4.1 Flash, and Gemini 3.8 in parallel",
+      "html_url": "https://github.com/EugeneFinch/mechapad-cli",
+      "stargazers_count": 2,
+      "pushed_at": "2026-09-11T14:50:03Z"
+    },
+    {
+      "full_name": "Jackten/deepseek-v41-mlx-three-mac",
+      "description": "Original-weight DeepSeek V4.1 Flash on three M5 Max Macs: MLX, Thunderbolt RDMA, full DSpark, portable setup and measured benchmarks.",
+      "html_url": "https://github.com/Jackten/deepseek-v41-mlx-three-mac",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-14T01:47:54Z"
+    },
+    {
+      "full_name": "devin-lai/DeepSeek-V4.1-Flash-Accel",
+      "description": "Run DeepSeek-V4.1-Flash on 8x RTX 5090 + 503 GiB RAM. 5.6x output throughput vs patched eager mode, with vLLM fixes, CPU offload & reproducible benchmarks.",
+      "html_url": "https://github.com/devin-lai/DeepSeek-V4.1-Flash-Accel",
+      "stargazers_count": 0,
+      "pushed_at": "2026-09-14T13:00:29Z"
+    },
+    {
+      "full_name": "deepseekv41/DeepSeek-V4.1-Flash-Desktop",
+      "description": "DeepSeek V4.1 Flash - desktop chat, Flash default, code, OpenRouter and API key. Benchmarks vs v4, CLI notes. Windows Mac Linux. No app subscription. Paste a key and start a new chat. Official free download. Download:\ud83e\udc47",
+      "html_url": "https://github.com/deepseekv41/DeepSeek-V4.1-Flash-Desktop",
+      "stargazers_count": 1,
+      "pushed_at": "2026-09-11T07:24:58Z"
+    }
+  ]
+}

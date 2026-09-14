@@ -1,0 +1,57 @@
+{
+  "hardware": "8xA800-SXM4-80GB",
+  "memory_fraction": {
+    "baseline": 0.85,
+    "candidate": 0.9
+  },
+  "kv_tokens_per_dp": {
+    "baseline": 6219084,
+    "candidate": 7791013
+  },
+  "candidate_observed_memory_mib_per_gpu": 76659,
+  "candidate_observed_free_memory_mib_per_gpu": 4569,
+  "long_context_tools": [
+    {
+      "phase": "cold-dp0",
+      "seconds": 10.409601798281074,
+      "ttft_seconds": 9.774906545877457,
+      "prompt_tokens": 66310,
+      "gpu_cached_tokens": 0,
+      "answer_correct": true
+    },
+    {
+      "phase": "warm-dp0",
+      "seconds": 2.1194798927754164,
+      "ttft_seconds": 1.4596008248627186,
+      "prompt_tokens": 66310,
+      "gpu_cached_tokens": 66176,
+      "answer_correct": true
+    },
+    {
+      "phase": "cold-dp1",
+      "seconds": 8.98266070894897,
+      "ttft_seconds": 8.349504431709647,
+      "prompt_tokens": 66310,
+      "gpu_cached_tokens": 0,
+      "answer_correct": true
+    },
+    {
+      "phase": "warm-dp1",
+      "seconds": 1.5234278086572886,
+      "ttft_seconds": 0.8622962888330221,
+      "prompt_tokens": 66310,
+      "gpu_cached_tokens": 66176,
+      "answer_correct": true
+    }
+  ],
+  "real_history_capacity_diagnostic": {
+    "requests": 192,
+    "seconds": 246.92079335078597,
+    "output_tokens": 59749,
+    "diagnostic": true,
+    "empty_visible_responses": 0
+  },
+  "diagnostic_output_cap": 512,
+  "kv_preemptions": 0.0,
+  "scope": "Capacity and protocol checks only. Output-capped replay is not a natural-output performance score. Completed shared-resource DeepSWE results are in deepswe-final.json."
+}

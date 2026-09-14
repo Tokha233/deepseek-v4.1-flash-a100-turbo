@@ -1,0 +1,31 @@
+{
+  "total": 113,
+  "finished": 82,
+  "resolved": 54,
+  "errors": 0,
+  "attempts_per_task": 1,
+  "usage": {
+    "tool_results": 11910,
+    "model_responses": 11756,
+    "completion_tokens": 10596210,
+    "prompt_tokens": 1486685198,
+    "cached_tokens": 1467385472,
+    "responses_with_reasoning_usage": 11756,
+    "reasoning_tokens": 8038863,
+    "tool_calls": 11992,
+    "model_wall_seconds": 279310.35524106026,
+    "model_transport_attempts": 11756
+  },
+  "mean_model_responses_per_finished_task": 143.3658536585366,
+  "exit_statuses": {
+    "Submitted": 82
+  },
+  "status": "incomplete; interrupted slots resumed on local node",
+  "interruption": {
+    "retained_finished": 82,
+    "retained_resolved": 54,
+    "archived_interrupted_trials": 31,
+    "time_utc": "2026-09-14T12:54:41Z",
+    "cause": "Operator routing migration interrupted trials; archived originals retained privately. Interrupted slots restarted; this is not an uninterrupted one-attempt evaluation."
+  }
+}

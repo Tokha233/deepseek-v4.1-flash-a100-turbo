@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://docs.sglang.io/cookbook/autoregressive/DeepSeek/DeepSeek-V4_1",
+    "retrieved": "2026-09-14",
+    "sha256": "13f626412820bb71bc2d15fcb2dc47e9a85c12c8c9563817ce992c1ddcb4dae2",
+    "validated_hardware": [
+      "GB300",
+      "H200",
+      "B200",
+      "B300",
+      "MI350X"
+    ]
+  },
+  {
+    "url": "https://github.com/sgl-project/sglang/tree/dsv4.1",
+    "commit": "5d42bf1f12a9e0c675be316693058d03e3df8cf2"
+  },
+  {
+    "url": "https://github.com/vllm-project/recipes/blob/292a8875e7390bcd32a95d75a4df1103f0c51d8f/models/deepseek-ai/DeepSeek-V4.1-Flash.yaml",
+    "sha256": "964d38f12312569a5014193b31e9a1b089419557e0fbf8052c62b599fcc72896",
+    "validated_hardware": [
+      "H200",
+      "GB200",
+      "GB300",
+      "MI350X"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "local_model_card_sha256": "347c9db4e5506acb531cbc3b724407ab88e9af8781679152f0823d7bac16d251",
+    "note": "Installed checkpoint model card; no new weight download"
+  }
+]

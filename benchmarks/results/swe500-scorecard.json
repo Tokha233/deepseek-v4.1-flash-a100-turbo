@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "total": 500,
+  "raw_score_percent": 81.2,
+  "counts": {
+    "eval_done": 500,
+    "agent_exit_Submitted": 500,
+    "responses": 29964,
+    "format_errors": 2,
+    "completion_tokens": 21325164,
+    "prompt_tokens": 1893787640,
+    "responses_with_reasoning_usage": 29964,
+    "reasoning_tokens": 16382537,
+    "finish_tool_calls": 29962,
+    "tool_results": 40543,
+    "tool_exceptions": 1202,
+    "raw_resolved": 406,
+    "finish_length": 1,
+    "finish_stop": 1
+  },
+  "resolved": 417,
+  "score_percent": 83.4,
+  "predeclared_environment_cases": 23,
+  "passed_gold_controls": 23
+}

@@ -1,0 +1,23 @@
+{
+  "HF_HUB_OFFLINE": "1",
+  "TRANSFORMERS_OFFLINE": "1",
+  "HF_DATASETS_OFFLINE": "1",
+  "VLLM_NO_USAGE_STATS": "1",
+  "DO_NOT_TRACK": "1",
+  "VLLM_USE_RUST_FRONTEND": "0",
+  "VLLM_ENGINE_READY_TIMEOUT_S": "3600",
+  "OMP_NUM_THREADS": "8",
+  "NCCL_ALGO": "Ring",
+  "NCCL_PROTO": "Simple",
+  "PYTHONUNBUFFERED": "1",
+  "NCCL_DEBUG": "INFO",
+  "VLLM_DSV41_FUSED_PREFILL_INDICES": "1",
+  "VLLM_INDEXER_QUERY_SHARD": "1",
+  "TRITON_CACHE_DIR": "/workspace/compiled-cache/triton",
+  "TILELANG_CACHE_DIR": "/workspace/compiled-cache/tilelang",
+  "TORCHINDUCTOR_CACHE_DIR": "/workspace/compiled-cache/torchinductor",
+  "VLLM_FUSED_STABLE_MOE_ALIGN": "1",
+  "VLLM_AMPERE_DENSE_BF16_MIN_TOKENS": "32",
+  "VLLM_SM80_EP8_CUSTOM_AG_RS": "1",
+  "VLLM_SM80_CANDIDATE_MQA": "1"
+}

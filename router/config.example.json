@@ -1,0 +1,32 @@
+{
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "tokenizer": "/path/to/existing/DeepSeek-V4.1-Flash",
+  "audit": "results/rank-proxy-requests.jsonl",
+  "workers": [
+    {
+      "name": "node-a-dp0",
+      "endpoint": "http://node-a:8083",
+      "rank": 0,
+      "port": 28080
+    },
+    {
+      "name": "node-a-dp1",
+      "endpoint": "http://node-a:8083",
+      "rank": 1,
+      "port": 28081
+    },
+    {
+      "name": "node-b-dp0",
+      "endpoint": "http://node-b:8083",
+      "rank": 0,
+      "port": 28082
+    },
+    {
+      "name": "node-b-dp1",
+      "endpoint": "http://node-b:8083",
+      "rank": 1,
+      "port": 28083
+    }
+  ],
+  "affinity_slots": 64
+}

@@ -1,0 +1,472 @@
+[
+  {
+    "source": "EXPERIMENT/round3/swe500-max/scorecard.json",
+    "source_sha256": "bdabc694d5f472ab9ac98cc8e8fd335e8bd09f449a7709fd8c41beca5e404b81",
+    "export": "benchmarks/results/swe500-scorecard.json",
+    "export_sha256": "74042bc4cf3ac921f60331c029a423b0b51f5160aee4c80db2f74c1606e74765",
+    "fields": [
+      "complete",
+      "total",
+      "raw_score_percent",
+      "counts",
+      "resolved",
+      "score_percent",
+      "predeclared_environment_cases",
+      "passed_gold_controls"
+    ],
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round3/swe500-max/closed-loop-summary.json",
+    "source_sha256": "964beb3e177c4318e71e5796b31f6eb8d6c8ebb4ae94cf1b7aa1a6e5aa083f28",
+    "export": "benchmarks/results/swe500-usage.json",
+    "export_sha256": "41513f51c7614001644a3b183bbfe77a98bdd9890321bd1cd5046881af52c816",
+    "fields": [
+      "complete",
+      "cases",
+      "raw_resolved",
+      "resolved",
+      "saved_usage",
+      "per_case",
+      "max_prompt_tokens",
+      "controller_wall_seconds",
+      "controller_tokens_per_second",
+      "server_generated_tokens",
+      "server_minus_saved_tokens",
+      "server_minus_saved_responses",
+      "server_phases",
+      "mean_accept_length",
+      "server_preemptions",
+      "infrastructure_incident"
+    ],
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round3/swe500-max/protocol-summary.json",
+    "source_sha256": "599a005da0fb26151de3f09b20591edd2695e1a94ded24f6003a8d7fc8d21e6c",
+    "export": "benchmarks/results/swe500-protocol.json",
+    "export_sha256": "91f431edab442c2e4ca9b7d615b45b11d4d183dc853254cca27b6cd1179e1fa3",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-remote-baseline-c64/measurement-summary.json",
+    "source_sha256": "8208da7cd69438d241e926c250bd67fc6851a3054d9954fb5d1b111b1c14d48f",
+    "export": "benchmarks/results/sustained-remote-baseline-c64/measurement-summary.json",
+    "export_sha256": "e278f6c2b1c70b364dd956955dd0a57a8bb6b8c5eeab9bdad6caed10b6aa9c1d",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-remote-baseline-c64/protocol.json",
+    "source_sha256": "8ea5c2ce74fba05621a73eb839f58e9128152b80b2cb18c533f334e0e585823f",
+    "export": "benchmarks/results/sustained-remote-baseline-c64/protocol.json",
+    "export_sha256": "1db4b41429b661caabfdb1ce4a31945c0da722878a1a73f99b628ec3366320f3",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-remote-baseline-c64/completion.json",
+    "source_sha256": "ae75a688e74ec8c4e5296354dbf1c6154be9c2143b108ea72373635868195916",
+    "export": "benchmarks/results/sustained-remote-baseline-c64/completion.json",
+    "export_sha256": "67b74a3ee66dd9ee28602a0cf07a691d514a55d2b571d1be4d37f4968451a3fd",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-remote-baseline-c64/tokens-per-second.json",
+    "source_sha256": "4e105974e0c098beb999ba5ca78311b54fa96a37cbdcde6c7a74b3776cfacfad",
+    "export": "benchmarks/results/sustained-remote-baseline-c64/tokens-per-second.json",
+    "export_sha256": "66b6ebec2c151680993efb1a89cb8cd5e8aca2c15ed14999a328900c261d6f6e",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-remote-combined-c64/measurement-summary.json",
+    "source_sha256": "b97a193d8d4dcd4808393b92a693d91a210b32c3bfaceebccc34a7a325a13786",
+    "export": "benchmarks/results/sustained-remote-combined-c64/measurement-summary.json",
+    "export_sha256": "51a0b5b08425efcaba1e95aa377a9fb60c21a352eca0e787cec0fee777928317",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-remote-combined-c64/protocol.json",
+    "source_sha256": "98ee159fc3273759e468fe8e4c16ef6cf5d011c695fe4bb67456a0ca7a9f3157",
+    "export": "benchmarks/results/sustained-remote-combined-c64/protocol.json",
+    "export_sha256": "a4ee523b35a1b0bd8a91b56492b720004f015ab787816062312b377ed701693c",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-remote-combined-c64/completion.json",
+    "source_sha256": "94e548ca09355183ed4298e97c4eed0a50cb5ce0c69231530c91162755db96d1",
+    "export": "benchmarks/results/sustained-remote-combined-c64/completion.json",
+    "export_sha256": "fb7f8f9c9c638db29395233645a4d662f6e3ac1974e4966776a4f1896f4ae5f2",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-remote-combined-c64/tokens-per-second.json",
+    "source_sha256": "3c535d661e2433cbf5201de4543fedbed746afc52c9aff8810f963be9251678f",
+    "export": "benchmarks/results/sustained-remote-combined-c64/tokens-per-second.json",
+    "export_sha256": "de69ec28afc71d94e946e11bb01a2d3ef6f46e7c638389ebb92d437488564410",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-local-sparse-c128/measurement-summary.json",
+    "source_sha256": "a682f8dcfb50dd6339e65e089ec6c8f158ef7abe89eda49795167052bdd1b437",
+    "export": "benchmarks/results/sustained-local-sparse-c128/measurement-summary.json",
+    "export_sha256": "83c24f77d2b4b05181413746417fee67a58590d8e1932d6ec1fdde93a8b93a2e",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-local-sparse-c128/protocol.json",
+    "source_sha256": "ed0f99435cff7e85a01bd2cb0daa7271edd689fea05156f125773eacc66a6320",
+    "export": "benchmarks/results/sustained-local-sparse-c128/protocol.json",
+    "export_sha256": "67cb0b7e962582ee6bf06bcb656dbff3c08a9f80fa6446e92a877f2077bf96b5",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-local-sparse-c128/completion.json",
+    "source_sha256": "a3b2a53cab632b8b2dd4c265d19b25fe0ad959eb4fbb16a6c49ae6f139ab78bb",
+    "export": "benchmarks/results/sustained-local-sparse-c128/completion.json",
+    "export_sha256": "65865d58e9227aae20c450eca063f1e4e8b4dee92b6d5bff59fd743fa25e84ec",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-local-sparse-c128/tokens-per-second.json",
+    "source_sha256": "d4d8bd08654f39e2817b6ac6b0b70c3e65528cb81ee362618698fc1334a9ef84",
+    "export": "benchmarks/results/sustained-local-sparse-c128/tokens-per-second.json",
+    "export_sha256": "e8e9a2d0c2bdd8d45f13505e1d7c4cbc1c8431711bead96ea38208aa6440926c",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-local-combined-c128/measurement-summary.json",
+    "source_sha256": "eabe09e1533258fd0bf4da086e7d5802ca53720c0191b52ac6e5762ba4a87df4",
+    "export": "benchmarks/results/sustained-local-combined-c128/measurement-summary.json",
+    "export_sha256": "a1d29fce0715c749e891cbf8581620048643dbb1e997c0eb9b60545c78f1912f",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-local-combined-c128/protocol.json",
+    "source_sha256": "2f68911e2cc2d69d4f94599d1952bd86babcd28db7bd9f6622a738df7954ca04",
+    "export": "benchmarks/results/sustained-local-combined-c128/protocol.json",
+    "export_sha256": "2be953695eedb4434da8ff68787ec35390055e0b76c5a59c1aeb39640f10f694",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-local-combined-c128/completion.json",
+    "source_sha256": "535ef2a125e5d3f30b65ed1237acf26138bc4f893ab8cbf7e3e4401b85f72fe0",
+    "export": "benchmarks/results/sustained-local-combined-c128/completion.json",
+    "export_sha256": "e4143b68ec7fe55a0ec3c270cd0a8cad8de08206445b77cedb060ea9b5226532",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-local-combined-c128/tokens-per-second.json",
+    "source_sha256": "8fd4c48ecfef59f723d2e7cd8de7e06546871aa18538c66de343c515a0cbfd9b",
+    "export": "benchmarks/results/sustained-local-combined-c128/tokens-per-second.json",
+    "export_sha256": "f2190b581c4910e2470552c48680c5af76479ea7ed823d2ea14aa4c25e9c3f31",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-dual-c256/measurement-summary.json",
+    "source_sha256": "6d00583e27555b054a3d455f714f4fbadc9cdef6361dfc84834c7b8604ee6dcd",
+    "export": "benchmarks/results/sustained-dual-c256/measurement-summary.json",
+    "export_sha256": "cd14e871190e85f7a678e3ac923b696d31b3d17b45b39d6615087729ff0ae536",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-dual-c256/protocol.json",
+    "source_sha256": "ded34cf226bc4e4210a3689f8d45d4918bd63c91c1abdc81911993e13b7bde26",
+    "export": "benchmarks/results/sustained-dual-c256/protocol.json",
+    "export_sha256": "06c455fa739393fc9b5d3b8b6f4faa3fa216980d98cce9687ad1024b7895cad7",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-dual-c256/completion.json",
+    "source_sha256": "498b71ceae9f48ded7110684d1f8c50b691564fdb9c516891bcd1f39974d3707",
+    "export": "benchmarks/results/sustained-dual-c256/completion.json",
+    "export_sha256": "7903e53c8b9377885465c39c640a8c9dedf42aeb4ba7b4739e323d1678846ecb",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sustained-dual-c256/tokens-per-second.json",
+    "source_sha256": "5de5190bc4b6912ab0b11905b837d4db26c135ef2abe6b156274073e645a399f",
+    "export": "benchmarks/results/sustained-dual-c256/tokens-per-second.json",
+    "export_sha256": "08512a8856dcdca19629deef43e52d857ed979c853adc2900444de880bf9e0a1",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-c64-nospec/summary.json",
+    "source_sha256": "2de7c42d310a5f524573dd06d67f38c8e8b4d9a8e896357b4cc6e1b94229671a",
+    "export": "benchmarks/results/sglang-c64-nospec/summary.json",
+    "export_sha256": "50a7e7f31543662b552badd9e64207badc8976f103ad0946625d022d06de7fa2",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-c64-nospec/protocol.json",
+    "source_sha256": "8ed646c4603508ad3541a71269c8f50bc2d34f051a9a5672dc6a6f173493beba",
+    "export": "benchmarks/results/sglang-c64-nospec/protocol.json",
+    "export_sha256": "6b9efb955e6a162552a05cfc8317228540146d210d6ca97ed525f274c50e42fb",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-reindex-c64/summary.json",
+    "source_sha256": "8c56979fa4c4017a93b0d820805b0fd1a25c25e4cdfb6c1d89b3fbbb8e23073c",
+    "export": "benchmarks/results/sglang-reindex-c64/summary.json",
+    "export_sha256": "89ddd141a27d81be9f4ff2e262416147d34dc990ac7580612073e8662bfb60a8",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-reindex-c64/protocol.json",
+    "source_sha256": "678d57f5cb38fe540b4c30e207f5b57c08f1ea9213410b9f8fba41fa9c387591",
+    "export": "benchmarks/results/sglang-reindex-c64/protocol.json",
+    "export_sha256": "48c12c4ccc29ec332ca39c43dc9962b2a793814363ff3cb64fc65c2b275112a0",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-prefill-dp8-c64/summary.json",
+    "source_sha256": "2f5266a66a51fe8f7eb83adbf4811a7971fb1f811f717eefad6ad94f9bbe4451",
+    "export": "benchmarks/results/sglang-prefill-dp8-c64/summary.json",
+    "export_sha256": "ab6c65cfd044ee2402b5ad9ba4f4c325c2c3d214e60ff5f1f9abbb4a9076a74a",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-prefill-dp8-c64/protocol.json",
+    "source_sha256": "0b07dffa1106caaab93c6ee2584e00b719dacece7be76ea86b8a65d052d0b13e",
+    "export": "benchmarks/results/sglang-prefill-dp8-c64/protocol.json",
+    "export_sha256": "f58e84567b3b16db67d7f685c28ab2af5897b5da1a4b26287c6b500a6004db18",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-marlin-ep-nodelay-c64/summary.json",
+    "source_sha256": "1dd5d0e4f8328c780a8336424d9d0f2ec5a18898c2df5ec78ba90c492ffba3b4",
+    "export": "benchmarks/results/sglang-marlin-ep-nodelay-c64/summary.json",
+    "export_sha256": "358646f09d3702747977022612e0ea6e846d6d5aaa948ebfdd1db243eccf24d2",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-marlin-ep-nodelay-c64/protocol.json",
+    "source_sha256": "6391c6a69391c45fee0a12772c925f6da5a3d7334afb8a66b766faeea37472e1",
+    "export": "benchmarks/results/sglang-marlin-ep-nodelay-c64/protocol.json",
+    "export_sha256": "4aaf4c231b0c40cfbbe132be985c5beaa6fcadfb8ce273d5e3d59348f73fd3a6",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-dense-rs-dp8-16k-c64/summary.json",
+    "source_sha256": "f81cd596c1cab2775e5689e57deeef1cfb89e97031947ce6f84c48306c3caa9d",
+    "export": "benchmarks/results/sglang-dense-rs-dp8-16k-c64/summary.json",
+    "export_sha256": "294dacbcfb00d318fabbe1ef4a6d370fff0600909ab2d66f65dd64b54b60198f",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-dense-rs-dp8-16k-c64/protocol.json",
+    "source_sha256": "cb62a0011fc99a32a4b90648094f2b8470fe948ab01101cd53a123c65c87db6f",
+    "export": "benchmarks/results/sglang-dense-rs-dp8-16k-c64/protocol.json",
+    "export_sha256": "b4dbf647376fce20adc62669af60edc52432d89f9c72308c5c9c7f50fc924012",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-dp8-dspark5-swa512-c64/summary.json",
+    "source_sha256": "c09ed194124e760dfd16edb9f72bfb9bb8c11414154f5d17615554b62b0c93c6",
+    "export": "benchmarks/results/sglang-dp8-dspark5-swa512-c64/summary.json",
+    "export_sha256": "446d38e15d8a4221d8e406ddca4870a5a577342fad38c5f86aa744177905a018",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/sglang-dp8-dspark5-swa512-c64/protocol.json",
+    "source_sha256": "53095b74006c68618083fa5a13333112d5267e345b8060674cc9a108ded808ad",
+    "export": "benchmarks/results/sglang-dp8-dspark5-swa512-c64/protocol.json",
+    "export_sha256": "2e4402ecd70b9389cb403625d58f873ade75e4a416e3739f35de054a71bdc865",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/vllm-baseline524k-c64/summary.json",
+    "source_sha256": "ae9157cfd277e212adcfd25526fea482937c519cf605261b6672c55a1059e082",
+    "export": "benchmarks/results/vllm-baseline524k-c64/summary.json",
+    "export_sha256": "dc99ca0321434605e5912509aad52658843bc6f842a194896b4ce5ba4b67c66b",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/vllm-baseline524k-c64/protocol.json",
+    "source_sha256": "5544baca0293a1d517dc9b6467577a43d521ccbac50e5b8d621167ecbde4a7aa",
+    "export": "benchmarks/results/vllm-baseline524k-c64/protocol.json",
+    "export_sha256": "c0b37936544a292b0dc6f4beb8f6526ee5424271ba52198e2cddc55dcef8de9d",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/vllm-baseline524k-combined-c64/summary.json",
+    "source_sha256": "46be9111f293a414d3fc6680ae9de173ca53c01c389a355c6e31864ca86e26fb",
+    "export": "benchmarks/results/vllm-baseline524k-combined-c64/summary.json",
+    "export_sha256": "13bf0c84e9d81d4c4d98d73075f53d0dd3047d5bc453b4774cc8f7c71d92203a",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/vllm-baseline524k-combined-c64/protocol.json",
+    "source_sha256": "f5d7c45c4d9e2d44ef7587bee5f3f94b8660d51046aaa0ea6dee6cbad8c90073",
+    "export": "benchmarks/results/vllm-baseline524k-combined-c64/protocol.json",
+    "export_sha256": "2ca8b33418f883c2dd68dec9324ff618d8f9693ff016c7239028cae1004ae6d2",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/vllm-baseline524k-sparse16-c64/summary.json",
+    "source_sha256": "ee25545727e190324b4252d66d387175abebcbe3e9748aac01fc7c8d9dc0fa79",
+    "export": "benchmarks/results/vllm-baseline524k-sparse16-c64/summary.json",
+    "export_sha256": "8297d2d8ba2c94941f2d1029b1b0de792c4f0e37619d34259de028527afa3b85",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round9/vllm-baseline524k-sparse16-c64/protocol.json",
+    "source_sha256": "0aa8ef047ce4b0235bf8f57831982de2fc664cef6c79380eae7fdfdedf53aa70",
+    "export": "benchmarks/results/vllm-baseline524k-sparse16-c64/protocol.json",
+    "export_sha256": "692c4091547840d3a890dc06ce5c98a6d4f19aa48a61ba41e40b5fedde7dafdb",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round12-benchmark-suite-20260914/reasoning-effort100/gsm8k/scorecard.json",
+    "source_sha256": "3c67481a07b4847ccac08789af18ccf447269dee7eed061f5cc7b94f4ee6456a",
+    "export": "benchmarks/results/gsm8k-scorecard.json",
+    "export_sha256": "32fbb43ad036924d587eafaf2115e87f1d126566d203c3354c153e6f61ae352a",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round12-benchmark-suite-20260914/reasoning-effort100/gpqa_diamond/scorecard.json",
+    "source_sha256": "117967b6daef3ff47a7d7a11925651b88cd6652f429c2e3c3d890482343aa822",
+    "export": "benchmarks/results/gpqa_diamond-scorecard.json",
+    "export_sha256": "61599e0f6edb75f67c100f9849041f04f053c4ed230995a341062ad4a8a24ede",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round12-benchmark-suite-20260914/reasoning-effort100/protocol.json",
+    "source_sha256": "ea4064eac769073c4b3aa4f4440dec96c6147600fd72280cb75efc9d3cde282a",
+    "export": "benchmarks/results/qa-protocol.json",
+    "export_sha256": "527fa62f6af63e7550ea30ec4b1ddf94df792e1ec5cae4ce695dc75c5c4f451c",
+    "fields": null,
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round11-deepswe-fixes-20260914/deepswe/effort75/progress.json",
+    "source_sha256": "9497574d46841e8d0feb0357fe1c1836b9c04a7d1a02656a527a585cbf825ea9",
+    "export": "benchmarks/results/deepswe-round11-effort75-partial.json",
+    "export_sha256": "6f2bd4065b64c87e1d1c49d67fef67977c8aaafaa3184ff59ab86e3bbbd2af7f",
+    "fields": [
+      "total",
+      "finished",
+      "resolved",
+      "errors",
+      "attempts_per_task",
+      "usage",
+      "mean_model_responses_per_finished_task",
+      "exit_statuses"
+    ],
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round11-deepswe-fixes-20260914/deepswe/effort100/progress.json",
+    "source_sha256": "1e6688871b2837ddd1940a139647061f31f5b6ef63370e46920d655b3df7a5e7",
+    "export": "benchmarks/results/deepswe-round11-effort100-partial.json",
+    "export_sha256": "3c524998ad1829b995439f8ad38313a530f3c9ef18e0cdba796d5fe51ebe2cae",
+    "fields": [
+      "total",
+      "finished",
+      "resolved",
+      "errors",
+      "attempts_per_task",
+      "usage",
+      "mean_model_responses_per_finished_task",
+      "exit_statuses"
+    ],
+    "redaction": "private path and endpoint labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round13-public-comparison-20260914/remote-c128-repeat1/measurement-summary.json",
+    "source_sha256": "414e5503dc8cad47e1d5db055256efcbbeb99870ee348e798473e86b2cf1ab0b",
+    "export": "benchmarks/results/round13/remote-c128-repeat1/measurement-summary.json",
+    "export_sha256": "f0fce39d86e7b1b33b6cb863251422801800702279b81060a0ae2d6c979d0bad",
+    "redaction": "private endpoint and workload path labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round13-public-comparison-20260914/remote-c128-repeat1/protocol.json",
+    "source_sha256": "be584c5768fded242513909c23e37498c261c5e52d63986290bca8fccd760ea4",
+    "export": "benchmarks/results/round13/remote-c128-repeat1/protocol.json",
+    "export_sha256": "89c8fbc1df83293ee4fef18eb4b813ed33a7247df9bf4b339b5ccd7ce384751a",
+    "redaction": "private endpoint and workload path labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round13-public-comparison-20260914/remote-c128-repeat1/completion.json",
+    "source_sha256": "13d60d2353f011f885140f3e4875ca6e24f9b1fdb7f29b2b53d2d75ea9c9ceea",
+    "export": "benchmarks/results/round13/remote-c128-repeat1/completion.json",
+    "export_sha256": "f46ec62c16f6018c8da7683ed686ca836e344029bfe902fc76e1c134fee62575",
+    "redaction": "private endpoint and workload path labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round13-public-comparison-20260914/remote-c128-repeat1/tokens-per-second.json",
+    "source_sha256": "a754aab7b99adab411a1ff08402319c484a8380eda616782fac49da9681b97db",
+    "export": "benchmarks/results/round13/remote-c128-repeat1/tokens-per-second.json",
+    "export_sha256": "aa48bdf1336d8861a20cc6b83dcdd98b4398c80df2009ea8161b17962ebcba40",
+    "redaction": "private endpoint and workload path labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round13-public-comparison-20260914/remote-context66k/results.json",
+    "source_sha256": "a4e7cc85a88b305a65324a95c66fba4dfc569372354420bff06efdd99e9b7d6e",
+    "export": "benchmarks/results/round13/remote-context66k/results.json",
+    "export_sha256": "570c871b32779b377b398bcbee8cec1852baa2951ce90507a6929c9ca767940b",
+    "redaction": "private endpoint and workload path labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT_NAS/round13-public-comparison-20260914/remote-context66k/validation.json",
+    "source_sha256": "99bd4f5541faeba81ce0a835deba3fd8e3e2cd4b6b295c72f791f80388f78c88",
+    "export": "benchmarks/results/round13/remote-context66k/validation.json",
+    "export_sha256": "9ee07f5d010c11a6dfe9e56c4f8d30e1c63ddd105ad6fd02b3f8154437e8db93",
+    "redaction": "private endpoint and workload path labels; numeric metrics unchanged"
+  },
+  {
+    "source": "EXPERIMENT/round3/swe500-max/scorecard.json",
+    "source_sha256": "bdabc694d5f472ab9ac98cc8e8fd335e8bd09f449a7709fd8c41beca5e404b81",
+    "export": "benchmarks/results/swe500-tasks.json",
+    "export_sha256": "ececae5ae35c51fa804bceddfb72420cda4eb488c06b84184a35af67a638103e",
+    "fields": [
+      "instance_id",
+      "raw_resolved",
+      "resolved",
+      "environment_rescored",
+      "patch_sha256",
+      "attempts",
+      "last_exit",
+      "counts"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "dataset": "Kwai-Klear/SWE-smith-mini_swe_agent_plus-trajectories-66k",
+  "dataset_rows": 65994,
+  "selection": "24 largest character histories per shard, seed20260912 shuffle; distinct IDs",
+  "min_final_tokens": 32768,
+  "min_first_tokens": 16384,
+  "max_final_tokens": 196608,
+  "selected_trajectories": 256,
+  "requests": 3072,
+  "last_consecutive_turns": 12,
+  "reasoning_effort": 100,
+  "thinking": true,
+  "prompt_tokens": 132774083,
+  "median_prompt_tokens": 42026.5,
+  "min_prompt_tokens": 20593,
+  "max_prompt_tokens": 73688,
+  "tokenizer_sha256": "c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b",
+  "encoder_sha256": "b4bd8a06f94a06a61564156c7a543d649ed86ecdd72a4dfb94b064e16d9c572f",
+  "note": "Original parquet histories, generated commands not executed or substituted; actual tool loops measured separately with SWE.",
+  "source_sha256": "6188dce72d90083d584e9a38ba376d35ff75dc17cfdbeb691604c7618adbea73"
+}

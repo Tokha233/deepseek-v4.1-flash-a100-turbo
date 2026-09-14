@@ -1,0 +1,10 @@
+{
+  "measurement_complete": true,
+  "drained": true,
+  "requests_started": 1544,
+  "naturally_completed": 1416,
+  "cancelled_or_failed": 128,
+  "client_streamed_tokens_total": 1357690,
+  "server_generated_tokens_total": 1357690.0,
+  "scope": "Fixed-window requests may cross boundaries. Cancellation can leave a small amount of generated output unobserved by the client; this is recorded rather than equated with received tokens."
+}

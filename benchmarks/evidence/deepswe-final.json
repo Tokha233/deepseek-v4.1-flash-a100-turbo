@@ -1,0 +1,270 @@
+{
+  "status": "complete",
+  "benchmark": "Datacurve DeepSWE",
+  "dataset_commit": "0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea",
+  "agent": "mini-SWE-agent 2.4.6 frozen local source",
+  "hardware": {
+    "nodes": 2,
+    "gpus_per_node": 8,
+    "gpu": "A800-SXM4-80GB",
+    "a100_measured": false
+  },
+  "protocol": {
+    "tasks_per_effort": 113,
+    "attempts_per_task_per_effort": 1,
+    "agent_reruns": 0,
+    "concurrency_per_effort": 32,
+    "simultaneous_efforts": [
+      50,
+      75,
+      100
+    ],
+    "task_order_seed": 20260912,
+    "temperature": 1,
+    "top_p": 0.95,
+    "top_k": 20,
+    "max_response_tokens": 32768,
+    "step_limit": 500,
+    "agent_timeout_seconds": 10800,
+    "inner_agent_timeout_seconds": 10700,
+    "verifier_timeout_seconds": 1800,
+    "tool_container_memory_gib": 8,
+    "tool_network": "none; model client runs outside the tool container",
+    "observation": "Above 10000 characters, retain first and last 5000 with the standard elision notice.",
+    "scoring": "Official base-to-HEAD committed patch; working-tree patch is audit only.",
+    "prior_run": "Earlier configuration-invalid evaluation excluded in its entirety.",
+    "frozen_source_config_hashes_verified": 1336,
+    "entire_execution_chain_unchanged": false
+  },
+  "runtime": {
+    "tp": 4,
+    "dp_per_node": 2,
+    "ep": 8,
+    "dspark_speculative_tokens": 5,
+    "cuda_graph": "FULL_DECODE_ONLY",
+    "kv_dtype": "fp8",
+    "context_limit": 524288,
+    "max_sequences_per_dp": 64,
+    "prefill_chunk": 8192,
+    "engram_cpu_offload": true,
+    "gpu_prefix_cache": true,
+    "lmcache": false,
+    "memory_utilization": [
+      0.85,
+      0.9
+    ],
+    "kv_tokens_per_dp": [
+      6219084,
+      7791013
+    ],
+    "kv_preemptions": 0,
+    "routing": "Backend per-DP metrics with session affinity, reservations and migration hysteresis",
+    "proxy_keepalive_seconds_in_scored_run": 15,
+    "packaged_proxy_keepalive_seconds": 2
+  },
+  "combined": {
+    "tasks": 339,
+    "seconds": 40882.44991159439,
+    "output_tokens": 45325286,
+    "complete_agent_output_tokens_per_second": 1108.6734307267043,
+    "unrelated_output_tokens_included": false,
+    "completed_model_responses": 47112,
+    "reasoning_tokens": 34810368,
+    "generated_tool_calls": 48069,
+    "wall_time_scope": "First controller start to last controller exit, including tools, scoring, errors and tail."
+  },
+  "efforts": {
+    "50": {
+      "resolved": 73,
+      "total": 113,
+      "accuracy_percent": 64.60176991150442,
+      "errors": 4,
+      "usage": {
+        "transport_attempts": 14296,
+        "model_responses": 14274,
+        "completion_tokens": 11242184,
+        "prompt_tokens": 1414594734,
+        "cached_tokens": 1358761600,
+        "reasoning_tokens": 8223366,
+        "responses_with_reasoning_usage": 14274,
+        "incomplete_attempts": 22
+      },
+      "exception_types": {
+        "AgentTimeoutError": 2,
+        "VerifierTimeoutError": 1,
+        "RuntimeError": 1
+      },
+      "budget_limited_tasks": 5,
+      "budget_limited_without_committed_patch": 4,
+      "unpersisted_trajectory_responses": 1,
+      "seconds": 31670.079454660416,
+      "mean_model_responses_per_task": 126.31858407079646,
+      "http_status_counts": {
+        "200": 14276,
+        "500": 22
+      },
+      "ttft_p50_seconds": 1.2729085767641664,
+      "ttft_p95_seconds": 10.261785678565502,
+      "generated_tool_calls": 14351,
+      "client_prefix_hit_percent": 96.05306504696772,
+      "routing_http_attempts": {
+        "node-b-dp1": 5777,
+        "node-b-dp0": 5627,
+        "node-a-dp0": 1588,
+        "node-a-dp1": 1306
+      },
+      "client_router_usage_mismatches": 0
+    },
+    "75": {
+      "resolved": 61,
+      "total": 113,
+      "accuracy_percent": 53.98230088495575,
+      "errors": 8,
+      "usage": {
+        "transport_attempts": 15837,
+        "model_responses": 15818,
+        "completion_tokens": 14613625,
+        "prompt_tokens": 1873329999,
+        "cached_tokens": 1806851456,
+        "reasoning_tokens": 11148481,
+        "responses_with_reasoning_usage": 15818,
+        "incomplete_attempts": 19
+      },
+      "exception_types": {
+        "AgentTimeoutError": 7,
+        "RuntimeError": 1
+      },
+      "budget_limited_tasks": 21,
+      "budget_limited_without_committed_patch": 20,
+      "unpersisted_trajectory_responses": 2,
+      "seconds": 34406.232974767685,
+      "mean_model_responses_per_task": 139.98230088495575,
+      "http_status_counts": {
+        "200": 15824,
+        "500": 19
+      },
+      "ttft_p50_seconds": 1.351851332001388,
+      "ttft_p95_seconds": 9.106236923485994,
+      "generated_tool_calls": 16033,
+      "client_prefix_hit_percent": 96.45131701112528,
+      "routing_http_attempts": {
+        "node-b-dp0": 7455,
+        "node-b-dp1": 6239,
+        "node-a-dp0": 1081,
+        "node-a-dp1": 1068
+      },
+      "client_router_usage_mismatches": 0
+    },
+    "100": {
+      "resolved": 33,
+      "total": 113,
+      "accuracy_percent": 29.20353982300885,
+      "errors": 33,
+      "usage": {
+        "transport_attempts": 17050,
+        "model_responses": 17020,
+        "completion_tokens": 19469477,
+        "prompt_tokens": 2466193297,
+        "cached_tokens": 2400286720,
+        "reasoning_tokens": 15438521,
+        "responses_with_reasoning_usage": 17020,
+        "incomplete_attempts": 30
+      },
+      "exception_types": {
+        "AgentTimeoutError": 27,
+        "RuntimeError": 5,
+        "EOFError": 1
+      },
+      "budget_limited_tasks": 69,
+      "budget_limited_without_committed_patch": 66,
+      "unpersisted_trajectory_responses": 8,
+      "seconds": 40882.434753894806,
+      "mean_model_responses_per_task": 150.61946902654867,
+      "http_status_counts": {
+        "200": 17043,
+        "500": 29,
+        "400": 2
+      },
+      "ttft_p50_seconds": 1.424451768398285,
+      "ttft_p95_seconds": 5.470964420586824,
+      "generated_tool_calls": 17685,
+      "client_prefix_hit_percent": 97.32759889177494,
+      "routing_http_attempts": {
+        "node-a-dp1": 1070,
+        "node-b-dp0": 7292,
+        "node-a-dp0": 1025,
+        "node-b-dp1": 7687
+      },
+      "client_router_usage_mismatches": 0
+    }
+  },
+  "paired_accuracy": {
+    "50_to_75": {
+      "gained": 10,
+      "lost": 22,
+      "exact_mcnemar_p_two_sided": 0.050102459732443094,
+      "note": "One stochastic attempt per task and effort; no multiplicity correction."
+    },
+    "75_to_100": {
+      "gained": 3,
+      "lost": 31,
+      "exact_mcnemar_p_two_sided": 7.660128176212311e-07,
+      "note": "One stochastic attempt per task and effort; no multiplicity correction."
+    },
+    "50_to_100": {
+      "gained": 5,
+      "lost": 45,
+      "exact_mcnemar_p_two_sided": 4.209852022540872e-09,
+      "note": "One stochastic attempt per task and effort; no multiplicity correction."
+    }
+  },
+  "limitations": [
+    "One stochastic attempt per task and effort, sharing inference resources with unrelated direct clients.",
+    "Time budgets and two in-run tool-transport repairs affect scores; effort is not the only varying condition.",
+    "All failures retained in the 113-task denominator; no agent reruns or working-tree patch rescoring.",
+    "Complete response output includes reasoning. Partial streams without final usage are not estimated.",
+    "Generated tool calls are not a count of all actually executed commands.",
+    "No matched single-node DeepSWE run, routing-policy ablation or proof of optimal throughput.",
+    "TTFT includes queueing, prefill, first decode and stream delivery; phase times overlap across requests.",
+    "Full Docker image build and a scored run with the packaged two-second proxy remain unvalidated."
+  ],
+  "tool_transport_repairs": [
+    {
+      "repair": 1,
+      "seconds_after_start": 11087.950374126434,
+      "before_sha256": "ff91c87b5f64564657ed7f2286debcab017058652fe6aa205bba1c03f07275a9",
+      "after_sha256": "9d94154c1a4acf78a94f3b2e932e934f578617d918175ed9972e2eed502271fb",
+      "all_efforts": [
+        50,
+        75,
+        100
+      ],
+      "prior_failures_retained": true,
+      "change": "Move detached capture wrapper into a script file so nested pkill does not kill the status writer."
+    },
+    {
+      "repair": 2,
+      "seconds_after_start": 22167.680663347244,
+      "before_sha256": "9d94154c1a4acf78a94f3b2e932e934f578617d918175ed9972e2eed502271fb",
+      "after_sha256": "250f4838813752aaa84eb3df23c2976171ef82afaffa04f40168f72c3dd13ed2",
+      "all_efforts": [
+        50,
+        75,
+        100
+      ],
+      "prior_failures_retained": true,
+      "change": "Replace recursive temporary-directory cleanup with single temporary-file cleanup after two task failures. Exact filesystem trigger unresolved."
+    }
+  ],
+  "http_accounting": {
+    "wire_http_attempts": 47215,
+    "completed_responses": 47112,
+    "http500": 70,
+    "http500_recovered_on_next_attempt": 70,
+    "http400": 2,
+    "unfinished_streams_without_final_usage": 31,
+    "repeated_failed_request_id": "One context-limited query retried with a smaller output budget; both HTTP400, no usage.",
+    "completed_responses_missing_from_trajectories": 11,
+    "output_tokens_recovered_from_independent_client_journals": 11111
+  }
+}

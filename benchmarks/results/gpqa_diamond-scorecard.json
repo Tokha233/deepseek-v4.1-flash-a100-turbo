@@ -1,0 +1,26 @@
+{
+  "benchmark": "gpqa_diamond",
+  "total": 198,
+  "finished": 198,
+  "correct": 176,
+  "flexible_correct": 0,
+  "errors": 0,
+  "truncated": 6,
+  "unparsed": 6,
+  "missing_usage": 0,
+  "prompt_tokens": 53769,
+  "completion_tokens": 2069913,
+  "reasoning_tokens": 2041704,
+  "cached_tokens": 0,
+  "complete": true,
+  "started_at": 1789384265.5615551,
+  "updated_at": 1789389729.3016944,
+  "partial_accuracy_percent": 88.88888888888889,
+  "metric": "Pass@1",
+  "attempts_per_question": 1,
+  "score_percent": 88.88888888888889,
+  "wilson_95_percent": [
+    83.75046974403094,
+    92.54703667500753
+  ]
+}

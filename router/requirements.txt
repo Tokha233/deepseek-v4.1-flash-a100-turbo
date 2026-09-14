@@ -1,0 +1,4 @@
+sglang-router==0.3.2
+aiohttp>=3.9,<4
+typer
+httpx

@@ -1,0 +1,3707 @@
+{
+  "final": true,
+  "elapsed_seconds": 40882.44991159439,
+  "repair_events": [
+    {
+      "repair": 1,
+      "seconds": 11087.950374126434
+    },
+    {
+      "repair": 2,
+      "seconds": 22167.680663347244
+    }
+  ],
+  "efforts": {
+    "50": {
+      "finished": 113,
+      "resolved": 73,
+      "completion_seconds": [
+        3222.2295467853546,
+        3749.193942785263,
+        3778.303151845932,
+        4478.366348743439,
+        4658.78445482254,
+        4974.23135471344,
+        5390.267726659775,
+        5570.898897647858,
+        5606.874698638916,
+        5685.46638584137,
+        5830.201185703278,
+        5909.169947862625,
+        6080.083776712418,
+        6089.2216057777405,
+        6136.850937843323,
+        6533.48726272583,
+        6564.336297750473,
+        6663.597305774689,
+        7109.918662786484,
+        7112.08323764801,
+        7122.285090684891,
+        7301.346497774124,
+        7591.369533777237,
+        7724.10556268692,
+        8009.902243852615,
+        8130.409423828125,
+        8362.734137773514,
+        8682.107097864151,
+        8728.122504711151,
+        8799.106910705566,
+        9042.469755649567,
+        9456.361172676086,
+        10332.061923742294,
+        10614.37537264824,
+        10707.434908866882,
+        10927.506204843521,
+        11432.681294679642,
+        11795.761779785156,
+        11861.587041854858,
+        12292.976021766663,
+        12339.1218957901,
+        12423.448237657547,
+        12516.275768756866,
+        12688.132182836533,
+        12784.50659584999,
+        13446.480756759644,
+        13664.045936822891,
+        13756.283744812012,
+        13761.7094976902,
+        13907.954492807388,
+        14099.325026750565,
+        14363.912244796753,
+        14536.580258846283,
+        14646.965413808823,
+        14788.794763803482,
+        15089.106865644455,
+        15121.748231649399,
+        15139.246678829193,
+        15167.76937866211,
+        15887.453241825104,
+        16451.726427793503,
+        16482.5285987854,
+        16512.383071660995,
+        16575.431280851364,
+        16729.72716975212,
+        16769.948058843613,
+        17017.111892700195,
+        17055.531644821167,
+        17123.456835746765,
+        18944.107667684555,
+        19080.379524707794,
+        19472.16265463829,
+        19543.47452378273,
+        19714.2470266819,
+        19827.134440660477,
+        19925.542338848114,
+        19942.69950079918,
+        20175.68159174919,
+        20819.86014175415,
+        20819.862845659256,
+        20869.224980831146,
+        20963.971347808838,
+        20986.94508266449,
+        21078.264441728592,
+        21276.165779829025,
+        21773.14226770401,
+        21865.264425754547,
+        22087.76710677147,
+        22368.19659280777,
+        22491.636432647705,
+        22587.21215581894,
+        22754.269589662552,
+        22764.99901485443,
+        22765.752755641937,
+        22960.63044166565,
+        23775.02821278572,
+        23924.088235855103,
+        23975.45005774498,
+        24003.535448789597,
+        24003.62066268921,
+        24598.142024755478,
+        24655.524668693542,
+        24892.09611773491,
+        25455.26915884018,
+        26007.641185760498,
+        26114.38272166252,
+        26131.053302764893,
+        26317.42492866516,
+        26364.763069868088,
+        26896.662851810455,
+        27749.940346717834,
+        28087.0945956707,
+        31669.015620708466
+      ]
+    },
+    "75": {
+      "finished": 113,
+      "resolved": 61,
+      "completion_seconds": [
+        4760.513851642609,
+        4906.432575702667,
+        5015.868854761124,
+        5303.453317642212,
+        5538.611406803131,
+        5788.423454761505,
+        6318.73175573349,
+        6400.033703804016,
+        7045.164646863937,
+        7356.613134860992,
+        7512.443048715591,
+        7559.407045841217,
+        7971.1125338077545,
+        7988.243951797485,
+        8009.4474086761475,
+        8034.233533859253,
+        8104.030126810074,
+        8981.596555709839,
+        9012.582914829254,
+        9279.104162693024,
+        9279.42395567894,
+        9493.531323671341,
+        9812.494236707687,
+        9866.302588701248,
+        9866.305801868439,
+        9870.666203737259,
+        10822.59048986435,
+        10826.04887676239,
+        10862.169027805328,
+        10867.948336839676,
+        10916.34252667427,
+        10916.834503650665,
+        10998.753500699997,
+        11257.273533821106,
+        12218.979001760483,
+        12621.404248714447,
+        14131.654150724411,
+        15022.84323477745,
+        15392.372867822647,
+        15500.85961484909,
+        15665.258350849152,
+        15745.487114667892,
+        16137.948803663254,
+        16285.20798778534,
+        16430.81714773178,
+        16547.427486658096,
+        16566.554084777832,
+        16629.947304725647,
+        16631.03758263588,
+        16862.69592666626,
+        16891.02243065834,
+        17312.774946689606,
+        17360.424370765686,
+        17366.78581380844,
+        17510.781619787216,
+        17535.793301820755,
+        17890.59656381607,
+        17979.528010845184,
+        18381.008152723312,
+        19031.786245822906,
+        19326.68271279335,
+        19508.440955638885,
+        19600.685366868973,
+        19647.747539758682,
+        20216.80941581726,
+        20265.235669851303,
+        20573.83488368988,
+        20791.296964645386,
+        20960.95836687088,
+        21584.661839723587,
+        22307.192913770676,
+        22674.26857972145,
+        23232.5004427433,
+        23569.0467107296,
+        23847.25447368622,
+        24093.341425657272,
+        24150.60386276245,
+        24151.23565363884,
+        25226.402601718903,
+        25343.438911676407,
+        25618.728108644485,
+        25840.514102697372,
+        25843.29077076912,
+        26101.615543842316,
+        26187.09418964386,
+        26198.37463068962,
+        26251.88582086563,
+        26296.558619737625,
+        26880.04925775528,
+        26959.200506687164,
+        26983.862424850464,
+        27412.53205680847,
+        27588.55442380905,
+        27726.723389863968,
+        28135.169011831284,
+        28178.02377986908,
+        28627.52312064171,
+        28727.937233686447,
+        29242.14253473282,
+        29248.584439754486,
+        29287.6615087986,
+        29326.44453072548,
+        29422.447390794754,
+        29736.798283815384,
+        29742.880796670914,
+        29797.69578886032,
+        29887.30911564827,
+        30647.66713666916,
+        30707.28447985649,
+        31486.674832820892,
+        31968.254465818405,
+        32888.83807969093,
+        34405.20845365524
+      ]
+    },
+    "100": {
+      "finished": 113,
+      "resolved": 33,
+      "completion_seconds": [
+        6959.497676849365,
+        8495.865354776382,
+        10254.96236872673,
+        10466.61539363861,
+        10535.883734703064,
+        10653.994738817215,
+        10688.626931667328,
+        10841.775433778763,
+        10846.906293869019,
+        10852.9213078022,
+        10898.236775636673,
+        10901.398937702179,
+        10908.584847688675,
+        10911.807458639145,
+        10917.239884853363,
+        10942.84612584114,
+        10955.095312833786,
+        10965.507241725922,
+        10999.744411706924,
+        11004.371506690979,
+        11016.990319728851,
+        11017.299588680267,
+        11017.30186867714,
+        11017.303009748459,
+        11024.919050693512,
+        11026.338466644287,
+        11027.930597782135,
+        11029.046397686005,
+        11029.89925980568,
+        11079.4161298275,
+        11080.714201688766,
+        11255.81080365181,
+        16254.32493686676,
+        17824.202989816666,
+        19261.305817842484,
+        19520.97386264801,
+        19879.720606803894,
+        20829.2118537426,
+        21118.41422367096,
+        21274.237301826477,
+        21319.72408270836,
+        21428.52148079872,
+        21641.332768678665,
+        21681.291819810867,
+        21764.075823783875,
+        21765.91476082802,
+        21771.414281845093,
+        21782.627084732056,
+        21793.529730796814,
+        21805.71593284607,
+        21811.409390687943,
+        21813.51455974579,
+        21814.098354816437,
+        21819.175973653793,
+        21828.222064733505,
+        21829.25702381134,
+        21853.788647651672,
+        21861.03774166107,
+        21866.580364704132,
+        21895.47052383423,
+        21906.55232477188,
+        21907.30240869522,
+        22063.852860689163,
+        22220.49517583847,
+        25477.28873682022,
+        26015.771182775497,
+        28444.367406845093,
+        30378.211273670197,
+        30654.306733846664,
+        30847.207989692688,
+        30891.017327785492,
+        30935.981069803238,
+        31139.71151471138,
+        31304.964820861816,
+        31526.207503795624,
+        31533.678896665573,
+        31797.34843468666,
+        32097.17172074318,
+        32210.736308813095,
+        32211.333301782608,
+        32216.36056780815,
+        32546.1877617836,
+        32581.300476789474,
+        32604.615573644638,
+        32618.570113658905,
+        32620.40451979637,
+        32635.252341747284,
+        32655.14809679985,
+        32664.20324778557,
+        32686.553563833237,
+        32757.0461666584,
+        32771.78972363472,
+        32786.82822179794,
+        32831.873614788055,
+        32908.98742675781,
+        32985.07109284401,
+        33156.097839832306,
+        34476.390105724335,
+        35383.24609375,
+        35481.747604846954,
+        35901.85679769516,
+        35973.85982775688,
+        36167.21199679375,
+        36365.26470565796,
+        36593.91937971115,
+        36625.29135465622,
+        37054.25287079811,
+        37217.11965179443,
+        37648.78943681717,
+        37835.47832083702,
+        37991.201526641846,
+        39087.2588968277,
+        40881.48422074318
+      ]
+    }
+  },
+  "throughput": [
+    {
+      "seconds": 59.98337388038635,
+      "completed_output_tokens": 9052,
+      "cumulative_output_tps": 150.9084837083475
+    },
+    {
+      "seconds": 119.96263027191162,
+      "completed_output_tokens": 46019,
+      "cumulative_output_tps": 383.6111286964255
+    },
+    {
+      "seconds": 179.97347497940063,
+      "completed_output_tokens": 84410,
+      "cumulative_output_tps": 469.01355885727816
+    },
+    {
+      "seconds": 239.92957258224487,
+      "completed_output_tokens": 125025,
+      "cumulative_output_tps": 521.090412717436
+    },
+    {
+      "seconds": 298.11317014694214,
+      "completed_output_tokens": 164230,
+      "cumulative_output_tps": 550.898170379557
+    },
+    {
+      "seconds": 359.0815818309784,
+      "completed_output_tokens": 217455,
+      "cumulative_output_tps": 605.5866159750773
+    },
+    {
+      "seconds": 419.830598115921,
+      "completed_output_tokens": 272885,
+      "cumulative_output_tps": 649.9883553619708
+    },
+    {
+      "seconds": 479.091103553772,
+      "completed_output_tokens": 319795,
+      "cumulative_output_tps": 667.5035241269243
+    },
+    {
+      "seconds": 539.8788740634918,
+      "completed_output_tokens": 384236,
+      "cumulative_output_tps": 711.7077893935378
+    },
+    {
+      "seconds": 599.8424129486084,
+      "completed_output_tokens": 423742,
+      "cumulative_output_tps": 706.4222049872025
+    },
+    {
+      "seconds": 659.1801600456238,
+      "completed_output_tokens": 478958,
+      "cumulative_output_tps": 726.596504310521
+    },
+    {
+      "seconds": 719.5341792106628,
+      "completed_output_tokens": 541748,
+      "cumulative_output_tps": 752.9148936250724
+    },
+    {
+      "seconds": 779.8952498435974,
+      "completed_output_tokens": 622313,
+      "cumulative_output_tps": 797.9443394799501
+    },
+    {
+      "seconds": 839.7097930908203,
+      "completed_output_tokens": 705545,
+      "cumulative_output_tps": 840.2248083864976
+    },
+    {
+      "seconds": 898.2669756412506,
+      "completed_output_tokens": 754317,
+      "cumulative_output_tps": 839.747002233397
+    },
+    {
+      "seconds": 959.173834323883,
+      "completed_output_tokens": 852037,
+      "cumulative_output_tps": 888.303005680505
+    },
+    {
+      "seconds": 1018.4241745471954,
+      "completed_output_tokens": 924313,
+      "cumulative_output_tps": 907.5913780335796
+    },
+    {
+      "seconds": 1078.7267258167267,
+      "completed_output_tokens": 1008810,
+      "cumulative_output_tps": 935.1858778099789
+    },
+    {
+      "seconds": 1139.0550043582916,
+      "completed_output_tokens": 1072812,
+      "cumulative_output_tps": 941.843893310832
+    },
+    {
+      "seconds": 1199.943508386612,
+      "completed_output_tokens": 1153831,
+      "cumulative_output_tps": 961.5711005857162
+    },
+    {
+      "seconds": 1259.2168872356415,
+      "completed_output_tokens": 1227483,
+      "cumulative_output_tps": 974.7987121541017
+    },
+    {
+      "seconds": 1319.6996142864227,
+      "completed_output_tokens": 1311288,
+      "cumulative_output_tps": 993.6261144616831
+    },
+    {
+      "seconds": 1379.243165254593,
+      "completed_output_tokens": 1393153,
+      "cumulative_output_tps": 1010.0851213881778
+    },
+    {
+      "seconds": 1439.8755903244019,
+      "completed_output_tokens": 1504356,
+      "cumulative_output_tps": 1044.7819312369
+    },
+    {
+      "seconds": 1498.2035200595856,
+      "completed_output_tokens": 1597462,
+      "cumulative_output_tps": 1066.2516664868515
+    },
+    {
+      "seconds": 1559.8852016925812,
+      "completed_output_tokens": 1706149,
+      "cumulative_output_tps": 1093.7657451642676
+    },
+    {
+      "seconds": 1619.9381234645844,
+      "completed_output_tokens": 1803461,
+      "cumulative_output_tps": 1113.2900534144555
+    },
+    {
+      "seconds": 1679.9247522354126,
+      "completed_output_tokens": 1877943,
+      "cumulative_output_tps": 1117.8732842057907
+    },
+    {
+      "seconds": 1739.8438527584076,
+      "completed_output_tokens": 1991090,
+      "cumulative_output_tps": 1144.4072965762175
+    },
+    {
+      "seconds": 1799.0610423088074,
+      "completed_output_tokens": 2073279,
+      "cumulative_output_tps": 1152.42282015027
+    },
+    {
+      "seconds": 1859.925868988037,
+      "completed_output_tokens": 2168637,
+      "cumulative_output_tps": 1165.9803415605638
+    },
+    {
+      "seconds": 1912.4828548431396,
+      "completed_output_tokens": 2252195,
+      "cumulative_output_tps": 1177.6288578465312
+    },
+    {
+      "seconds": 1979.9395172595978,
+      "completed_output_tokens": 2355622,
+      "cumulative_output_tps": 1189.7444237389525
+    },
+    {
+      "seconds": 2038.6751630306244,
+      "completed_output_tokens": 2440727,
+      "cumulative_output_tps": 1197.2123093763007
+    },
+    {
+      "seconds": 2099.615386724472,
+      "completed_output_tokens": 2568837,
+      "cumulative_output_tps": 1223.4797936052194
+    },
+    {
+      "seconds": 2159.8921961784363,
+      "completed_output_tokens": 2659879,
+      "cumulative_output_tps": 1231.4869254614678
+    },
+    {
+      "seconds": 2218.753045320511,
+      "completed_output_tokens": 2735974,
+      "cumulative_output_tps": 1233.113349757577
+    },
+    {
+      "seconds": 2279.3112812042236,
+      "completed_output_tokens": 2839289,
+      "cumulative_output_tps": 1245.6784746399028
+    },
+    {
+      "seconds": 2339.1182990074158,
+      "completed_output_tokens": 2966157,
+      "cumulative_output_tps": 1268.0662629413239
+    },
+    {
+      "seconds": 2398.0722274780273,
+      "completed_output_tokens": 3045360,
+      "cumulative_output_tps": 1269.9200487396092
+    },
+    {
+      "seconds": 2458.9465358257294,
+      "completed_output_tokens": 3167957,
+      "cumulative_output_tps": 1288.3391134554215
+    },
+    {
+      "seconds": 2518.442996263504,
+      "completed_output_tokens": 3267747,
+      "cumulative_output_tps": 1297.5266880561535
+    },
+    {
+      "seconds": 2579.6164741516113,
+      "completed_output_tokens": 3345165,
+      "cumulative_output_tps": 1296.7683504580516
+    },
+    {
+      "seconds": 2639.7216794490814,
+      "completed_output_tokens": 3454490,
+      "cumulative_output_tps": 1308.6569038297112
+    },
+    {
+      "seconds": 2699.3771336078644,
+      "completed_output_tokens": 3537772,
+      "cumulative_output_tps": 1310.5882671798347
+    },
+    {
+      "seconds": 2759.929140329361,
+      "completed_output_tokens": 3666118,
+      "cumulative_output_tps": 1328.337726657177
+    },
+    {
+      "seconds": 2819.3083877563477,
+      "completed_output_tokens": 3761695,
+      "cumulative_output_tps": 1334.2616282547292
+    },
+    {
+      "seconds": 2876.3856716156006,
+      "completed_output_tokens": 3824755,
+      "cumulative_output_tps": 1329.7086818860844
+    },
+    {
+      "seconds": 2939.917125940323,
+      "completed_output_tokens": 3927008,
+      "cumulative_output_tps": 1335.7546596637344
+    },
+    {
+      "seconds": 2999.9679033756256,
+      "completed_output_tokens": 4033487,
+      "cumulative_output_tps": 1344.5100514113626
+    },
+    {
+      "seconds": 3059.57133769989,
+      "completed_output_tokens": 4100559,
+      "cumulative_output_tps": 1340.2397092276
+    },
+    {
+      "seconds": 3119.788514614105,
+      "completed_output_tokens": 4194598,
+      "cumulative_output_tps": 1344.513572106294
+    },
+    {
+      "seconds": 3177.9485981464386,
+      "completed_output_tokens": 4278615,
+      "cumulative_output_tps": 1346.344935376089
+    },
+    {
+      "seconds": 3239.938303232193,
+      "completed_output_tokens": 4410542,
+      "cumulative_output_tps": 1361.3043173075246
+    },
+    {
+      "seconds": 3299.72229552269,
+      "completed_output_tokens": 4475312,
+      "cumulative_output_tps": 1356.2692854706102
+    },
+    {
+      "seconds": 3359.1746156215668,
+      "completed_output_tokens": 4572178,
+      "cumulative_output_tps": 1361.1016166701963
+    },
+    {
+      "seconds": 3418.995537996292,
+      "completed_output_tokens": 4697609,
+      "cumulative_output_tps": 1373.9734222505133
+    },
+    {
+      "seconds": 3478.9987161159515,
+      "completed_output_tokens": 4757873,
+      "cumulative_output_tps": 1367.5983776481005
+    },
+    {
+      "seconds": 3538.9254245758057,
+      "completed_output_tokens": 4871567,
+      "cumulative_output_tps": 1376.566730163276
+    },
+    {
+      "seconds": 3599.8789563179016,
+      "completed_output_tokens": 4979310,
+      "cumulative_output_tps": 1383.188173941558
+    },
+    {
+      "seconds": 3659.5572657585144,
+      "completed_output_tokens": 5077555,
+      "cumulative_output_tps": 1387.4779464470487
+    },
+    {
+      "seconds": 3718.0488674640656,
+      "completed_output_tokens": 5177890,
+      "cumulative_output_tps": 1392.6363489492364
+    },
+    {
+      "seconds": 3779.1204977035522,
+      "completed_output_tokens": 5282646,
+      "cumulative_output_tps": 1397.850638319178
+    },
+    {
+      "seconds": 3839.8248903751373,
+      "completed_output_tokens": 5342086,
+      "cumulative_output_tps": 1391.2316713687683
+    },
+    {
+      "seconds": 3898.896513223648,
+      "completed_output_tokens": 5417726,
+      "cumulative_output_tps": 1389.5536805414124
+    },
+    {
+      "seconds": 3959.2453026771545,
+      "completed_output_tokens": 5516354,
+      "cumulative_output_tps": 1393.284219159132
+    },
+    {
+      "seconds": 4017.982004404068,
+      "completed_output_tokens": 5596484,
+      "cumulative_output_tps": 1392.8593990380625
+    },
+    {
+      "seconds": 4079.6024885177612,
+      "completed_output_tokens": 5688113,
+      "cumulative_output_tps": 1394.2811869561972
+    },
+    {
+      "seconds": 4139.008392333984,
+      "completed_output_tokens": 5777973,
+      "cumulative_output_tps": 1395.980015576099
+    },
+    {
+      "seconds": 4199.821342468262,
+      "completed_output_tokens": 5904857,
+      "cumulative_output_tps": 1405.9781401390942
+    },
+    {
+      "seconds": 4259.601269245148,
+      "completed_output_tokens": 6053578,
+      "cumulative_output_tps": 1421.1607184239492
+    },
+    {
+      "seconds": 4318.843815803528,
+      "completed_output_tokens": 6121245,
+      "cumulative_output_tps": 1417.3341896738937
+    },
+    {
+      "seconds": 4378.364727735519,
+      "completed_output_tokens": 6220513,
+      "cumulative_output_tps": 1420.7388801108937
+    },
+    {
+      "seconds": 4437.480962514877,
+      "completed_output_tokens": 6303218,
+      "cumulative_output_tps": 1420.4495868817753
+    },
+    {
+      "seconds": 4499.764317989349,
+      "completed_output_tokens": 6389152,
+      "cumulative_output_tps": 1419.8859203485783
+    },
+    {
+      "seconds": 4559.68202662468,
+      "completed_output_tokens": 6464164,
+      "cumulative_output_tps": 1417.6786807182516
+    },
+    {
+      "seconds": 4619.458602905273,
+      "completed_output_tokens": 6546856,
+      "cumulative_output_tps": 1417.234477625267
+    },
+    {
+      "seconds": 4679.621550559998,
+      "completed_output_tokens": 6639146,
+      "cumulative_output_tps": 1418.7356666065255
+    },
+    {
+      "seconds": 4739.659629821777,
+      "completed_output_tokens": 6715373,
+      "cumulative_output_tps": 1416.8470996835092
+    },
+    {
+      "seconds": 4799.578020572662,
+      "completed_output_tokens": 6826951,
+      "cumulative_output_tps": 1422.4065054755463
+    },
+    {
+      "seconds": 4857.837260246277,
+      "completed_output_tokens": 6953433,
+      "cumulative_output_tps": 1431.384508678968
+    },
+    {
+      "seconds": 4919.949652433395,
+      "completed_output_tokens": 6998006,
+      "cumulative_output_tps": 1422.3734985862716
+    },
+    {
+      "seconds": 4979.322344779968,
+      "completed_output_tokens": 7078403,
+      "cumulative_output_tps": 1421.5595034574505
+    },
+    {
+      "seconds": 5039.7732629776,
+      "completed_output_tokens": 7146105,
+      "cumulative_output_tps": 1417.9417658519694
+    },
+    {
+      "seconds": 5097.654263973236,
+      "completed_output_tokens": 7232364,
+      "cumulative_output_tps": 1418.7631458479727
+    },
+    {
+      "seconds": 5158.737364768982,
+      "completed_output_tokens": 7291312,
+      "cumulative_output_tps": 1413.3908133791026
+    },
+    {
+      "seconds": 5219.9874792099,
+      "completed_output_tokens": 7385280,
+      "cumulative_output_tps": 1414.807991286186
+    },
+    {
+      "seconds": 5279.940660715103,
+      "completed_output_tokens": 7458265,
+      "cumulative_output_tps": 1412.5660645189655
+    },
+    {
+      "seconds": 5339.9512758255005,
+      "completed_output_tokens": 7529621,
+      "cumulative_output_tps": 1410.0542516347211
+    },
+    {
+      "seconds": 5398.210114002228,
+      "completed_output_tokens": 7614537,
+      "cumulative_output_tps": 1410.5669915012977
+    },
+    {
+      "seconds": 5459.670820713043,
+      "completed_output_tokens": 7711733,
+      "cumulative_output_tps": 1412.4904693416725
+    },
+    {
+      "seconds": 5518.2336184978485,
+      "completed_output_tokens": 7810935,
+      "cumulative_output_tps": 1415.4774045478455
+    },
+    {
+      "seconds": 5577.50870680809,
+      "completed_output_tokens": 7890376,
+      "cumulative_output_tps": 1414.6774868085365
+    },
+    {
+      "seconds": 5637.332194566727,
+      "completed_output_tokens": 7987456,
+      "cumulative_output_tps": 1416.8858112882417
+    },
+    {
+      "seconds": 5699.838762521744,
+      "completed_output_tokens": 8055017,
+      "cumulative_output_tps": 1413.2008527968026
+    },
+    {
+      "seconds": 5759.761950492859,
+      "completed_output_tokens": 8131835,
+      "cumulative_output_tps": 1411.835258105444
+    },
+    {
+      "seconds": 5819.657175540924,
+      "completed_output_tokens": 8193811,
+      "cumulative_output_tps": 1407.9542407475924
+    },
+    {
+      "seconds": 5879.95637178421,
+      "completed_output_tokens": 8235172,
+      "cumulative_output_tps": 1400.5498475324782
+    },
+    {
+      "seconds": 5939.278256893158,
+      "completed_output_tokens": 8321223,
+      "cumulative_output_tps": 1401.049528255785
+    },
+    {
+      "seconds": 5999.752673149109,
+      "completed_output_tokens": 8420708,
+      "cumulative_output_tps": 1403.5091875845937
+    },
+    {
+      "seconds": 6058.645472049713,
+      "completed_output_tokens": 8521329,
+      "cumulative_output_tps": 1406.4742753658982
+    },
+    {
+      "seconds": 6116.873525857925,
+      "completed_output_tokens": 8565748,
+      "cumulative_output_tps": 1400.3474101254376
+    },
+    {
+      "seconds": 6179.484781503677,
+      "completed_output_tokens": 8656262,
+      "cumulative_output_tps": 1400.806427407956
+    },
+    {
+      "seconds": 6238.850862026215,
+      "completed_output_tokens": 8743643,
+      "cumulative_output_tps": 1401.4829322527346
+    },
+    {
+      "seconds": 6299.078295707703,
+      "completed_output_tokens": 8825985,
+      "cumulative_output_tps": 1401.1549921540384
+    },
+    {
+      "seconds": 6358.828047513962,
+      "completed_output_tokens": 8905854,
+      "cumulative_output_tps": 1400.5495876684101
+    },
+    {
+      "seconds": 6419.758661746979,
+      "completed_output_tokens": 8963754,
+      "cumulative_output_tps": 1396.2758527686983
+    },
+    {
+      "seconds": 6479.821412086487,
+      "completed_output_tokens": 9037243,
+      "cumulative_output_tps": 1394.6747024761025
+    },
+    {
+      "seconds": 6539.067668199539,
+      "completed_output_tokens": 9082935,
+      "cumulative_output_tps": 1389.0259989465574
+    },
+    {
+      "seconds": 6596.8284022808075,
+      "completed_output_tokens": 9191887,
+      "cumulative_output_tps": 1393.3797333309396
+    },
+    {
+      "seconds": 6659.532745599747,
+      "completed_output_tokens": 9291046,
+      "cumulative_output_tps": 1395.1498333181128
+    },
+    {
+      "seconds": 6719.104806184769,
+      "completed_output_tokens": 9377764,
+      "cumulative_output_tps": 1395.6865193363262
+    },
+    {
+      "seconds": 6779.689516067505,
+      "completed_output_tokens": 9464948,
+      "cumulative_output_tps": 1396.0739614356344
+    },
+    {
+      "seconds": 6839.289640426636,
+      "completed_output_tokens": 9518549,
+      "cumulative_output_tps": 1391.7452689437835
+    },
+    {
+      "seconds": 6899.408184528351,
+      "completed_output_tokens": 9597168,
+      "cumulative_output_tps": 1391.0132207456966
+    },
+    {
+      "seconds": 6958.04359126091,
+      "completed_output_tokens": 9673244,
+      "cumulative_output_tps": 1390.2246907664244
+    },
+    {
+      "seconds": 7019.646764993668,
+      "completed_output_tokens": 9761312,
+      "cumulative_output_tps": 1390.5702561386372
+    },
+    {
+      "seconds": 7078.678721666336,
+      "completed_output_tokens": 9830960,
+      "cumulative_output_tps": 1388.8128542844463
+    },
+    {
+      "seconds": 7137.865797519684,
+      "completed_output_tokens": 9935034,
+      "cumulative_output_tps": 1391.877387699317
+    },
+    {
+      "seconds": 7199.226061820984,
+      "completed_output_tokens": 9979765,
+      "cumulative_output_tps": 1386.2274797738053
+    },
+    {
+      "seconds": 7258.49228477478,
+      "completed_output_tokens": 10050174,
+      "cumulative_output_tps": 1384.6090352787144
+    },
+    {
+      "seconds": 7319.20751452446,
+      "completed_output_tokens": 10080173,
+      "cumulative_output_tps": 1377.2219164433575
+    },
+    {
+      "seconds": 7379.9663190841675,
+      "completed_output_tokens": 10160082,
+      "cumulative_output_tps": 1376.7111610965776
+    },
+    {
+      "seconds": 7436.199114322662,
+      "completed_output_tokens": 10275181,
+      "cumulative_output_tps": 1381.7786266923988
+    },
+    {
+      "seconds": 7498.177298069,
+      "completed_output_tokens": 10366203,
+      "cumulative_output_tps": 1382.496383843791
+    },
+    {
+      "seconds": 7559.611487627029,
+      "completed_output_tokens": 10422488,
+      "cumulative_output_tps": 1378.7068313045847
+    },
+    {
+      "seconds": 7618.537000656128,
+      "completed_output_tokens": 10514580,
+      "cumulative_output_tps": 1380.1311195436153
+    },
+    {
+      "seconds": 7679.885545730591,
+      "completed_output_tokens": 10596007,
+      "cumulative_output_tps": 1379.7089731227234
+    },
+    {
+      "seconds": 7739.542916059494,
+      "completed_output_tokens": 10658678,
+      "cumulative_output_tps": 1377.171509428977
+    },
+    {
+      "seconds": 7799.633548974991,
+      "completed_output_tokens": 10738667,
+      "cumulative_output_tps": 1376.81686358345
+    },
+    {
+      "seconds": 7859.559432506561,
+      "completed_output_tokens": 10857006,
+      "cumulative_output_tps": 1381.3759019489337
+    },
+    {
+      "seconds": 7919.942697525024,
+      "completed_output_tokens": 10891698,
+      "cumulative_output_tps": 1375.2243439089082
+    },
+    {
+      "seconds": 7978.4326066970825,
+      "completed_output_tokens": 10981055,
+      "cumulative_output_tps": 1376.34238970478
+    },
+    {
+      "seconds": 8036.696211576462,
+      "completed_output_tokens": 11042409,
+      "cumulative_output_tps": 1373.9985572795397
+    },
+    {
+      "seconds": 8096.860472917557,
+      "completed_output_tokens": 11051352,
+      "cumulative_output_tps": 1364.8934716072545
+    },
+    {
+      "seconds": 8159.163561105728,
+      "completed_output_tokens": 11118819,
+      "cumulative_output_tps": 1362.740054998135
+    },
+    {
+      "seconds": 8219.869816541672,
+      "completed_output_tokens": 11170839,
+      "cumulative_output_tps": 1359.0043698161492
+    },
+    {
+      "seconds": 8279.551440238953,
+      "completed_output_tokens": 11237765,
+      "cumulative_output_tps": 1357.291524922958
+    },
+    {
+      "seconds": 8339.907566547394,
+      "completed_output_tokens": 11335552,
+      "cumulative_output_tps": 1359.1939610300456
+    },
+    {
+      "seconds": 8399.73069024086,
+      "completed_output_tokens": 11383867,
+      "cumulative_output_tps": 1355.2657126526958
+    },
+    {
+      "seconds": 8459.964289188385,
+      "completed_output_tokens": 11442062,
+      "cumulative_output_tps": 1352.4953071755467
+    },
+    {
+      "seconds": 8519.47552061081,
+      "completed_output_tokens": 11529194,
+      "cumulative_output_tps": 1353.275089776114
+    },
+    {
+      "seconds": 8577.218553304672,
+      "completed_output_tokens": 11629657,
+      "cumulative_output_tps": 1355.877424333471
+    },
+    {
+      "seconds": 8637.589765310287,
+      "completed_output_tokens": 11696438,
+      "cumulative_output_tps": 1354.1321500326926
+    },
+    {
+      "seconds": 8699.809859275818,
+      "completed_output_tokens": 11762221,
+      "cumulative_output_tps": 1352.0089737891237
+    },
+    {
+      "seconds": 8759.443912267685,
+      "completed_output_tokens": 11845829,
+      "cumulative_output_tps": 1352.349432069518
+    },
+    {
+      "seconds": 8815.318542003632,
+      "completed_output_tokens": 11947354,
+      "cumulative_output_tps": 1355.2946434178984
+    },
+    {
+      "seconds": 8879.433496952057,
+      "completed_output_tokens": 12016662,
+      "cumulative_output_tps": 1353.3140378972178
+    },
+    {
+      "seconds": 8939.071241378784,
+      "completed_output_tokens": 12072520,
+      "cumulative_output_tps": 1350.534040283351
+    },
+    {
+      "seconds": 8999.606353282928,
+      "completed_output_tokens": 12151967,
+      "cumulative_output_tps": 1350.2776147055738
+    },
+    {
+      "seconds": 9059.984824895859,
+      "completed_output_tokens": 12275210,
+      "cumulative_output_tps": 1354.881960317312
+    },
+    {
+      "seconds": 9116.83779168129,
+      "completed_output_tokens": 12347972,
+      "cumulative_output_tps": 1354.4139187457056
+    },
+    {
+      "seconds": 9179.719666481018,
+      "completed_output_tokens": 12437931,
+      "cumulative_output_tps": 1354.935820689173
+    },
+    {
+      "seconds": 9239.471754550934,
+      "completed_output_tokens": 12553485,
+      "cumulative_output_tps": 1358.6799476730623
+    },
+    {
+      "seconds": 9299.970410823822,
+      "completed_output_tokens": 12655715,
+      "cumulative_output_tps": 1360.8338995649465
+    },
+    {
+      "seconds": 9355.34299826622,
+      "completed_output_tokens": 12751306,
+      "cumulative_output_tps": 1362.9971666846568
+    },
+    {
+      "seconds": 9418.034806728363,
+      "completed_output_tokens": 12817577,
+      "cumulative_output_tps": 1360.960886536856
+    },
+    {
+      "seconds": 9479.032750844955,
+      "completed_output_tokens": 12847971,
+      "cumulative_output_tps": 1355.4094956423417
+    },
+    {
+      "seconds": 9539.491521835327,
+      "completed_output_tokens": 12889985,
+      "cumulative_output_tps": 1351.2234871738806
+    },
+    {
+      "seconds": 9584.96776175499,
+      "completed_output_tokens": 12921200,
+      "cumulative_output_tps": 1348.0692185065996
+    },
+    {
+      "seconds": 9659.3514482975,
+      "completed_output_tokens": 13010848,
+      "cumulative_output_tps": 1346.9691075681085
+    },
+    {
+      "seconds": 9717.645728826523,
+      "completed_output_tokens": 13074798,
+      "cumulative_output_tps": 1345.4697119915359
+    },
+    {
+      "seconds": 9778.346294641495,
+      "completed_output_tokens": 13139900,
+      "cumulative_output_tps": 1343.77527693007
+    },
+    {
+      "seconds": 9839.813119888306,
+      "completed_output_tokens": 13222590,
+      "cumulative_output_tps": 1343.7846673403176
+    },
+    {
+      "seconds": 9897.944311857224,
+      "completed_output_tokens": 13316052,
+      "cumulative_output_tps": 1345.335110043816
+    },
+    {
+      "seconds": 9957.77548456192,
+      "completed_output_tokens": 13395054,
+      "cumulative_output_tps": 1345.185380084847
+    },
+    {
+      "seconds": 10018.662912368774,
+      "completed_output_tokens": 13445231,
+      "cumulative_output_tps": 1342.0185026288163
+    },
+    {
+      "seconds": 10078.51427435875,
+      "completed_output_tokens": 13531625,
+      "cumulative_output_tps": 1342.6210085772743
+    },
+    {
+      "seconds": 10139.611369132996,
+      "completed_output_tokens": 13576513,
+      "cumulative_output_tps": 1338.9579250867168
+    },
+    {
+      "seconds": 10199.803973197937,
+      "completed_output_tokens": 13654808,
+      "cumulative_output_tps": 1338.732394846096
+    },
+    {
+      "seconds": 10259.545528411865,
+      "completed_output_tokens": 13752839,
+      "cumulative_output_tps": 1340.4920288051865
+    },
+    {
+      "seconds": 10319.416526794434,
+      "completed_output_tokens": 13815424,
+      "cumulative_output_tps": 1338.779568023847
+    },
+    {
+      "seconds": 10377.687653779984,
+      "completed_output_tokens": 13887873,
+      "cumulative_output_tps": 1338.2434954034738
+    },
+    {
+      "seconds": 10437.784096956253,
+      "completed_output_tokens": 13931372,
+      "cumulative_output_tps": 1334.7058983584943
+    },
+    {
+      "seconds": 10499.920668125153,
+      "completed_output_tokens": 14008473,
+      "cumulative_output_tps": 1334.1503657761757
+    },
+    {
+      "seconds": 10558.373901128769,
+      "completed_output_tokens": 14073672,
+      "cumulative_output_tps": 1332.9393457543135
+    },
+    {
+      "seconds": 10619.917609930038,
+      "completed_output_tokens": 14192374,
+      "cumulative_output_tps": 1336.3921003237892
+    },
+    {
+      "seconds": 10678.019348859787,
+      "completed_output_tokens": 14252146,
+      "cumulative_output_tps": 1334.7181283691777
+    },
+    {
+      "seconds": 10738.48749423027,
+      "completed_output_tokens": 14322943,
+      "cumulative_output_tps": 1333.7951930097827
+    },
+    {
+      "seconds": 10799.442240476608,
+      "completed_output_tokens": 14403903,
+      "cumulative_output_tps": 1333.7636036436932
+    },
+    {
+      "seconds": 10859.879607915878,
+      "completed_output_tokens": 14507015,
+      "cumulative_output_tps": 1335.835711238059
+    },
+    {
+      "seconds": 10919.384912967682,
+      "completed_output_tokens": 14565745,
+      "cumulative_output_tps": 1333.934568301733
+    },
+    {
+      "seconds": 10966.436148166656,
+      "completed_output_tokens": 14627836,
+      "cumulative_output_tps": 1333.8732658782176
+    },
+    {
+      "seconds": 11039.949306488037,
+      "completed_output_tokens": 14672007,
+      "cumulative_output_tps": 1328.9922437757434
+    },
+    {
+      "seconds": 11099.924995660782,
+      "completed_output_tokens": 14739685,
+      "cumulative_output_tps": 1327.9085224235375
+    },
+    {
+      "seconds": 11159.73191690445,
+      "completed_output_tokens": 14799118,
+      "cumulative_output_tps": 1326.1176980051564
+    },
+    {
+      "seconds": 11219.493987321854,
+      "completed_output_tokens": 14876269,
+      "cumulative_output_tps": 1325.9304757246932
+    },
+    {
+      "seconds": 11279.506912946701,
+      "completed_output_tokens": 14957349,
+      "cumulative_output_tps": 1326.0640837793933
+    },
+    {
+      "seconds": 11339.656892061234,
+      "completed_output_tokens": 15000273,
+      "cumulative_output_tps": 1322.8154205002024
+    },
+    {
+      "seconds": 11398.56952548027,
+      "completed_output_tokens": 15070883,
+      "cumulative_output_tps": 1322.1731872855335
+    },
+    {
+      "seconds": 11459.50808095932,
+      "completed_output_tokens": 15120737,
+      "cumulative_output_tps": 1319.4926774495702
+    },
+    {
+      "seconds": 11519.911530971527,
+      "completed_output_tokens": 15217599,
+      "cumulative_output_tps": 1320.9822800363668
+    },
+    {
+      "seconds": 11579.846315860748,
+      "completed_output_tokens": 15294950,
+      "cumulative_output_tps": 1320.82495594529
+    },
+    {
+      "seconds": 11637.342992305756,
+      "completed_output_tokens": 15370517,
+      "cumulative_output_tps": 1320.792642286345
+    },
+    {
+      "seconds": 11697.372248411179,
+      "completed_output_tokens": 15473928,
+      "cumulative_output_tps": 1322.8550542282503
+    },
+    {
+      "seconds": 11759.85096669197,
+      "completed_output_tokens": 15546210,
+      "cumulative_output_tps": 1321.9733858900363
+    },
+    {
+      "seconds": 11819.684381723404,
+      "completed_output_tokens": 15642535,
+      "cumulative_output_tps": 1323.430854396401
+    },
+    {
+      "seconds": 11879.381270885468,
+      "completed_output_tokens": 15728439,
+      "cumulative_output_tps": 1324.0116333792553
+    },
+    {
+      "seconds": 11939.92819237709,
+      "completed_output_tokens": 15795827,
+      "cumulative_output_tps": 1322.9415408113312
+    },
+    {
+      "seconds": 11998.961036920547,
+      "completed_output_tokens": 15889100,
+      "cumulative_output_tps": 1324.2063167893934
+    },
+    {
+      "seconds": 12059.796026945114,
+      "completed_output_tokens": 15944771,
+      "cumulative_output_tps": 1322.142676739699
+    },
+    {
+      "seconds": 12119.998347997665,
+      "completed_output_tokens": 16015382,
+      "cumulative_output_tps": 1321.4013352275651
+    },
+    {
+      "seconds": 12179.723544836044,
+      "completed_output_tokens": 16124275,
+      "cumulative_output_tps": 1323.8621501254324
+    },
+    {
+      "seconds": 12239.967864274979,
+      "completed_output_tokens": 16214956,
+      "cumulative_output_tps": 1324.754785290482
+    },
+    {
+      "seconds": 12299.990495204926,
+      "completed_output_tokens": 16314033,
+      "cumulative_output_tps": 1326.3451712714675
+    },
+    {
+      "seconds": 12359.098902702332,
+      "completed_output_tokens": 16410364,
+      "cumulative_output_tps": 1327.796154816097
+    },
+    {
+      "seconds": 12416.180278778076,
+      "completed_output_tokens": 16458345,
+      "cumulative_output_tps": 1325.5562202274764
+    },
+    {
+      "seconds": 12478.674117088318,
+      "completed_output_tokens": 16516278,
+      "cumulative_output_tps": 1323.5603274055038
+    },
+    {
+      "seconds": 12539.473584413528,
+      "completed_output_tokens": 16601312,
+      "cumulative_output_tps": 1323.924157441131
+    },
+    {
+      "seconds": 12599.755909442902,
+      "completed_output_tokens": 16660001,
+      "cumulative_output_tps": 1322.2479165262355
+    },
+    {
+      "seconds": 12658.560041427612,
+      "completed_output_tokens": 16725449,
+      "cumulative_output_tps": 1321.2757963988556
+    },
+    {
+      "seconds": 12719.486310958862,
+      "completed_output_tokens": 16806762,
+      "cumulative_output_tps": 1321.3396822102493
+    },
+    {
+      "seconds": 12779.243335008621,
+      "completed_output_tokens": 16892352,
+      "cumulative_output_tps": 1321.8585449205395
+    },
+    {
+      "seconds": 12838.98404431343,
+      "completed_output_tokens": 16994871,
+      "cumulative_output_tps": 1323.6928203464254
+    },
+    {
+      "seconds": 12897.862003087997,
+      "completed_output_tokens": 17075276,
+      "cumulative_output_tps": 1323.8842217347224
+    },
+    {
+      "seconds": 12955.744978666306,
+      "completed_output_tokens": 17117298,
+      "cumulative_output_tps": 1321.212946703285
+    },
+    {
+      "seconds": 13018.931119203568,
+      "completed_output_tokens": 17173545,
+      "cumulative_output_tps": 1319.120966441567
+    },
+    {
+      "seconds": 13078.835843801498,
+      "completed_output_tokens": 17281288,
+      "cumulative_output_tps": 1321.3169892479525
+    },
+    {
+      "seconds": 13139.135236740112,
+      "completed_output_tokens": 17385708,
+      "cumulative_output_tps": 1323.2003238223374
+    },
+    {
+      "seconds": 13198.631694555283,
+      "completed_output_tokens": 17453220,
+      "cumulative_output_tps": 1322.3507105815995
+    },
+    {
+      "seconds": 13259.820958137512,
+      "completed_output_tokens": 17576974,
+      "cumulative_output_tps": 1325.5815486115644
+    },
+    {
+      "seconds": 13319.966295003891,
+      "completed_output_tokens": 17666212,
+      "cumulative_output_tps": 1326.2955482572293
+    },
+    {
+      "seconds": 13379.275661230087,
+      "completed_output_tokens": 17756873,
+      "cumulative_output_tps": 1327.1924018618686
+    },
+    {
+      "seconds": 13437.705362081528,
+      "completed_output_tokens": 17821882,
+      "cumulative_output_tps": 1326.259321795351
+    },
+    {
+      "seconds": 13499.62042427063,
+      "completed_output_tokens": 17930910,
+      "cumulative_output_tps": 1328.252901671403
+    },
+    {
+      "seconds": 13558.419380903244,
+      "completed_output_tokens": 18029017,
+      "cumulative_output_tps": 1329.7285246533604
+    },
+    {
+      "seconds": 13618.08502650261,
+      "completed_output_tokens": 18114485,
+      "cumulative_output_tps": 1330.178579789067
+    },
+    {
+      "seconds": 13679.617357969284,
+      "completed_output_tokens": 18199136,
+      "cumulative_output_tps": 1330.3834108633014
+    },
+    {
+      "seconds": 13738.482604265213,
+      "completed_output_tokens": 18290377,
+      "cumulative_output_tps": 1331.3243919908316
+    },
+    {
+      "seconds": 13799.62506055832,
+      "completed_output_tokens": 18386873,
+      "cumulative_output_tps": 1332.4183026213384
+    },
+    {
+      "seconds": 13859.598041534424,
+      "completed_output_tokens": 18538644,
+      "cumulative_output_tps": 1337.60329444212
+    },
+    {
+      "seconds": 13919.655340194702,
+      "completed_output_tokens": 18651032,
+      "cumulative_output_tps": 1339.906164640648
+    },
+    {
+      "seconds": 13979.681228160858,
+      "completed_output_tokens": 18744475,
+      "cumulative_output_tps": 1340.8370830545748
+    },
+    {
+      "seconds": 14039.441143512726,
+      "completed_output_tokens": 18857207,
+      "cumulative_output_tps": 1343.15937559334
+    },
+    {
+      "seconds": 14099.250195026398,
+      "completed_output_tokens": 18952198,
+      "cumulative_output_tps": 1344.1989990847535
+    },
+    {
+      "seconds": 14159.403264284134,
+      "completed_output_tokens": 19092525,
+      "cumulative_output_tps": 1348.3989857227414
+    },
+    {
+      "seconds": 14219.989603042603,
+      "completed_output_tokens": 19228136,
+      "cumulative_output_tps": 1352.1905807783307
+    },
+    {
+      "seconds": 14279.809849262238,
+      "completed_output_tokens": 19340185,
+      "cumulative_output_tps": 1354.3727265387365
+    },
+    {
+      "seconds": 14339.566152572632,
+      "completed_output_tokens": 19467989,
+      "cumulative_output_tps": 1357.6414232384072
+    },
+    {
+      "seconds": 14398.975333690643,
+      "completed_output_tokens": 19568970,
+      "cumulative_output_tps": 1359.0529566512023
+    },
+    {
+      "seconds": 14456.920945882797,
+      "completed_output_tokens": 19634831,
+      "cumulative_output_tps": 1358.1613314135072
+    },
+    {
+      "seconds": 14519.860891103745,
+      "completed_output_tokens": 19751100,
+      "cumulative_output_tps": 1360.2816272228486
+    },
+    {
+      "seconds": 14579.893079996109,
+      "completed_output_tokens": 19879625,
+      "cumulative_output_tps": 1363.4959386139274
+    },
+    {
+      "seconds": 14638.738627433777,
+      "completed_output_tokens": 19944654,
+      "cumulative_output_tps": 1362.4571424905869
+    },
+    {
+      "seconds": 14698.470334291458,
+      "completed_output_tokens": 20040153,
+      "cumulative_output_tps": 1363.417590009106
+    },
+    {
+      "seconds": 14757.14868235588,
+      "completed_output_tokens": 20124297,
+      "cumulative_output_tps": 1363.6981935447498
+    },
+    {
+      "seconds": 14819.499189853668,
+      "completed_output_tokens": 20207849,
+      "cumulative_output_tps": 1363.5986439970607
+    },
+    {
+      "seconds": 14877.640857458115,
+      "completed_output_tokens": 20280007,
+      "cumulative_output_tps": 1363.1198114204844
+    },
+    {
+      "seconds": 14938.93463730812,
+      "completed_output_tokens": 20370004,
+      "cumulative_output_tps": 1363.551317048303
+    },
+    {
+      "seconds": 14999.9684009552,
+      "completed_output_tokens": 20468812,
+      "cumulative_output_tps": 1364.5903413167553
+    },
+    {
+      "seconds": 15059.98400592804,
+      "completed_output_tokens": 20581551,
+      "cumulative_output_tps": 1366.6383039914595
+    },
+    {
+      "seconds": 15119.771711826324,
+      "completed_output_tokens": 20663774,
+      "cumulative_output_tps": 1366.6723541756446
+    },
+    {
+      "seconds": 15179.67970585823,
+      "completed_output_tokens": 20760929,
+      "cumulative_output_tps": 1367.678989431366
+    },
+    {
+      "seconds": 15239.19857931137,
+      "completed_output_tokens": 20798337,
+      "cumulative_output_tps": 1364.7920454449406
+    },
+    {
+      "seconds": 15299.72520327568,
+      "completed_output_tokens": 20880591,
+      "cumulative_output_tps": 1364.7690218337682
+    },
+    {
+      "seconds": 15352.878401756287,
+      "completed_output_tokens": 20942760,
+      "cumulative_output_tps": 1364.0933935622302
+    },
+    {
+      "seconds": 15419.936204195023,
+      "completed_output_tokens": 21012694,
+      "cumulative_output_tps": 1362.6965586461672
+    },
+    {
+      "seconds": 15479.837672948837,
+      "completed_output_tokens": 21152841,
+      "cumulative_output_tps": 1366.4769261091665
+    },
+    {
+      "seconds": 15539.946645021439,
+      "completed_output_tokens": 21259464,
+      "cumulative_output_tps": 1368.0525735145259
+    },
+    {
+      "seconds": 15599.408282756805,
+      "completed_output_tokens": 21357354,
+      "cumulative_output_tps": 1369.1130851166888
+    },
+    {
+      "seconds": 15658.694378376007,
+      "completed_output_tokens": 21496496,
+      "cumulative_output_tps": 1372.8153497705243
+    },
+    {
+      "seconds": 15719.91440486908,
+      "completed_output_tokens": 21625617,
+      "cumulative_output_tps": 1375.6828722490811
+    },
+    {
+      "seconds": 15779.740802526474,
+      "completed_output_tokens": 21759234,
+      "cumulative_output_tps": 1378.934817263675
+    },
+    {
+      "seconds": 15836.588354587555,
+      "completed_output_tokens": 21814817,
+      "cumulative_output_tps": 1377.4947300237598
+    },
+    {
+      "seconds": 15896.888861179352,
+      "completed_output_tokens": 21876413,
+      "cumulative_output_tps": 1376.1443003745728
+    },
+    {
+      "seconds": 15950.301417827606,
+      "completed_output_tokens": 21928539,
+      "cumulative_output_tps": 1374.804050755463
+    },
+    {
+      "seconds": 16019.241511583328,
+      "completed_output_tokens": 21988783,
+      "cumulative_output_tps": 1372.6481983619615
+    },
+    {
+      "seconds": 16079.680440425873,
+      "completed_output_tokens": 22098538,
+      "cumulative_output_tps": 1374.314500955015
+    },
+    {
+      "seconds": 16139.092337608337,
+      "completed_output_tokens": 22156008,
+      "cumulative_output_tps": 1372.8162362867622
+    },
+    {
+      "seconds": 16198.211384296417,
+      "completed_output_tokens": 22238346,
+      "cumulative_output_tps": 1372.888985851813
+    },
+    {
+      "seconds": 16258.778680801392,
+      "completed_output_tokens": 22347021,
+      "cumulative_output_tps": 1374.4587732403108
+    },
+    {
+      "seconds": 16319.884843111038,
+      "completed_output_tokens": 22392632,
+      "cumulative_output_tps": 1372.1072308578448
+    },
+    {
+      "seconds": 16376.05497097969,
+      "completed_output_tokens": 22494962,
+      "cumulative_output_tps": 1373.6496390531015
+    },
+    {
+      "seconds": 16438.874286174774,
+      "completed_output_tokens": 22550182,
+      "cumulative_output_tps": 1371.759501741849
+    },
+    {
+      "seconds": 16499.07343530655,
+      "completed_output_tokens": 22642114,
+      "cumulative_output_tps": 1372.326396920441
+    },
+    {
+      "seconds": 16559.563353300095,
+      "completed_output_tokens": 22713815,
+      "cumulative_output_tps": 1371.6433528709829
+    },
+    {
+      "seconds": 16618.522226333618,
+      "completed_output_tokens": 22768946,
+      "cumulative_output_tps": 1370.0945059916612
+    },
+    {
+      "seconds": 16679.715114355087,
+      "completed_output_tokens": 22860727,
+      "cumulative_output_tps": 1370.5705908804964
+    },
+    {
+      "seconds": 16739.713242292404,
+      "completed_output_tokens": 22896557,
+      "cumulative_output_tps": 1367.7986395939272
+    },
+    {
+      "seconds": 16799.90378665924,
+      "completed_output_tokens": 22988289,
+      "cumulative_output_tps": 1368.3583722815686
+    },
+    {
+      "seconds": 16859.202298402786,
+      "completed_output_tokens": 23053364,
+      "cumulative_output_tps": 1367.4053844281848
+    },
+    {
+      "seconds": 16919.798092126846,
+      "completed_output_tokens": 23143361,
+      "cumulative_output_tps": 1367.8272562111197
+    },
+    {
+      "seconds": 16979.198969841003,
+      "completed_output_tokens": 23241273,
+      "cumulative_output_tps": 1368.8085663688782
+    },
+    {
+      "seconds": 17039.949599027634,
+      "completed_output_tokens": 23328088,
+      "cumulative_output_tps": 1369.0232981282522
+    },
+    {
+      "seconds": 17099.722183465958,
+      "completed_output_tokens": 23435128,
+      "cumulative_output_tps": 1370.4975875374084
+    },
+    {
+      "seconds": 17159.004569530487,
+      "completed_output_tokens": 23537992,
+      "cumulative_output_tps": 1371.757429437182
+    },
+    {
+      "seconds": 17219.889457464218,
+      "completed_output_tokens": 23606708,
+      "cumulative_output_tps": 1370.8977666965986
+    },
+    {
+      "seconds": 17278.78908419609,
+      "completed_output_tokens": 23654298,
+      "cumulative_output_tps": 1368.978918877783
+    },
+    {
+      "seconds": 17338.7885055542,
+      "completed_output_tokens": 23711427,
+      "cumulative_output_tps": 1367.5365491887987
+    },
+    {
+      "seconds": 17399.956954479218,
+      "completed_output_tokens": 23797526,
+      "cumulative_output_tps": 1367.6772915161653
+    },
+    {
+      "seconds": 17457.67937350273,
+      "completed_output_tokens": 23878128,
+      "cumulative_output_tps": 1367.7721700080153
+    },
+    {
+      "seconds": 17518.852041244507,
+      "completed_output_tokens": 23977289,
+      "cumulative_output_tps": 1368.6564018892586
+    },
+    {
+      "seconds": 17579.34649705887,
+      "completed_output_tokens": 24065456,
+      "cumulative_output_tps": 1368.961923813624
+    },
+    {
+      "seconds": 17639.964438915253,
+      "completed_output_tokens": 24147945,
+      "cumulative_output_tps": 1368.9338821300337
+    },
+    {
+      "seconds": 17699.896104335785,
+      "completed_output_tokens": 24209808,
+      "cumulative_output_tps": 1367.7937914036422
+    },
+    {
+      "seconds": 17759.768583774567,
+      "completed_output_tokens": 24304315,
+      "cumulative_output_tps": 1368.504036826503
+    },
+    {
+      "seconds": 17818.60655426979,
+      "completed_output_tokens": 24393480,
+      "cumulative_output_tps": 1368.989203824959
+    },
+    {
+      "seconds": 17879.206982135773,
+      "completed_output_tokens": 24501380,
+      "cumulative_output_tps": 1370.384045807001
+    },
+    {
+      "seconds": 17938.412161827087,
+      "completed_output_tokens": 24580910,
+      "cumulative_output_tps": 1370.2946380230987
+    },
+    {
+      "seconds": 17995.94999909401,
+      "completed_output_tokens": 24694511,
+      "cumulative_output_tps": 1372.226028703304
+    },
+    {
+      "seconds": 18058.977227926254,
+      "completed_output_tokens": 24732576,
+      "cumulative_output_tps": 1369.5446695482703
+    },
+    {
+      "seconds": 18119.43207526207,
+      "completed_output_tokens": 24809405,
+      "cumulative_output_tps": 1369.2153758986494
+    },
+    {
+      "seconds": 18178.2811524868,
+      "completed_output_tokens": 24901454,
+      "cumulative_output_tps": 1369.8464552900516
+    },
+    {
+      "seconds": 18238.30105471611,
+      "completed_output_tokens": 24972536,
+      "cumulative_output_tps": 1369.2358693433528
+    },
+    {
+      "seconds": 18295.150312900543,
+      "completed_output_tokens": 25038723,
+      "cumulative_output_tps": 1368.5989222151584
+    },
+    {
+      "seconds": 18359.816754817963,
+      "completed_output_tokens": 25158339,
+      "cumulative_output_tps": 1370.293578414827
+    },
+    {
+      "seconds": 18419.127553462982,
+      "completed_output_tokens": 25236071,
+      "cumulative_output_tps": 1370.1013213981116
+    },
+    {
+      "seconds": 18479.971972227097,
+      "completed_output_tokens": 25344762,
+      "cumulative_output_tps": 1371.471885243644
+    },
+    {
+      "seconds": 18539.359389781952,
+      "completed_output_tokens": 25432555,
+      "cumulative_output_tps": 1371.814120719687
+    },
+    {
+      "seconds": 18598.60986685753,
+      "completed_output_tokens": 25522379,
+      "cumulative_output_tps": 1372.2734754214364
+    },
+    {
+      "seconds": 18659.9693608284,
+      "completed_output_tokens": 25589424,
+      "cumulative_output_tps": 1371.3540202117445
+    },
+    {
+      "seconds": 18719.11339688301,
+      "completed_output_tokens": 25666378,
+      "cumulative_output_tps": 1371.1321394246056
+    },
+    {
+      "seconds": 18778.656673192978,
+      "completed_output_tokens": 25717782,
+      "cumulative_output_tps": 1369.5219230837106
+    },
+    {
+      "seconds": 18839.198703050613,
+      "completed_output_tokens": 25798298,
+      "cumulative_output_tps": 1369.3946545519746
+    },
+    {
+      "seconds": 18898.274096012115,
+      "completed_output_tokens": 25896078,
+      "cumulative_output_tps": 1370.2879886510138
+    },
+    {
+      "seconds": 18959.745291233063,
+      "completed_output_tokens": 25981310,
+      "cumulative_output_tps": 1370.340666549655
+    },
+    {
+      "seconds": 19019.27003645897,
+      "completed_output_tokens": 26091237,
+      "cumulative_output_tps": 1371.8316712462904
+    },
+    {
+      "seconds": 19079.90094947815,
+      "completed_output_tokens": 26185005,
+      "cumulative_output_tps": 1372.3868414901904
+    },
+    {
+      "seconds": 19139.79116845131,
+      "completed_output_tokens": 26294544,
+      "cumulative_output_tps": 1373.815616303175
+    },
+    {
+      "seconds": 19199.446791887283,
+      "completed_output_tokens": 26395974,
+      "cumulative_output_tps": 1374.8299253681416
+    },
+    {
+      "seconds": 19258.895039081573,
+      "completed_output_tokens": 26478525,
+      "cumulative_output_tps": 1374.8724911926577
+    },
+    {
+      "seconds": 19319.445769548416,
+      "completed_output_tokens": 26509837,
+      "cumulative_output_tps": 1372.1841359334014
+    },
+    {
+      "seconds": 19379.73692727089,
+      "completed_output_tokens": 26574174,
+      "cumulative_output_tps": 1371.235022422064
+    },
+    {
+      "seconds": 19438.98902988434,
+      "completed_output_tokens": 26671668,
+      "cumulative_output_tps": 1372.0707367547034
+    },
+    {
+      "seconds": 19499.69956970215,
+      "completed_output_tokens": 26753329,
+      "cumulative_output_tps": 1371.986727506728
+    },
+    {
+      "seconds": 19559.73584651947,
+      "completed_output_tokens": 26862816,
+      "cumulative_output_tps": 1373.3731483280776
+    },
+    {
+      "seconds": 19617.568559646606,
+      "completed_output_tokens": 26983930,
+      "cumulative_output_tps": 1375.4981876554273
+    },
+    {
+      "seconds": 19679.792565345764,
+      "completed_output_tokens": 27015747,
+      "cumulative_output_tps": 1372.7658414231537
+    },
+    {
+      "seconds": 19739.62914633751,
+      "completed_output_tokens": 27122692,
+      "cumulative_output_tps": 1374.0223688565266
+    },
+    {
+      "seconds": 19799.519473314285,
+      "completed_output_tokens": 27217020,
+      "cumulative_output_tps": 1374.630330634185
+    },
+    {
+      "seconds": 19859.559195756912,
+      "completed_output_tokens": 27298814,
+      "cumulative_output_tps": 1374.593148363158
+    },
+    {
+      "seconds": 19919.91573858261,
+      "completed_output_tokens": 27395559,
+      "cumulative_output_tps": 1375.2848837075107
+    },
+    {
+      "seconds": 19979.955849647522,
+      "completed_output_tokens": 27538068,
+      "cumulative_output_tps": 1378.2847273151415
+    },
+    {
+      "seconds": 20039.821405172348,
+      "completed_output_tokens": 27673576,
+      "cumulative_output_tps": 1380.9292727956824
+    },
+    {
+      "seconds": 20099.566615104675,
+      "completed_output_tokens": 27734115,
+      "cumulative_output_tps": 1379.8364676757765
+    },
+    {
+      "seconds": 20158.859708309174,
+      "completed_output_tokens": 27849225,
+      "cumulative_output_tps": 1381.488110089926
+    },
+    {
+      "seconds": 20219.901765823364,
+      "completed_output_tokens": 27976164,
+      "cumulative_output_tps": 1383.595445912929
+    },
+    {
+      "seconds": 20279.935626745224,
+      "completed_output_tokens": 28079928,
+      "cumulative_output_tps": 1384.6162294010503
+    },
+    {
+      "seconds": 20339.715633630753,
+      "completed_output_tokens": 28177985,
+      "cumulative_output_tps": 1385.3676967542772
+    },
+    {
+      "seconds": 20399.97979402542,
+      "completed_output_tokens": 28283054,
+      "cumulative_output_tps": 1386.4255889255003
+    },
+    {
+      "seconds": 20453.178775548935,
+      "completed_output_tokens": 28320712,
+      "cumulative_output_tps": 1384.6606589023916
+    },
+    {
+      "seconds": 20518.654441595078,
+      "completed_output_tokens": 28373425,
+      "cumulative_output_tps": 1382.8111916774553
+    },
+    {
+      "seconds": 20579.20724582672,
+      "completed_output_tokens": 28477366,
+      "cumulative_output_tps": 1383.793149066758
+    },
+    {
+      "seconds": 20637.929066181183,
+      "completed_output_tokens": 28555624,
+      "cumulative_output_tps": 1383.6477443268923
+    },
+    {
+      "seconds": 20698.277282714844,
+      "completed_output_tokens": 28635839,
+      "cumulative_output_tps": 1383.4890029187995
+    },
+    {
+      "seconds": 20759.98189330101,
+      "completed_output_tokens": 28730613,
+      "cumulative_output_tps": 1383.942103016526
+    },
+    {
+      "seconds": 20819.829102516174,
+      "completed_output_tokens": 28838122,
+      "cumulative_output_tps": 1385.127700040284
+    },
+    {
+      "seconds": 20875.221490621567,
+      "completed_output_tokens": 28940660,
+      "cumulative_output_tps": 1386.3642123750362
+    },
+    {
+      "seconds": 20938.432757377625,
+      "completed_output_tokens": 29033569,
+      "cumulative_output_tps": 1386.616149184808
+    },
+    {
+      "seconds": 20999.31527686119,
+      "completed_output_tokens": 29154091,
+      "cumulative_output_tps": 1388.3353154911877
+    },
+    {
+      "seconds": 21058.458411216736,
+      "completed_output_tokens": 29252816,
+      "cumulative_output_tps": 1389.1242857748105
+    },
+    {
+      "seconds": 21114.74860072136,
+      "completed_output_tokens": 29327311,
+      "cumulative_output_tps": 1388.9490968885166
+    },
+    {
+      "seconds": 21179.91620326042,
+      "completed_output_tokens": 29442793,
+      "cumulative_output_tps": 1390.1279267321934
+    },
+    {
+      "seconds": 21236.847799301147,
+      "completed_output_tokens": 29534446,
+      "cumulative_output_tps": 1390.717034802684
+    },
+    {
+      "seconds": 21299.800077676773,
+      "completed_output_tokens": 29611560,
+      "cumulative_output_tps": 1390.227133213065
+    },
+    {
+      "seconds": 21359.937457561493,
+      "completed_output_tokens": 29705044,
+      "cumulative_output_tps": 1390.6896524869885
+    },
+    {
+      "seconds": 21412.728256702423,
+      "completed_output_tokens": 29779980,
+      "cumulative_output_tps": 1390.7606561381797
+    },
+    {
+      "seconds": 21479.876296043396,
+      "completed_output_tokens": 29862470,
+      "cumulative_output_tps": 1390.253351016769
+    },
+    {
+      "seconds": 21539.505826473236,
+      "completed_output_tokens": 29964240,
+      "cumulative_output_tps": 1391.129408510956
+    },
+    {
+      "seconds": 21599.780730485916,
+      "completed_output_tokens": 30035012,
+      "cumulative_output_tps": 1390.5239305327116
+    },
+    {
+      "seconds": 21659.220073461533,
+      "completed_output_tokens": 30144699,
+      "cumulative_output_tps": 1391.7721366585818
+    },
+    {
+      "seconds": 21718.63507080078,
+      "completed_output_tokens": 30242580,
+      "cumulative_output_tps": 1392.471483655024
+    },
+    {
+      "seconds": 21779.304730653763,
+      "completed_output_tokens": 30291478,
+      "cumulative_output_tps": 1390.8376954460623
+    },
+    {
+      "seconds": 21838.92945766449,
+      "completed_output_tokens": 30338519,
+      "cumulative_output_tps": 1389.1944226850612
+    },
+    {
+      "seconds": 21898.650403499603,
+      "completed_output_tokens": 30378930,
+      "cumulative_output_tps": 1387.2512433526574
+    },
+    {
+      "seconds": 21959.531190872192,
+      "completed_output_tokens": 30429774,
+      "cumulative_output_tps": 1385.72056641394
+    },
+    {
+      "seconds": 22014.39104604721,
+      "completed_output_tokens": 30524594,
+      "cumulative_output_tps": 1386.5745337289643
+    },
+    {
+      "seconds": 22079.905785799026,
+      "completed_output_tokens": 30564464,
+      "cumulative_output_tps": 1384.2660515181149
+    },
+    {
+      "seconds": 22139.91600894928,
+      "completed_output_tokens": 30634482,
+      "cumulative_output_tps": 1383.676522874662
+    },
+    {
+      "seconds": 22198.58161497116,
+      "completed_output_tokens": 30740896,
+      "cumulative_output_tps": 1384.813522467027
+    },
+    {
+      "seconds": 22259.973859786987,
+      "completed_output_tokens": 30830403,
+      "cumulative_output_tps": 1385.0152383015882
+    },
+    {
+      "seconds": 22319.969009637833,
+      "completed_output_tokens": 30895674,
+      "cumulative_output_tps": 1384.2167068717322
+    },
+    {
+      "seconds": 22379.957929849625,
+      "completed_output_tokens": 30945790,
+      "cumulative_output_tps": 1382.7456734726727
+    },
+    {
+      "seconds": 22436.41950392723,
+      "completed_output_tokens": 31011755,
+      "cumulative_output_tps": 1382.2060598649334
+    },
+    {
+      "seconds": 22499.427352905273,
+      "completed_output_tokens": 31085536,
+      "cumulative_output_tps": 1381.6145412245805
+    },
+    {
+      "seconds": 22559.70495581627,
+      "completed_output_tokens": 31134912,
+      "cumulative_output_tps": 1380.1116663971661
+    },
+    {
+      "seconds": 22619.797926187515,
+      "completed_output_tokens": 31240408,
+      "cumulative_output_tps": 1381.1090665771237
+    },
+    {
+      "seconds": 22679.1591732502,
+      "completed_output_tokens": 31323827,
+      "cumulative_output_tps": 1381.1723248076185
+    },
+    {
+      "seconds": 22739.652543783188,
+      "completed_output_tokens": 31380453,
+      "cumulative_output_tps": 1379.9882359495034
+    },
+    {
+      "seconds": 22797.193608999252,
+      "completed_output_tokens": 31424518,
+      "cumulative_output_tps": 1378.4380015790666
+    },
+    {
+      "seconds": 22859.847560167313,
+      "completed_output_tokens": 31471691,
+      "cumulative_output_tps": 1376.723572507045
+    },
+    {
+      "seconds": 22918.173305273056,
+      "completed_output_tokens": 31569923,
+      "cumulative_output_tps": 1377.5060769235188
+    },
+    {
+      "seconds": 22979.98754477501,
+      "completed_output_tokens": 31647437,
+      "cumulative_output_tps": 1377.1738099656072
+    },
+    {
+      "seconds": 23039.613116502762,
+      "completed_output_tokens": 31705475,
+      "cumulative_output_tps": 1376.1287934687616
+    },
+    {
+      "seconds": 23098.12938952446,
+      "completed_output_tokens": 31777566,
+      "cumulative_output_tps": 1375.7636154905197
+    },
+    {
+      "seconds": 23159.600808620453,
+      "completed_output_tokens": 31836619,
+      "cumulative_output_tps": 1374.6618200841265
+    },
+    {
+      "seconds": 23219.383288383484,
+      "completed_output_tokens": 31908522,
+      "cumulative_output_tps": 1374.219185914539
+    },
+    {
+      "seconds": 23279.896362781525,
+      "completed_output_tokens": 31961127,
+      "cumulative_output_tps": 1372.9067561957663
+    },
+    {
+      "seconds": 23338.803483486176,
+      "completed_output_tokens": 32046047,
+      "cumulative_output_tps": 1373.0801162396695
+    },
+    {
+      "seconds": 23399.7293343544,
+      "completed_output_tokens": 32114567,
+      "cumulative_output_tps": 1372.433267971646
+    },
+    {
+      "seconds": 23459.862613916397,
+      "completed_output_tokens": 32189127,
+      "cumulative_output_tps": 1372.0935851050297
+    },
+    {
+      "seconds": 23519.86242032051,
+      "completed_output_tokens": 32252352,
+      "cumulative_output_tps": 1371.2814906661554
+    },
+    {
+      "seconds": 23578.702724695206,
+      "completed_output_tokens": 32322619,
+      "cumulative_output_tps": 1370.8395825418688
+    },
+    {
+      "seconds": 23638.021497249603,
+      "completed_output_tokens": 32408265,
+      "cumulative_output_tps": 1371.022739943394
+    },
+    {
+      "seconds": 23696.894352436066,
+      "completed_output_tokens": 32474681,
+      "cumulative_output_tps": 1370.4192843591577
+    },
+    {
+      "seconds": 23759.909034490585,
+      "completed_output_tokens": 32525422,
+      "cumulative_output_tps": 1368.920308271599
+    },
+    {
+      "seconds": 23819.93898487091,
+      "completed_output_tokens": 32599533,
+      "cumulative_output_tps": 1368.5817172204092
+    },
+    {
+      "seconds": 23878.39946627617,
+      "completed_output_tokens": 32678244,
+      "cumulative_output_tps": 1368.5274026071968
+    },
+    {
+      "seconds": 23938.824526786804,
+      "completed_output_tokens": 32740590,
+      "cumulative_output_tps": 1367.6774297486618
+    },
+    {
+      "seconds": 23999.39060139656,
+      "completed_output_tokens": 32797326,
+      "cumulative_output_tps": 1366.5899499169564
+    },
+    {
+      "seconds": 24059.832874536514,
+      "completed_output_tokens": 32853556,
+      "cumulative_output_tps": 1365.4939405156981
+    },
+    {
+      "seconds": 24115.13062095642,
+      "completed_output_tokens": 32989660,
+      "cumulative_output_tps": 1368.0066891834074
+    },
+    {
+      "seconds": 24179.54601097107,
+      "completed_output_tokens": 33059635,
+      "cumulative_output_tps": 1367.2562332228958
+    },
+    {
+      "seconds": 24239.92828464508,
+      "completed_output_tokens": 33140097,
+      "cumulative_output_tps": 1367.1697626676882
+    },
+    {
+      "seconds": 24298.363007307053,
+      "completed_output_tokens": 33186071,
+      "cumulative_output_tps": 1365.7739408214545
+    },
+    {
+      "seconds": 24359.204103708267,
+      "completed_output_tokens": 33267169,
+      "cumulative_output_tps": 1365.6919519359685
+    },
+    {
+      "seconds": 24419.454665899277,
+      "completed_output_tokens": 33350506,
+      "cumulative_output_tps": 1365.7350852544857
+    },
+    {
+      "seconds": 24479.9335603714,
+      "completed_output_tokens": 33426288,
+      "cumulative_output_tps": 1365.4566470764912
+    },
+    {
+      "seconds": 24538.959084272385,
+      "completed_output_tokens": 33497066,
+      "cumulative_output_tps": 1365.0565162508904
+    },
+    {
+      "seconds": 24599.738033294678,
+      "completed_output_tokens": 33593024,
+      "cumulative_output_tps": 1365.584623483929
+    },
+    {
+      "seconds": 24659.929003715515,
+      "completed_output_tokens": 33645356,
+      "cumulative_output_tps": 1364.3735955172722
+    },
+    {
+      "seconds": 24716.859989881516,
+      "completed_output_tokens": 33733377,
+      "cumulative_output_tps": 1364.7921707615624
+    },
+    {
+      "seconds": 24779.05185484886,
+      "completed_output_tokens": 33811782,
+      "cumulative_output_tps": 1364.5309028797071
+    },
+    {
+      "seconds": 24839.77524137497,
+      "completed_output_tokens": 33882536,
+      "cumulative_output_tps": 1364.0435821481483
+    },
+    {
+      "seconds": 24899.983355522156,
+      "completed_output_tokens": 33956404,
+      "cumulative_output_tps": 1363.7119155932837
+    },
+    {
+      "seconds": 24954.79017853737,
+      "completed_output_tokens": 34047687,
+      "cumulative_output_tps": 1364.3748056548707
+    },
+    {
+      "seconds": 25019.426672697067,
+      "completed_output_tokens": 34111995,
+      "cumulative_output_tps": 1363.4203311791064
+    },
+    {
+      "seconds": 25079.482933044434,
+      "completed_output_tokens": 34161979,
+      "cumulative_output_tps": 1362.148457813242
+    },
+    {
+      "seconds": 25138.58915233612,
+      "completed_output_tokens": 34266389,
+      "cumulative_output_tps": 1363.0991298815843
+    },
+    {
+      "seconds": 25199.84716296196,
+      "completed_output_tokens": 34280003,
+      "cumulative_output_tps": 1360.3258296893086
+    },
+    {
+      "seconds": 25259.26944255829,
+      "completed_output_tokens": 34363733,
+      "cumulative_output_tps": 1360.4404940588654
+    },
+    {
+      "seconds": 25319.769537448883,
+      "completed_output_tokens": 34426573,
+      "cumulative_output_tps": 1359.6716569272803
+    },
+    {
+      "seconds": 25379.641556739807,
+      "completed_output_tokens": 34513417,
+      "cumulative_output_tps": 1359.885911817956
+    },
+    {
+      "seconds": 25437.326432704926,
+      "completed_output_tokens": 34610701,
+      "cumulative_output_tps": 1360.626522270863
+    },
+    {
+      "seconds": 25496.9926302433,
+      "completed_output_tokens": 34713702,
+      "cumulative_output_tps": 1361.482214919115
+    },
+    {
+      "seconds": 25559.14934849739,
+      "completed_output_tokens": 34781207,
+      "cumulative_output_tps": 1360.812385645564
+    },
+    {
+      "seconds": 25617.01704645157,
+      "completed_output_tokens": 34845783,
+      "cumulative_output_tps": 1360.259195550123
+    },
+    {
+      "seconds": 25674.06819295883,
+      "completed_output_tokens": 34896245,
+      "cumulative_output_tps": 1359.2020063875334
+    },
+    {
+      "seconds": 25739.55581331253,
+      "completed_output_tokens": 34997474,
+      "cumulative_output_tps": 1359.676688045225
+    },
+    {
+      "seconds": 25799.491012573242,
+      "completed_output_tokens": 35085321,
+      "cumulative_output_tps": 1359.9229916164377
+    },
+    {
+      "seconds": 25859.930932044983,
+      "completed_output_tokens": 35163462,
+      "cumulative_output_tps": 1359.7662767314785
+    },
+    {
+      "seconds": 25919.994293928146,
+      "completed_output_tokens": 35248625,
+      "cumulative_output_tps": 1359.9009552350526
+    },
+    {
+      "seconds": 25979.413869142532,
+      "completed_output_tokens": 35366607,
+      "cumulative_output_tps": 1361.3319830131834
+    },
+    {
+      "seconds": 26039.549139022827,
+      "completed_output_tokens": 35439833,
+      "cumulative_output_tps": 1361.0002542974112
+    },
+    {
+      "seconds": 26099.6717376709,
+      "completed_output_tokens": 35510990,
+      "cumulative_output_tps": 1360.5914417975341
+    },
+    {
+      "seconds": 26158.69031572342,
+      "completed_output_tokens": 35604960,
+      "cumulative_output_tps": 1361.1140148938814
+    },
+    {
+      "seconds": 26217.621020317078,
+      "completed_output_tokens": 35718892,
+      "cumulative_output_tps": 1362.4001953617383
+    },
+    {
+      "seconds": 26278.78283762932,
+      "completed_output_tokens": 35741637,
+      "cumulative_output_tps": 1360.0948423235402
+    },
+    {
+      "seconds": 26334.43784570694,
+      "completed_output_tokens": 35764097,
+      "cumulative_output_tps": 1358.0733034645086
+    },
+    {
+      "seconds": 26397.7943649292,
+      "completed_output_tokens": 35830373,
+      "cumulative_output_tps": 1357.3244985801714
+    },
+    {
+      "seconds": 26459.830564022064,
+      "completed_output_tokens": 35923327,
+      "cumulative_output_tps": 1357.6552167664154
+    },
+    {
+      "seconds": 26519.730167388916,
+      "completed_output_tokens": 36012220,
+      "cumulative_output_tps": 1357.9406642788515
+    },
+    {
+      "seconds": 26578.238680124283,
+      "completed_output_tokens": 36089506,
+      "cumulative_output_tps": 1357.8592033259308
+    },
+    {
+      "seconds": 26639.988114595413,
+      "completed_output_tokens": 36159655,
+      "cumulative_output_tps": 1357.3450124847836
+    },
+    {
+      "seconds": 26699.20771241188,
+      "completed_output_tokens": 36230159,
+      "cumulative_output_tps": 1356.9750604680823
+    },
+    {
+      "seconds": 26759.96132349968,
+      "completed_output_tokens": 36297238,
+      "cumulative_output_tps": 1356.4009888207504
+    },
+    {
+      "seconds": 26819.343585014343,
+      "completed_output_tokens": 36366109,
+      "cumulative_output_tps": 1355.9656627957156
+    },
+    {
+      "seconds": 26879.826585531235,
+      "completed_output_tokens": 36476389,
+      "cumulative_output_tps": 1357.0172740487233
+    },
+    {
+      "seconds": 26939.31671667099,
+      "completed_output_tokens": 36524865,
+      "cumulative_output_tps": 1355.8200226139047
+    },
+    {
+      "seconds": 26999.847150802612,
+      "completed_output_tokens": 36591933,
+      "cumulative_output_tps": 1355.2644500401273
+    },
+    {
+      "seconds": 27056.253180742264,
+      "completed_output_tokens": 36661846,
+      "cumulative_output_tps": 1355.0230238862
+    },
+    {
+      "seconds": 27119.09032034874,
+      "completed_output_tokens": 36737682,
+      "cumulative_output_tps": 1354.6797317325197
+    },
+    {
+      "seconds": 27177.95930838585,
+      "completed_output_tokens": 36813186,
+      "cumulative_output_tps": 1354.5235527908517
+    },
+    {
+      "seconds": 27238.544432878494,
+      "completed_output_tokens": 36878357,
+      "cumulative_output_tps": 1353.9033662711322
+    },
+    {
+      "seconds": 27298.37784075737,
+      "completed_output_tokens": 36936180,
+      "cumulative_output_tps": 1353.0540245088512
+    },
+    {
+      "seconds": 27357.941235780716,
+      "completed_output_tokens": 36987897,
+      "cumulative_output_tps": 1351.9985543219357
+    },
+    {
+      "seconds": 27419.49707865715,
+      "completed_output_tokens": 37048034,
+      "cumulative_output_tps": 1351.1565837156631
+    },
+    {
+      "seconds": 27479.958339214325,
+      "completed_output_tokens": 37139819,
+      "cumulative_output_tps": 1351.5238466355645
+    },
+    {
+      "seconds": 27527.34106206894,
+      "completed_output_tokens": 37192791,
+      "cumulative_output_tps": 1351.1218143494973
+    },
+    {
+      "seconds": 27598.488174438477,
+      "completed_output_tokens": 37262026,
+      "cumulative_output_tps": 1350.1473618584594
+    },
+    {
+      "seconds": 27658.078934192657,
+      "completed_output_tokens": 37313302,
+      "cumulative_output_tps": 1349.0923244806763
+    },
+    {
+      "seconds": 27719.553246974945,
+      "completed_output_tokens": 37384883,
+      "cumulative_output_tps": 1348.6827391087133
+    },
+    {
+      "seconds": 27778.963743448257,
+      "completed_output_tokens": 37463323,
+      "cumulative_output_tps": 1348.622048899712
+    },
+    {
+      "seconds": 27837.05189228058,
+      "completed_output_tokens": 37528602,
+      "cumulative_output_tps": 1348.1528915210652
+    },
+    {
+      "seconds": 27898.906090021133,
+      "completed_output_tokens": 37569264,
+      "cumulative_output_tps": 1346.6214008096094
+    },
+    {
+      "seconds": 27958.542243242264,
+      "completed_output_tokens": 37632569,
+      "cumulative_output_tps": 1346.0132746762217
+    },
+    {
+      "seconds": 28019.013300657272,
+      "completed_output_tokens": 37684709,
+      "cumulative_output_tps": 1344.969167744247
+    },
+    {
+      "seconds": 28079.564129829407,
+      "completed_output_tokens": 37750762,
+      "cumulative_output_tps": 1344.4212248258054
+    },
+    {
+      "seconds": 28139.083599328995,
+      "completed_output_tokens": 37792312,
+      "cumulative_output_tps": 1343.0541142747518
+    },
+    {
+      "seconds": 28199.456436157227,
+      "completed_output_tokens": 37870872,
+      "cumulative_output_tps": 1342.964609468221
+    },
+    {
+      "seconds": 28258.960741996765,
+      "completed_output_tokens": 37955134,
+      "cumulative_output_tps": 1343.118536683954
+    },
+    {
+      "seconds": 28319.145483255386,
+      "completed_output_tokens": 38016859,
+      "cumulative_output_tps": 1342.4437196552665
+    },
+    {
+      "seconds": 28379.49428343773,
+      "completed_output_tokens": 38065617,
+      "cumulative_output_tps": 1341.307093770698
+    },
+    {
+      "seconds": 28438.153078079224,
+      "completed_output_tokens": 38136779,
+      "cumulative_output_tps": 1341.0427496923735
+    },
+    {
+      "seconds": 28499.05173754692,
+      "completed_output_tokens": 38214811,
+      "cumulative_output_tps": 1340.9151768250858
+    },
+    {
+      "seconds": 28559.14636182785,
+      "completed_output_tokens": 38282231,
+      "cumulative_output_tps": 1340.4543159303958
+    },
+    {
+      "seconds": 28619.328541517258,
+      "completed_output_tokens": 38358404,
+      "cumulative_output_tps": 1340.2971332592426
+    },
+    {
+      "seconds": 28679.812146425247,
+      "completed_output_tokens": 38419086,
+      "cumulative_output_tps": 1339.5863893337491
+    },
+    {
+      "seconds": 28739.90142583847,
+      "completed_output_tokens": 38482590,
+      "cumulative_output_tps": 1338.995197993352
+    },
+    {
+      "seconds": 28795.690576314926,
+      "completed_output_tokens": 38547703,
+      "cumulative_output_tps": 1338.6622174536878
+    },
+    {
+      "seconds": 28858.57532095909,
+      "completed_output_tokens": 38613031,
+      "cumulative_output_tps": 1338.0089131412024
+    },
+    {
+      "seconds": 28919.73194718361,
+      "completed_output_tokens": 38681357,
+      "cumulative_output_tps": 1337.5420308405396
+    },
+    {
+      "seconds": 28979.865038394928,
+      "completed_output_tokens": 38729172,
+      "cumulative_output_tps": 1336.4165757393412
+    },
+    {
+      "seconds": 29037.813262224197,
+      "completed_output_tokens": 38802303,
+      "cumulative_output_tps": 1336.268080850241
+    },
+    {
+      "seconds": 29099.71227121353,
+      "completed_output_tokens": 38869778,
+      "cumulative_output_tps": 1335.744410038424
+    },
+    {
+      "seconds": 29159.864861249924,
+      "completed_output_tokens": 38920555,
+      "cumulative_output_tps": 1334.7302940255015
+    },
+    {
+      "seconds": 29219.848802804947,
+      "completed_output_tokens": 38985877,
+      "cumulative_output_tps": 1334.2258292677259
+    },
+    {
+      "seconds": 29277.426933288574,
+      "completed_output_tokens": 39052883,
+      "cumulative_output_tps": 1333.8905460847272
+    },
+    {
+      "seconds": 29339.088351488113,
+      "completed_output_tokens": 39115944,
+      "cumulative_output_tps": 1333.2365181693178
+    },
+    {
+      "seconds": 29399.07185602188,
+      "completed_output_tokens": 39172331,
+      "cumulative_output_tps": 1332.4342751989375
+    },
+    {
+      "seconds": 29457.956707715988,
+      "completed_output_tokens": 39253038,
+      "cumulative_output_tps": 1332.510546792893
+    },
+    {
+      "seconds": 29519.680411100388,
+      "completed_output_tokens": 39309898,
+      "cumulative_output_tps": 1331.6505278024001
+    },
+    {
+      "seconds": 29579.063793182373,
+      "completed_output_tokens": 39367774,
+      "cumulative_output_tps": 1330.9337400013928
+    },
+    {
+      "seconds": 29638.947566986084,
+      "completed_output_tokens": 39418505,
+      "cumulative_output_tps": 1329.9562985801515
+    },
+    {
+      "seconds": 29699.819830417633,
+      "completed_output_tokens": 39501317,
+      "cumulative_output_tps": 1330.0187417145196
+    },
+    {
+      "seconds": 29758.20100903511,
+      "completed_output_tokens": 39564269,
+      "cumulative_output_tps": 1329.5248925829756
+    },
+    {
+      "seconds": 29817.809637784958,
+      "completed_output_tokens": 39624613,
+      "cumulative_output_tps": 1328.8908032261336
+    },
+    {
+      "seconds": 29875.526089906693,
+      "completed_output_tokens": 39680974,
+      "cumulative_output_tps": 1328.2100499447283
+    },
+    {
+      "seconds": 29939.71013355255,
+      "completed_output_tokens": 39717077,
+      "cumulative_output_tps": 1326.5685212994176
+    },
+    {
+      "seconds": 29998.284638643265,
+      "completed_output_tokens": 39756588,
+      "cumulative_output_tps": 1325.2953786826283
+    },
+    {
+      "seconds": 30059.570326328278,
+      "completed_output_tokens": 39805700,
+      "cumulative_output_tps": 1324.2271784948096
+    },
+    {
+      "seconds": 30119.7465736866,
+      "completed_output_tokens": 39881549,
+      "cumulative_output_tps": 1324.099753045119
+    },
+    {
+      "seconds": 30179.099233150482,
+      "completed_output_tokens": 39934842,
+      "cumulative_output_tps": 1323.2615622978317
+    },
+    {
+      "seconds": 30238.279559612274,
+      "completed_output_tokens": 40007535,
+      "cumulative_output_tps": 1323.0757696094595
+    },
+    {
+      "seconds": 30299.856420516968,
+      "completed_output_tokens": 40064613,
+      "cumulative_output_tps": 1322.2707211533523
+    },
+    {
+      "seconds": 30358.57738852501,
+      "completed_output_tokens": 40132487,
+      "cumulative_output_tps": 1321.9488675766918
+    },
+    {
+      "seconds": 30418.82940387726,
+      "completed_output_tokens": 40221412,
+      "cumulative_output_tps": 1322.253774659497
+    },
+    {
+      "seconds": 30479.545957565308,
+      "completed_output_tokens": 40284398,
+      "cumulative_output_tps": 1321.6862894245653
+    },
+    {
+      "seconds": 30539.571228027344,
+      "completed_output_tokens": 40343040,
+      "cumulative_output_tps": 1321.0087233633337
+    },
+    {
+      "seconds": 30597.71903347969,
+      "completed_output_tokens": 40406894,
+      "cumulative_output_tps": 1320.585170279759
+    },
+    {
+      "seconds": 30656.762238025665,
+      "completed_output_tokens": 40466037,
+      "cumulative_output_tps": 1319.9709964742208
+    },
+    {
+      "seconds": 30718.50043988228,
+      "completed_output_tokens": 40525515,
+      "cumulative_output_tps": 1319.2543392315183
+    },
+    {
+      "seconds": 30779.596352100372,
+      "completed_output_tokens": 40587907,
+      "cumulative_output_tps": 1318.6627444914598
+    },
+    {
+      "seconds": 30827.9065387249,
+      "completed_output_tokens": 40619559,
+      "cumulative_output_tps": 1317.6230098198585
+    },
+    {
+      "seconds": 30899.721997737885,
+      "completed_output_tokens": 40666088,
+      "cumulative_output_tps": 1316.0664682671609
+    },
+    {
+      "seconds": 30959.751518964767,
+      "completed_output_tokens": 40723958,
+      "cumulative_output_tps": 1315.3838775176878
+    },
+    {
+      "seconds": 31017.90030503273,
+      "completed_output_tokens": 40800804,
+      "cumulative_output_tps": 1315.395420023965
+    },
+    {
+      "seconds": 31079.71613264084,
+      "completed_output_tokens": 40854875,
+      "cumulative_output_tps": 1314.5189237134955
+    },
+    {
+      "seconds": 31138.061423778534,
+      "completed_output_tokens": 40922634,
+      "cumulative_output_tps": 1314.2319119696222
+    },
+    {
+      "seconds": 31198.878431081772,
+      "completed_output_tokens": 40973827,
+      "cumulative_output_tps": 1313.3108964320963
+    },
+    {
+      "seconds": 31259.67083120346,
+      "completed_output_tokens": 41060221,
+      "cumulative_output_tps": 1313.5205812536456
+    },
+    {
+      "seconds": 31319.67133164406,
+      "completed_output_tokens": 41117662,
+      "cumulative_output_tps": 1312.8382339841628
+    },
+    {
+      "seconds": 31379.884732961655,
+      "completed_output_tokens": 41156397,
+      "cumulative_output_tps": 1311.5534792506432
+    },
+    {
+      "seconds": 31438.95764875412,
+      "completed_output_tokens": 41188058,
+      "cumulative_output_tps": 1310.0961698592519
+    },
+    {
+      "seconds": 31499.84530377388,
+      "completed_output_tokens": 41257066,
+      "cumulative_output_tps": 1309.7545591773794
+    },
+    {
+      "seconds": 31558.75394654274,
+      "completed_output_tokens": 41305278,
+      "cumulative_output_tps": 1308.8374170275183
+    },
+    {
+      "seconds": 31617.25425338745,
+      "completed_output_tokens": 41350860,
+      "cumulative_output_tps": 1307.8574018036275
+    },
+    {
+      "seconds": 31678.35974907875,
+      "completed_output_tokens": 41424969,
+      "cumulative_output_tps": 1307.6740503019475
+    },
+    {
+      "seconds": 31739.35105419159,
+      "completed_output_tokens": 41482542,
+      "cumulative_output_tps": 1306.9751151866005
+    },
+    {
+      "seconds": 31798.25914311409,
+      "completed_output_tokens": 41557456,
+      "cumulative_output_tps": 1306.9097843678421
+    },
+    {
+      "seconds": 31859.61281657219,
+      "completed_output_tokens": 41619471,
+      "cumulative_output_tps": 1306.3395101383999
+    },
+    {
+      "seconds": 31917.04959154129,
+      "completed_output_tokens": 41644118,
+      "cumulative_output_tps": 1304.7608890214149
+    },
+    {
+      "seconds": 31979.385951519012,
+      "completed_output_tokens": 41696756,
+      "cumulative_output_tps": 1303.8635595821818
+    },
+    {
+      "seconds": 32039.853145122528,
+      "completed_output_tokens": 41752880,
+      "cumulative_output_tps": 1303.154537284641
+    },
+    {
+      "seconds": 32098.9959526062,
+      "completed_output_tokens": 41793138,
+      "cumulative_output_tps": 1302.0076410398347
+    },
+    {
+      "seconds": 32159.34933114052,
+      "completed_output_tokens": 41863531,
+      "cumulative_output_tps": 1301.7530475799376
+    },
+    {
+      "seconds": 32219.94238948822,
+      "completed_output_tokens": 41911825,
+      "cumulative_output_tps": 1300.8038466783157
+    },
+    {
+      "seconds": 32278.25929760933,
+      "completed_output_tokens": 41985601,
+      "cumulative_output_tps": 1300.739318464724
+    },
+    {
+      "seconds": 32338.573845148087,
+      "completed_output_tokens": 42051335,
+      "cumulative_output_tps": 1300.3459955086785
+    },
+    {
+      "seconds": 32389.7734375,
+      "completed_output_tokens": 42089636,
+      "cumulative_output_tps": 1299.4729982047286
+    },
+    {
+      "seconds": 32458.84508705139,
+      "completed_output_tokens": 42139466,
+      "cumulative_output_tps": 1298.2429253716866
+    },
+    {
+      "seconds": 32511.02321457863,
+      "completed_output_tokens": 42167411,
+      "cumulative_output_tps": 1297.0188825398532
+    },
+    {
+      "seconds": 32579.358585834503,
+      "completed_output_tokens": 42230795,
+      "cumulative_output_tps": 1296.2439051320655
+    },
+    {
+      "seconds": 32639.719250679016,
+      "completed_output_tokens": 42270793,
+      "cumulative_output_tps": 1295.0721994681564
+    },
+    {
+      "seconds": 32693.04996562004,
+      "completed_output_tokens": 42315967,
+      "cumulative_output_tps": 1294.3413674924611
+    },
+    {
+      "seconds": 32759.767367362976,
+      "completed_output_tokens": 42356798,
+      "cumulative_output_tps": 1292.951733295826
+    },
+    {
+      "seconds": 32819.24746608734,
+      "completed_output_tokens": 42393972,
+      "cumulative_output_tps": 1291.7411358626177
+    },
+    {
+      "seconds": 32877.36207175255,
+      "completed_output_tokens": 42463786,
+      "cumulative_output_tps": 1291.5812986250464
+    },
+    {
+      "seconds": 32938.933611154556,
+      "completed_output_tokens": 42508304,
+      "cumulative_output_tps": 1290.5185244249935
+    },
+    {
+      "seconds": 32996.266228437424,
+      "completed_output_tokens": 42536984,
+      "cumulative_output_tps": 1289.1453749800341
+    },
+    {
+      "seconds": 33058.84339547157,
+      "completed_output_tokens": 42578773,
+      "cumulative_output_tps": 1287.9692277991937
+    },
+    {
+      "seconds": 33118.74948835373,
+      "completed_output_tokens": 42625920,
+      "cumulative_output_tps": 1287.063088387123
+    },
+    {
+      "seconds": 33176.23032736778,
+      "completed_output_tokens": 42688174,
+      "cumulative_output_tps": 1286.7095983712657
+    },
+    {
+      "seconds": 33237.86352062225,
+      "completed_output_tokens": 42719535,
+      "cumulative_output_tps": 1285.267176498721
+    },
+    {
+      "seconds": 33299.54224848747,
+      "completed_output_tokens": 42758578,
+      "cumulative_output_tps": 1284.0590324313594
+    },
+    {
+      "seconds": 33355.723422050476,
+      "completed_output_tokens": 42811080,
+      "cumulative_output_tps": 1283.4702895905075
+    },
+    {
+      "seconds": 33418.317266225815,
+      "completed_output_tokens": 42864949,
+      "cumulative_output_tps": 1282.6782587081789
+    },
+    {
+      "seconds": 33479.51953482628,
+      "completed_output_tokens": 42915843,
+      "cumulative_output_tps": 1281.8536106934812
+    },
+    {
+      "seconds": 33538.162100315094,
+      "completed_output_tokens": 42946088,
+      "cumulative_output_tps": 1280.5140565408776
+    },
+    {
+      "seconds": 33597.69861316681,
+      "completed_output_tokens": 42988417,
+      "cumulative_output_tps": 1279.5048105810736
+    },
+    {
+      "seconds": 33654.82319402695,
+      "completed_output_tokens": 43036802,
+      "cumulative_output_tps": 1278.7707055206924
+    },
+    {
+      "seconds": 33715.10615158081,
+      "completed_output_tokens": 43076533,
+      "cumulative_output_tps": 1277.6626834965566
+    },
+    {
+      "seconds": 33774.38317656517,
+      "completed_output_tokens": 43112206,
+      "cumulative_output_tps": 1276.4764873608117
+    },
+    {
+      "seconds": 33839.40324831009,
+      "completed_output_tokens": 43167248,
+      "cumulative_output_tps": 1275.6503914458283
+    },
+    {
+      "seconds": 33899.48329663277,
+      "completed_output_tokens": 43217826,
+      "cumulative_output_tps": 1274.881555622201
+    },
+    {
+      "seconds": 33958.24757003784,
+      "completed_output_tokens": 43252448,
+      "cumulative_output_tps": 1273.6949370191485
+    },
+    {
+      "seconds": 34019.665853500366,
+      "completed_output_tokens": 43289057,
+      "cumulative_output_tps": 1272.4715517905618
+    },
+    {
+      "seconds": 34078.94589614868,
+      "completed_output_tokens": 43334134,
+      "cumulative_output_tps": 1271.5808209577651
+    },
+    {
+      "seconds": 34137.379647016525,
+      "completed_output_tokens": 43385880,
+      "cumulative_output_tps": 1270.9200427394771
+    },
+    {
+      "seconds": 34199.739817380905,
+      "completed_output_tokens": 43420621,
+      "cumulative_output_tps": 1269.6184600191866
+    },
+    {
+      "seconds": 34259.40746021271,
+      "completed_output_tokens": 43458081,
+      "cumulative_output_tps": 1268.5006607446496
+    },
+    {
+      "seconds": 34319.65525388718,
+      "completed_output_tokens": 43506240,
+      "cumulative_output_tps": 1267.6770695437658
+    },
+    {
+      "seconds": 34379.41637682915,
+      "completed_output_tokens": 43536465,
+      "cumulative_output_tps": 1266.3526490037357
+    },
+    {
+      "seconds": 34438.0267996788,
+      "completed_output_tokens": 43571997,
+      "cumulative_output_tps": 1265.2291971735845
+    },
+    {
+      "seconds": 34499.94598698616,
+      "completed_output_tokens": 43603917,
+      "cumulative_output_tps": 1263.8836309033056
+    },
+    {
+      "seconds": 34559.73582100868,
+      "completed_output_tokens": 43656906,
+      "cumulative_output_tps": 1263.2303159407022
+    },
+    {
+      "seconds": 34618.004865169525,
+      "completed_output_tokens": 43695637,
+      "cumulative_output_tps": 1262.2228568684448
+    },
+    {
+      "seconds": 34678.71462202072,
+      "completed_output_tokens": 43725894,
+      "cumulative_output_tps": 1260.8856607457528
+    },
+    {
+      "seconds": 34736.93066120148,
+      "completed_output_tokens": 43764140,
+      "cumulative_output_tps": 1259.8735457327332
+    },
+    {
+      "seconds": 34798.820747852325,
+      "completed_output_tokens": 43822123,
+      "cumulative_output_tps": 1259.2990813547774
+    },
+    {
+      "seconds": 34858.935012578964,
+      "completed_output_tokens": 43867661,
+      "cumulative_output_tps": 1258.4337698260204
+    },
+    {
+      "seconds": 34917.15752148628,
+      "completed_output_tokens": 43901395,
+      "cumulative_output_tps": 1257.301513532001
+    },
+    {
+      "seconds": 34979.572132349014,
+      "completed_output_tokens": 43919660,
+      "cumulative_output_tps": 1255.5802522062074
+    },
+    {
+      "seconds": 35039.18351149559,
+      "completed_output_tokens": 43971947,
+      "cumulative_output_tps": 1254.9364052839235
+    },
+    {
+      "seconds": 35096.64175033569,
+      "completed_output_tokens": 44007348,
+      "cumulative_output_tps": 1253.8905663126325
+    },
+    {
+      "seconds": 35159.47204875946,
+      "completed_output_tokens": 44050340,
+      "cumulative_output_tps": 1252.8726238810016
+    },
+    {
+      "seconds": 35218.56150341034,
+      "completed_output_tokens": 44084885,
+      "cumulative_output_tps": 1251.751437824373
+    },
+    {
+      "seconds": 35277.155987501144,
+      "completed_output_tokens": 44115295,
+      "cumulative_output_tps": 1250.5343405695812
+    },
+    {
+      "seconds": 35338.63228917122,
+      "completed_output_tokens": 44154658,
+      "cumulative_output_tps": 1249.4727480873748
+    },
+    {
+      "seconds": 35394.86400771141,
+      "completed_output_tokens": 44190094,
+      "cumulative_output_tps": 1248.488876532267
+    },
+    {
+      "seconds": 35455.687156915665,
+      "completed_output_tokens": 44250049,
+      "cumulative_output_tps": 1248.0381159773683
+    },
+    {
+      "seconds": 35518.045942783356,
+      "completed_output_tokens": 44276596,
+      "cumulative_output_tps": 1246.5943670247498
+    },
+    {
+      "seconds": 35576.10093998909,
+      "completed_output_tokens": 44299565,
+      "cumulative_output_tps": 1245.2057372651918
+    },
+    {
+      "seconds": 35638.95616149902,
+      "completed_output_tokens": 44350773,
+      "cumulative_output_tps": 1244.4464646782333
+    },
+    {
+      "seconds": 35698.58662891388,
+      "completed_output_tokens": 44386609,
+      "cumulative_output_tps": 1243.371606315901
+    },
+    {
+      "seconds": 35759.259657382965,
+      "completed_output_tokens": 44419131,
+      "cumulative_output_tps": 1242.1714382677128
+    },
+    {
+      "seconds": 35818.11902141571,
+      "completed_output_tokens": 44443423,
+      "cumulative_output_tps": 1240.808401285037
+    },
+    {
+      "seconds": 35877.23932266235,
+      "completed_output_tokens": 44474669,
+      "cumulative_output_tps": 1239.6346497013487
+    },
+    {
+      "seconds": 35939.792437791824,
+      "completed_output_tokens": 44499013,
+      "cumulative_output_tps": 1238.1544238749661
+    },
+    {
+      "seconds": 35999.91952395439,
+      "completed_output_tokens": 44541614,
+      "cumulative_output_tps": 1237.2698214050715
+    },
+    {
+      "seconds": 36057.08951997757,
+      "completed_output_tokens": 44567981,
+      "cumulative_output_tps": 1236.0393363226651
+    },
+    {
+      "seconds": 36118.96060371399,
+      "completed_output_tokens": 44591783,
+      "cumulative_output_tps": 1234.5810138128609
+    },
+    {
+      "seconds": 36179.935722351074,
+      "completed_output_tokens": 44611096,
+      "cumulative_output_tps": 1233.0341419716885
+    },
+    {
+      "seconds": 36239.47134017944,
+      "completed_output_tokens": 44641538,
+      "cumulative_output_tps": 1231.8484886534482
+    },
+    {
+      "seconds": 36296.73711657524,
+      "completed_output_tokens": 44668161,
+      "cumulative_output_tps": 1230.6384691422268
+    },
+    {
+      "seconds": 36357.4093747139,
+      "completed_output_tokens": 44678386,
+      "cumulative_output_tps": 1228.866048719996
+    },
+    {
+      "seconds": 36419.86089229584,
+      "completed_output_tokens": 44757578,
+      "cumulative_output_tps": 1228.9332497002454
+    },
+    {
+      "seconds": 36478.85499429703,
+      "completed_output_tokens": 44777931,
+      "cumulative_output_tps": 1227.5037417430021
+    },
+    {
+      "seconds": 36539.015137672424,
+      "completed_output_tokens": 44793833,
+      "cumulative_output_tps": 1225.9179080559481
+    },
+    {
+      "seconds": 36599.05813741684,
+      "completed_output_tokens": 44817334,
+      "cumulative_output_tps": 1224.5488348833014
+    },
+    {
+      "seconds": 36657.571264505386,
+      "completed_output_tokens": 44827308,
+      "cumulative_output_tps": 1222.8662852905688
+    },
+    {
+      "seconds": 36718.30551147461,
+      "completed_output_tokens": 44856335,
+      "cumulative_output_tps": 1221.6341243193324
+    },
+    {
+      "seconds": 36778.41959619522,
+      "completed_output_tokens": 44873631,
+      "cumulative_output_tps": 1220.1076471660635
+    },
+    {
+      "seconds": 36837.69504380226,
+      "completed_output_tokens": 44890332,
+      "cumulative_output_tps": 1218.5977419765993
+    },
+    {
+      "seconds": 36898.49287414551,
+      "completed_output_tokens": 44918151,
+      "cumulative_output_tps": 1217.3437856448008
+    },
+    {
+      "seconds": 36959.80909252167,
+      "completed_output_tokens": 44944765,
+      "cumulative_output_tps": 1216.044295236741
+    },
+    {
+      "seconds": 37014.9858174324,
+      "completed_output_tokens": 44956100,
+      "cumulative_output_tps": 1214.5378150821198
+    },
+    {
+      "seconds": 37077.45218205452,
+      "completed_output_tokens": 44974210,
+      "cumulative_output_tps": 1212.980055349313
+    },
+    {
+      "seconds": 37134.7031583786,
+      "completed_output_tokens": 44993351,
+      "cumulative_output_tps": 1211.6254385582256
+    },
+    {
+      "seconds": 37199.982826948166,
+      "completed_output_tokens": 45012197,
+      "cumulative_output_tps": 1210.005854287453
+    },
+    {
+      "seconds": 37258.515464782715,
+      "completed_output_tokens": 45024897,
+      "cumulative_output_tps": 1208.4458126775926
+    },
+    {
+      "seconds": 37315.482028484344,
+      "completed_output_tokens": 45041698,
+      "cumulative_output_tps": 1207.0512171226392
+    },
+    {
+      "seconds": 37377.56197857857,
+      "completed_output_tokens": 45057619,
+      "cumulative_output_tps": 1205.472390784154
+    },
+    {
+      "seconds": 37436.25114250183,
+      "completed_output_tokens": 45078627,
+      "cumulative_output_tps": 1204.1437276507017
+    },
+    {
+      "seconds": 37496.81855273247,
+      "completed_output_tokens": 45094563,
+      "cumulative_output_tps": 1202.623708904335
+    },
+    {
+      "seconds": 37551.55957484245,
+      "completed_output_tokens": 45105468,
+      "cumulative_output_tps": 1201.160977351744
+    },
+    {
+      "seconds": 37616.84354066849,
+      "completed_output_tokens": 45121172,
+      "cumulative_output_tps": 1199.493837148202
+    },
+    {
+      "seconds": 37677.82082557678,
+      "completed_output_tokens": 45135938,
+      "cumulative_output_tps": 1197.9444938960066
+    },
+    {
+      "seconds": 37737.090502500534,
+      "completed_output_tokens": 45146717,
+      "cumulative_output_tps": 1196.3486426439922
+    },
+    {
+      "seconds": 37796.473650217056,
+      "completed_output_tokens": 45155524,
+      "cumulative_output_tps": 1194.7020353773316
+    },
+    {
+      "seconds": 37854.09021067619,
+      "completed_output_tokens": 45163867,
+      "cumulative_output_tps": 1193.1040146161588
+    },
+    {
+      "seconds": 37915.53798818588,
+      "completed_output_tokens": 45179507,
+      "cumulative_output_tps": 1191.5829076216062
+    },
+    {
+      "seconds": 37978.19772148132,
+      "completed_output_tokens": 45181078,
+      "cumulative_output_tps": 1189.6582963557685
+    },
+    {
+      "seconds": 38038.92703843117,
+      "completed_output_tokens": 45189376,
+      "cumulative_output_tps": 1187.977146525312
+    },
+    {
+      "seconds": 38095.21264004707,
+      "completed_output_tokens": 45192349,
+      "cumulative_output_tps": 1186.2999539341633
+    },
+    {
+      "seconds": 38155.13260293007,
+      "completed_output_tokens": 45195365,
+      "cumulative_output_tps": 1184.5159986818992
+    },
+    {
+      "seconds": 38219.71937203407,
+      "completed_output_tokens": 45198228,
+      "cumulative_output_tps": 1182.5892168395198
+    },
+    {
+      "seconds": 38270.177751779556,
+      "completed_output_tokens": 45201512,
+      "cumulative_output_tps": 1181.1158101531978
+    },
+    {
+      "seconds": 38331.461452007294,
+      "completed_output_tokens": 45204265,
+      "cumulative_output_tps": 1179.2992828253566
+    },
+    {
+      "seconds": 38392.60544514656,
+      "completed_output_tokens": 45217281,
+      "cumulative_output_tps": 1177.7601565646332
+    },
+    {
+      "seconds": 38452.86238479614,
+      "completed_output_tokens": 45222764,
+      "cumulative_output_tps": 1176.057156615748
+    },
+    {
+      "seconds": 38515.588765621185,
+      "completed_output_tokens": 45227144,
+      "cumulative_output_tps": 1174.2555533869838
+    },
+    {
+      "seconds": 38568.98130106926,
+      "completed_output_tokens": 45228004,
+      "cumulative_output_tps": 1172.6522836304762
+    },
+    {
+      "seconds": 38597.73115539551,
+      "completed_output_tokens": 45231308,
+      "cumulative_output_tps": 1171.8644243076758
+    },
+    {
+      "seconds": 38674.783195734024,
+      "completed_output_tokens": 45233534,
+      "cumulative_output_tps": 1169.5872675244739
+    },
+    {
+      "seconds": 38744.462438583374,
+      "completed_output_tokens": 45234354,
+      "cumulative_output_tps": 1167.505009824416
+    },
+    {
+      "seconds": 38849.357910871506,
+      "completed_output_tokens": 45236515,
+      "cumulative_output_tps": 1164.4083051200475
+    },
+    {
+      "seconds": 38933.27560591698,
+      "completed_output_tokens": 45237406,
+      "cumulative_output_tps": 1161.9213974671306
+    },
+    {
+      "seconds": 38988.65073657036,
+      "completed_output_tokens": 45240492,
+      "cumulative_output_tps": 1160.3502851553048
+    },
+    {
+      "seconds": 39028.16524744034,
+      "completed_output_tokens": 45241934,
+      "cumulative_output_tps": 1159.2124229556805
+    },
+    {
+      "seconds": 39102.934945106506,
+      "completed_output_tokens": 45247211,
+      "cumulative_output_tps": 1157.130815462291
+    },
+    {
+      "seconds": 39295.24340844154,
+      "completed_output_tokens": 45251492,
+      "cumulative_output_tps": 1151.576834113182
+    },
+    {
+      "seconds": 39429.69881296158,
+      "completed_output_tokens": 45253012,
+      "cumulative_output_tps": 1147.6885028886943
+    },
+    {
+      "seconds": 39585.17296528816,
+      "completed_output_tokens": 45253336,
+      "cumulative_output_tps": 1143.1890430207843
+    },
+    {
+      "seconds": 39656.584874629974,
+      "completed_output_tokens": 45257079,
+      "cumulative_output_tps": 1141.2248216298854
+    },
+    {
+      "seconds": 39761.701515197754,
+      "completed_output_tokens": 45264998,
+      "cumulative_output_tps": 1138.4069663794135
+    },
+    {
+      "seconds": 39828.397225379944,
+      "completed_output_tokens": 45266518,
+      "cumulative_output_tps": 1136.538780203656
+    },
+    {
+      "seconds": 39885.28687620163,
+      "completed_output_tokens": 45269909,
+      "cumulative_output_tps": 1135.0027176816225
+    },
+    {
+      "seconds": 40065.67403078079,
+      "completed_output_tokens": 45272877,
+      "cumulative_output_tps": 1129.9666883232446
+    },
+    {
+      "seconds": 40257.99695086479,
+      "completed_output_tokens": 45278202,
+      "cumulative_output_tps": 1124.700815474312
+    },
+    {
+      "seconds": 40298.576694488525,
+      "completed_output_tokens": 45280985,
+      "cumulative_output_tps": 1123.6373270273066
+    },
+    {
+      "seconds": 40404.90547537804,
+      "completed_output_tokens": 45295828,
+      "cumulative_output_tps": 1121.0477407898502
+    },
+    {
+      "seconds": 40612.63756990433,
+      "completed_output_tokens": 45320364,
+      "cumulative_output_tps": 1115.917771210809
+    },
+    {
+      "seconds": 40649.60556769371,
+      "completed_output_tokens": 45320834,
+      "cumulative_output_tps": 1114.9144835987966
+    },
+    {
+      "seconds": 40688.099359989166,
+      "completed_output_tokens": 45325286,
+      "cumulative_output_tps": 1113.9691141378512
+    },
+    {
+      "seconds": 40882.44991159439,
+      "completed_output_tokens": 45325286,
+      "cumulative_output_tps": 1108.6734307267043
+    }
+  ],
+  "sampling": "Last recorded completion per minute plus full controller endpoint; source PNG uses all completions.",
+  "note": "Only completed benchmark response usage is credited; unfinished streams and unrelated clients are excluded. Completion counts include test failures and execution errors. Scores use committed patches."
+}

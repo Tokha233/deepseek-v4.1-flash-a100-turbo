@@ -1,0 +1,222 @@
+{
+  "scope": "Real backend method-rejection responses with idle gaps; no active proxy changes. This can check reuse timing but cannot prove the original rare race is eliminated.",
+  "method": "POST",
+  "path": "/health",
+  "inference_requests": 0,
+  "results": [
+    {
+      "case": "node-a-default",
+      "error": "ServerDisconnectedError('Server disconnected')"
+    },
+    {
+      "case": "node-a-short",
+      "keepalive_seconds": 2.0,
+      "requests": [
+        {
+          "idle_seconds": 0,
+          "status": 405,
+          "seconds": 0.0024359412491321564,
+          "reused": false
+        },
+        {
+          "idle_seconds": 3,
+          "status": 405,
+          "seconds": 0.0016208291053771973,
+          "reused": false
+        },
+        {
+          "idle_seconds": 4.9,
+          "status": 405,
+          "seconds": 0.00228925421833992,
+          "reused": false
+        },
+        {
+          "idle_seconds": 5.0,
+          "status": 405,
+          "seconds": 0.0017538908869028091,
+          "reused": false
+        },
+        {
+          "idle_seconds": 5.1,
+          "status": 405,
+          "seconds": 0.00219041109085083,
+          "reused": false
+        },
+        {
+          "idle_seconds": 3,
+          "status": 405,
+          "seconds": 0.0020348969846963882,
+          "reused": false
+        },
+        {
+          "idle_seconds": 4.999,
+          "status": 405,
+          "seconds": 0.0019012168049812317,
+          "reused": false
+        },
+        {
+          "idle_seconds": 5.001,
+          "status": 405,
+          "seconds": 0.0018727723509073257,
+          "reused": false
+        }
+      ]
+    },
+    {
+      "case": "node-b-default",
+      "keepalive_seconds": 15.0,
+      "requests": [
+        {
+          "idle_seconds": 0,
+          "status": 405,
+          "seconds": 0.0020543113350868225,
+          "reused": false
+        },
+        {
+          "idle_seconds": 3,
+          "status": 405,
+          "seconds": 0.0360956359654665,
+          "reused": true
+        },
+        {
+          "idle_seconds": 4.9,
+          "status": 405,
+          "seconds": 0.02420341596007347,
+          "reused": true
+        },
+        {
+          "idle_seconds": 5.0,
+          "status": 405,
+          "seconds": 0.0016506090760231018,
+          "reused": false
+        },
+        {
+          "idle_seconds": 5.1,
+          "status": 405,
+          "seconds": 0.00461389496922493,
+          "reused": false
+        },
+        {
+          "idle_seconds": 3,
+          "status": 405,
+          "seconds": 0.0009810347110033035,
+          "reused": true
+        },
+        {
+          "idle_seconds": 4.999,
+          "status": 405,
+          "seconds": 0.0010650008916854858,
+          "reused": true
+        },
+        {
+          "idle_seconds": 5.001,
+          "status": 405,
+          "seconds": 0.001400180160999298,
+          "reused": false
+        }
+      ]
+    },
+    {
+      "case": "node-b-short",
+      "keepalive_seconds": 2.0,
+      "requests": [
+        {
+          "idle_seconds": 0,
+          "status": 405,
+          "seconds": 0.006141375750303268,
+          "reused": false
+        },
+        {
+          "idle_seconds": 3,
+          "status": 405,
+          "seconds": 0.0022641681134700775,
+          "reused": false
+        },
+        {
+          "idle_seconds": 4.9,
+          "status": 405,
+          "seconds": 0.01890045590698719,
+          "reused": false
+        },
+        {
+          "idle_seconds": 5.0,
+          "status": 405,
+          "seconds": 0.0016317833214998245,
+          "reused": false
+        },
+        {
+          "idle_seconds": 5.1,
+          "status": 405,
+          "seconds": 0.001775318756699562,
+          "reused": false
+        },
+        {
+          "idle_seconds": 3,
+          "status": 405,
+          "seconds": 0.004795627668499947,
+          "reused": false
+        },
+        {
+          "idle_seconds": 4.999,
+          "status": 405,
+          "seconds": 0.0015987753868103027,
+          "reused": false
+        },
+        {
+          "idle_seconds": 5.001,
+          "status": 405,
+          "seconds": 0.0015670973807573318,
+          "reused": false
+        }
+      ]
+    }
+  ],
+  "scored_evaluation_uses_shorter_setting": false,
+  "packaged_proxy_readonly_validation": {
+    "inference_requests": 0,
+    "proxy_source_sha256": "28813cb64fec921c2a843b4c8012399e404cda6b5cbf6742a6cdc98882fad5a3",
+    "workers": [
+      {
+        "rank": 0,
+        "model_discovery": true,
+        "worker_header_correct": true,
+        "method_rejection_statuses": [
+          405,
+          405,
+          405
+        ]
+      },
+      {
+        "rank": 1,
+        "model_discovery": true,
+        "worker_header_correct": true,
+        "method_rejection_statuses": [
+          405,
+          405,
+          405
+        ]
+      },
+      {
+        "rank": 0,
+        "model_discovery": true,
+        "worker_header_correct": true,
+        "method_rejection_statuses": [
+          405,
+          405,
+          405
+        ]
+      },
+      {
+        "rank": 1,
+        "model_discovery": true,
+        "worker_header_correct": true,
+        "method_rejection_statuses": [
+          405,
+          405,
+          405
+        ]
+      }
+    ],
+    "time": 1789227831.6595664
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "base_image": "lazymio/vllm-backport@sha256:349690323ab9aba712111529ed1ca60730199205d8202f67895ffde85b451be3",
+  "configuration": "round9 final: EPLB with draft isolation; sparse H16 Q192/384 tile16; DSML and prefill correctness patches",
+  "files": [
+    {
+      "target": "vllm/model_executor/kernels/linear/mxfp8/marlin.py",
+      "before": "881d5e8a15eb5968ebce7676590639de64ba88e50d0f6677b1a65f4dfe866a78",
+      "after": "eae4def7c330fe383420e4bb18b66192908c372b5ae46da1cade4606d77513ae"
+    },
+    {
+      "target": "vllm/v1/attention/ops/candidate_mqa_sm80.py",
+      "before": null,
+      "after": "3cd9b70a41253a5808beb4a09dfe98f88bb103fa9b7f9863df44e449259c456f"
+    },
+    {
+      "target": "vllm/v1/attention/ops/rocm_aiter_mla_sparse.py",
+      "before": "72ecfe633dd70ce7ea0f75bef45a78aa618a9d79194a9c3b58040fc2eebf9711",
+      "after": "a88af06e8c03fdec821d93101301b344f8f2bd6252ece6a51717b9ac0173e6ab"
+    },
+    {
+      "target": "vllm/v1/worker/gpu/spec_decode/multi_module_mtp/speculator.py",
+      "before": "9a4e1b968ace8cada6dd1c3ada072777e373051b4a4e1cdc9112bebfb5804ca8",
+      "after": "d9d4735b9b33829332b0e845b6d3073b2f0436045ed693b25c6434f351644127"
+    },
+    {
+      "target": "vllm/parser/engine/parser_engine_config.py",
+      "before": "aecfeb513e02ca4268506c570d084cdf52238356a7e8725f2ad5964110be9fd2",
+      "after": "51cd63d6ff9ca334e1b16f7a97512a8a5db005969b4b29d83c1811d92667a0bb"
+    },
+    {
+      "target": "vllm/v1/worker/gpu/spec_decode/dflash/speculator.py",
+      "before": "1484e9e69ae013c5e98f5c1d2f54f77678cf97c305d8fb259c8ba720b87296c5",
+      "after": "8c1ea71674edaac4a650ccf312ee09da896f84a659c339aed6af1698188212a7"
+    },
+    {
+      "target": "vllm/tokenizers/deepseek_v41_encoding.py",
+      "before": "081382cb953a1c8041fdfc82a6001cf0c932553171436625c89fe5b9fbcda464",
+      "after": "b731d429eb34c170faf12f24cde45e107f7d5c9bc78d6ffa69ac0dde8aed29b4"
+    },
+    {
+      "target": "vllm/v1/worker/gpu/spec_decode/autoregressive/speculator.py",
+      "before": "438ec608da8c3c3ade88fdf77b71ba12e38b2c20c37eea6b1c196bbe0815e94a",
+      "after": "d751cd3745e063861f636d7004b1a53ca614d137107b2ec92eb1a8fe0f696b37"
+    },
+    {
+      "target": "vllm/v1/worker/gpu/spec_decode/speculator.py",
+      "before": "559f79b178e8a2bbb2da7f01513cde799ca3b9a622d78bc2e02efc80e62b7db1",
+      "after": "ade3d30e4be30450b6bfc1caa070857bc4d4703c96391f5fd96cd44093747174"
+    },
+    {
+      "target": "vllm/model_executor/models/interfaces.py",
+      "before": "a83e8e36a3edc3b0674c3fc90de10aded461356b257b57694aa7b8c3c278eae9",
+      "after": "6eb1927f1231e487271063a1afc52dd3b22a8ddb390ac7604d82b02e70097de9"
+    },
+    {
+      "target": "vllm/v1/worker/gpu/spec_decode/dspark/utils.py",
+      "before": "a06265c413327f8524c0e4577eb4b094051256a6036f359edf5474ac1d3eb9fa",
+      "after": "f4b11438b1e37003b91aa22a674a2ed0d133f766754442ed00f8629c1cde4cec"
+    },
+    {
+      "target": "vllm/entrypoints/openai/chat_completion/protocol.py",
+      "before": "0ed35d120613fac0ae879a5be0463265cbf6731875fb755d31962a4639db85bf",
+      "after": "a81c8e4c7c1208f3094bd54555975f65d6ec231ed3ab87a74e8f058fc1864a51"
+    },
+    {
+      "target": "vllm/models/deepseek_v4_1/nvidia/model.py",
+      "before": "83c22bcc4c45e37d6da6e69edd9c43188e1baf5c11d486714f650d2777878dfa",
+      "after": "47ff28d3279b61d2c5c6a2edc80ac74751f4c41d7a5b3afcf52819a0941d3423"
+    },
+    {
+      "target": "vllm/parser/engine/streaming_parser_engine.py",
+      "before": "ca899358876dd0fa6289abf98b06417b7a315e4f92bed6c2656c3c9b9a487a8d",
+      "after": "88ef50debb11e224e5d6c4cb6ff1cf99e7aec086391f35bae69baa82f4e23561"
+    },
+    {
+      "target": "vllm/model_executor/layers/fused_moe/stable_moe_align.py",
+      "before": null,
+      "after": "bbfb4d1145a8c41649e9ca8754f39e42f9fdfb3bf8b5d3479a5fd07ed6691c06"
+    },
+    {
+      "target": "vllm/model_executor/layers/sparse_attn_indexer.py",
+      "before": "fb063e263c21b2aed10abf23c3db0d68756a90973b8f3731e61cf3cb615bec3f",
+      "after": "a5ff80ba21cedef5cbbf4572ad40db24d2b47e331fb08846751b0882587a91d8"
+    },
+    {
+      "target": "vllm/parser/deepseek_v4.py",
+      "before": "8de2aad7b4236ab7a23cfcee66f2fc76022a8c4485fdf2e7ad4046b5e7dd2427",
+      "after": "bbd1b55bdf8a5b76be784450861f5a082b02f234570479b963d1364c41e0b1de"
+    },
+    {
+      "target": "vllm/tokenizers/deepseek_v41.py",
+      "before": "d6e9cbce7c5f127819452fa5d03dd4f22ad9f136dd202a54b5b31fe42402cae2",
+      "after": "897b350f5426b54505abaea2429dc5f3263c6c1d241dd8358d5375100d9164a2"
+    },
+    {
+      "target": "vllm/distributed/device_communicators/cuda_communicator.py",
+      "before": "5cc03bf9eb16e878a624034da4243944c6685e3ddb040cf10068510c0e6a441c",
+      "after": "78828b9e7c53eca21700d595c865cf01cc4b6729d8f18344504affb3ee8cfba5"
+    },
+    {
+      "target": "vllm/entrypoints/generate/base/protocol.py",
+      "before": "cbf29ae008b7b51234d74e602f1395b5cbef660fa79e65eedab8228e9c49c9ee",
+      "after": "f2018c1cfcea80a909ef6ee379da4f64f2467b846c2febfc1c06a6fca2efca34"
+    },
+    {
+      "target": "vllm/model_executor/layers/fused_moe/moe_align_block_size.py",
+      "before": "9b7159e7c97c0474f7274c6226d66271545f2b3a2aef5aa57149313aecbeed96",
+      "after": "c310b1a576141fecff217bcc6e9fcf6ecbc868f5a9570533c5872c868ade180f"
+    },
+    {
+      "target": "vllm/model_executor/models/qwen3_dspark.py",
+      "before": "c27d742806e4692c3cd1bb52a2d22ac80a6d354fec529587d44c83471480a69a",
+      "after": "a9211984e2aca9e473cef0abbee57a587827758cbd56ac643943ba0e8cd3fb19"
+    },
+    {
+      "target": "vllm/models/deepseek_v4_1/amd/rocm.py",
+      "before": "b74d9d75b29b81530b0f458f7d87d80bc6907949f4b94d22b70c649f9b521bea",
+      "after": "b2eaa3553e6b553fb9569212f2f5337361373c8c9ce93af4fb32d08158aa2745"
+    }
+  ]
+}

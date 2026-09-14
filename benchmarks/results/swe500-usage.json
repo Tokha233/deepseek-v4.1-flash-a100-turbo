@@ -1,0 +1,100 @@
+{
+  "complete": true,
+  "cases": 500,
+  "raw_resolved": 406,
+  "resolved": 417,
+  "saved_usage": {
+    "attempts_with_trajectory": 500,
+    "model_responses": 29964,
+    "completion_tokens": 21325164,
+    "prompt_tokens": 1893787640,
+    "cached_prompt_tokens": 1848024832,
+    "responses_with_reasoning_usage": 29964,
+    "reported_reasoning_tokens": 16382537,
+    "tool_calls": 41043,
+    "tool_results": 40543,
+    "tool_exceptions": 1202,
+    "format_errors": 2,
+    "length_responses": 1
+  },
+  "per_case": {
+    "model_responses": {
+      "sum": 29964,
+      "mean": 59.928,
+      "median": 51.0,
+      "p90": 114,
+      "max": 244
+    },
+    "tool_calls": {
+      "sum": 41043,
+      "mean": 82.086,
+      "median": 75.0,
+      "p90": 142,
+      "max": 288
+    },
+    "completion_tokens": {
+      "sum": 21325164,
+      "mean": 42650.328,
+      "median": 32646.5,
+      "p90": 92288,
+      "max": 201480
+    },
+    "reported_reasoning_tokens": {
+      "sum": 16382537,
+      "mean": 32765.074,
+      "median": 23687.5,
+      "p90": 75810,
+      "max": 178259
+    }
+  },
+  "max_prompt_tokens": 345995,
+  "controller_wall_seconds": 28032.773329496384,
+  "controller_tokens_per_second": 760.7225924222572,
+  "server_generated_tokens": 21325164.0,
+  "server_minus_saved_tokens": 0.0,
+  "server_minus_saved_responses": 0.0,
+  "server_phases": {
+    "queue": {
+      "request_seconds": 8.51226464472711,
+      "mean_seconds_per_request": 0.0002840830544896246
+    },
+    "prefill": {
+      "request_seconds": 13522.557017594576,
+      "mean_seconds_per_request": 0.45129345272976157
+    },
+    "decode": {
+      "request_seconds": 827352.6984283831,
+      "mean_seconds_per_request": 27.611557149525535
+    },
+    "inference": {
+      "request_seconds": 840875.2554459777,
+      "mean_seconds_per_request": 28.062850602255295
+    }
+  },
+  "mean_accept_length": 3.1177959049968633,
+  "server_preemptions": 0.0,
+  "infrastructure_incident": {
+    "recorded_pause": 1789175514.8187673,
+    "original_agents_restored": 1789183934.0211425,
+    "recovery_initial_admission_limit": 50,
+    "admission_restoration": [
+      {
+        "at": 1789186673.9866946,
+        "event": "limit",
+        "before": 50,
+        "after": 60,
+        "keys_used": 121,
+        "reason": "Stable quota headroom after stale-container cleanup; restore original64worker supply in two stages."
+      },
+      {
+        "at": 1789186795.5969625,
+        "event": "limit",
+        "before": 60,
+        "after": 64,
+        "keys_used": 130,
+        "reason": "Two-minute60agent trial retained at least40key headroom; restore original64worker ceiling."
+      }
+    ],
+    "definition": "All incident time and failed tool calls remain included. Worker ceiling64unchanged; external admission began at50and later changes are recorded explicitly."
+  }
+}
