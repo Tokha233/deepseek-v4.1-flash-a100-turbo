@@ -14,7 +14,6 @@
 | 短 coding，effort100，固定输出 1,024 | 8×A800 | 128 | **2,934.20** |
 | 真实长历史持续回放，effort100 | 8×A800 | 128 | **1,835.34** |
 | 真实长历史持续回放，effort100 | 8×A800 | 256 | **1,905.89** |
-| 真实长历史持续回放，effort100 | 16×A800 / 双机 | 256 | **3,750.18** |
 <!-- /PERFORMANCE_TABLE -->
 
 短请求输入 78–90 token，60 秒预热后测完整 180 秒；长历史输入 20,593–73,688 token，360 秒预热后测完整 600 秒、自然 EOS。长历史回放使用真实工具记录，但不执行新生成的命令。单机最多运行 128 条序列，客户端 C256 包含排队。[原始收据与 hash](benchmarks/evidence-manifest.json)
@@ -22,6 +21,16 @@
 <!-- COMMUNITY_RESULTS -->
 社区协议对照（固定 keplerzip commit、C32、200×1,024、temperature0、完整批次计时）：本方案 off **1,905.42 tok/s**（两次均值，1,897.65–1,913.20），high/effort75 **1,480.52 tok/s**（1,447.72–1,513.31）；keplerzip 公布值为 1,379.01 / 1,039.91。相对值约 +38.2% / +42.4%，但对方为 8×A100 TP8、本方案为 8×A800 TP4×DP2，不能归因成纯软件优势。
 <!-- /COMMUNITY_RESULTS -->
+
+## 采用的优化
+
+- **SM80 量化路径**：FP4 专家使用 Marlin，dense 层按 batch 选择 BF16 GEMM；避免 A800 落入通用反量化 fallback。
+- **Decode**：DSpark5 草稿与 CUDA Graph 验证，FP32 输出头和本地 argmax；减少逐 token kernel launch 与同步。
+- **Attention / KV**：稀疏 MLA candidate-only 路径、FP8 KV cache、GPU prefix caching；长 agent 后续轮次可复用前缀。
+- **MoE 通信**：TP4×DP2、EP8，使用 AllGather/ReduceScatter，并启用异步 EPLB；草稿和正式请求隔离负载均衡。
+- **协议与工程**：原生 DSML、数字 reasoning effort、流式 tool-call 解析、固定 DP 亲和路由，以及 600 秒持续窗口和服务端计数校验。
+
+这些优化来自 vLLM/backport、SGLang 社区和本项目的适配补丁；仓库明确区分上游代码、配置调优和本地工程贡献。
 
 ## Agent 与问答评测
 
