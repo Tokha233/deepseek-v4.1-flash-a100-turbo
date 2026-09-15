@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "DeepSeek-V4.1-Flash Ampere Turbo"
+message: "Please cite this repository when using the A100/A800 SM80 deployment recipe or its benchmark results."
+authors:
+  - family-names: Han
+    given-names: Wanpeng
+    email: hanwanpeng3@163.com
+    affiliation: Independent
+repository-code: "https://github.com/xiaoyichao/deepseek-v4.1-flash-a100-turbo"
+url: "https://github.com/xiaoyichao/deepseek-v4.1-flash-a100-turbo"
+keywords:
+  - DeepSeek V4.1 Flash
+  - A100
+  - A800
+  - Ampere
+  - SM80
+  - vLLM
+  - DSpark
+  - CUDA Graph
+  - sparse MLA
+  - coding agents
+  - SWE-bench Verified
+license: Apache-2.0

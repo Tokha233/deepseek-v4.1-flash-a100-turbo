@@ -4,6 +4,8 @@
 
 Also searchable as **DeepSeek-V4.1-Flash**, **DeepSeek V4.1 Flash**, and **DeepSeek V4.1 Flash A100/A800 deployment**.
 
+This is a reproducible **DeepSeek V4.1 Flash inference server for NVIDIA A100 and A800 (Ampere SM80)**. It documents vLLM backport deployment, FP4 Marlin experts, DSpark speculative decoding, CUDA Graphs, sparse MLA, prefix caching, and coding-agent benchmarks on eight 80 GB GPUs.
+
 [测试方法](benchmarks/README.md) · [优化补丁](patches/manifest.json) · [评测详情](docs/agent-evaluation.md)
 
 ## 推理速度
