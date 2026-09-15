@@ -4,7 +4,7 @@
 
 本文的端到端数据来自 A800；A100 使用同一 SM80 路径，但尚未在 A100 上独立复测。
 
-Also searchable as **DeepSeek-V4.1-Flash**, **DeepSeek V4.1 Flash**, and **DeepSeek V4.1 Flash A100/A800 deployment**.
+Also searchable as **DeepSeek-V4.1-Flash**, **DeepSeek V4.1 Flash**, **DeepSeek V4.1 Flash A100/A800 deployment**, and **DeepSeek V4.1 SM80 vLLM deployment**.
 
 This is a reproducible **DeepSeek V4.1 Flash inference server for NVIDIA A100 and A800 (Ampere SM80)**. It documents vLLM backport deployment, FP4 Marlin experts, DSpark speculative decoding, CUDA Graphs, sparse MLA, prefix caching, and coding-agent benchmarks on eight 80 GB GPUs.
 
