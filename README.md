@@ -53,7 +53,7 @@ dense BF16 在加载时准备稠密权重，较大 batch 直接调用 BF16 GEMM�
 | SWE-bench Verified | **81.2%**（406/500） | 完整工具执行与 verifier；早期 runtime |
 | DeepSWE | **67.26%**（76/113） | effort75，512K；包含中断恢复 |
 | GPQA Diamond | **88.89%**（176/198） | Pass@1，effort100 |
-| GSM8K | **76.80%**（1,013/1,319） | 8-shot CoT，strict exact match |
+| GSM8K | **95.53%**（1,260/1,319） | 8-shot CoT，宽松提取 + 精确匹配 |
 
 SWE500 实际处理过 345,995-token 输入，累计 29,964 模型轮、41,043 工具调用。[逐任务记录与评测协议](docs/agent-evaluation.md)
 

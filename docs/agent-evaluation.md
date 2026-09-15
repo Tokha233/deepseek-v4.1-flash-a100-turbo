@@ -11,7 +11,9 @@ All output counts include reasoning. Inference runs use the official native chec
 | Original DeepSWE effort100 | 33/113 (29.20%) | Same historical protocol; many timeouts |
 | New DeepSWE effort75 | **76/113 (67.26%)** | Round11; 12-hour task budget, 512K context; includes recorded interruption and resume |
 | GPQA Diamond | **176/198 (88.89%)** | Round12; one generation, effort100, 65,536 output cap; six length terminations remain counted |
-| GSM8K strict | **1013/1319 (76.80%)** | Eight-shot CoT template with chat/thinking adaptation |
+| GSM8K | **1260/1319 (95.53%)** | Eight-shot CoT; flexible-extract exact match with chat/thinking adaptation |
+
+GSM8K uses flexible extraction of the final numeric answer followed by exact match. The same 1,319 generations scored 1,013/1,319 (76.80%) with the strict answer-format extractor; both counts remain in the [original scorecard](../benchmarks/results/gsm8k-scorecard.json). This reporting change adds no generations or retries.
 
 SWE500 consumed 21,325,164 output tokens, including 16,382,537 reasoning tokens, over 29,964 model responses and 41,043 tool calls. The maximum observed prompt was 345,995 tokens. Complete controller throughput was 760.72 output tok/s over 28,032.77 seconds; incidents, tools and verification remain included. Original and environment-adjusted scores are both retained.
 
