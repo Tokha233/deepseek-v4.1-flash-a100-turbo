@@ -2,6 +2,8 @@
 
 面向长上下文 coding agent 的 SM80 部署方案。实测硬件为**单机 8×A800-SXM4-80GB**，基于 [vLLM backport](https://github.com/wtdcode/vllm-backport/tree/master-v013)。A100 尚待复测。
 
+Also searchable as **DeepSeek-V4.1-Flash**, **DeepSeek V4.1 Flash**, and **DeepSeek V4.1 Flash A100/A800 deployment**.
+
 [测试方法](benchmarks/README.md) · [优化补丁](patches/manifest.json) · [评测详情](docs/agent-evaluation.md)
 
 ## 推理速度
@@ -28,7 +30,7 @@
 
 [完整曲线复现](benchmarks/run_sweep.py) · [测试输入](benchmarks/data/short-coding-effort100.json.gz) · [结果校验](benchmarks/evidence-manifest.json)
 
-真实长历史持续回放（此前 512K 配置）：C128 **1,835.34**、C256 **1,905.89 tokens/s**。输入 20,593–73,688 token、自然 EOS、完整计时 600 秒；回放已有工具结果。[长请求记录](docs/concurrency-and-short-requests.zh-CN.md)
+真实长历史持续回放（1M 配置）：C128 两次为 **1,918.16 / 1,972.81 tokens/s**。输入 20,593–73,688 token、自然 EOS、完整计时 600 秒；回放已有工具结果。[长请求与社区优化实测](docs/round16-optimization.zh-CN.md)
 
 ## 优化与消融
 
