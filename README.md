@@ -2,6 +2,8 @@
 
 面向长上下文 coding agent 的 **DeepSeek V4.1 Flash A100/A800 SM80** 部署方案。实测硬件为**单机 8×A800-SXM4-80GB**，基于 [vLLM backport](https://github.com/wtdcode/vllm-backport/tree/master-v013)。
 
+本文的端到端数据来自 A800；A100 使用同一 SM80 路径，但尚未在 A100 上独立复测。
+
 Also searchable as **DeepSeek-V4.1-Flash**, **DeepSeek V4.1 Flash**, and **DeepSeek V4.1 Flash A100/A800 deployment**.
 
 This is a reproducible **DeepSeek V4.1 Flash inference server for NVIDIA A100 and A800 (Ampere SM80)**. It documents vLLM backport deployment, FP4 Marlin experts, DSpark speculative decoding, CUDA Graphs, sparse MLA, prefix caching, and coding-agent benchmarks on eight 80 GB GPUs.
