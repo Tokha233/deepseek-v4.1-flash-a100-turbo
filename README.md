@@ -1,6 +1,6 @@
-# DeepSeek-V4.1-Flash · Ampere Turbo
+# DeepSeek-V4.1-Flash · Ampere Turbo for A100/A800
 
-面向长上下文 coding agent 的 SM80 部署方案。实测硬件为**单机 8×A800-SXM4-80GB**，基于 [vLLM backport](https://github.com/wtdcode/vllm-backport/tree/master-v013)。A100 尚待复测。
+面向长上下文 coding agent 的 **DeepSeek V4.1 Flash A100/A800 SM80** 部署方案。实测硬件为**单机 8×A800-SXM4-80GB**，基于 [vLLM backport](https://github.com/wtdcode/vllm-backport/tree/master-v013)。
 
 Also searchable as **DeepSeek-V4.1-Flash**, **DeepSeek V4.1 Flash**, and **DeepSeek V4.1 Flash A100/A800 deployment**.
 
@@ -52,10 +52,12 @@ dense BF16 在加载时准备稠密权重，较大 batch 直接调用 BF16 GEMM�
 
 | 测试 | 分数 | 口径 |
 |---|---:|---|
-| SWE-bench Verified | **81.2%**（406/500） | 完整工具执行与 verifier；早期 runtime |
+| SWE-bench Verified | **87.0%**（87/100） | effort75；seed42 固定子集；环境复评后 |
 | DeepSWE | **67.26%**（76/113） | effort75，512K；包含中断恢复 |
 | GPQA Diamond | **88.89%**（176/198） | Pass@1，effort100 |
 | GSM8K | **95.53%**（1,260/1,319） | 8-shot CoT，宽松提取 + 精确匹配 |
+
+SWE-bench 的 87/100 是此前修复后完成的 100 题固定子集结果；独立的 effort100 全量 500 题收据为 406/500 原始、417/500 环境复评，详见[评测记录](docs/agent-evaluation.md)。
 
 SWE500 实际处理过 345,995-token 输入，累计 29,964 模型轮、41,043 工具调用。[逐任务记录与评测协议](docs/agent-evaluation.md)
 

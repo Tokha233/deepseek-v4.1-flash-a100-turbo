@@ -1,0 +1,13 @@
+{
+  "benchmark": "SWE-bench Verified",
+  "model": "DeepSeek-V4.1-Flash",
+  "hardware": "8x NVIDIA A800-SXM4-80GB",
+  "reasoning_effort": 75,
+  "dataset": "seed42 fixed 100-task subset",
+  "tasks": 100,
+  "raw_resolved": 84,
+  "environment_re_evaluation_resolved": 87,
+  "score_percent": 87.0,
+  "attempts_per_task": 1,
+  "notes": "The 87/100 score is a repaired environment re-evaluation of the same submissions. It is not the separate full 500-task effort100 score."
+}

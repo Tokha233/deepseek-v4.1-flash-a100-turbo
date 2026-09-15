@@ -4,12 +4,14 @@ All output counts include reasoning. Inference runs use the official native chec
 
 | Evaluation | Result | Runtime/protocol |
 |---|---:|---|
-| SWE-bench Verified 500 | **406/500 (81.2%)** original | Historical capacity baseline; numeric effort100 |
-| Same submissions, declared environment re-evaluation | **417/500 (83.4%)** diagnostic | 23 environment cases; report separately |
+| SWE-bench Verified (fixed subset) | **87/100 (87.0%)** | effort75; seed42 subset; environment re-evaluation |
+| SWE-bench Verified 500 | **406/500 (81.2%)** original | Separate full-set effort100 baseline |
+| Same 500 submissions, declared environment re-evaluation | **417/500 (83.4%)** diagnostic | 23 environment cases; report separately |
 | Original DeepSWE effort50 | 73/113 (64.60%) | Historical protocol; three-hour task limit |
 | Original DeepSWE effort75 | 61/113 (53.98%) | Same historical protocol |
 | Original DeepSWE effort100 | 33/113 (29.20%) | Same historical protocol; many timeouts |
 | New DeepSWE effort75 | **76/113 (67.26%)** | Round11; 12-hour task budget, 512K context; includes recorded interruption and resume |
+| New DeepSWE effort100 | **78/113 (69.03%)** | Round11; 12-hour task budget, 512K context; includes the same interruption and resume |
 | GPQA Diamond | **176/198 (88.89%)** | Round12; one generation, effort100, 65,536 output cap; six length terminations remain counted |
 | GSM8K | **1260/1319 (95.53%)** | Eight-shot CoT; flexible-extract exact match with chat/thinking adaptation |
 
@@ -24,3 +26,5 @@ Round11 operator interruption at 2026-09-14 12:54:41 UTC retained 82 effort75 an
 Public files under [results](../benchmarks/results) contain exact counts and fixed protocols. The [manifest](../benchmarks/evidence-manifest.json) binds exported metrics to private originals; prompt bodies and full trajectories are not in Git. A source hash is an audit reference, not a substitute for independently accessible raw evidence.
 
 The finalized round11 effort75 scorecard contains all 113 unique tasks: 112 submitted and one ContextWindowExceededError. All 113 remain in the denominator, with 76 resolved. The final progress snapshot stopped at 112 because the terminal exception was added when building the scorecard. [Final task ledger](../benchmarks/results/deepswe-round11-effort75-final.json). This run used 512K context before the new 1M serving configuration.
+
+The finalized [round11 effort100 ledger](../benchmarks/results/deepswe-round11-effort100-final.json) also contains all 113 tasks: 78 resolved, one verifier timeout and one context-budget error. It consumed 24,084,946 output tokens, including 19,373,937 reasoning tokens, over 20,596 model responses and 21,102 tool calls. The context-budget error was subsequently traced to a client misreading a token-count lower bound; the [diagnosis](round16-optimization.zh-CN.md#1m-边界与客户端预算) does not change this historical score. These 512K results are separate from the fresh effort100/1M evaluation.
